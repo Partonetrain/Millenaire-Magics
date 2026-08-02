@@ -58,6 +58,9 @@ patchouli_data.json
 /kubejs/assets/kubejs/generated/
 /kubejs/data/kubejs/generated/
 
+/data/
+/debug/
+
 .curseclient
 /minecraftinstance.json
 /instance.cfg

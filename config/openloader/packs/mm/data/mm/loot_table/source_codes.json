@@ -155,7 +155,7 @@
               "function": "trains_tweaks:internet_text_book",
               "title": "Loot Table This Book Came From",
               "author": "Partonetrain",
-              "text_source": "https://partonetrain.info/storage/minecraft/source_codes.json",
+              "text_source": "https://raw.githubusercontent.com/Partonetrain/Millenaire-Magics/refs/heads/main/config/openloader/packs/mm/data/mm/loot_table/source_codes.json",
               "lines_per_page": 10
             }
           ]
