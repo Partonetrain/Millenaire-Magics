@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "entered_br": {
+      "conditions": {
+        "to": "simple_br_dimension:simple_br_dimension"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": "You've discovered a dimension outside of reality...",
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      },
+      "count": 1,
+      "id": "minecraft:smooth_sandstone"
+    },
+    "title": "Clipped Outside of Reality",
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "entered_br"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

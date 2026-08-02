@@ -1,0 +1,19 @@
+{
+  "type": "dankstorage:upgrade",
+  "category": "equipment",
+  "group": "dank",
+  "key": {
+    "c": {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "c c",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dankstorage:5_to_6"
+  }
+}

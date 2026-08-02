@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+                {
+                    "function": "trains_tweaks:enchant_max",
+                    "options": [
+                        "yigd:soulbound"
+                    ]
+                }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "mm:soulbound"
+  }

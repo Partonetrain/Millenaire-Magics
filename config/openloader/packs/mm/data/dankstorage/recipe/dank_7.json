@@ -1,0 +1,43 @@
+{
+  "type": "dankstorage:upgrade",
+  "category": "equipment",
+  "group": "dank",
+  "key": {
+    "b": {
+      "item": "dankstorage:dank_6"
+    },
+    "1": {
+      "item": "ars_nouveau:fire_essence"
+    },
+    "2": {
+      "item": "ars_nouveau:earth_essence"
+    },
+    "3": {
+      "item": "ars_nouveau:water_essence"
+    },
+    "4": {
+      "item": "ars_nouveau:air_essence"
+    },
+    "5": {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    "6": {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    "7": {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    "8": {
+      "item": "sauce:anima_essence"
+    }
+  },
+  "pattern": [
+    "123",
+    "4b5",
+    "678"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dankstorage:dank_7"
+  }
+}

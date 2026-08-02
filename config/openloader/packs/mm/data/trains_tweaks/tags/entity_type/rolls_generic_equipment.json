@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:husk",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "variantsandventures:gelid",
+    "variantsandventures:murk",
+    "variantsandventures:thicket",
+    "variantsandventures:verdant"
+  ]
+}

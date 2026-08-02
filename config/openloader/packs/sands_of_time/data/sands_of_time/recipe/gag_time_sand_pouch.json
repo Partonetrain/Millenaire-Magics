@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "gag"
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+            "type": "neoforge:components",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_name": "\"Sands of Time\"",
+                "minecraft:rarity": "rare"
+            },
+            "items": "minecraft:sand"
+    },
+    "G": {
+      "tag": "c:storage_blocks/gold"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " G ",
+    "LEL",
+    " L "
+  ],
+  "result": {
+    "count": 1,
+    "id": "gag:time_sand_pouch"
+  }
+}

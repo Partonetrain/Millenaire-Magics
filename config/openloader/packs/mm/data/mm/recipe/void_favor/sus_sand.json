@@ -1,0 +1,30 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "minecraft:suspicious_sand"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:stable_warp_scroll",
+    "components": {
+      "ars_nouveau:warp_scroll": {
+                  "dimension": "sands_of_time:sands_of_time",
+                  "pos": [
+                    0,
+                    72,
+                    0
+                  ],
+                  "rotation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "crossDim": true
+                },
+      "minecraft:custom_name": "{\"text\": \"Sands of Time Scroll\"}",
+      "minecraft:lore": [
+        "{\"text\": \"Creates a temporary one-way portal to the space at the end of time\"}",
+        "{\"text\": \"You might be teleported into blocks or high into the air - be prepared\"}"
+      ]
+    }
+  }
+}

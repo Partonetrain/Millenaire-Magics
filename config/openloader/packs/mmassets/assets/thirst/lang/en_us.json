@@ -1,0 +1,6 @@
+{
+    "effect.thirst.quenchness": "Quenchiness",
+    "effect.thirst.quenchness.description": "Instant increase in thirst.",
+    "effect.thirst.dehydration": "Dehydration",
+    "effect.thirst.dehydration.description": "Instant reduction in thirst."
+}

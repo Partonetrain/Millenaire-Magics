@@ -1,0 +1,33 @@
+[
+    {
+      "hordeName": "hunter",
+      "advancementForStartingHorde": "",
+      "advancementForWinningAgainstHorde": "",
+      "shouldClearWinningAdvancement": true,
+      "waves": [
+        {
+          "waveName": "wave1",
+          "maximumActiveHordeMembers": 3,
+          "killsRequiredForEasy": 5,
+          "killsRequiredForNormal": 5,
+          "killsRequiredForHard": 5,
+          "bossInfoText": "Hunter Horde",
+          "bossInfoColor": "red",
+          "despawnLeftBehindMembers": true,
+          "keepSpawningEnemiesWhileBossIsActive": false,
+          "bossInfoTextWhenBossIsActive": "",
+          "bossInfoColorWhenBossIsActive": "red",
+          "bossMobData": [
+          ],
+          "mobData": [
+            {
+                "mobID": "ars_nouveau:wilden_hunter",
+                "spawnWeight": 3,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]

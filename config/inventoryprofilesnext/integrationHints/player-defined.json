@@ -1,0 +1,117 @@
+{
+    "io.wispforest.accessories.client.gui.AccessoriesExperimentalScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -23
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 131,
+                "top": -7
+            }
+        }
+    },
+    "com.aetherteam.aether.client.gui.screen.inventory.LoreBookScreen": {
+        "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 120,
+                "top": 55
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 301,
+                "top": 81
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 130,
+                "top": 34
+            }
+        }
+    },
+    "dev.gigaherz.enderthing.gui.PasscodeScreen": {
+        "ignore": true
+    },
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": {
+        "ignore": true
+    },
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": {
+        "ignore": true
+    },
+    "dmr.DragonMounts.client.gui.DragonInventoryScreen": {
+        "ignore": true
+    },
+    "dmr.DragonMounts.server.container.DragonContainerMenu": {
+        "ignore": true
+    },
+    "net.mehvahdjukaar.supplementaries.client.screens.CannonScreen": {
+        "ignore": true
+    },
+    "net.mehvahdjukaar.supplementaries.common.inventories.CannonContainerMenu": {
+        "ignore": true
+    },
+    "org.cyclops.colossalchests.client.gui.container.ContainerScreenColossalChest": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -80
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            }
+        }
+    },
+    "alexthw.ars_elemental.client.CurioHolderScreen": {
+        "ignore": true
+    },
+    "alexthw.ars_elemental.common.CurioHolderContainer": {
+        "ignore": true
+    },
+    "tfar.dankstorage.client.screens.DankStorageScreen": {
+        "ignore": true
+    },
+    "twilightforest.client.UncraftingScreen": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "ignore": true
+    },
+    "fuzs.illagerinvasion.client.gui.screens.inventory.ImbuingScreen": {
+        "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.HopperScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 131,
+                "top": 52
+            }
+        }
+    },
+    "com.hollingsworth.arsnouveau.client.container.CraftingTerminalScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 120,
+                "top": 146
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.FurnaceScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 131,
+                "top": 35
+            }
+        }
+    }
+}

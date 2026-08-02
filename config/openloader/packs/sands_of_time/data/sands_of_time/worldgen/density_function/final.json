@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": {
+        "type": "minecraft:cube",
+        "argument": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": 1,
+              "argument2": "sands_of_time:dune"
+            },
+            "argument2": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": {
+                  "type": "minecraft:add",
+                  "argument1": "sands_of_time:dune",
+                  "argument2": {
+                    "type": "minecraft:abs",
+                    "argument": {
+                      "type": "minecraft:shifted_noise",
+                      "noise": "sands_of_time:dune",
+                      "xz_scale": 1,
+                      "y_scale": 0,
+                      "shift_x": {
+                        "type": "minecraft:mul",
+                        "argument1": 16,
+                        "argument2": "sands_of_time:offset_z"
+                      },
+                      "shift_y": 0,
+                      "shift_z": {
+                        "type": "minecraft:mul",
+                        "argument1": -16,
+                        "argument2": "sands_of_time:offset_x"
+                      }
+                    }
+                  }
+                },
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": 0.8
+                  },
+                  {
+                    "location": 0.1,
+                    "derivative": 0,
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": {
+                "type": "minecraft:add",
+                "argument1": "sands_of_time:dune",
+                "argument2": {
+                  "type": "minecraft:abs",
+                  "argument": {
+                    "type": "minecraft:shifted_noise",
+                    "noise": "sands_of_time:dune",
+                    "xz_scale": 1,
+                    "y_scale": 0,
+                    "shift_x": {
+                      "type": "minecraft:mul",
+                      "argument1": 16,
+                      "argument2": "sands_of_time:offset_x"
+                    },
+                    "shift_y": 0,
+                    "shift_z": {
+                      "type": "minecraft:mul",
+                      "argument1": 16,
+                      "argument2": "sands_of_time:offset_z"
+                    }
+                  }
+                }
+              },
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 1
+                },
+                {
+                  "location": 0.3,
+                  "derivative": 0,
+                  "value": 0.8
+                }
+              ]
+            }
+          }
+        }
+      },
+      "points": [
+        {
+          "location": 0,
+          "derivative": 0.3,
+          "value": -0.3
+        }
+      ]
+    }
+  }
+}

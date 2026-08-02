@@ -1,0 +1,6 @@
+{
+    "effect.sauce.rage.description": "Increased attack damage. If applied to a mob, forces that mob to seek out any nearby living entity and attack it.",
+    "effect.sauce.contingency.description": "Applied from a spell with one of several Glyphs of Contingency. The exact effect depends on the which Glyph of Contingency was used, as well as the rest of the spell",
+    "effect.sauce.mana_cost_down.description": "Mana cost of spells is reduced by 15% per level.",
+    "effect.sauce.spell_crit_up.description": "Chance of spell crit is increased by 15% per level."
+}

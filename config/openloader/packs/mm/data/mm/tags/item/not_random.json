@@ -1,0 +1,42 @@
+{
+    "replace": false,
+    "values": [
+        "dmr:dragon_armor",
+        "dmr:dragon_egg",
+        "minecraft:enchanted_book",
+        "minecraft:potion",
+        "quark:ancient_tome",
+        "supplementaries:rope_arrow",
+        "#malum:impetus",
+        "#malum:fractured_impetus",
+        "#malum:metal_impetus",
+        "#malum:metal_nodes",
+        "#malum:hidden_items/void",
+        "#malum:hidden_items/black_crystal",
+        "#icarus:wings",
+        "#ars_nouveau:spellbook",
+        "ars_nouveau:rune",
+        "#mm:contains_netherite",
+        "minecraft:dragon_egg",
+        "minecraft:end_portal_frame",
+        "minecraft:echo_shard",
+        "patchouli:guide_book",
+        "vista:cassette",
+        "music_disc_maker:custom_music_disc",
+
+        "#the_beyond:auroracite_interactable",
+        "#the_beyond:remembrances",
+
+        "ars_nouveau:wixie_cauldron",
+        "ars_nouveau:magic_fire",
+        "starbunclemania:smelting_wixie_cauldron",
+        "starbunclemania:stonecutting_wixie_cauldron",
+        "starbunclemania:cutting_wixie_cauldron",
+        "ars_additions:enchanting_wixie_cauldron",
+        "ars_additions:exploration_warp_scroll",
+        "ars_additions:nexus_warp_scroll",
+
+        "millenaire:summoning_wand",
+        "millenaire:negation_wand"
+    ]
+}

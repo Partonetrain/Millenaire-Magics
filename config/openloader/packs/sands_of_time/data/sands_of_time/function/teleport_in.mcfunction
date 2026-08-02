@@ -1,0 +1,1 @@
+execute in sands_of_time:sands_of_time run tp @s 0 100 0

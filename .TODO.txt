@@ -1,0 +1,26 @@
+# CURSEFORGE EXPORT CHECKMARKS
+
+
+
+Major differences from Many Magics (my last modpack):
+- Updated and overhauled modlist
+- Millenaire and its storyline takes the place of dimension content (No more Aether/Twilight Forest/Underdark)
+- Introduction of Malum, expanding magical content from just spells to spirit magic
+- Introduction of ParCool, enabling player-based movement instead of mount-based transportation
+- Presence of Quark, another classic vanilla+ mod I helped port
+- Presence of Slice of Life: Carrot Edition, encouraging exploration of foods
+- Significantly more customization to ensure a coherent experience
+- Vanilla villagers and some related content is completely disabled!
+
+general:
+
+- cle: quark: simple harvest
+- yafda: environmental food?
+- archwood good
+- ars elemental armors ears
+- wayward attributes update
+- a bunch of attributes are missing icons
+- configure millenaire 
+- some effects are missing their descriptions
+- fusion textures?
+- emerald ore is generating in frozen peaks for some reason and I can't figure out why

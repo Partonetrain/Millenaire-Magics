@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "category": "equipment",
+  "group": "dank",
+  "key": {
+    "b": {
+      "item": "dankstorage:dank_2"
+    },
+    "c": {
+      "item": "malum:cthonic_gold_fragment"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "cbc",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dankstorage:dank_3"
+  }
+}

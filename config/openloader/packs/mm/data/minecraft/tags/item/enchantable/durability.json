@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+
+    ],
+    "remove": [
+        "gag:hearthstone",
+        "gag:energized_hearthstone",
+        "gag:escape_rope"
+    ]
+}

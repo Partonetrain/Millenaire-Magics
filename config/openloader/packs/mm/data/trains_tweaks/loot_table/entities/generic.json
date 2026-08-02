@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:experience_iron",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.03,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.04,
+            "per_level_above_first": 0.01
+          },
+          "enchantment": "minecraft:looting"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armor_stand"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player",
+              "inverse": true
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "targeted_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "structures": [
+              "minecraft:trial_chambers",
+              "notenoughtrials:vertical_trial_chambers"
+            ]
+          }
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.01,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.02,
+            "per_level_above_first": 0.01
+          },
+          "enchantment": "minecraft:looting"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armor_stand"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "trains_tweaks:entities/generic"
+}

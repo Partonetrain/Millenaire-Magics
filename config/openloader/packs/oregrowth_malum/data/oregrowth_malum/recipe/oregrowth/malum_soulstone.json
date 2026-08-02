@@ -1,0 +1,44 @@
+{
+    "type": "oregrowth:ore_growth",
+    "base": [
+        "malum:soulstone_ore",
+        "malum:deepslate_soulstone_ore"
+    ],
+    "stages": 4,
+    "spawn_chance": 0.2,
+    "growth_chance": 0.25,
+    "drops": [
+        {
+            "stage": 4,
+            "item": {
+                "id": "malum:raw_soulstone",
+                "count": 1
+            }
+        },
+        {
+            "stage": 4,
+            "chance": 0.1,
+            "item": {
+                "id": "malum:raw_soulstone",
+                "count": 1
+            }
+        },
+        {
+            "stage": 3,
+            "chance": 0.8,
+            "item": {
+                "id": "malum:raw_soulstone",
+                "count": 1
+            }
+        },
+        {
+            "min_stage": 1,
+            "max_stage": 2,
+            "chance": 0.3,
+            "item": {
+                "id": "malum:raw_soulstone",
+                "count": 1
+            }
+        }
+    ]
+}

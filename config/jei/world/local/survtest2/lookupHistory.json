@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"quark:hollow_birch_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:birch_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:birch_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "values": [
+    "#c:ores",
+    "#c:ingots",
+    "#c:nuggets",
+    "#c:gems",
+    "#c:raw_materials",
+    "#minecraft:coals",
+    {
+      "id": "tetra:geode",
+      "required": false
+    }
+  ],
+  "remove": [
+    "minecraft:emerald",
+    "minecraft:emerald_block",
+    "minecraft:emerald_ore",
+    "grimoireofgaia:emerald_shard",
+    "minecraft:deepslate_emerald_ore",
+    "ars_nouveau:source_gem",
+    "ars_nouveau:source_gem_block"
+  ]
+}

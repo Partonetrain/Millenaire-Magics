@@ -1,0 +1,17 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:replenishing",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:mendosteen_pod"
+    },
+    {
+      "item": "malum:sacred_spirit"
+    },
+    {
+      "tag": "c:gems/source"
+    }
+  ],
+  "sourceCost": 3000
+}

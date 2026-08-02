@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "ars_nouveau:starbuncle_shards"
+    }
+  ],
+  "id": "ars_elemental:starbuncle_shrine",
+  "structure": {
+    "key": "ars_elemental:starbuncle_shrine"
+  }
+}

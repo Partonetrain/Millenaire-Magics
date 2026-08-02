@@ -1,0 +1,13 @@
+#Whether or not to enable quasi-connectivity related tweaks
+#read more about quasi-connectivity here: https://minecraft.wiki/w/Tutorial:Quasi-connectivity
+"Quasi-connectivity tweaks" = false
+#What mode Dispensers and Droppers will use to determine their quasi-connectivity
+#Allowed Values: VANILLA, DISABLED, SHIFT_RCLICK_OPT_IN, SHIFT_RCLICK_OPT_OUT
+"Dispenser Quasi Mode" = "SHIFT_RCLICK_OPT_OUT"
+#What mode Pistons and Sticky Pistons will use to determine their quasi-connectivity
+#Allowed Values: VANILLA, DISABLED, SHIFT_RCLICK_OPT_IN, SHIFT_RCLICK_OPT_OUT
+"Piston Quasi Mode" = "SHIFT_RCLICK_OPT_OUT"
+#The message sent to players when opting in or out of quasi-connectivity for a particular block by shift-right-clicking it
+#You can use the placeholders $BLOCKNAME, $COORDS, and $QUASIENABLED, but they must not be the very first or very last part of the string
+#Set to blank for no message
+"Toggle Message" = "Quasi-connectivity has been $QUASIENABLED for $COORDS ($BLOCKNAME)."

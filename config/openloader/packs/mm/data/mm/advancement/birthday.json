@@ -1,0 +1,40 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "date": {
+      "trigger": "trains_tweaks:system_date",
+      "conditions": {
+        "month": 8,
+        "day": {
+          "min": 15,
+          "max": 17
+        },
+        "year": {
+          "min": 2000,
+          "max": 3000
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:clock"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Developer's Birthday"
+    },
+    "description": {
+      "text": "August 16th is the modpack developer's birthday! Happy birthday Partonetrain!"
+    },
+    "hidden": true
+  },
+  "rewards": {
+    "loot": [
+      "mm:birthday"
+    ]
+  },
+  "sends_telemetry_event": false
+}

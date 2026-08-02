@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:vault",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 12
+                }
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:long_poison"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 12
+                }
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:slowness"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 12
+                }
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:weakness"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+        "random_sequence": "minecraft:chests/trial_chambers/pools/tipped_arrow"
+  }
+  

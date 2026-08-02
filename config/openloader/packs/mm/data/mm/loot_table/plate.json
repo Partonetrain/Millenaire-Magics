@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "arsdelight:bastion_pork"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "arsdelight:mendosteen_chicken"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "arsdelight:bombegrante_steak"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "arsdelight:frostaya_mutton"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "yafda:flashpine_fish"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "mm:plate"
+  }

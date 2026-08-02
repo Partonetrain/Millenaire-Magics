@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "quark:rune_color": "red",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "ars_nouveau:reactive_caster": {
+        "spells": {
+          "0": {
+            "color": {
+              "b": 0,
+              "g": 0,
+              "r": 255,
+              "id": "ars_nouveau:constant"
+            },
+            "name": "Gun Flame",
+            "particleTimeline": {},
+            "recipe": [
+              "ars_nouveau:glyph_projectile",
+              "ars_nouveau:glyph_ignite"
+            ],
+            "sound": {}
+          }
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "ars_nouveau:reactive": 5,
+      "minecraft:sharpness": 5,
+      "minecraft:fire_aspect": 2
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": "Outrage Mk. II"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      "Contains the Fireseal"
+    ],
+    "mode": "append"
+  }
+]

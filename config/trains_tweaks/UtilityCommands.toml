@@ -1,0 +1,13 @@
+#Whether or not to enable Train's Tweaks operator commands
+"Utility Commands" = true
+#If set to true, vanilla debugging commands will be forcibly enabled
+#These commands are: /test, /raid, /debugpath, /debugmobspawning, /warden_spawn_tracker, /spawn_armor_trims, /serverpack, /debugconfig
+#Not recommended unless you need one specifically; there's no guarantee these actually work
+"Vanilla Debug Commands" = false
+#If set to true, /kill_non_players command will be available
+#This command simply discards all non-player entities, without dropping items
+"Kill Non Players" = true
+#If set to true, /show_scheduled_functions command will be available
+#This prints the name of every scheduled function to the chat at when the gametime it is scheduled for
+#This can be useful for debugging datapacks and/or determining if they are causing any lag
+"Show Scheduled Functions" = true

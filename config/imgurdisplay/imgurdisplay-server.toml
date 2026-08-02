@@ -1,0 +1,4 @@
+#The max size of the display
+# Default: 8
+# Range: 1 ~ 64
+displayMaxSize = 8

@@ -1,0 +1,19 @@
+#Whether or not to enable any tweaks relating to goats
+"Goat Tweaks" = true
+#Goats will have this chance to spawn as a screaming goat
+#Leave as default for vanilla value
+# Default: 0.02
+# Range: 0.0 ~ 1.0
+"Screaming Goat Spawn Chance" = 0.25
+#Goats will have this chance to spawn with only one horn
+#Leave as default for vanilla value
+# Default: 0.10000000149011612
+# Range: 0.0 ~ 1.0
+"One-horn Goat Spawn Chance" = 0.10000000149011612
+#If true, you will be able to use Shears to remove horns from goats
+#For balance reasons, this will damage the goat and cause it to target you
+"Shear Horns" = true
+#If set to > 0, goats may drop horns when they die
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+"Goat Horn Drop Chance" = 0.01

@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "grimoireofgaia:trader_token",
+        {
+            "id": "millenaire:denier",
+            "required": false
+        },
+        {
+            "id": "millenaire:denier_or",
+            "required": false
+        },
+        {
+            "id": "millenaire:denier_argent",
+            "required": false
+        }
+    ]
+}

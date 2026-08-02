@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "quark:rune_color": "red",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                },
+                "ars_nouveau:reactive_caster": {
+                  "spells": {
+                    "0": {
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 255,
+                        "id": "ars_nouveau:constant"
+                      },
+                      "name": "Blood Curse",
+                      "particleTimeline": {},
+                      "recipe": [
+                        "ars_nouveau:glyph_touch",
+                        "toomanyglyphs:glyph_filter_monster",
+                        "ars_nouveau:glyph_hex",
+                        "ars_nouveau:glyph_wither"
+                      ],
+                      "sound": {}
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "ars_nouveau:reactive": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Demon Blood Sword"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Contains the blood of Kee-Oth"
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cosmeticarmoursmod:devil_horns_helmet"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:succubus_dispel"
+}

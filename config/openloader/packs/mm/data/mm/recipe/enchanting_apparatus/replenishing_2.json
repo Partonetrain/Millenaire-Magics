@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:replenishing",
+  "level": 2,
+  "pedestalItems": [
+    {
+      "item": "arsdelight:activated_mendosteen_jam"
+    },
+    {
+      "item": "malum:sacred_spirit"
+    },
+    {
+      "item": "malum:sacred_spirit"
+    },
+    {
+      "tag": "c:gems/source"
+    }
+  ],
+  "sourceCost": 3000
+}

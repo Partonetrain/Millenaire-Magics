@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "c:sands"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "N": {
+      "item": "minecraft:clock"
+    }
+  },
+  "pattern": [
+    " E ",
+    "LNL",
+    "GLG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "gag:time_sand_pouch"
+  }
+}

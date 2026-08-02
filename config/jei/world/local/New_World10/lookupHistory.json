@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"sauce:anima_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:debug_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cosmeticarmoursmod:cloth_black"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gag:no_solicitors"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"patchouli:guide_book","components":{"patchouli:book":"parcool:parcool_guide"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"akashictome:tome","components":{"akashictome:tool_content":[{"id":"ars_nouveau:worn_notebook","count":1,"components":{"akashictome:defined_mod":"ars_nouveau"}},{"id":"patchouli:guide_book","count":1,"components":{"akashictome:defined_mod":"twilightdelight","patchouli:book":"twilightdelight:twilight_guide"}},{"id":"patchouli:guide_book","count":1,"components":{"akashictome:defined_mod":"cosmeticarmoursmod","patchouli:book":"cosmeticarmoursmod:cosmeticarmours_book"}},{"id":"patchouli:guide_book","count":1,"components":{"akashictome:defined_mod":"parcool","patchouli:book":"parcool:parcool_guide"}}]}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,75 @@
+{
+  "enabled": {
+    "//": "Determines if the mod should be enabled and apply its features.",
+    "//default": true,
+    "value": true
+  },
+  "show_on_selected_pattern": {
+    "//": [
+      "Determines if the tooltip should still be displayed on patterns that have been  ",
+      "clicked/selected.                                                               "
+    ],
+    "//default": true,
+    "value": true
+  },
+  "mod_name": {
+    "//": "These properties control the mod name section of the pattern tooltip.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the name of the mod that added the pattern should be displayed in ",
+          "the tooltip.                                                                    "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "display_on_vanilla_patterns": {
+        "//": "Determines if patterns added by vanilla Minecraft should have their name added.",
+        "//default": true,
+        "value": true
+      },
+      "display_style": {
+        "//": [
+          "The display style of the mod name. This controls the color, format, font, and   ",
+          "other visual properties.                                                        "
+        ],
+        "//default": {
+          "color": "blue"
+        },
+        "value": {
+          "color": "blue"
+        }
+      }
+    }
+  },
+  "debug_id": {
+    "//": "These properties control the debug ID being displayed on the pattern tooltip.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the debug ID of the pattern should be displayed on the pattern    ",
+          "tooltip.                                                                        "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "require_advanced_mode": {
+        "//": "Determines if the player must have advanced tooltips (F3+H) enabled.",
+        "//default": true,
+        "value": true
+      },
+      "display_style": {
+        "//": [
+          "The visual style of the debug ids. This controls the color, format, font, and   ",
+          "other visual properties.                                                        "
+        ],
+        "//default": {
+          "color": "dark_gray"
+        },
+        "value": {
+          "color": "dark_gray"
+        }
+      }
+    }
+  }
+}

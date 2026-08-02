@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_banner_pattern",
+              "patterns": [
+                {
+                  "pattern": "minecraft:base",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "yellow"
+                }
+              ],
+              "append": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "trains_tweaks:equipment/grimoireofgaia/naga_off_hand"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:enchanted_golden_apple",
+    "minecraft:golden_apple",
+    "minecraft:golden_carrot",
+    "grimoireofgaia:golden_apple_pie_slice",
+    "grimoireofgaia:golden_apple_pie",
+    "farmersdelight:gleaming_salad"
+  ]
+}

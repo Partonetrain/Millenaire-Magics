@@ -1,0 +1,33 @@
+[
+    {
+      "hordeName": "guardian",
+      "advancementForStartingHorde": "",
+      "advancementForWinningAgainstHorde": "",
+      "shouldClearWinningAdvancement": true,
+      "waves": [
+        {
+          "waveName": "wave1",
+          "maximumActiveHordeMembers": 3,
+          "killsRequiredForEasy": 7,
+          "killsRequiredForNormal": 7,
+          "killsRequiredForHard": 7,
+          "bossInfoText": "Guardian Horde",
+          "bossInfoColor": "red",
+          "despawnLeftBehindMembers": true,
+          "keepSpawningEnemiesWhileBossIsActive": false,
+          "bossInfoTextWhenBossIsActive": "",
+          "bossInfoColorWhenBossIsActive": "red",
+          "bossMobData": [
+          ],
+          "mobData": [
+            {
+                "mobID": "ars_nouveau:wilden_guardian",
+                "spawnWeight": 3,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,13 @@
+{
+  "values": {
+    "#blockrunner:rustic": {
+      "speed": 1.1
+    },
+    "#blockrunner:paved": {
+      "speed": 1.15
+    },
+    "#blockrunner:stone": {
+      "speed": 1.2
+    }
+  }
+}

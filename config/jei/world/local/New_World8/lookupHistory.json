@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"thirst:quenchness","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"trains_tweaks:clumsy","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"trains_tweaks:dexterity","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"}
+]

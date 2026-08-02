@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:oak_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:birch_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jungle_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:acacia_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dark_oak_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mangrove_propagule"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cherry_sapling",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flowering_azalea",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pale_oak_sapling",
+            "weight": 2
+          },
+
+          {
+            "type": "minecraft:item",
+            "name": "environmental:willow_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:pine_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:cheerful_plum_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:plum_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:moody_plum_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:pink_wisteria_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:purple_wisteria_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:blue_wisteria_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:white_wisteria_sapling"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "mm:sapling"
+  }

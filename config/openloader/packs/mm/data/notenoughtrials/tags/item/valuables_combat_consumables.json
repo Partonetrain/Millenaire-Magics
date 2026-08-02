@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#incapacitated:adrenaline_food",
+        "minecraft:totem_of_undying"
+    ]
+}

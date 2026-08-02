@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ars_nouveau:enchanters_sword",
+    "ars_nouveau:spell_crossbow",
+    "ars_nouveau:spell_bow",
+    "malum:tyrving",
+    "malum:soul_stained_steel_scythe"
+  ]
+}

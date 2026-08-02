@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "count": 1,
+            "id": "grimoireofgaia:projectile_random_magic"
+        },
+        "show_toast": false,
+        "title": {
+            "text": "Millenaire Magics"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

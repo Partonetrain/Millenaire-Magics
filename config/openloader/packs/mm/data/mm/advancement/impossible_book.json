@@ -1,0 +1,44 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "has_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "notenoughtrials:storm_front_marker": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Impossible Book"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:book"
+    },
+    "title": {
+      "text": "Impossible Book"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "has_book"
+    ]
+  ],
+  "rewards": {
+    "function": "mm:impossible_book"
+  },
+  "sends_telemetry_event": true
+}

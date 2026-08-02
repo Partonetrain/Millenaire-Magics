@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {Tags:["simple_br_dimension.spawn"],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Small:1b}

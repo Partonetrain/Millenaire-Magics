@@ -1,0 +1,20 @@
+{
+    "type": "farmersdelight:cooking",
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item": "ars_elemental:anima_essence"
+      },
+      {
+        "item": "ars_elemental:anima_essence"
+      }
+    ],
+    "recipe_book_tab": "drinks",
+    "result": {
+      "count": 1,
+      "id": "minecraft:ominous_bottle",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 1
+      }
+    }
+  }

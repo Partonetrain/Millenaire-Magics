@@ -1,0 +1,21 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"quark:pipe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:starbuncle_charm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:encased_pipe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"blockbox:bamboo_seat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"blockbox:crimson_seat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"blockbox:dark_oak_seat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"blockbox:acacia_seat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tubesreloaded:green_tube"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tubesreloaded:red_tube"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tubesreloaded:white_tube"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"thirst:terracotta_water_bowl","components":{"thirst:purity":0}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"thirst:quenchness","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"realmrpg_balloons:common_treasure_balloon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"realmrpg_balloons:unknown_treasure_balloon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"realmrpg_balloons:legendary_treasure_balloon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"realmrpg_balloons:rare_treasure_balloon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"realmrpg_balloons:uncommon_treasure_balloon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"realmrpg_balloons:epic_treasure_balloon"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

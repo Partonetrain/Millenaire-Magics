@@ -1,0 +1,50 @@
+{
+  "parent": "mm:lampmaster",
+  "criteria": {
+    "in_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "#c:is_end"
+          }
+        }
+      }
+    },
+    "damage": {
+      "trigger": "trains_tweaks:take_damage_and_live",
+      "conditions": {
+        "damage": {
+          "min": 15
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "For Those Who Come After"
+    },
+    "description": {
+      "text": "Take 15 ore more damage in The End and survive"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "in_end",
+      "damage"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/come_after_disc"
+    ]
+  },
+  "sends_telemetry_event": false
+}

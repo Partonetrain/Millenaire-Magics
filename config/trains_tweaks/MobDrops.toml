@@ -1,0 +1,32 @@
+#Whether or not to enable any of the tweaks relating to mob drops
+"Enable drop tweaks" = true
+#Whether or not to convert the hardcoded Nether Star (that takes longer to despawn) drop to the loot table trains_tweaks:entities/extended_wither_drop
+"Convert Nether Star Drop" = true
+#Whether or not to convert the hardcoded Wither Rose drop to the loot table trains_tweaks:gameplay/wither_rose_drop
+#If enabled, any entity tagged with trains_tweaks:causes_wither_rose_drop will cause this loot table to be rolled
+#This will disable the placement of the block
+"Convert Wither Rose Drop" = false
+#Whether or not to convert the hardcoded chicken egg lay to the loot table trains_tweaks:gameplay/chicken_lay
+"Convert Chicken Egg" = false
+#Allow baby mobs to drop their standard loot table
+"Baby mobs drop loot" = false
+#Allow baby mobs to drop their standard amount of experience
+"Baby mobs drop experience" = false
+#The chance for any mob to drop equipment it spawned with
+#This should only affect mobs that did NOT spawn with a SpawnsWith table. See that feature's config for more details
+#Leaving it at the default value of 0.085 will not write the value again; if a modded mob specifies its equipment drop chances in its code, you'll probably want to leave this alone
+# Default: 0.085
+# Range: 0.0 ~ 1.0
+"Mob Equipment Drop Chance" = 0.1
+#Whether or not to convert the hardcoded armadillo shed to the loot table trains_tweaks:gameplay/armadillo_shed
+"Convert Armadillo Shed" = true
+#Whether or not to convert the hardcoded brush armadillo drop to the loot table trains_tweaks:gameplay/brush_armadillo
+"Convert Brush Armadillo" = true
+#Whether or not to convert the hardcoded turtle scute drop to the loot table trains_tweaks:gameplay/turtle_grow
+"Convert Turtle Grow" = true
+#Whether or not to add turtle scute brushing with the loot table trains_tweaks:gameplay/turtle_grow
+#This works identically to Armadillo brushing
+"Add Turtle Brush" = true
+#When enabled, ALL living entities will roll trains_tweaks:entities/generic on death
+#This can be useful for things like loot bags, but make sure the loot table checks for things like armor stands
+"Generic Drop Table" = true

@@ -1,0 +1,8 @@
+{
+  "item.icarus.flandres_wings": "Scarlet Vampire Wings",
+  "item.icarus.discords_wings": "Lord of Chaos Wings",
+  "item.icarus.zanzas_wings": "Alternate-Reality Diety Wings",
+
+  "effect.icarus.flightless.description": "Prevents flight with Wings.",
+  "effect.icarus.energized.description": "Increased maximum flight stamina, enabling longer flight before landing."
+}

@@ -1,0 +1,5 @@
+{
+    "effect.not_enough_glyphs.shrink.description": "Smaller than usual.",
+    "effect.not_enough_glyphs.grow.description": "Bigger than usual.",
+    "effect.not_enough_glyphs.contingency.description": "Inflicted by a spell with a Contingency gylph. The effects of the spell will occur after a speciific event, depending on the glyph."
+}

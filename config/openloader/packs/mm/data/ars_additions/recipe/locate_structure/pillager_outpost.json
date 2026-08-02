@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "minecraft:emerald"
+    }
+  ],
+  "id": "ars_additions:pillager_outpost",
+  "structure": {
+    "tag": "ars_additions:pillager_outpost"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "aeo",
+    "2r3"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:conduit"
+    },
+    "e": {
+      "item": "ars_elemental:anima_essence"
+    },
+    "r": {
+      "item": "quark:redstone_randomizer"
+    },
+    "o": {
+      "item": "morered:or_gate"
+    },
+    "a": {
+      "item": "morered:and_gate"
+    },
+    "2": {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    "3": {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  },
+  "result": {
+    "id": "minecraft:debug_stick",
+    "count": 1
+  }
+}

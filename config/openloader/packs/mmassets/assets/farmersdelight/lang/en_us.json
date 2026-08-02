@@ -1,0 +1,18 @@
+{
+  "block.farmersdelight.rope": "Straw Rope",
+  "block.farmersdelight.rope_fence": "Straw Rope Fence",
+  "block.farmersdelight.rope_fence_gate": "Straw Rope Fence Gate",
+
+  "farmersdelight.tooltip.cooking_pot.empty": "Empty",
+  "jei.farmersdelight.info.wild_rice": "Farmer's Delight Rice has been replaced with Millenaire rice.",
+
+  "item.farmersdelight.apple_cider": "Apple Juice",
+
+  "effect.farmersdelight.nourishment.0.desc": "Prevents hunger loss, except when using saturation to heal damage.",
+  "effect.farmersdelight.nourishment.description": "Prevents hunger loss, except when using saturation to heal damage.",
+  "effect.farmersdelight.comfort.0.desc": "Provides natural regeneration, regardless of how hungry you are.",
+  "effect.farmersdelight.comfort.description": "Provides natural regeneration, regardless of how hungry you are.",
+
+  "farmersdelight.block.feast.use_container": "You need a Bowl to eat this.",
+  "farmersdelight.jei.info.knife": "For some reason this knife's JEI hint uses a different lang key than every other knife, so I had to add it myself.\nI mean, uhh, a knife is a lightweight melee weapo-\nYou know what? I'm not going to type the whole rest of it out. It works like every other knife does."
+}

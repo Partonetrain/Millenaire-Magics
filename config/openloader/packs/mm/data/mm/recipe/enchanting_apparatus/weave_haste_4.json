@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:weavers_haste",
+  "level": 4,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 8000
+}

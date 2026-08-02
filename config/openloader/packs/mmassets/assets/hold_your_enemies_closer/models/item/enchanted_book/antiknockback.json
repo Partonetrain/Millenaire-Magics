@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hold_your_enemies_closer:item/enchanted_book/antiknockback"
+  }
+}

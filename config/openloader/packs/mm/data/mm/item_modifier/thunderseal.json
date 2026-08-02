@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "quark:rune_color": "blue",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "ars_nouveau:reactive_caster": {
+        "spells": {
+          "0": {
+            "color": {
+              "b": 0,
+              "g": 192,
+              "r": 255,
+              "id": "ars_nouveau:constant"
+            },
+            "name": "Stun Edge",
+            "particleTimeline": {},
+            "recipe": [
+              "ars_nouveau:glyph_projectile",
+              "ars_elemental:glyph_spark",
+              "ars_elemental:glyph_discharge"
+            ],
+            "sound": {}
+          }
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "ars_nouveau:reactive": 5,
+      "minecraft:sharpness": 5
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": "Thunderseal"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      "Given to Ky Kiske by Kliff Undersn"
+    ],
+    "mode": "append"
+  }
+]

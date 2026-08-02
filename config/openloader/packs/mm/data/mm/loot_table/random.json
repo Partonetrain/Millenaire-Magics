@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:projectile_random_magic",
+          "weight": 90,
+          "quality": -10,
+          "functions": [
+            {
+              "function": "trains_tweaks:randomize_exclude",
+              "exclude": [
+                "#c:hidden_from_recipe_viewers",
+                "#mm:not_random"
+              ],
+              "max_tries": 50
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:bag_book",
+          "weight": 2,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_hat",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_egg",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:scrolls",
+          "weight": 2,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:locators",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:natural_seeds",
+          "weight": 1,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:sapling",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:random"
+}

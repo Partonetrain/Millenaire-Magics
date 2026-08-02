@@ -1,0 +1,28 @@
+
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max",
+              "options": [
+                "minecraft:sharpness",
+                "minecraft:protection",
+                "minecraft:efficiency",
+                "minecraft:power",
+                "minecraft:unbreaking"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/books/primary"
+}

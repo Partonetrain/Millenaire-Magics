@@ -1,0 +1,28 @@
+{
+  "replace": true,
+  "values": [
+    "ars_elemental:thread_spore",
+    "ars_elemental:thread_shock",
+    "ars_elemental:thread_summon",
+    "ars_nouveau:thread_depths",
+    "ars_nouveau:thread_drygmy",
+    "ars_nouveau:thread_spellpower",
+    "ars_nouveau:thread_high_step",
+    "ars_nouveau:thread_life_drain",
+    "ars_nouveau:thread_starbuncle",
+    "ars_nouveau:thread_feather",
+
+    "ars_nouveau:thread_amethyst_golem",
+    "ars_nouveau:thread_immolation",
+    "ars_nouveau:thread_magic_capacity",
+    "ars_nouveau:thread_kindling",
+    "ars_nouveau:thread_wixie",
+    "ars_nouveau:thread_heights",
+    "ars_nouveau:thread_whirlisprig",
+    "ars_nouveau:thread_chilling",
+
+    "ars_nouveau:thread_warding",
+    "ars_nouveau:thread_repairing",
+    "ars_additions:thread_reach"
+  ]
+}

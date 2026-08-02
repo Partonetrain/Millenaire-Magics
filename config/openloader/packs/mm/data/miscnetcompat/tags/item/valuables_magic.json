@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ars_nouveau:amulet_of_mana_boost",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:amulet_of_mana_regen",
+      "required": false
+    },
+    "malum:ornate_necklace",
+    "malum:necklace_of_the_mystic_mirror",
+    "malum:necklace_of_the_narrow_edge",
+    "malum:necklace_of_the_narrow_edge"
+  ]
+}

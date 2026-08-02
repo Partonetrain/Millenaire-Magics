@@ -1,0 +1,46 @@
+{
+  "parent": "mm:moebius",
+  "criteria": {
+    "sky": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 256
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Fly beyond the build limit in The End"
+    },
+    "icon": {
+      "count": 1,
+      "id": "quark:bottled_cloud"
+    },
+    "title": {
+      "text": "Beyond the Sky"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "sky"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/bts_disc"
+    ]
+  },
+  "sends_telemetry_event": true
+}

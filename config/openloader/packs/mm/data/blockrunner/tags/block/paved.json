@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "millenaire:path_slabs",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_slabs_slab",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_gravel_slab",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_gravel_slabs_slab",
+      "required": false
+    }
+  ]
+}

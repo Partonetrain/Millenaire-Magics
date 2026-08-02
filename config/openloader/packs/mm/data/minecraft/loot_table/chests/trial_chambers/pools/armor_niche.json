@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:armor_niche",
+          "expand": true,
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "trains_tweaks:enchant_all",
+      "check_compatible": true,
+      "sort": true
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/armor_niche"
+}

@@ -1,0 +1,19 @@
+#Whether or not to enable any of the tweaks relating to wolves
+"Wolf Tweaks" = true
+#If enabled, newly tamed wolves will have their max health set to 20 (instead of 40)
+"Nerf Wolf Health" = true
+#If enabled, wolf armor will not completely negate damage
+#Wolf armor will still grant 11 points of armor (which is actually useless in vanilla: https://bugs.mojang.com/browse/MC-268913)
+#As an upside, Wolf Armor will not take durability damage, acting like diamond horse armor
+"Nerf Wolf Armor" = true
+#If enabled, the hardcoded checks for creepers and ghasts in the tamed wolf attacking code
+#will be replaced with a check for entities in the tag trains_tweaks:tamed_wolves_avoid_attacking
+#This is especially useful if you have mods that add other exploding mobs
+"Avoids Attacking Tag" = true
+#If enabled, the snowy wolf variant (the one that only spawns in Groves) can walk on powder snow
+"Snowy Wolf Walks on Powder Snow" = true
+#If enabled, wolves will not scare away skeletons
+#If Don't Chase Skeletons is disabled, this will usually result in wild wolves dying from skeleton retaliation
+"Don't Scare Skeletons" = true
+#If enabled, wolves will not attack skeletons unprovoked
+"Don't Chase Skeletons" = true

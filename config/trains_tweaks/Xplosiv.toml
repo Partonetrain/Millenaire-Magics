@@ -1,0 +1,44 @@
+#Whether or not to enable tweaks related to explosions and explosives
+"Xplosiv Tweaks" = true
+#If enabled, all newly-placed TNT will be set to unstable
+#Unstable TNT is a vanilla blockstate that makes the TNT primed when broken by a non-Creative mode player
+"Unstable TNT" = false
+#If enabled, all newly-placed TNT will instantly be primed
+"Instant TNT" = false
+#If set to true, all explosions in ultrawarm dimensions (like the Nether) will place fire
+#and explosions in non-ultrawarm dimensions will never place fire
+"Ultrawarm Fire Explosions" = false
+#
+#All of the following options default to the vanilla value
+#The explosion power that primed TNT explodes with
+# Default: 4
+# Range: 0 ~ 32
+"TNT Power" = 4
+#The explosion power of bad respawn point explosions (Beds and Respawn Anchor in wrong dimension)
+# Default: 5
+# Range: 0 ~ 32
+"Intentional Game Design Power" = 5
+#The explosion power that End Crystals explode with
+# Default: 6
+# Range: 0 ~ 32
+"End Crystal Power" = 6
+#The explosion power that uncharged Creepers explode with
+# Default: 3
+# Range: 0 ~ 32
+"Creeper Power" = 2
+#The explosion power that charged Creepers explode with
+# Default: 6
+# Range: 0 ~ 32
+"Charged Creeper Power" = 5
+#The explosion power that Ghast Fireballs explode with
+# Default: 1
+# Range: 0 ~ 32
+"Ghast Fireball Power" = 1
+#The explosion power of a spawned Wither
+# Default: 7
+# Range: 0 ~ 32
+"Wither Spawn Power" = 5
+#The explosion power of Wither Skull projectiles
+# Default: 1
+# Range: 0 ~ 32
+"Wither Skull Power" = 1

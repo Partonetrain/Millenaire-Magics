@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "functionalstorage:custom_compacting",
+  "higher_input": {
+    "count": 1,
+    "id": "minecraft:blue_ice"
+  },
+  "lower_input": {
+    "count": 9,
+    "id": "minecraft:packed_ice"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "minecraft:suspicious_gravel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:stable_warp_scroll",
+    "components": {
+      "ars_nouveau:warp_scroll": {
+        "dimension": "simple_br_dimension:simple_br_dimension",
+        "pos": [
+          0,
+          20,
+          0
+        ],
+        "rotation": {
+          "x": 0,
+          "y": 0
+        },
+        "crossDim": true
+      },
+      "minecraft:custom_name": "{\"text\": \"Outside of Reality Scroll\"}",
+      "minecraft:lore": [
+        "{\"text\": \"Creates a temporary one-way portal to outside of reality\"}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "has_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cosmeticarmoursmod:redstone_crown_helmet",
+            "components": {
+              "minecraft:custom_data": {
+                "mm": "crown_check"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Discover Ice King's Crown hidden in ice"
+    },
+    "icon": {
+      "count": 1,
+      "id": "cosmeticarmoursmod:redstone_crown_helmet"
+    },
+    "title": {
+      "text": "Ice King's Crown"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "has_crown"
+    ]
+  ],
+  "rewards": {
+    "function": "mm:crown"
+  },
+  "sends_telemetry_event": true
+}

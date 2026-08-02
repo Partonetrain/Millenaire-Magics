@@ -1,0 +1,22 @@
+{
+  "type": "malum:spirit_focusing",
+  "durabilityCost": 1,
+  "input": {
+    "item": "malum:alchemical_impetus"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:sulfur"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 2
+    },
+    {
+      "type": "malum:infernal",
+      "count": 2
+    }
+  ],
+  "time": 300
+}

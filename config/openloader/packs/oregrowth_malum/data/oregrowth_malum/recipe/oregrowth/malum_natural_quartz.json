@@ -1,0 +1,44 @@
+{
+    "type": "oregrowth:ore_growth",
+    "base": [
+        "malum:natural_quartz_ore",
+        "malum:deepslate_quartz_ore"
+    ],
+    "stages": 4,
+    "spawn_chance": 0.2,
+    "growth_chance": 0.3,
+    "drops": [
+        {
+            "stage": 4,
+            "item": {
+                "id": "malum:natural_quartz",
+                "count": 1
+            }
+        },
+        {
+            "stage": 4,
+            "chance": 0.2,
+            "item": {
+                "id": "malum:natural_quartz",
+                "count": 1
+            }
+        },
+        {
+            "stage": 3,
+            "chance": 0.8,
+            "item": {
+                "id": "malum:natural_quartz",
+                "count": 1
+            }
+        },
+        {
+            "min_stage": 1,
+            "max_stage": 2,
+            "chance": 0.3,
+            "item": {
+                "id": "malum:natural_quartz",
+                "count": 1
+            }
+        }
+    ]
+}

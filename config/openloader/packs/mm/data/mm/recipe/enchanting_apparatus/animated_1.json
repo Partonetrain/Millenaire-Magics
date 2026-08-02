@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:animated",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "malum:aerial_spirit"
+    },
+    {
+      "item": "malum:aerial_spirit"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 3000
+}

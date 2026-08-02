@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "malum:copper_impetus"
+    }
+  ],
+  "id": "notenoughtrials:vertical_trial_chambers",
+  "structure": {
+    "key": "notenoughtrials:vertical_trial_chambers"
+  }
+}

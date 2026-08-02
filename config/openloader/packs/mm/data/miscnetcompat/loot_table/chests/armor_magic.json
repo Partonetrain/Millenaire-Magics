@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_common",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_rare_mm_malum",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_rare_ars",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:enchant_with_levels",
+      "levels": {
+        "min": 25,
+        "max": 30
+      },
+      "options": [
+        "minecraft:depth_strider",
+        "minecraft:thorns",
+        "minecraft:aqua_affinity",
+        "minecraft:respiration",
+        "minecraft:protection",
+        "minecraft:fire_protection",
+        "minecraft:projectile_protection",
+        "minecraft:feather_falling",
+        "minecraft:blast_protection",
+        "hold_your_enemies_closer:frost_protection",
+        "hyecunbound:magic_protection",
+        "hyecunbound:fleetfeet"
+      ]
+    }
+  ],
+  "random_sequence": "miscnetcompat:chests/armor_magic"
+}

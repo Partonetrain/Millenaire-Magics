@@ -1,0 +1,10 @@
+{
+    "item.the_beyond.magnet": "Personal Magnet",
+    "item.the_beyond.ether_cloak": "Ethereal Cloak",
+    "block.the_beyond.guster": "Autoguster",
+
+    "effect.the_beyond.weightless.description": "Reduces your gravity. Also resets your fall distance.",
+    "effect.the_beyond.unstable.description": "Teleports upon taking damage.",
+    "effect.the_beyond.nomads_blessing.description": "Granted by the mysterious Abyssal Nomad upon giving it a Rememberance. Saves you from falling into void, but only in the End.",
+    "effect.the_beyond.deafened.description": "You can't hear anything - not even the game menu sounds. Creepy!"
+}

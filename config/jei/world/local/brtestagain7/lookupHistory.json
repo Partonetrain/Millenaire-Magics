@@ -1,0 +1,17 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:silence_armor_trim_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:soulwood_totem_base"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:stable_warp_scroll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:warp_scroll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:stable_warp_scroll","components":{"minecraft:custom_name":"\"Outside of Reality Scroll\"","minecraft:lore":["\"Creates a temporary one-way portal to outside of reality\""],"ars_nouveau:warp_scroll":{"pos":[0,20,0],"dimension":"simple_br_dimension:simple_br_dimension","rotation":{"x":0.0,"y":0.0},"crossDim":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"malum:replenishing":2}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"malum:replenishing":1}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:activated_mendosteen_jam"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:mendosteen_pie"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:mendosteen_pie_slice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:mendosteen_jelly"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"supplementaries:stasis":1}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vista:television"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_beyond:stardust"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max",
+              "options": [
+                "minecraft:frost_walker",
+                "minecraft:looting",
+                "minecraft:flame",
+                "hold_your_enemies_closer:frost",
+                "minecraft:infinity",
+                "minecraft:fire_aspect",
+                "hold_your_enemies_closer:ice_aspect",
+                "minecraft:silk_touch",
+                "minecraft:fortune",
+                "minecraft:channeling",
+                "minecraft:riptide",
+                "minecraft:multishot",
+                "minecraft:quick_charge"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_treasure"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/books/rare"
+}

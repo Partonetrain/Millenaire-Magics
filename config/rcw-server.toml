@@ -1,0 +1,29 @@
+#If true uses the sounds from the original Crystal Wing 1.2.5
+nostalgicSounds = false
+#Ender Scepter reach, in blocks
+# Default: 60
+# Range: > 0
+enderScepterReach = 60
+#Ender Scepter creative reach multiplier
+# Default: 4
+# Range: > 0
+enderScepterCreativeReachMult = 4
+#Random teleportation distance. determines how far should the player be teleported when random teleportation is used (Using a Crystal Wing in the end or using a Burnt Wing), in blocks
+# Default: 1000
+# Range: > 0
+randomTeleportationDistance = 1000
+
+[Cooldown]
+	#Configuration for the cooldown of items in ticks
+	#Cooldown between uses of the Crystal Wing in ticks
+	# Default: 256
+	# Range: > 0
+	crystalWingCooldown = 256
+	#Cooldown between uses of the Burnt Wing in ticks
+	# Default: 512
+	# Range: > 0
+	BurntWingCooldown = 512
+	#Cooldown between uses of the Ender Scepter in ticks
+	# Default: 20
+	# Range: > 0
+	enderScepterCooldown = 20

@@ -1,0 +1,19 @@
+#Whether or not to enable critical hit tweaks (this feature disables itself if Apothic.Zenith Attributes or Critical Strike is installed)
+#"JERMA THE KRITZ!!! JERMA!!!"
+"Critical Hit tweaks" = false
+#If enabled, the attributes trains_tweaks:melee_crit_chance and trains_tweaks:ranged_crit_chance will be registered,
+#applied to players, and the vanilla critical hit mechanics will be disabled
+"Add Attributes" = true
+#If enabled, the effects trains_tweaks:melee_fury and trains_tweaks:ranged_fury will be registered
+#They both increase the relevant attribute by 0.1, and thus require Add Attributes to be enabled
+"Add Effects" = true
+#The multiplier applied to the damage of melee critical hits
+#This will work with ranged crits too if Normalize Ranged Crits from the Yeet feature is enabled
+# Default: 1.5
+# Range: 1.0 ~ 5.0
+"Crit Multiplier" = 1.5
+#The base value of both the trains_tweaks:melee_crit_chance and trains_tweaks:ranged_crit_chance attributes
+#Default value is 1/16
+# Default: 0.0625
+# Range: 0.0 ~ 1.0
+"Crit Chance" = 0.0625

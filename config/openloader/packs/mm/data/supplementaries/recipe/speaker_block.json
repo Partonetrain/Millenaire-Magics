@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "item": "opalescence:opal_crystal"
+    }
+  },
+  "result": {
+    "id": "supplementaries:speaker_block",
+    "count": 1
+  }
+}

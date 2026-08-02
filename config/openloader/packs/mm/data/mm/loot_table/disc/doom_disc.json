@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_maker:custom_music_disc",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "music_disc_maker:custom_track": {
+                  "author": "Bobby Prince",
+                  "duration_ms": 101000,
+                  "thumbnail_url": "",
+                  "title": "E1M1 - At Doom's Gate",
+                  "url": "https://www.youtube.com/watch?v=BSsfjHCFosw"
+                },
+                "jukebox_playable": {
+                  "show_in_tooltip": false,
+                  "song": "music_disc_maker:silent_110s"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Easter Egg Music Disc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:disc/doom_disc"
+}

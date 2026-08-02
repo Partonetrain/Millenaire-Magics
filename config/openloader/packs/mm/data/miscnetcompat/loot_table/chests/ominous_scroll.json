@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:scrolls"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "miscnetcompat:chests/ominous_scroll"
+}

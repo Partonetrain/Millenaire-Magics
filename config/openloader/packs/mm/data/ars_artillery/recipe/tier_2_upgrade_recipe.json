@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "b": {
+      "item": "ars_nouveau:imbuement_chamber"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "ca ",
+    "aba",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ars_artillery:tier_2_upgrade"
+  }
+}

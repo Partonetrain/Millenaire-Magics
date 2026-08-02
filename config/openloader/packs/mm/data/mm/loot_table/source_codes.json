@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Train's Tweaks Source Code",
+              "author": "Partonetrain",
+              "text_source": "https://raw.githubusercontent.com/Partonetrain/trains_tweaks/refs/heads/1.21.1/common/src/main/java/info/partonetrain/trains_tweaks/CommonClass.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Ars Nouveau Source Code",
+              "author": "baileyholl",
+              "text_source": "https://raw.githubusercontent.com/baileyholl/Ars-Nouveau/refs/heads/main/src/main/java/com/hollingsworth/arsnouveau/ArsNouveau.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Malum Source Code",
+              "author": "SammySemicolon",
+              "text_source": "https://raw.githubusercontent.com/SammySemicolon/Malum-Mod/refs/heads/1.21.1/src/main/java/com/sammy/malum/MalumMod.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Quark Source Code",
+              "author": "Violet Moon Team",
+              "text_source": "https://raw.githubusercontent.com/VazkiiMods/Quark/refs/heads/master/src/main/java/org/violetmoon/quark/base/Quark.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Supplementaries Source Code",
+              "author": "MehVadJukaar",
+              "text_source": "https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/refs/heads/1.21.1/common/src/main/java/net/mehvahdjukaar/supplementaries/Supplementaries.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Farmer's Delight Source Code",
+              "author": "vectorwing",
+              "text_source": "https://raw.githubusercontent.com/vectorwing/FarmersDelight/refs/heads/1.21/src/main/java/vectorwing/farmersdelight/FarmersDelight.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Thirst Was Reclaimed Source Code",
+              "author": "ghenghen & mlus-asuka",
+              "text_source": "https://raw.githubusercontent.com/mlus-asuka/Thirst-Was-Reclaimed/refs/heads/1.21.1/src/main/java/cn/mlus/thirst/Thirst.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Environmental Source Code",
+              "author": "Team Abnormals",
+              "text_source": "https://raw.githubusercontent.com/team-abnormals/environmental/refs/heads/1.21.1/src/main/java/com/teamabnormals/environmental/core/Environmental.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Serene Seasons Source Code",
+              "author": "TheAdubbz & Glitchfiend",
+              "text_source": "https://raw.githubusercontent.com/Glitchfiend/SereneSeasons/refs/heads/1.21.1/common/src/main/java/sereneseasons/core/SereneSeasons.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Grimoire of Gaia Source Code",
+              "author": "Silentine & MrBysco",
+              "text_source": "https://raw.githubusercontent.com/Silentine/GrimoireOfGaia/refs/heads/1.21/src/main/java/gaia/GrimoireOfGaia.java",
+              "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Vanilla Splashes",
+              "author": "Mojang",
+              "text_source": "https://raw.githubusercontent.com/misode/mcmeta/refs/heads/assets/assets/minecraft/texts/splashes.txt",
+              "lines_per_page": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "trains_tweaks:internet_text_book",
+              "title": "Loot Table This Book Came From",
+              "author": "Partonetrain",
+              "text_source": "https://partonetrain.info/storage/minecraft/source_codes.json",
+              "lines_per_page": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:source_codes"
+}

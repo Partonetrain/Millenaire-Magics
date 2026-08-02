@@ -1,0 +1,28 @@
+#Whether or not to enable any of the tweaks relating to mob spawn equipment
+#If this is enabled and you notice any performance issues or log errors, you can add mobs to the entity type tag trains_tweaks:spawnswith_ignores to skip over them completely
+"Enable equipment spawn tweaks" = true
+#If set to true, any mob in the entity type tag trains_tweaks:rolls_generic_equipment will roll trains_tweaks:equipment/generic after being spawned
+#In this case, regional difficulty is passed to the table as a luck value, changing the weight of entries with a quality set
+#Note that unlike the provided mob-specific tables, this loot table does NOT match vanilla behavior by default, so only enable if you intend to overwrite the table in a datapack
+#This table is designed to replace mob armor, so it should only roll up to 4 armor pieces
+"Generic Mob Tables" = true
+#The drop chance for every equipment item generated from equipment loot tables
+#For reference, 8.5% is the default chance for a mob to drop a piece of equipment it spawned with (with the exception of trial chamber spawns, which is 0%)
+#See also: MobDrops.toml - "Mob Equipment Drop Chance"
+# Default: 0.085
+# Range: 0.0 ~ 1.0
+"Equipment Table Drop Chance" = 0.01
+#If set to true, the game will attempt to find loot tables to equip a mob with
+#The loot tables should be in this location: trains_tweaks/loot_table/equipment/<modid>/<mob-id><type> (where <type> is either _main_hand, off_hand, or _armor)
+#Each mob checks for these tables once. They will be rolled with difficulty as luck just like the generic tables
+#Train's Tweaks includes these for vanilla mobs that spawn with equipment
+"Specific Mob Tables" = true
+#If set to true, after generic and/or specific tables have been rolled, the vanilla populate enchantments code will run
+#This is the code that uses the TagKey[minecraft:enchantment / minecraft:on_mob_spawn_equipment] enchantment tag to find usable enchantments
+"Populate Enchantments" = true
+#Generic and Specific Mob Tables will only be rolled if the mob was spawned in the following ways
+#Valid types are: [NATURAL, CHUNK_GENERATION, SPAWNER, STRUCTURE, BREEDING, MOB_SUMMONED, JOCKEY, EVENT, CONVERSION, REINFORCEMENT, TRIGGERED, BUCKET, SPAWN_EGG, COMMAND, DISPENSER, PATROL, TRIAL_SPAWNER]
+#This requires PuzzlesLib on Fabric, otherwise it will effect all mobs regardless of spawn type
+"Applies to Spawn Types" = ["SPAWN_EGG", "MOB_SUMMONED", "CHUNK_GENERATION", "NATURAL", "JOCKEY", "REINFORCEMENT", "STRUCTURE"]
+#If false, entities that spawn lacking a spawn type not in the trains_tweaks:spawnswith_ignores will be logged
+"Silence Ignores Errors" = true

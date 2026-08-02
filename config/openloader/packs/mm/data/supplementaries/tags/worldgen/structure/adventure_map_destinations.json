@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:mineshaft",
+
+    "minecraft:trail_ruins",
+    "minecraft:bastion_remnant",
+    "minecraft:jungle_pyramid",
+    "minecraft:desert_pyramid",
+    "minecraft:monument",
+    "minecraft:end_city",
+    
+    "supplementaries:galleon",
+
+    "notenoughtrials:vertical_trial_chambers",
+
+    "ars_additions:arcane_library"
+  ]
+}

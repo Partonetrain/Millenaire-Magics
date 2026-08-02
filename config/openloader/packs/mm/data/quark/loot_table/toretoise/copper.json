@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/deepslate_copper_ore",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/deepslate_gold_ore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "malum:blocks/cthonic_gold_ore",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

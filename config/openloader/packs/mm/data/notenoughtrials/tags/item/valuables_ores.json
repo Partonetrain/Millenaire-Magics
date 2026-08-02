@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "malum:raw_soulstone",
+        "malum:natural_quartz"
+    ],
+    "remove": [
+        "minecraft:emerald"
+    ]
+}

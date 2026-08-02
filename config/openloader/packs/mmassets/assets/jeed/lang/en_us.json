@@ -1,0 +1,4 @@
+{
+    "effect.minecraft.haste.description": "Increases ONLY mining speed; higher levels increases further.",
+    "effect.minecraft.mining_fatigue.description": "Decreases ONLY mining speed; higher levels decreases further."
+}

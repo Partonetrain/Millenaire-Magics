@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ars_elemental:fire_caster_tome"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_elemental:aqua_hood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:nickel_node"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:suspicious_sand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:sandy_shrub"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

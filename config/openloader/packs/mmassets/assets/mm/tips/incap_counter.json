@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "You can only be downed and revived three times. If you sleep, this counter will reset."
+  }
+}

@@ -1,0 +1,15 @@
+[visuals]
+	#Chance of fireworks after creeper explosion.
+	#Range: 0 ~ 100
+	fireworksChance = 100
+	#Colors to use in fireworks. Requires hex color. Default: ["#3B511A", "#41CD34"]
+	colors = ["#3B511A", "#41CD34"]
+	#Fireworks flicker.
+	fireworksFlicker = true
+	#Fireworks trail.
+	fireworksTrail = true
+	#Fireworks shape. One of: [SMALL_BALL, LARGE_BALL, STAR, CREEPER, BURST]
+	fireworksShape = "CREEPER"
+	#Height above creeper that fireworks explode. Default 5
+	#Range: 0 ~ 32
+	fireworksHeight = 5

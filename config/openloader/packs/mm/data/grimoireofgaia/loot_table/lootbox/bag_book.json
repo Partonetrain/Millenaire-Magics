@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:tome",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_treasure"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "grimoireofgaia:lootbox/bag_book"
+}

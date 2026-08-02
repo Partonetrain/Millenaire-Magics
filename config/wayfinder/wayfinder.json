@@ -1,0 +1,34 @@
+{
+  "wayfinder": {
+    "MAX_SEARCH_DISTANCE": {
+      "comment": "Max Biome Search Distance in Blocks as a radius around the Wayfinder\u0027s current position",
+      "value": 10000
+    },
+    "COOLDOWN": {
+      "comment": "Cooldown in seconds before the player can use the Wayfinder again",
+      "value": 15
+    },
+    "TELEPORT_TO_OWNER": {
+      "comment": "Amount of time in Seconds before the wayfinder attempts to teleport to it\u0027s owner if it\u0027s out of range",
+      "value": 5
+    },
+    "ENABLE_SOUNDS": {
+      "comment": "Enable Sounds for the Wayfinder",
+      "value": true
+    },
+    "DISABLE_SOUNDS_WHEN_SITTING": {
+      "comment": "Disable Sounds for the Wayfinder when sitting",
+      "value": false
+    }
+  },
+  "wayfinderHeartBlock": {
+    "EMERALD_DEATH_COST_MULTIPLIER": {
+      "comment": "Amount of Wayfinder Deaths the player has mulplied by the number set here will calculate the emerald cost for them to summon a new wayfinder",
+      "value": 2
+    },
+    "ACTIVATION_COOLDOWN": {
+      "comment": "Amount Of Time in Seconds till the Wayfinder Heart Block can be Activated (Spawn in wayfinder) again after the last time",
+      "value": 15
+    }
+  }
+}

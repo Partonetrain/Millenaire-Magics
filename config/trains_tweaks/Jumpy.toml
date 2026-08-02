@@ -1,0 +1,35 @@
+#Whether or not to enable tweaks relating to jumping
+"Jumpy tweaks" = true
+#If true, the vanilla Jump Boost effect will have an additional minecraft:generic.jump_strength attribute modifier,
+#and the hardcoded checks for the effect in LocalPlayer and LivingEntity will be disabled
+#This makes the effect work the same across the player and other mobs, and makes it work more consistently with other effects.
+#However, modded mobs may still have a hardcoded check for the effect.
+#Additionally, keep in mind the auto-jump feature does NOT account for the minecraft:generic.jump_strength attribute, which is a Minecraft bug: MC-279903
+"Jump Boost fix" = true
+#If Jump Boost fix is enabled, the amount added to the minecraft:generic.jump_strength attribute per level of the Jump Boost effect
+# Default: 0.1
+# Range: 0.01 ~ 10.0
+"Jump Boost Bonus Per Level" = 0.1
+#Whether or not mobs in the trains_tweaks:jumps_while_moving tag will jump while moving laterally AND there is a block in front of it
+#This replicates 2011-era behavior
+"Mobs Jump While Moving" = true
+#The priority of the goal for jumping while moving. This should be low
+# Default: 1
+# Range: 0 ~ 100
+"Jump While Moving Priority" = 1
+#The chance that a mob will jump if the above conditions are met. 1.0 = 100%, 0.5 = 50%
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+"Jump While Moving Chance" = 1.0
+#Whether or not mobs in the trains_tweaks:jumps_randomly tag will jump randomly
+"Mobs Jump Randomly" = false
+#The priority of the goal for jumping randomly. This should be low
+# Default: 1
+# Range: 0 ~ 100
+"Jump Randomly Priority" = 1
+#The chance that a mob will jump randomly. 1.0 = 100%, 0.5 = 50%
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+"Jump Randomly Chance" = 1.0
+#Whether or not to show debugging particles and logs for the AI goals
+"Mob Jump Debug" = false

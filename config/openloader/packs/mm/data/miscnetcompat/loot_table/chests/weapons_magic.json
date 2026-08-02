@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "miscnetcompat:weapons_magic_common",
+          "expand": true
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:enchant_with_levels",
+      "levels": {
+        "min": 15,
+        "max": 30
+      },
+      "options": "#minecraft:on_random_loot"
+    }
+  ],
+  "random_sequence": "miscnetcompat:chests/weapons_magic"
+}

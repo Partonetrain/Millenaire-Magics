@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vista:cassette"
+    },
+    {
+      "tag": "morered:network_cables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "vista_plus:url_cassette"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "bibliocraft:printing_table_cloning_with_enchantments",
+  "duration": 60000,
+  "experience_cost": {
+    "type": "bibliocraft:enchantment_levels",
+    "data_component": "minecraft:stored_enchantments",
+    "normal_cost": 30.0,
+    "treasure_cost": 60.0
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
+}

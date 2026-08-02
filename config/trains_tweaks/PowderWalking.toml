@@ -1,0 +1,3 @@
+#Whether or not to enable the functionality of the trains_tweaks:powder_walking_armor, trains_tweaks:powder_walking_armor_denied, and trains_tweaks:powder_walking_item item tags
+#Reminder: there is a vanilla entity tag for this named minecraft:powder_snow_walkable_mobs
+"Powder Walking tweak" = true

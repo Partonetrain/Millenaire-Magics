@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ars_artillery:fire_turret_crate",
+    "ars_artillery:air_turret_crate",
+    "ars_artillery:water_turret_crate",
+    "ars_artillery:earth_turret_crate",
+    "ars_artillery:conjuration_turret_crate",
+    "ars_artillery:abjuration_turret_crate",
+    "ars_artillery:manipulation_turret_crate"
+  ]
+}

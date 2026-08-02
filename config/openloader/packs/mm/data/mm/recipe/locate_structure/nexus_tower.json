@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "ars_nouveau:blank_parchment"
+    }
+  ],
+  "id": "ars_additions:nexus_tower",
+  "structure": {
+    "key": "ars_additions:nexus_tower"
+  }
+}

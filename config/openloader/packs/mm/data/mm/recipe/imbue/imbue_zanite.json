@@ -1,0 +1,12 @@
+{
+    "type": "ars_nouveau:imbuement",
+    "input": {
+      "item": "aether:zanite_gemstone"
+    },
+    "output": {
+      "count": 1,
+      "id": "ars_nouveau:source_gem"
+    },
+    "pedestalItems": [],
+    "source": 500
+  }

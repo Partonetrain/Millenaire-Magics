@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:false"
+        }
+    ],
+    "parent": "the_beyond:the_beyond/pass_the_torch",
+    "criteria": {
+        "use_totem": {
+            "trigger": "the_beyond:use_totem"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancements.the_beyond.defying_the_void.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "the_beyond:totem_of_respite"
+        },
+        "title": {
+            "translate": "advancements.the_beyond.defying_the_void.title"
+        }
+    },
+    "requirements": [
+        [
+            "use_totem"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+    "type": "ars_nouveau:enchanting_apparatus",
+    "keepNbtOfReagent": true,
+    "pedestalItems": [
+      {
+        "item": "minecraft:diamond_shovel"
+      },
+      {
+        "item": "minecraft:diamond_axe"
+      },
+      {
+        "tag": "c:storage_blocks/gold"
+      },
+      {
+        "tag": "c:storage_blocks/gold"
+      },
+      {
+        "tag": "c:storage_blocks/source"
+      },
+      {
+        "tag": "c:storage_blocks/source"
+      }
+    ],
+    "reagent": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "result": {
+      "count": 1,
+      "id": "ars_nouveau:enchanters_gauntlet"
+    },
+    "sourceCost": 0
+  }

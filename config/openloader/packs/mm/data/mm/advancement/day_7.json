@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": "7 Days",
+        "description": "A week has passed. The horrors may begin...",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "mm:day_5",
+    "criteria": {
+        "day": {
+            "trigger": "trains_tweaks:day",
+            "conditions": {
+                "day": {
+                    "min": 7
+                }
+            }
+        }
+    },
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "ars_nouveau:sourcestone"
+    },
+    "b": {
+      "item": "arsdelight:cascading_bark"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "id": "ars_artillery:waterstone"
+  }
+}

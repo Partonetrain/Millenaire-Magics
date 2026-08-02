@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    "ars_nouveau:purple_archwood_sapling",
+    "ars_nouveau:bastion_pod",
+    "farmersdelight:tomato",
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony",
+    "environmental:willow_sapling",
+    "environmental:cheerful_plum_sapling",
+    "environmental:plum_sapling",
+    "environmental:moody_plum_sapling",
+    "environmental:pink_wisteria_sapling",
+    "environmental:purple_wisteria_sapling",
+    "environmental:blue_wisteria_sapling",
+    "environmental:white_wisteria_sapling",
+    "quark:ancient_sapling",
+    "quark:blue_blossom_sapling",
+    "quark:lavender_blossom_sapling",
+    "quark:orange_blossom_sapling",
+    "quark:yellow_blossom_sapling",
+    "quark:red_blossom_sapling",
+    "malum:runewood_sapling",
+    "malum:azure_runewood_sapling",
+    "malum:soulwood_sapling",
+    
+    "millenaire:olive_tree_sapling",
+    "millenaire:pistachio_tree_sapling",
+    "millenaire:apple_tree_sapling",
+    "millenaire:cotton",
+    "millenaire:maize",
+    "millenaire:rice",
+    "millenaire:turmeric",
+    "millenaire:grapes"
+  ],
+  "remove": [
+    "ars_elemental:yellow_archwood_sapling",
+    "ars_elemental:flashpine_pod",
+    "farmersdelight:rice"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:dirt_path",
+    "environmental:podzol_path",
+    "environmental:mycelium_path",
+    "environmental:dirt_path",
+    {
+      "id": "millenaire:path_dirt",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_dirt_slab",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_gravel",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_gravel_slab",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_snow",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_snow_slab",
+      "required": false
+    }
+  ]
+}

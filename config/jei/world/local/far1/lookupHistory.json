@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"bibliocraft:disc_rack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:music_disc_bounce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:music_disc_lava_chicken"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:glyph_slowfall"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"moonlight:spawn_box"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

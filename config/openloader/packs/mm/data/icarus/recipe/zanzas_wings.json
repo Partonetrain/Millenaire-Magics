@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KfS",
+    "FEF",
+    "FoF"
+  ],
+  "key": {
+    "E": {
+      "tag": "icarus:wings"
+    },
+    "F": {
+      "item": "malum:ether"
+    },
+    "o": {
+      "item": "minecraft:debug_stick"
+    },
+    "f": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "K": {
+      "tag": "mm:wing_left"
+    },
+    "S": {
+      "tag": "mm:wing_right"
+    }
+  },
+  "result": {
+    "id": "icarus:zanzas_wings"
+  }
+}

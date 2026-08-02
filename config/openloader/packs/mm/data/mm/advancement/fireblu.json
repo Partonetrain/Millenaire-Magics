@@ -1,0 +1,41 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "opalescence:fireblu"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Rest In Peace Bobby Prince, 1945-2026"
+    },
+    "icon": {
+      "count": 1,
+      "id": "opalescence:fireblu"
+    },
+    "title": {
+      "text": "It runs DOOM!"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/doom_disc"
+    ]
+  },
+  "sends_telemetry_event": true
+}

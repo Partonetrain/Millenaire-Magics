@@ -1,0 +1,25 @@
+{
+  "color": "#f800f8",
+  "containers": [
+  ],
+  "equivalent_fluids": [
+    {"id":"create:potion","required":false},
+    {"id":"cofh_core:potion","required":false},
+    {"id":"immersiveengineering:potion","required":false}
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "item": "minecraft:potion"
+  },
+  "preserved_components_from_item": [
+    "minecraft:potion_contents",
+    "moonlight:bottle_type",
+    "origins:is_extended_by_cleric"
+  ],
+  "emissivity": 5,
+  "still_texture": "moonlight:block/soft_fluids/potion_still",
+  "translation_key": "item.minecraft.potion",
+  "use_texture_from": "create:potion",
+  "from_mod": "none"
+}
+

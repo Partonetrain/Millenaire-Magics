@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_stew"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:baked_cod_stew"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:chicken_soup"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:noodle_soup"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "arsdelight:wilden_stew"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:fried_rice"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "mm:soup"
+  }

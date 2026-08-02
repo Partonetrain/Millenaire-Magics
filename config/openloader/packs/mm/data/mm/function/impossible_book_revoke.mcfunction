@@ -1,0 +1,1 @@
+advancement revoke @a[limit=1,advancements={mm:impossible_book=true}] only mm:impossible_book

@@ -1,0 +1,21 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Can't find where you put your blocks? Press",
+    "type": "text",
+    "extra": [
+      {
+        "keybind": "key.findme.search"
+      },
+      {
+        "text": " while scrolling over an item to find the same item, or ."
+      },
+      {
+        "key.findme.pull_stack": "key.findme.search"
+      },
+      {
+        "text": " to pull a stack to you (within 4 blocks of the storage block)."
+      }
+    ]
+  }
+}

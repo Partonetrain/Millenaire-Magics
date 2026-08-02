@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": "5 Days",
+        "description": "5 days have gone by. Monster girls (and/or boys) may start to appear...",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "mm:root",
+    "criteria": {
+        "day": {
+            "trigger": "trains_tweaks:day",
+            "conditions": {
+                "day": {
+                    "min": 5
+                }
+            }
+        }
+    },
+    "sends_telemetry_event": false
+}

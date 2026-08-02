@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "millenaire:path_ochre_tiles",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_ochre_tiles_slabs",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_sandstone",
+      "required": false
+    },
+    {
+      "id": "millenaire:path_sandstone_slab",
+      "required": false
+    }
+  ]
+}

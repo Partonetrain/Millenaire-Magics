@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "the_beyond:gellid_void_bucket"
+    }
+  ],
+  "id": "malum:weeping_well",
+  "structure": {
+    "key": "malum:weeping_well"
+  }
+}

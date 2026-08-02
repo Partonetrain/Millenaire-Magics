@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    " a ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "cosmeticarmoursmod:cloth_black"
+    },
+    "b": {
+      "item": "cosmeticarmoursmod:cloth_green"
+    }
+  },
+  "result": {
+    "id": "cosmeticarmoursmod:witches_hat_helmet",
+    "count": 1
+  }
+}

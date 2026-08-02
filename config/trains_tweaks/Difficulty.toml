@@ -1,0 +1,32 @@
+#If set to false, the 0.5x (Easy) or 1.5x (Hard) multipliers will not be applied to incoming damage to players
+#There are many other, more interesting ways the difficulty setting matters - see below options
+"Damage Scaling" = false
+#This is a constant modifier to Regional Difficulty
+#This value is added to the vanilla calculation. Higher values are more difficult. End result will not go below 0
+#See https://minecraft.wiki/w/Difficulty#Regional_difficulty for more information on calculation and effects
+# Default: 0.0
+# Range: -10.0 ~ 10.0
+"Regional Difficulty Mod" = 0.0
+#This is a constant modifier to Special Multiplier AKA Clamped Regional Difficulty
+#This value is added to the vanilla calculation (which is influenced by Regional Difficulty). Higher values are more difficult. End result will not go below 0
+#See https://minecraft.wiki/w/Difficulty#Clamped_regional_difficulty for more information on calculation and effects
+# Default: 0.0
+# Range: -5.0 ~ 5.0
+"Special Multiplier Mod" = 0.0
+#Whether or not to enable the tweaks in this feature
+"Difficulty Tweaks" = true
+#UUIDs of players, separated by comma, who will have damage received and/or damage output modifiers applied
+#This can be used to make the game harder or easier for certain players
+#Use a tool like mcuuid.net to find UUIDs
+"Modified Difficulty Players" = "380df991-f603-344c-a090-369bad2a924a"
+#A multiplier for damage output from players in the Modified Difficulty Players list
+#Leave at 1.0 for normal damage
+#This is applied after armor reduction
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+"Modified Difficulty Damage Multiplier" = 0.5
+#A multiplier for damage received for players in the Modified Difficulty Players list
+#Leave at 1.0 for normal damage
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+"Modified Difficulty Damage Received Multiplier" = 2.0

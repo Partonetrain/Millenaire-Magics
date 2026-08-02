@@ -1,0 +1,46 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:iron_sword"
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:blaze"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a Blaze with an Iron Sword. \"Can't you see I'm blazing! Still my heart is blazing!\""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "text": "Outrage Mk. 2"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "blaze"
+    ]
+  ],
+  "rewards": {
+    "function": "mm:outragemk2"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,49 @@
+#Whether or not to enable tweaks related to throwing things and projectiles
+"Yeet Tweaks" = true
+#If enabled, you will be able to right-click the air with a fire charge to throw it
+#However, the projectile is inaccurate and unable to ignite blocks when spawned this way
+#Note: this re-uses the blaze attack sound event, so subtitles will be inaccurate
+#If Amendments is installed and its fire_charges_throwable config is enabled, this tweak will be disabled
+"Throw Fire Charges" = false
+#Cooldown in ticks between throwing fire charges (assuming Throw Fire Charges is true)
+# Default: 10
+# Range: 0 ~ 1200
+"Fire Charges Cooldown" = 10
+#If > 0, snowballs inflict this many ticks of freeze when hitting an entity
+#If Amendments is installed and its freeze_ticks config is > 0, this tweak will be disabled
+# Default: 40
+# Range: 0 ~ 2000
+"Snowball Freeze Ticks" = 40
+#The maximum amount of freeze ticks consecutive snowball projectiles can inflict (assuming Snowball Freeze Ticks > 0)
+# Default: 500
+# Range: 0 ~ 2000
+"Snowball Max Freeze" = 500
+#The amount of experience points granted from thrown Bottles o' Enchanting
+#Set to -1 to use the vanilla value (random amount between 3 and 13)
+# Default: 10
+# Range: -1 ~ 2477
+"Experience Bottle Amount" = 10
+#If true, Wind Charge explosions will not interact with blocks such as trapdoors and levers
+#It will still cause damage and knockback
+"Prevent Wind Interactions" = false
+#If set to true, any projectile tagged with minecraft:impact_projectilesbreaks Pointed Dripstone
+#(as opposed to only Tridents when they have the tag)
+"Any Impact Projectile Breaks Dripstone" = true
+#If set to true, any projectile can be reflected by hitting it with melee or another projectile, similar to Ghast Fireballs
+#This is a "just for fun" option
+#This removes the check for the minecraft:redirectable_projectile tag and effectively makes said tag useless
+"Reflect Any Projectile" = false
+#Fixes MC-270834: https://bugs.mojang.com/browse/MC-270834
+#If disabled and Reflect Any Projectile is enabled (or arrows/tridents are added to minecraft:redirectable_projectile via datapack), you will be able to pick up reflected arrows/tridents. Recommended you keep enabled
+"Fix Redirected Arrows" = true
+#If set to true, critical arrows will deal 1.5x their damage rather than a random amount of damage between (0 and (damage/2)+2)
+#This config respects the Crit Multiplier option if the Kritz feature is enabled
+#Leave as default (false) for vanilla behavior
+#If you have Zenith/Apothic Attributes this should be set to false
+"Normalize Ranged Crits" = true
+#The default enchantability of Bows and Crossbows
+#This is set to 1 in vanilla which is REALLY low. For reference, stone tools, which are the least enchantable tier, have an enchantability of 5
+#Modded bows that don't override this will be affected by it. Leave as default for vanilla value
+# Default: 1
+# Range: 1 ~ 50
+"Projectile Weapon Enchantability" = 5

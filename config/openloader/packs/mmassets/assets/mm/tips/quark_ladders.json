@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Ladders can be placed on other ladders to drop down automatically. They do not need blocks to support them as long as the top ladder is attached to a block."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:turtle_helmet",
+    "cosmeticarmoursmod:turtle_armour_chestplate",
+    "cosmeticarmoursmod:turtle_armour_leggings",
+    "cosmeticarmoursmod:turtle_armour_boots",
+    "cosmeticarmoursmod:reclaimed_gilded_netherite_crown_helmet",
+    "environmental:yak_pants"
+  ],
+  "remove": [
+    "minecraft:potion"
+  ]
+}

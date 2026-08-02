@@ -1,0 +1,1 @@
+loot spawn ^0 ^0 ^-3 loot mm:disc/memory_entry_disc

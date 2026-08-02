@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 7,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:random"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:soup"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "realmrpg_balloons:chests/rare_balloon"
+}

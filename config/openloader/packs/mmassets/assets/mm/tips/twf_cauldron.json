@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Cauldrons with water in them have a comparator output based on purity instead of on water level."
+  }
+}

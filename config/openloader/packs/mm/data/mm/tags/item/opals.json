@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "opalescence:budding_opal",
+        "opalescence:opal",
+        "opalescence:moonlit_opal",
+        "opalescence:unpleasant_opal",
+        "opalescence:opal_crystal_block",
+        "opalescence:moonlit_opal_crystal_block",
+        "opalescence:unpleasant_opal_crystal_block"
+    ]
+}

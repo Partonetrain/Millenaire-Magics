@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vista_plus:url_cassette_maker"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "vista_plus:blocks/url_cassette_maker"
+}

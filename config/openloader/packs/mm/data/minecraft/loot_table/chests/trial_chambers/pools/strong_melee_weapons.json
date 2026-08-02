@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:strong_melee_weapons",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "minecraft:diamond_axe"
+          },
+          "modifier": {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": {
+                "min": 1,
+                "max": 2
+              },
+              "minecraft:unbreaking": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:farmers_delight_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": {
+                "min": 1,
+                "max": 3
+              },
+              "minecraft:unbreaking": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/strong_melee_weapons"
+}

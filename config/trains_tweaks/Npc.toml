@@ -1,0 +1,33 @@
+#Whether or not to enable any of the tweaks relating to npcs/villagers/illagers
+"Enable NPC tweaks" = false
+#If enabled, items that all villagers want to pick up will be converted to the item tag TagKey[minecraft:item / trains_tweaks:villager_wants]
+#This tag includes all the usual items by default EXCEPT for torchflowers and pitcher pods (because there is no reason for villagers to farm these)
+#Farmer villagers are hardcoded to want Wheat Seeds, Wheat, Beetroot Seeds, and Bone Meal in addition to these items
+#This functionality disables itself if Smarter Farmers is installed
+"Use Wanted Items Tag" = false
+#If enabled, illagers will be allowed to attack baby villagers
+#Only enable this if you are evil
+"Illagers Attack Babies" = false
+#If enabled, Hero of the Village will not be granted to players that killed a raider in a raid
+#Note that this makes the effect unobtainable and the How Did We Get Here advancement unachievable (unless you have a mod that gives it)
+"Disable Hero of the Village" = false
+#If this is not 0, Enchanted Books sold by villagers will be limited to this level
+#This cannot be used to increase the levels at which enchanted books are sold
+# Default: 0
+# Range: 0 ~ 255
+"Enchanted Book Level Limit" = 0
+#The following options can be used to configure the reputation mechanic with villagers
+#These options use this format: value (amount gained), weight (multiplier in price calculation), maximum, decay per in-game day, decay per transfer (share penalty)
+#The default values are identical to vanilla. All values besides weight should be positive
+#See https://minecraft.wiki/w/Villager#Gossiping for more information on how gossip and reputation works
+#The values used by major negative gossip from killing a nearby villager
+"Major Negative Gossip" = "25, -5, 100, 10, 10"
+#The values used by minor negative gossip from attacking a nearby villager
+"Minor Negative Gossip" = "25, -1, 200, 20, 20"
+#The values used by minor positive gossip from curing a villager
+"Minor Positive Gossip" = "25, 1, 200, 1, 5"
+#The values used by major positive gossip from curing a villager
+#Since the decay per transfer is greater than its max amount, this gossip will never be shared by default
+"Major Positive Gossip" = "20, 5, 20, 0, 100"
+#The values used by trade gossip from trading with a villager
+"Trading Gossip" = "2, 1, 25, 2, 20"

@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "minecraft:large_fern"
+    }
+  ],
+  "id": "environmental:log_cabin",
+  "structure": {
+    "key": "environmental:log_cabin"
+  }
+}

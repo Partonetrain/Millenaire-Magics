@@ -1,0 +1,2 @@
+#If true show the message when you use the Crystal Wing in the action bar instead of the chat
+showInActionBar = true

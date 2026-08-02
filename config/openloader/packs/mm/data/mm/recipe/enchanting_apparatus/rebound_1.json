@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:rebound",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "tag": "c:gems/source"
+    }
+  ],
+  "sourceCost": 2000
+}

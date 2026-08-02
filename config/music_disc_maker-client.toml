@@ -1,0 +1,16 @@
+#Playback volume multiplier for custom discs (relative to the Records sound slider).
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+volumeMultiplier = 1.0
+#Maximum number of custom discs playing simultaneously (memory protection).
+# Default: 16
+# Range: 1 ~ 64
+maxConcurrent = 1
+#Distance in blocks at which custom disc audio fades to silence (vanilla discs use 16).
+# Default: 64
+# Range: 16 ~ 256
+playbackRange = 64
+#Upper cap for the Enhanced Jukebox per-block range setting (blocks). Effective range = min(block setting, this). Separate from playbackRange.
+# Default: 256
+# Range: 16 ~ 256
+maxPlaybackRange = 256

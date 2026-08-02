@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:impaling",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "tag": "c:foods/raw_fish"
+    },
+    {
+      "tag": "c:foods/raw_fish"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 2000
+}

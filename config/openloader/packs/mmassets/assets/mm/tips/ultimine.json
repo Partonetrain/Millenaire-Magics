@@ -1,0 +1,15 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Press and hold ",
+    "type": "text",
+    "extra": [
+      {
+        "keybind": "key.ftbultimine"
+      },
+      {
+        "text": " with a full Thirst bar to Ultimine (AKA VeinMine). Break up to 16 blocks at once!"
+      }
+    ]
+  }
+}

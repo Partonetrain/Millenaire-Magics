@@ -1,0 +1,20 @@
+{
+    "type": "ars_nouveau:enchanting_apparatus",
+    "keepNbtOfReagent": true,
+    "pedestalItems": [
+      {
+        "item": "minecraft:ender_eye"
+      },
+      {
+        "item": "minecraft:ender_eye"
+      }
+    ],
+    "reagent": {
+      "item": "ars_nouveau:warp_scroll"
+    },
+    "result": {
+      "count": 1,
+      "id": "ars_nouveau:stable_warp_scroll"
+    },
+    "sourceCost": 0
+  }

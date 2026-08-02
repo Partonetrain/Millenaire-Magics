@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "ars_nouveau:purple_archwood_sapling",
+    "ars_nouveau:bastion_pod",
+    "minecraft:pale_oak_sapling",
+    "ars_nouveau:sourceberry_bush",
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony",
+    "environmental:pine_sapling",
+    "quark:ancient_sapling",
+    "quark:blue_blossom_sapling",
+    "quark:lavender_blossom_sapling",
+    "quark:orange_blossom_sapling",
+    "quark:yellow_blossom_sapling",
+    "quark:red_blossom_sapling",
+    "malum:azure_runewood_sapling",
+    "malum:soulwood_sapling"
+  ]
+}

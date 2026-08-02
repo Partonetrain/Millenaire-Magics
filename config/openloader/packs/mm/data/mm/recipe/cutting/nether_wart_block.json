@@ -1,0 +1,20 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "minecraft:nether_wart_block"
+      }
+    ],
+    "result": [
+      {
+        "chance": 0.1,
+        "item": {
+          "count": 1,
+          "id": "minecraft:nether_wart"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

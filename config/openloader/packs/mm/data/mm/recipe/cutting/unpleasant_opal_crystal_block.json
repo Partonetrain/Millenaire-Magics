@@ -1,0 +1,20 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "opalescence:unpleasant_opal_crystal_block"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 4,
+          "id": "opalescence:unpleasant_opal_crystal"
+        }
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    }
+  }

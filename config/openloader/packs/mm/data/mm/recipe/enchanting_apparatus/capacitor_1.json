@@ -1,0 +1,17 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:capacitor",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "malum:raw_brilliance"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "c:gems/source"
+    }
+  ],
+  "sourceCost": 3000
+}

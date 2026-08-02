@@ -1,0 +1,14 @@
+#If enabled, bees will not lose their stinger when they attack
+"Bees Keep Stinger" = true
+#Whether or not to enable any tweaks relating to bees
+"Bee Tweaks" = true
+#If enabled, campfires below beehives/bee nests are not necessary to prevent bees from becoming angry
+"Always Sedated" = false
+#The number of honey combs dropped when shearing a beehive/bee nest
+# Default: 3
+# Range: 1 ~ 64
+"Honeycomb Dropped" = 3
+#The chance (1/x) that the honey level of a beehive/bee nest is incremented by 2 instead of 1 when a pollinated bee exits a beehive
+# Default: 100
+# Range: 1 ~ 100
+"Honey Level Bonus" = 50

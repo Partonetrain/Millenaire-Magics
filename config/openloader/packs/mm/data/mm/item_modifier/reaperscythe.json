@@ -1,0 +1,50 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "quark:rune_color": "red",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "ars_nouveau:reactive_caster": {
+        "spells": {
+          "0": {
+            "color": {
+              "b": 10,
+              "g": 10,
+              "r": 10,
+              "id": "ars_nouveau:constant"
+            },
+            "name": "Arbiter Sign & Unholy Diver",
+            "particleTimeline": {},
+            "recipe": [
+              "ars_nouveau:glyph_touch",
+              "ars_nouveau:glyph_summon_vex",
+              "ars_nouveau:glyph_fangs"
+            ],
+            "sound": {}
+          }
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "ars_nouveau:reactive": 5,
+      "malum:rebound": 3,
+      "malum:spirit_plunder": 2
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": "Elegant Reaper's Scythe"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      "\"I've been very lucky to meet people who've accepted me. I, too, used to carry myself like some sort of demon. Even though I was surrounded by accepting people.\""
+    ],
+    "mode": "append"
+  }
+]

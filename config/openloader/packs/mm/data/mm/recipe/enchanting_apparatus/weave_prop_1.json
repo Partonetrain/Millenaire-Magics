@@ -1,0 +1,17 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:weavers_propagation",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 2000
+}

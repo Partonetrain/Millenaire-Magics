@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Specific Protection enchantments are no longer mutually exclusive with eachother. General Protection remains exclusive from them, though."
+  }
+}

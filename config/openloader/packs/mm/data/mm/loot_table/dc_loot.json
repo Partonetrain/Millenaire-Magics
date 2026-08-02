@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dungeoncrawl:random_item",
+              "loot_level": 6
+            }
+          ],
+          "name": "minecraft:air"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:dc_loot"
+}

@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "ars_nouveau:wilden_wing"
+    },
+    "title": "Stalker Horde",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "mm:day_7",
+  "criteria": {
+    "random": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.000001
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "day": {
+      "trigger": "trains_tweaks:day",
+      "conditions": {
+        "day": {
+          "min": 7
+        }
+      }
+    },
+    "stat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:play_time",
+                "value": {
+                  "min": 168000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mm:stalker_horde"
+  }
+}

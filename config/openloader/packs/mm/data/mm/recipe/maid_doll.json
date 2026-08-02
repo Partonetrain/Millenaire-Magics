@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cosmeticarmoursmod:maid_bonnet_black_helmet"
+    },
+    {
+      "item": "cosmeticarmoursmod:maid_outfit_black_chestplate"
+    },
+    {
+      "item": "cosmeticarmoursmod:maid_outfit_black_leggings"
+    },
+    {
+      "item": "cosmeticarmoursmod:maid_outfit_black_boots"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "grimoireofgaia:doll_maid"
+  }
+}

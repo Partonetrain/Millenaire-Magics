@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "grimoireofgaia:totem_of_undying_fragment"
+    },
+    {
+      "item": "grimoireofgaia:totem_of_undying_fragment"
+    },
+    {
+      "item": "grimoireofgaia:totem_of_undying_fragment"
+    },
+    {
+      "item": "grimoireofgaia:totem_of_undying_fragment"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:totem_of_undying"
+  }
+}

@@ -1,0 +1,31 @@
+#Whether or not to enable any tweaks relating to dimensions and portals
+"Interdimensional Tweaks" = true
+#Whether or not the tag trains_tweaks:nether_portal_frame functions
+#This option outright replaces the predicate, meaning it could cause issues if other mods attempt to add different portal frame blocks
+#You can remove obsidian by replacing this tag via datapack
+"Nether Portal Frame tags" = true
+#If set to true, any dimension in the dimension type tag trains_tweaks:supports_nether_portals will be able to have Nether Portals constructed in it
+#Nether Portals in the Nether will still return you to the Overworld. Allowing creation of Nether Portals in non-Overworld dimensions by adding to the tag has the potential for sequence breaks and other weirdness and isn't recommended
+"Nether Portal Dimensions" = false
+#The chance that a thrown Eye of Ender will implode/shatter and not drop its item
+#1 = 10% chance, 2 = 20% chance, etc. Leave as default to use the vanilla chance
+# Default: 2
+# Range: 0 ~ 10
+"Eye of Ender Implode Chance" = 0
+#If true, effects defined in Effect Restrictions will be removed from players that do not yet have the specified advancement
+#If you want to ban an effect in a dimension entirely, create an impossible advancement
+"Enable Effect Restrictions" = true
+#Format is effectId,dimensionId,unlockingAdvancementId;effectId,dimensionTypeId,unlockingAdvancementId;
+#Dimension Id is not to be confused with Dimension Type ID
+"Effect Restrictions" = "ars_nouveau:flight,minecraft:overworld,minecraft:adventure/boss;ars_nouveau:flight,minecraft:the_nether,minecraft:nether/summon_wither;ars_nouveau:flight,minecraft:the_end,minecraft:end/levitate;"
+#The message sent to players when an effect is removed due to a restriction
+#You can use the placeholders $EFFECT, $DIMENSION, and $ADVANCEMENT, but they must not be the very first or very last part of the string
+#$DIMENSION expects to have a lang key in the format "dimension.namespace_here.dimension_type_here"; Train's Tweaks provides these for the vanilla dimensions
+#Set to blank for no message
+"Effect Restriction Message" = "A mysterious voice whispers to you: You cannot have the $EFFECT effect in $DIMENSION until you unlock the advancement $ADVANCEMENT."
+#End Gateways will spawn at these block positions after the Ender Dragon is defeated for the first time
+#This disables the regular gateway spawn mechanics; Leave as default (0,0,0) for vanilla gateway mechanics
+#The format is x,y,z;x,y,z;x,y,z;x,y,z
+#For example: 0, 72, -20; 0, 72, 20; -20, 72, 0; 20, 72, 0; spawns 4 gateways around the exit portal
+#If Yung's Better End Island is installed and its useVanillaEndGateways option is false, this will spawn the YBEI version of the gateway in these positions. Keep in mind these are slightly larger than the vanilla gateways
+"Dragon Fight Gateway Spawns" = "0, 72, -20; 0, 72, 20; -20, 72, 0; 20, 72, 0;"

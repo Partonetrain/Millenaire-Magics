@@ -1,0 +1,27 @@
+#Whether or not to enable attack speed tweaks
+"Attack Speed tweaks" = true
+#If enabled, Haste and Mining Fatigue no longer modify the minecraft:generic.attack_speed attribute
+#Instead, they properly affect the minecraft:player.block_break_speed attribute
+#The mining speed calculation will no longer consider the presence of these effects, only the attribute they modify
+#However, as a side effect, Conduit Power will no longer grant a Haste-like effect
+#This makes Haste and Mining Fatigue behave similar to Bedrock Edition
+"Fix Effects" = true
+#If Fix Effects is enabled, this is the value of the Haste attribute modifier
+#Mining Fatigue's modifier will have the negative version of this value
+# Default: 0.2
+# Range: 0.01 ~ 1.0
+"Fixed Effects Modifier" = 0.2
+#If enabled, the effects trains_tweaks:dexterity and trains_tweaks:clumsy will be registered
+#They increase/decrease the minecraft:generic.attack_speed attribute by 0.1
+#There is no potion defined for these, and they are simply substitutes for the attack speed part of Haste/Fatigue that is disabled by Fix Effects
+#However, this option does not explicitly require Fix Effects to be enabled
+"Add Effects" = true
+#If enabled, Haste will be granted by the Conduit in addition to Conduit Power
+#This makes up for the fact that Conduit Power no longer influences block break speed if Fix Effects is enabled
+"Haste from Conduit" = true
+#If > 2, Elder Guardians will grant Mining Fatigue with this amplifier
+#This makes up for a potentially weaker Mining Fatigue effect from Fixed Effects being enabled
+#This is recommended to be set to at least 3 if Fix Effects is enabled and Fix Effects Modifier is set to 0.2
+# Default: 2
+# Range: 2 ~ 9
+"Elder Guardian Fatigue Amplifier" = 3

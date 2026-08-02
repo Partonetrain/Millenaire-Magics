@@ -1,0 +1,8 @@
+#Whether or not to enable any of the tweaks relating to vehicles
+"Vehicle Tweaks" = true
+#If true, players will instantly break vehicles such as boats and minecarts, even with their fists
+#This is similar to what happens in Creative mode, except the vehicle drops its item
+"Instant Break" = true
+#If true, boats breaking lily pads is replaced by boats breaking any block in the tag trains_tweaks:boat_breaks
+#This version of the mechanic checks a 3x2x3 area around occupied boats for said blocks, so boats aren't slowed down by lily pads (breaking them before the boat makes contact)
+"Better Boat Breaking" = true

@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "quark:raw_iron_bricks",
+        "blockbox:iron_plate",
+        "blockbox:corrugated_iron_plate",
+        "blockbox:iron_plate_pillar",
+        "blockbox:iron_plate_door",
+        "blockbox:iron_tread_plate"
+    ]
+}

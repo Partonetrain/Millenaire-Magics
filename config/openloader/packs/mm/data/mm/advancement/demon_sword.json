@@ -1,0 +1,63 @@
+{
+  "parent": "mm:pancake",
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword",
+            "components": {
+              "quark:rune_color": "red",
+              "minecraft:unbreakable": {
+                "show_in_tooltip": true
+              },
+              "ars_nouveau:reactive_caster": {
+                "spells": {
+                  "0": {
+                    "color": {
+                      "b": 0,
+                      "g": 0,
+                      "r": 255,
+                      "id": "ars_nouveau:constant"
+                    },
+                    "name": "Blood Curse",
+                    "particleTimeline": {},
+                    "recipe": [
+                      "ars_nouveau:glyph_touch",
+                      "toomanyglyphs:glyph_filter_monster",
+                      "ars_nouveau:glyph_hex",
+                      "ars_nouveau:glyph_wither"
+                    ],
+                    "sound": {}
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain a Demon Blood Sword"
+    },
+    "icon": {
+      "count": 1,
+      "id": "cosmeticarmoursmod:devil_horns_helmet"
+    },
+    "title": {
+      "text": "Demon Blood Sword"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "sword"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

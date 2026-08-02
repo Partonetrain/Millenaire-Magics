@@ -1,0 +1,54 @@
+{
+  "description": "for functions do not use",
+  "supported_items": "minecraft:barrier",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:enchantment_active_check",
+          "active": false
+        },
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": false,
+          "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+          "knockback_multiplier": 1.2,
+          "radius": 3,
+          "create_fire": false,
+          "block_interaction": "trigger",
+          "small_particle": {
+            "type": "minecraft:gust_emitter_small"
+          },
+          "large_particle": {
+            "type": "minecraft:gust_emitter_large"
+          },
+          "sound": "minecraft:entity.wind_charge.wind_burst"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:enchantment_active_check",
+          "active": false
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "notenoughtrials:storm_front_kill"
+        }
+      }
+    ]
+  }
+}

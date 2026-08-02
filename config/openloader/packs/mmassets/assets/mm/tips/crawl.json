@@ -1,0 +1,15 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Press ",
+    "type": "text",
+    "extra": [
+      {
+        "keybind": "key.parcool.Crawl"
+      },
+      {
+        "text": " to crawl. You can fit into 1-block-tall spaces this way."
+      }
+    ]
+  }
+}

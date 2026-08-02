@@ -1,0 +1,10 @@
+{
+  "type": "sawmill:woodcutting",
+  "ingredient_count": 1,
+  "ingredient": {
+    "tag": "c:glass_blocks"
+  },
+  "result": {
+    "id": "minecraft:glass_bottle"
+  }
+}

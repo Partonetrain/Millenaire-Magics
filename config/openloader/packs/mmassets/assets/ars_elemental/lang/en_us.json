@@ -1,0 +1,32 @@
+{
+  "item.ars_elemental.curio_bag": "Mage's Bag",
+  "ars_elemental.adv.desc.curio_bag": "Acquire a Mage's Bag",
+  "item.ars_elemental.caster_bag": "Archmage's Bag",
+  "ars_elemental.adv.desc.caster_bag": "Acquire an Archmage's Bag",
+
+  "key.ars_elemental.open_pouch": "Open Mage's Bag",
+
+  "effect.ars_elemental.enderference": "Enderference",
+  "effect.ars_elemental.enderference.description": "Makes the target unable to teleport or be teleported.",
+  "effect.ars_elemental.watery_grave": "Watery Grave",
+  "effect.ars_elemental.watery_grave.description": "Makes the target sink and run out of air quicker.",
+  "effect.ars_elemental.mana_shield": "Mana Shield",
+  "effect.ars_elemental.mana_shield.description": "Use mana to mitigate damage taken and add a chance to not suffer from negative effects.",
+  "effect.ars_elemental.static_charged": "Static Charged",
+  "effect.ars_elemental.static_charged.description": "Calls a lightning to hit the afflicted when the duration ends.",
+  "effect.ars_elemental.hellfire": "Magic Burn",
+  "effect.ars_elemental.hellfire.description": "The magic flames burns even nether creatures making them vulnerable to fire. It slighly decrease damage taken from earth, but let magic damage pierce through some of the armor.",
+  "effect.ars_elemental.life_link": "Life Linked",
+  "effect.ars_elemental.life_link.description": "Caster will split incoming damage with the target and the target will split incoming healing with the caster. Using Cut will dispel the effect on both sides.",
+  "effect.ars_elemental.enthralled": "Enthralled",
+  "effect.ars_elemental.enthralled.description": "Enthralled mobs won't attack the caster but defend them.",
+  "effect.ars_elemental.hymn_of_order": "Hymn of Order",
+  "effect.ars_elemental.hymn_of_order.description": "Unobtainable potion, for Admin use. Sets the punished player's mana to 1 and disables spellcasting, greatly reducing their chances to create chaos in the server.",
+  "effect.ars_elemental.venom": "Envenomed",
+  "effect.ars_elemental.venom.description": "The target is poisoned with a deadly venom and takes more damage from poison spores.",
+  "effect.ars_elemental.frozen": "Frozen",
+  "effect.ars_elemental.frozen.description": "The target is frozen and can't heal, next fire damage taken is increased but dispels the effect.",
+  "effect.ars_elemental.repel": "Repelled",
+  "effect.ars_elemental.repel.description": "Knocked away by a Repulsion Ritual.",
+  "block.ars_elemental.flashpine_pod": "Flashpine"
+}

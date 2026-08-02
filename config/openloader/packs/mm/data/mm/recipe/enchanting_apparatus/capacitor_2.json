@@ -1,0 +1,17 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:capacitor",
+  "level": 2,
+  "pedestalItems": [
+    {
+      "item": "malum:block_of_brilliance"
+    },
+    {
+      "item": "farmersdelight:potato_crate"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 6000
+}

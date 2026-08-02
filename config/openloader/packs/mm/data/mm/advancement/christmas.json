@@ -1,0 +1,37 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "date": {
+      "trigger": "trains_tweaks:system_date",
+      "conditions": {
+        "month": 12,
+        "day": 25,
+        "year": {
+          "min": 2000,
+          "max": 3000
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:snow_block"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Merry Christmas!"
+    },
+    "description": {
+      "text": "Merry Christmas! Have a present."
+    },
+    "hidden": true
+  },
+  "rewards": {
+    "loot": [
+      "mm:christmas"
+    ]
+  },
+  "sends_telemetry_event": false
+}

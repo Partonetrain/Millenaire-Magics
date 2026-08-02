@@ -1,0 +1,5 @@
+[general]
+	#Disable block damage on Creeper explosion.
+	disableBlockDamage = true
+	#Disable dropped item damage on Creeper explosion.
+	disableItemDamage = true

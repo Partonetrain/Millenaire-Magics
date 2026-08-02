@@ -1,0 +1,47 @@
+{
+  "parent": "mm:moebius",
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "quark:rune_color": "light_gray",
+              "minecraft:unbreakable": {
+                "show_in_tooltip": true
+              },
+              "minecraft:enchantments": {
+                "levels": {
+                  "minecraft:sharpness": 7
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain Lucky Seven. Now you can smash Flame Clocks!"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "text": "Lucky Seven"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "sword"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

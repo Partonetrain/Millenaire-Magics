@@ -1,0 +1,23 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:stripped_oak_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cut_sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:smooth_sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:silence_armor_trim_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:ancient_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:redstone_randomizer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:comparator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:repeater"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:bundled_cable_post"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:bundled_cable_relay_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:redwire_post_relay_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:redwire_post_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:redwire_post"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:pulse_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:latch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:stone_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:nor_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:or_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morered:xor_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

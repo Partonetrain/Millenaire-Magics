@@ -1,0 +1,52 @@
+{
+  "parent": "mm:crown",
+  "criteria": {
+    "pancake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "supplementaries:pancake"
+          }
+        ]
+      }
+    },
+    "bacon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:cooked_bacon"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain Cooked Bacon and a Pancake"
+    },
+    "icon": {
+      "count": 1,
+      "id": "supplementaries:pancake"
+    },
+    "title": {
+      "text": "Makin' Bacon Pancakes"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "pancake"
+    ],
+    [
+      "bacon"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": false
+}

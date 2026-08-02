@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:husk_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:drowned_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:stray_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:bogged_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "variantsandventures:gelid_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "variantsandventures:murk_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "variantsandventures:thicket_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "variantsandventures:verdant_spawn_egg"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "quark:misc/monster_box_spawns"
+}

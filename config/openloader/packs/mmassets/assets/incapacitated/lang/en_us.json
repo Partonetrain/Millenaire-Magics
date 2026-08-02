@@ -1,0 +1,4 @@
+{
+    "effect.incapacitated.incap_slow.description": "Cannot move around due to being downed.",
+    "effect.incapacitated.incap_weak.description": "Cannot deal damage due to being downed."
+}

@@ -1,0 +1,243 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:decorated_pot_sherds",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:trim_templates",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "c:eggs",
+          "expand": true,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:smithing_template_rune",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:ominous_bottle_amplifier": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cinnabar",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:tiny_potato",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:bottled_cloud",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:coal_fragment",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:honeydew",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:nether_wart_jam",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:antique_ink",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:wilden_part",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:source_codes",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:random",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 9,
+          "name": "vista:cassette",
+          "functions": [
+            {
+              "function": "vista:random_tape"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "grimoireofgaia:bag_record"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_old",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_egg"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quark:slime_in_a_bucket",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "environmental:slabfish_bucket",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sulfur_cube_bucket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:crab_bucket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:axolotl_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:bucket_entity_data": {
+                  "Variant": 4
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:rotting_essence",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:rotten_heart",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:living_flesh",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:giga_gear",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.33
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:br"
+}

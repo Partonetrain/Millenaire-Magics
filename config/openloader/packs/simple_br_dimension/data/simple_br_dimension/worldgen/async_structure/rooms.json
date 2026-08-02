@@ -1,0 +1,19 @@
+{
+  "id": "simple_br_dimension:rooms",
+  "dimension": "simple_br_dimension:simple_br_dimension",
+  "start_pool": "simple_br_dimension:start",
+  "fallback_pool": "simple_br_dimension:ends",
+
+  "soft_radius_chunks": 16,
+  "plan_horizon_chunks": 160,
+
+  "budgets": {
+    "max_steps": 64,
+    "max_open_connectors": 64
+  },
+
+  "gen_y": { "mode": "fixed", "value": 20 },
+
+  "spacing": 67,
+  "piece_rules.deny_overlap_tile_entities": true
+}

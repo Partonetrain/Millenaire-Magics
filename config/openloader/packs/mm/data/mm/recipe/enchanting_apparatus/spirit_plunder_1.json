@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:spirit_plunder",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "tag": "malum:aspected_spirits"
+    },
+    {
+      "tag": "malum:aspected_spirits"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 3000
+}

@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:melee_weapons",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#tfxnet:twilight_forest_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": {
+                "min": 1,
+                "max": 2
+              },
+              "minecraft:fortune": 1
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "minecraft:iron_axe"
+          },
+          "modifier": {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": {
+                "min": 1,
+                "max": 2
+              },
+              "minecraft:unbreaking": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:mowzies_loot"
+          },
+          "modifier": {
+            "function": "minecraft:enchant_with_levels",
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:aether_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": {
+                "min": 1,
+                "max": 2
+              },
+              "minecraft:unbreaking": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:farmers_delight_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": {
+                "min": 1,
+                "max": 3
+              },
+              "minecraft:unbreaking": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/melee_weapons"
+}

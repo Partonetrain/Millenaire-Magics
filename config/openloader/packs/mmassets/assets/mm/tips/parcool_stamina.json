@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Performing ParCool! actions will drain your stamina. You move slower when your stamina is empty, so watch out."
+  }
+}

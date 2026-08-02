@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {"thirst:purity":3}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "parcool:energy_drink"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:milk_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:hot_cocoa"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:apple_cider"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:melon_juice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:source_berry_tea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:beer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:mead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:vodka"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:drink"
+}

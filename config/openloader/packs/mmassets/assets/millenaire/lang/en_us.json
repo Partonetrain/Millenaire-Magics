@@ -1,0 +1,35 @@
+{
+  "block.millenaire.mud_brick": "Sun-dried Brick",
+  "block.millenaire.mud_brick_stairs": "Sun-dried Brick Stairs",
+  "block.millenaire.mud_brick_slab": "Sun-dried Brick Slab",
+  "block.millenaire.mud_brick_wall": "Sun-dried Brick Wall",
+  "block.millenaire.mud_brick_seljuk_ornamented": "Seljuk Ornamented Sun-dried Brick",
+  "block.millenaire.mud_brick_seljuk_decorated": "Seljuk Decorated Sun-dried Brick",
+  "block.millenaire.thatch": "Wheat Thatch",
+  "block.millenaire.thatch_stairs": "Wheat Thatch Stairs",
+  "block.millenaire.thatch_slab": "Wheat Thatch Slab",
+
+  "block.millenaire.stained_glass_white": "Mosaic Glass (White)",
+  "block.millenaire.stained_glass_yellow": "Mosaic Glass (Yellow)",
+  "block.millenaire.stained_glass_yellow_red": "Mosaic Glass (Yellow & Red)",
+  "block.millenaire.stained_glass_red_blue": "Mosaic Glass (Red & Blue)",
+  "block.millenaire.stained_glass_green_blue": "Mosaic Glass (Green & Blue)",
+
+  "block.millenaire.path_dirt": "Dirt Village Path",
+  "block.millenaire.path_dirt_slab": "Dirt Village Path Slab",
+  "block.millenaire.path_gravel": "Gravel Village Path",
+  "block.millenaire.path_gravel_slab": "Gravel Village Path Slab",
+  "block.millenaire.path_slabs": "Stone Village Path",
+  "block.millenaire.path_slabs_slab": "Stone Village Path Slab",
+  "block.millenaire.path_ochre_tiles": "Ochre Tiles Village Path",
+  "block.millenaire.path_sandstone": "Sandstone Village Path",
+  "block.millenaire.path_ochre_tiles_slab": "Ochre Tiles Village Path Slab",
+  "block.millenaire.path_sandstone_slab": "Sandstone Village Path Slab",
+  "block.millenaire.path_gravel_slabs": "Gravel Slabs Village Path",
+  "block.millenaire.path_gravel_slabs_slab": "Gravel Slabs Village Path Slab",
+  "block.millenaire.path_snow": "Snow Village Path",
+  "block.millenaire.path_snow_slab": "Snow Village Path Slab",
+
+  "item.millenaire.travel_book": "Millénaire Guide",
+  "item.millenaire.wall_mayan_statue": "Wall Mayan Statue"
+}

@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:valuables_ores",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 6,
+              "max": 8
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#createxnet:loot_zinc"
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 12,
+              "max": 16
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#tfxnet:twilight_forest_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 6,
+              "max": 8
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:irons_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 6,
+              "max": 8
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:loot_lead"
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 6
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:loot_osmium"
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 9,
+              "max": 12
+            }
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:cnc_loot"
+          },
+          "modifier": {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 6
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/valuables_ores"
+}

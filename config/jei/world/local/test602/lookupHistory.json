@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"millenaire:wet_brick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:cotton"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:grapes"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:olive_tree_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:pistachios"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:pistachio_tree_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:turmeric"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:apple_tree_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

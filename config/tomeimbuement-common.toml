@@ -1,0 +1,3 @@
+#If true, the Imbuing Table can be used like usual (to overlevel an enchantment on a tool).
+#If false, the imbuing table can only be used to make Ancient Tomes
+allowNormalUsage = true

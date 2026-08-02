@@ -1,0 +1,25 @@
+{
+  "type": "dankstorage:upgrade",
+  "category": "equipment",
+  "group": "dank",
+  "key": {
+    "b": {
+      "item": "dankstorage:dank_1"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "dcd",
+    "cbc",
+    "dcd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dankstorage:dank_2"
+  }
+}

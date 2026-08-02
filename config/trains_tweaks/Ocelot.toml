@@ -1,0 +1,16 @@
+#Whether or not to enable ocelot tweaks
+"Ocelot Tweaks" = true
+#Whether or not to make ocelots tameable into cats by making them trust you
+#Note that this does not work exactly like pre-1.14 to ensure the Two by Two advancement is possible
+"Tame Ocelots" = true
+#If true, cats that were tamed from ocelots will preserve the size of an ocelot (Cats are usually 80% the size of ocelots)
+#This uses the minecraft:generic.scale attribute so it has the side effect of increasing the hitbox slightly
+"Preserve Ocelot Scale" = false
+#Force tamed ocelots to be a specific variant of cat
+#set to 'none' to disable
+#See https://minecraft.wiki/w/Cat#Entity_data for valid values
+"Force Cat Variant" = "none"
+#If true, ocelots will attempt to hunt fish and rabbits in addition to chickens and baby turtles
+#This is to make them more interesting / give them a use in farms
+#Too add more mobs, use the tag trains_tweaks:ocelot_hunt_targets
+"Ocelots Hunt" = true

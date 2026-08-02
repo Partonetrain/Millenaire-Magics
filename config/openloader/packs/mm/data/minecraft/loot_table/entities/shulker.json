@@ -1,0 +1,178 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.85,
+            "per_level_above_first": 0.1
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.75
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.02,
+            "per_level_above_first": 0.01
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_shulker_box"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:container": [
+              {
+                "slot": 0,
+                "item": {
+                  "id": "sign_plates:plate_i",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 1,
+                "item": {
+                  "id": "sign_plates:plate_m",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 3,
+                "item": {
+                  "id": "sign_plates:plate_r",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 4,
+                "item": {
+                  "id": "sign_plates:plate_e",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 5,
+                "item": {
+                  "id": "sign_plates:plate_a",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 6,
+                "item": {
+                  "id": "sign_plates:plate_l",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 7,
+                "item": {
+                  "id": "sign_plates:plate_l",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 8,
+                "item": {
+                  "id": "sign_plates:plate_y",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 9,
+                "item": {
+                  "id": "sign_plates:plate_f",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 10,
+                "item": {
+                  "id": "sign_plates:plate_e",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 11,
+                "item": {
+                  "id": "sign_plates:plate_e",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 12,
+                "item": {
+                  "id": "sign_plates:plate_l",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 13,
+                "item": {
+                  "id": "sign_plates:plate_i",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 14,
+                "item": {
+                  "id": "sign_plates:plate_n",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 15,
+                "item": {
+                  "id": "sign_plates:plate_g",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 25,
+                "item": {
+                  "id": "sign_plates:plate_i",
+                  "count": 1
+                }
+              },
+              {
+                "slot": 26,
+                "item": {
+                  "id": "sign_plates:plate_t",
+                  "count": 1
+                }
+              }
+            ]
+          }
+        }
+    ],
+    "rolls": 1
+  }
+],
+"random_sequence": "minecraft:entities/shulker"
+}

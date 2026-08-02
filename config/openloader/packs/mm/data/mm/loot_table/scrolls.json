@@ -1,0 +1,154 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:stable_warp_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Far Lands Scroll"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Creates a temporary one-way portal to the SE corner of the Far Lands",
+                "You might be teleported into blocks or high into the air - be prepared"
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ars_nouveau:warp_scroll": {
+                  "dimension": "minecraft:overworld",
+                  "pos": [
+                    12550832,
+                    305,
+                    12550832
+                  ],
+                  "rotation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "crossDim": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:stable_warp_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Far Lands Scroll"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Creates a temporary one-way portal to the NW corner of the Far Lands",
+                "You might be teleported into blocks or high into the air - be prepared"
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ars_nouveau:warp_scroll": {
+                  "dimension": "minecraft:overworld",
+                  "pos": [
+                    -12550832,
+                    305,
+                    -12550832
+                  ],
+                  "rotation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "crossDim": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:stable_warp_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Outside of Reality Scroll"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Creates a temporary one-way portal to outside of reality"
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ars_nouveau:warp_scroll": {
+                  "dimension": "simple_br_dimension:simple_br_dimension",
+                  "pos": [
+                    0,
+                    20,
+                    0
+                  ],
+                  "rotation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "crossDim": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:stable_warp_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Sands of Time Scroll"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Creates a temporary one-way portal to the space at the end of time",
+                "You might be teleported into blocks or high into the air - be prepared"
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ars_nouveau:warp_scroll": {
+                  "dimension": "sands_of_time:sands_of_time",
+                  "pos": [
+                    0,
+                    72,
+                    0
+                  ],
+                  "rotation": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "crossDim": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:random"
+}

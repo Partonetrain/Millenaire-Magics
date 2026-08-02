@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "minecraft:copper_block"
+    }
+  ],
+  "id": "minecraft:trial_chambers",
+  "structure": {
+    "key": "minecraft:trial_chambers"
+  }
+}

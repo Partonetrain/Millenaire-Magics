@@ -1,0 +1,44 @@
+{
+  "type": "simple_br_dimension:simple_br_dimension_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "simple_br_dimension:br_biome",
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 19
+        },
+        {
+          "block": "minecraft:stripped_oak_wood",
+          "height": 1
+        },
+        {
+          "block": "minecraft:cut_sandstone",
+          "height": 1
+        },
+        {
+          "block": "minecraft:smooth_sandstone",
+          "height": 3
+        },
+        {
+          "block": "minecraft:smooth_stone",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 1
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 20
+        }
+      ],
+      "structure_overrides": [
+        "simple_br_dimension:rooms_set"
+      ],
+      "features": false,
+      "lakes": false
+    }
+  }
+}

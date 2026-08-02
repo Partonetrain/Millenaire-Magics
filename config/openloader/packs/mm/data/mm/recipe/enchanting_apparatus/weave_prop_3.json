@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "malum:weavers_propagation",
+  "level": 3,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 6000
+}

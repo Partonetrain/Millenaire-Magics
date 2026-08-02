@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "minecraft:brown_mushroom"
+    }
+  ],
+  "id": "ars_additions:woodland_mansion",
+  "structure": {
+    "tag": "ars_additions:woodland_mansion"
+  }
+}

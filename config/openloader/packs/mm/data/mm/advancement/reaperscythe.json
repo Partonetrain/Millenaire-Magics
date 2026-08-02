@@ -1,0 +1,46 @@
+{
+  "parent": "mm:thunderseal",
+  "criteria": {
+    "ws": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "malum:edge_of_deliverance"
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:wither_skeleton"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a Wither Skeleton with an Edge of Deliverance."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "text": "Elegant Reaper's Scythe"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "ws"
+    ]
+  ],
+  "rewards": {
+    "function": "mm:reaperscythe"
+  },
+  "sends_telemetry_event": true
+}

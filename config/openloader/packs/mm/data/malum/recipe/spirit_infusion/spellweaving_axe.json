@@ -1,0 +1,40 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 3,
+      "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "count": 2,
+      "item": "malum:iron_node"
+    },
+    {
+      "count": 1,
+      "item": "malum:cthonic_gold"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:spellweaving_axe"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    }
+  ]
+}

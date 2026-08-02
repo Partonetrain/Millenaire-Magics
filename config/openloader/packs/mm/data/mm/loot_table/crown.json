@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cosmeticarmoursmod:redstone_crown_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:redstone",
+                  "pattern": "minecraft:snout"
+                },
+                "quark:rune_color": "red",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1,
+                "ars_nouveau:mana_regen": 3,
+                "ars_nouveau:mana_boost": 3,
+                "minecraft:fire_protection": 5,
+                "hold_your_enemies_closer:frost_protection": 5,
+                "hyecunbound:magic_protection": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ice King's Crown"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Crafted by Urgence Evergreen"
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "mm:crown"
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:valuables_rare_ores",
+          "expand": true,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 2,
+            "max": 4
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:loot_silver"
+          },
+          "modifier": {
+            "function": "minecraft:limit_count",
+            "limit": {
+              "min": 4,
+              "max": 6
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/valuables_rare_ores"
+}

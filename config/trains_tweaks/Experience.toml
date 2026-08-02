@@ -1,0 +1,23 @@
+#Whether or not the custom experience-per-level formula is used
+"Custom Experience" = true
+#The amount of experience to go from level 0 to level 1.
+#If Curve Mode is false, this amount is for every level.
+# Default: 10
+# Range: > 0
+"Base XP" = 10
+#Whether or not Curve Mode is used, increasing the cost to next level for each level.
+#Curve Mode calculation is XPToNextLevel = (BaseXP + (experienceLevel * curveModeMultiplier)).
+"Curve Mode" = true
+#The level at which the amount of XP required for the next level stops increasing.
+#Only relevant to Curve Mode. Set to 0 to disable
+# Default: 50
+# Range: > 0
+"Level Cap" = 50
+#If Level Cap > 0, the amount of experience required for the next level after the cap.
+# Default: 107
+# Range: > 0
+"Capped XP" = 107
+#The multiplier used in the Curve Mode calculation.
+# Default: 2
+# Range: > 1
+"Curve Mode Multiplier" = 2

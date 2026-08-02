@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:raw_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max"
+            }
+          ],
+          "name": "minecraft:stone_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max"
+            }
+          ],
+          "name": "minecraft:stone_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max"
+            }
+          ],
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max"
+            }
+          ],
+          "name": "minecraft:stone_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max"
+            }
+          ],
+          "name": "minecraft:stone_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "cosmeticarmoursmod:redstone_crown_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "mm": "crown_check"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

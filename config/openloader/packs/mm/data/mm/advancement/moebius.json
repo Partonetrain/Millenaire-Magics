@@ -1,0 +1,39 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "clock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "supplementaries:clock_block"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Craft a Clock Block. You're now ready to maintain the Endless Now."
+    },
+    "icon": {
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:infinity": 1
+          }
+        }
+      },
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "text": "Moebius"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "loot": [
+      "mm:disc/moebius_disc"
+    ]
+  },
+  "sends_telemetry_event": false
+}

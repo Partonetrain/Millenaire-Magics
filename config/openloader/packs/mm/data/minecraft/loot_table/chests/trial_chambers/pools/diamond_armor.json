@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:diamond_armor",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": [
+              "minecraft:diamond_helmet",
+              "minecraft:diamond_chestplate",
+              "minecraft:diamond_leggings",
+              "minecraft:diamond_boots"
+            ]
+          },
+          "modifier": {
+            "function": "minecraft:enchant_with_levels",
+            "levels": {
+              "min": 5,
+              "max": 15
+            },
+            "options": [
+                "minecraft:depth_strider",
+                "minecraft:thorns",
+                "minecraft:aqua_affinity",
+                "minecraft:respiration",
+                "minecraft:protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:feather_falling",
+                "minecraft:blast_protection",
+                "hold_your_enemies_closer:frost_protection",
+                "hyecunbound:magic_protection",
+                "hyecunbound:fleetfeet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/pools/diamond_armor"
+}

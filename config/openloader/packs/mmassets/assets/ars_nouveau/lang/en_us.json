@@ -1,0 +1,40 @@
+{
+  "ars_nouveau.page1.archwood": "Archwood Trees have a small chance to spawn in any biome, and come in five types. Rarely, you may stumble upon an Archwood Forest, a biome full of magical creatures, naturally spawning lights, and Archwood trees. Can be used as decoration, rituals, or for crafting wands. Archwood Trees also have a chance to spawn magical fruits that can be consumed or brewed into potions.",
+  
+  "ars_nouveau.page1.potion_flask": "A flask that stores 16 charges of a potion. To fill the flask, use the flask on a Potion Jar, craft the flask in a Crafting Table with another potion, or use it on an Urn of Endless Waters. You may empty the flask by using the flask on a Potion Jar while sneaking, or discard its contents by sneak-using the flask in your offhand.",
+  "tooltip.potion_flask": "Holds 16 charges of potion.",
+
+  "ars_nouveau.imbuement.norecipe": "No recipe found. If Arcane Pedestals are required, they must be placed within the 1 block cube around the chamber.",
+
+  "ars_nouveau.exp": "EXP factor: %s",
+
+  "effect.ars_nouveau.blasting.description": "Causes the target to explode when the duration ends.",
+  "effect.ars_nouveau.bounce.description": "Causes the entity to bounce off of surfaces.",
+  "effect.ars_nouveau.flight.description": "Allows the player to fly. May be removed in certain dimensions (Twilight Forest, Aether) until you unlock a certain advancement (Tears of Fire, Dethroned).",
+  "effect.ars_nouveau.freezing.description": "Freezes the target over time.",
+  "effect.ars_nouveau.glide.description": "Allows the player to glide as if wearing an Elytra.",
+  "effect.ars_nouveau.gravity.description": "Causes the entity to rapidly fall.",
+  "effect.ars_nouveau.hex.description": "Increases the damage taken potion and non-player damage.",
+  "effect.ars_nouveau.immolate.description": "Enhances fire spells.",
+  "effect.ars_nouveau.looting.descrption": "Increases the amount of loot dropped by mobs",
+  "effect.ars_nouveau.magic_find.description": "Causes nearby magical entities to glow.",
+  "effect.ars_nouveau.mana_regen.description": "Improves mana regeneration",
+  "effect.ars_nouveau.recovery.description": "Increases healing received from all sources.",
+  "effect.ars_nouveau.scrying.description": "Reveals certain blocks around you.",
+  "effect.ars_nouveau.shielding.description": "Reduces the amount of damage taken.",
+  "effect.ars_nouveau.shocked.description": "Increases the damage taken from lightning damage.",
+  "effect.ars_nouveau.snared.description": "Prevents the entity from moving.",
+  "effect.ars_nouveau.soaked.description": "Wets the target, protecting from fire and triggering effects as if under the rain.",
+  "effect.ars_nouveau.spell_damage.description": "Increases the damage dealt by spells.",
+  "effect.ars_nouveau.summoning_sickness.description": "Prevents summoning for a short duration.",
+  "enchantment.ars_nouveau.mana_boost.description": "Increases the maximum mana of the player.",
+  "enchantment.ars_nouveau.mana_regen.description": "Increases the mana regeneration of the player.",
+  "enchantment.ars_nouveau.reactive.description": "Has a chance to cast the inscribed spell on tool use or player hurt.",
+  "item.ars_nouveau.worn_notebook": "Worn Notebook",
+
+  "ars_nouveau.glyph_desc.glyph_cut": "Simulates using shears on entities and blocks, or damages non-shearable entities for a small amount. Amplify will simulate using an Axe instead of Shears. For simulating breaking with shears, see Break and Sensitive. Can also simulate a knife on a Cutting Board.",
+  "ars_nouveau.glyph_desc.glyph_crush": "Turns stone into gravel, and gravel into sand. Will also crush flowers into bonus dye. Need Sensitive to work on items. For full recipe support, see EMI. Will also harm entities and deals bonus damage to entities that are swimming.",
+
+  "block.ars_nouveau.temporary_block": "Temporary Block"
+
+}

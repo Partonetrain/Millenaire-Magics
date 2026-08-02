@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cosmeticarmoursmod:shackles_chestplate",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "quark:soul_bead",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:dispel/wraith_dispel"
+}

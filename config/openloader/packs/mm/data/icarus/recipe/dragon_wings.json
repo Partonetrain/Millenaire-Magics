@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KNS",
+    "FEF",
+    "F F"
+  ],
+  "key": {
+    "E": {
+      "tag": "icarus:wings_base"
+    },
+    "F": {
+      "item": "minecraft:dragon_breath"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+"K": {
+      "tag": "mm:wing_left"
+    },
+    "S": {
+      "tag": "mm:wing_right"
+    }
+  },
+  "result": {
+    "id": "icarus:black_dragon_wings"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "cosmeticarmoursmod:winged_fallen_angel_halo_helmet"
+  },
+  "addition": {
+    "item": "malum:void_salts"
+  },
+  "result": {
+    "id": "cosmeticarmoursmod:winged_fallen_angel_halo_awoken_helmet"
+  }
+}

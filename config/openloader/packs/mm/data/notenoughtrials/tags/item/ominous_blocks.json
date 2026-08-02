@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_block",
+    "ars_nouveau:source_gem_block",
+    "malum:block_of_soul_stained_steel"
+  ],
+  "remove": [
+    "minecraft:emerald_block"
+  ]
+}

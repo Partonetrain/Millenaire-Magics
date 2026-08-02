@@ -1,0 +1,38 @@
+{
+  "parent": "mm:fireblu",
+  "criteria": {
+    "generated": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {
+          "periodic_tick": 5
+        },
+        "loot_table": "mm:br"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Memory Entry"
+    },
+    "description": {
+      "text": "An unsettling disc has mysteriously appeared behind you"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "generated"
+    ]
+  ],
+  "rewards": {
+    "function": "mm:br_disc"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dungeoncrawl:shield",
+              "loot_level": 1
+            }
+          ],
+          "name": "minecraft:shield",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "random_sequence": "trains_tweaks:equipment/grimoireofgaia/orc_off_hand"
+}

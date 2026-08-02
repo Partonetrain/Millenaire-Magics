@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:archwood_planks"
+    }
+  ],
+  "reagent": {
+    "item": "ars_nouveau:mob_jar"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:planarium"
+  },
+  "sourceCost": 0
+}

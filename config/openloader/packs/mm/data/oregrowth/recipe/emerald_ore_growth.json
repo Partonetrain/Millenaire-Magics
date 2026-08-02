@@ -1,0 +1,43 @@
+{
+  "type": "supermartijn642corelib:conditional",
+  "conditions": [
+    {
+      "type": "neoforge:false"
+    },
+    {
+      "condition": {
+        "modid": "spelunkery",
+        "type": "supermartijn642corelib:mod_loaded"
+      },
+      "type": "supermartijn642corelib:not"
+    }
+  ],
+  "recipe": {
+    "type": "oregrowth:ore_growth",
+    "base": [
+      "minecraft:emerald_ore",
+      "minecraft:deepslate_emerald_ore"
+    ],
+    "stages": 4,
+    "spawn_chance": 0.1,
+    "growth_chance": 0.15,
+    "drops": [
+      {
+        "stage": 4,
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        }
+      },
+      {
+        "min_stage": 1,
+        "max_stage": 3,
+        "chance": 0.1,
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        }
+      }
+    ]
+  }
+}

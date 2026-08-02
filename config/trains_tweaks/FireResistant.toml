@@ -1,0 +1,3 @@
+#Whether or not to enable the functionality of the trains_tweaks:fire_resistant and trains_tweaks:not_fire_resistant item tags
+#These tags potentially have a performance impact, so they should be used sparingly
+"Fire Resistant tweak" = true

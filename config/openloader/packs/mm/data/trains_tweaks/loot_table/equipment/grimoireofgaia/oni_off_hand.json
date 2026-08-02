@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:iron_knife"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "trains_tweaks:equipment/grimoireofgaia/oni_off_hand"
+}

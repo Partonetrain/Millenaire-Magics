@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wheat_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:melon_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:beetroot_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cactus"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bamboo"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sweet_berries"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "supplementaries:flax_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "farmersdelight:cabbage_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "farmersdelight:tomato_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "ars_nouveau:sourceberry_bush",
+                    "weight": 2
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+            }
+        }
+    ],
+    "random_sequence": "mm:natural_seeds"
+}

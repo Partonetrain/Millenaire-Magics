@@ -1,0 +1,14 @@
+[Durability]
+	#Configuration for the durability of items
+	#Max durability of the Crystal Wing, 0 means infinite durability.
+	# Default: 32
+	# Range: > 0
+	crystalWingDurability = 16
+	#Max durability of the Burnt Wing, 0 means infinite durability.
+	# Default: 16
+	# Range: > 0
+	BurntWingDurability = 16
+	#Max durability of the Ender Scepter, 0 means infinite durability.
+	# Default: 128
+	# Range: > 0
+	enderScepterDurability = 128

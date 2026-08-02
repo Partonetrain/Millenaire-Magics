@@ -1,0 +1,33 @@
+[
+    {
+      "hordeName": "stalker",
+      "advancementForStartingHorde": "",
+      "advancementForWinningAgainstHorde": "",
+      "shouldClearWinningAdvancement": true,
+      "waves": [
+        {
+          "waveName": "wave1",
+          "maximumActiveHordeMembers": 3,
+          "killsRequiredForEasy": 7,
+          "killsRequiredForNormal": 7,
+          "killsRequiredForHard": 7,
+          "bossInfoText": "Stalker Horde",
+          "bossInfoColor": "red",
+          "despawnLeftBehindMembers": true,
+          "keepSpawningEnemiesWhileBossIsActive": false,
+          "bossInfoTextWhenBossIsActive": "",
+          "bossInfoColorWhenBossIsActive": "red",
+          "bossMobData": [
+          ],
+          "mobData": [
+            {
+                "mobID": "ars_nouveau:wilden_stalker",
+                "spawnWeight": 3,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]

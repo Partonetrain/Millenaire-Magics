@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "arsdelight:source_berry_cookie"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:honey_cookie"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:melon_slice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dried_kelp"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "farmersdelight:cake_slice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "brewinandchewin:kimchi"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "mm:snack"
+  }

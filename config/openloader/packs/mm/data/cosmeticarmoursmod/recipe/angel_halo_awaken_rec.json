@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "cosmeticarmoursmod:winged_angel_halo_helmet"
+  },
+  "addition": {
+    "item": "malum:hex_ash"
+  },
+  "result": {
+    "id": "cosmeticarmoursmod:winged_angel_halo_awoken_helmet"
+  }
+}

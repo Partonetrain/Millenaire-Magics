@@ -1,0 +1,25 @@
+#Enable tweaks relating to sleeping
+"Sleeping Tweaks" = false
+#If set to true, sleeping fully heals players
+"Sleeping Heals" = true
+#If set to true, sleeping removes (finite duration) harmful effects
+"Sleeping Removes Debuffs" = false
+#If set to true, damage of a type in the trains_tweaks:does_not_wake will not wake any sleeping entity up
+#By default this tag includes minecraft:magic (and neoforge:poison, if on neoforge)
+"Sleep Through Tagged Damage" = true
+#The number of ticks a player must in bed for before the server considers them asleep
+#This is 100 ticks in vanilla, and cannot be increased further than that
+# Default: 60
+# Range: 1 ~ 100
+"Sleep Required Ticks" = 100
+#If true, the sleep timer will be skipped in creative mode
+"Instant Sleep in Creative" = false
+#This value, represented as an ARGB int, is added to the sleeping overlay
+#This can be used to make the sleep overlay darker or a different color entirely
+#Use a site such as https://argb-int-calculator.netlify.app/ to calculate a value
+# Default: 0
+# Range: > -2147483648
+"Client Sleep Color" = 0
+#If true, the Respawn Anchor will accept any item in the tag trains_tweaks:respawn_anchor_fuel as fuel
+#This option isn't technically related to sleeping, but it didn't fit in any other category
+"Respawn Anchor Fuel Tag" = true

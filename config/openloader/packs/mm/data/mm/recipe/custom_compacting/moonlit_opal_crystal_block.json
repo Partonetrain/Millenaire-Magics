@@ -1,0 +1,11 @@
+{
+  "type": "functionalstorage:custom_compacting",
+  "higher_input": {
+    "count": 1,
+    "id": "opalescence:moonlit_opal_crystal_block"
+  },
+  "lower_input": {
+    "count": 4,
+    "id": "opalescence:moonlit_opal_crystal"
+  }
+}

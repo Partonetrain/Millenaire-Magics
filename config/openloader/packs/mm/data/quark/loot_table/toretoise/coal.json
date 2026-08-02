@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/deepslate_coal_ore",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/deepslate_diamond_ore",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

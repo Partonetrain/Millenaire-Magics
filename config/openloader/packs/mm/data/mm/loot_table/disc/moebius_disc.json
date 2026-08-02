@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_maker:custom_music_disc",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "music_disc_maker:custom_track": {
+                  "author": "ACE (TOMOri Kudo)",
+                  "duration_ms": 178000,
+                  "thumbnail_url": "",
+                  "title": "Moebius Battle",
+                  "url": "https://www.youtube.com/watch?v=4xUQ19X9nB4"
+                },
+                "jukebox_playable": {
+                  "show_in_tooltip": false,
+                  "song": "music_disc_maker:silent_180s"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Easter Egg Music Disc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:disc/doom_disc"
+}

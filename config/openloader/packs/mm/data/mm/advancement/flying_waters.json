@@ -1,0 +1,41 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "gliding": {
+      "trigger": "trains_tweaks:glide",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "#c:is_ocean"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:elytra"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Flying Waters"
+    },
+    "description": {
+      "text": "Glide over an Ocean"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "gliding"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/flying_waters_disc"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,25 @@
+#Whether or not to enable the Train's Tweaks advancement trigger feature
+#Some of these triggers may have an extremely small performance impact, so it's recommended you keep them disabled if you are sure you won't use them
+"Trigger tweaks" = true
+#Whether or not to register the trains_tweaks:gametime trigger
+#This allows advancements to check for amount of ticks since world creation
+"Game Time trigger" = true
+#Whether or not to register the trains_tweaks:day trigger
+#This allows advancements to check for amount of days since world creation
+"Day trigger" = true
+#Whether or not to register the trains_tweaks:system_date trigger
+#This allows advancements to check for the system's year, month, and/or day
+"System Date trigger" = true
+#Whether or not to register the trains_tweaks:system_day_of_week trigger
+#This allows advancements to check for the day of the week
+#The numeric values are: 1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday, 7 = Sunday (follows ISO-8601/Java.time.DayOfWeek)
+"System Day of Week trigger" = true
+#Whether or not to register the trains_tweaks:glide trigger
+#This allows advancements to check if the player is gliding with an elytra or other similar effect
+"Glide trigger" = true
+#Whether or not to register the trains_tweaks:take_damage_and_live trigger
+#This triggers checks how much (post-armor reduction, not counting absorption) damage you took and if it is within the bounds and if you lived, grants the criteria
+"Take Damage and Live trigger" = true
+#Whether or not to register the trains_tweaks:dropped_item trigger
+#This triggers when the player drops an item, and can be set up to require a specific item or tag
+"Dropped Item trigger" = true

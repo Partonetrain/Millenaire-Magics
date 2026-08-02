@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "ars_nouveau:abjuration_essence"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "ars_nouveau:source_gem"
+  },
+  "result": {
+    "count": 2,
+    "id": "ars_nouveau:abjuration_essence"
+  },
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 1
+    }
+  ]
+}

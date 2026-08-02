@@ -1,0 +1,4 @@
+#General settings
+[General]
+	#Makes the liquid milk cure effects [default: true]
+	liquidCuresEffects = true

@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "minecraft:golden_apple"
+    }
+  ],
+  "id": "dungeoncrawl:dungeon",
+  "structure": {
+    "tag": "mm:sprawling_dungeon"
+  }
+}

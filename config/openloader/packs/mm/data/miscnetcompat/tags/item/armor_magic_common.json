@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#ars_nouveau:magic_armor",
+      "required": false
+    },
+    "malum:soul_hunter_cloak",
+    "malum:soul_hunter_robe",
+    "malum:soul_hunter_leggings",
+    "malum:soul_hunter_boots"
+  ]
+}

@@ -1,0 +1,12 @@
+#Load chunks where pearls are
+loadChunks = true
+#Load chunks while owner is gone
+loadChunksWhileOwnerIsGone = true
+#Destroy pearl at death
+destroyAtDeath = false
+#Allow pearls to go through portals
+canGoThroughPortals = true
+#Allow cross-dimensional teleportation
+canTeleportBetweenDimensions = true
+#Protect stasis chambers
+protectStasisChambers = true

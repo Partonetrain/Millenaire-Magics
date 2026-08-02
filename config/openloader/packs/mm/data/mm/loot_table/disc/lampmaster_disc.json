@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_maker:custom_music_disc",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "music_disc_maker:custom_track": {
+                  "author": "Lorien Testard",
+                  "duration_ms": 224000,
+                  "thumbnail_url": "",
+                  "title": "Stone Wave Cliffs - Lampmaster",
+                  "url": "https://www.youtube.com/watch?v=ZGya_P6wa1o"
+                },
+                "jukebox_playable": {
+                  "show_in_tooltip": false,
+                  "song": "music_disc_maker:silent_240s"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Easter Egg Music Disc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:disc/lampmaster_disc"
+}

@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_rare_ars",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_rare_mm_malum",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "miscnetcompat:ominous_magic_tools",
+          "expand": true,
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:magic_armor"
+          },
+          "modifier": {
+            "function": "minecraft:enchant_with_levels",
+            "levels": {
+              "min": 30,
+              "max": 50
+            },
+            "options": [
+              "minecraft:depth_strider",
+              "minecraft:thorns",
+              "minecraft:aqua_affinity",
+              "minecraft:respiration",
+              "minecraft:protection",
+              "minecraft:fire_protection",
+              "minecraft:projectile_protection",
+              "minecraft:feather_falling",
+              "minecraft:blast_protection",
+              "hold_your_enemies_closer:frost_protection",
+              "hyecunbound:magic_protection",
+              "hyecunbound:fleetfeet"
+            ]
+          }
+        },
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:ominous_magic_tools"
+          },
+          "modifier": {
+            "function": "minecraft:enchant_with_levels",
+            "levels": {
+              "min": 25,
+              "max": 30
+            },
+            "options": [
+              "malum:weavers_haste",
+              "malum:weavers_propagation"
+            ]
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.8
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "miscnetcompat:ominous_magic_curios",
+          "expand": true,
+          "weight": 9
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "miscnetcompat:weapons_magic_curios_rare",
+          "expand": true,
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_rare_ars",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "miscnetcompat:chests/armor_magic_rare_mm_malum",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "miscnetcompat:ominous_magic_tools",
+          "expand": true,
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:filtered",
+          "item_filter": {
+            "items": "#miscnetcompat:magic_armor"
+          },
+          "modifier": {
+            "function": "minecraft:enchant_with_levels",
+            "levels": {
+              "min": 25,
+              "max": 30
+            },
+            "options": [
+              "minecraft:depth_strider",
+              "minecraft:thorns",
+              "minecraft:aqua_affinity",
+              "minecraft:respiration",
+              "minecraft:protection",
+              "minecraft:fire_protection",
+              "minecraft:projectile_protection",
+              "minecraft:feather_falling",
+              "minecraft:blast_protection",
+              "hold_your_enemies_closer:frost_protection",
+              "hyecunbound:magic_protection",
+              "hyecunbound:fleetfeet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "miscnetcompat:chests/ominous_magic"
+}

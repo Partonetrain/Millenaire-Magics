@@ -1,0 +1,57 @@
+{
+  "parent": "dmr:main",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {
+      "translate": "dmr.advancements.find_egg.title"
+    },
+    "description": {
+      "translate": "dmr.advancements.find_egg.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "dmr:dragon_egg"
+          }
+        ]
+      }
+    },
+    "blank_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "dmr:blank_egg"
+          }
+        ]
+      }
+    },
+    "vanilla_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtained_dragon_egg",
+      "blank_egg",
+      "vanilla_egg"
+    ]
+  ]
+}

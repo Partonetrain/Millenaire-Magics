@@ -1,0 +1,15 @@
+#Whether or not to enable the options in this tweak
+"Cure tweaks" = false
+#A list of potion effects that act like weakness in Zombie Villager curing, separated by a comma (no spaces)
+"Weakening Effects" = "minecraft:weakness"
+#Whether or not items in the trains_tweaks:curing_items tag should be used to cure weakened Zombie Villagers instead of hardcoded Golden Apples
+"Use Curing Tag" = true
+#Whether or not items in the trains_tweaks:instant_curing_items tag should be used to cure Zombie Villagers instantly without an effect
+"Use Instant Curing Tag" = true
+#If enabled, Instant Cures will grant the vanilla Zombie Doctor advancement
+#Note that this makes the advancement have a slightly inaccurate description
+"Instant Cure Advancement" = true
+#If enabled, the hardcoded checks for Iron Bars and Bed blocks around a Zombie Villager being cured
+#will be replaced with a check for the block tag trains_tweaks:speeds_up_cure
+#Iron Bars and Beds are in this tag by default
+"Use Speeds Up Cure Block Tag" = true

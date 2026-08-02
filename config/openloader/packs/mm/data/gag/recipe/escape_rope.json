@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "supplementaries:ropes"
+    },
+    "T": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "pattern": [
+    "#T",
+    "# ",
+    "# "
+  ],
+  "result": {
+    "count": 1,
+    "id": "gag:escape_rope"
+  }
+}

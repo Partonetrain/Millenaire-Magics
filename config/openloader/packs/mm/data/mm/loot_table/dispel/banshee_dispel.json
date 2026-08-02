@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "malum:raw_soulstone"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:dispel/banshee_dispel"
+}

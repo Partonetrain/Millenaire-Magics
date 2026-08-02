@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "c:gems/source"
+  },
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:water_essence"
+  },
+  "pedestalItems": [
+    {
+      "type": "neoforge:components",
+      "items": "minecraft:potion",
+      "components": {
+        "potion_contents": {
+          "potion": "minecraft:water"
+        }
+      }
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "source": 2000
+}

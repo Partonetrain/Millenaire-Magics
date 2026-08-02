@@ -1,0 +1,21 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "minecraft:magma_block"
+      }
+    ],
+    "result": [
+      {
+        "chance": 0.25,
+        "item": {
+          "count": 1,
+          "id": "minecraft:magma_cream"
+        }
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    }
+  }

@@ -1,0 +1,28 @@
+{
+    "type": "oregrowth:ore_growth",
+    "base": [
+        "malum:brilliant_stone",
+        "malum:brilliant_deepslate"
+    ],
+    "stages": 4,
+    "spawn_chance": 0.2,
+    "growth_chance": 0.25,
+    "drops": [
+        {
+            "stage": 4,
+            "item": {
+                "id": "malum:raw_brilliance",
+                "count": 1
+            }
+        },
+        {
+            "min_stage": 1,
+            "max_stage": 3,
+            "chance": 0.1,
+            "item": {
+                "id": "malum:raw_brilliance",
+                "count": 1
+            }
+        }
+    ]
+}
