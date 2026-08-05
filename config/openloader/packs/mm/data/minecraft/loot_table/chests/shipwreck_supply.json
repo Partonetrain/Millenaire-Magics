@@ -311,7 +311,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "hold_your_enemies_closer:inject/chests/shipwreck_treasure",
+          "value": "hold_your_enemies_closer:inject/chests/shipwreck_treasure",
           "weight": 1
         },
         {

@@ -1,6 +1,6 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "text": "When you hit 0 health, you will be downed. Someone else can revive you by holding right-click."
+    "text": "When you hit 0 health, you will be downed. Someone else can revive you by holding right-click, or you can get up yourself by eating a golden food."
   }
 }

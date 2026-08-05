@@ -44,6 +44,8 @@ mobBlacklist = []
 	mobSpawning = "ONLY_SIMULATION"
 	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
 	itemSpawning = "ONLY_SIMULATION"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	fishingBobberSpawning = "ONLY_SIMULATION"
 
 #Wake Behavior
 [wakeBehavior]

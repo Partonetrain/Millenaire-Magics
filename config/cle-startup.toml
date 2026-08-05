@@ -50,6 +50,9 @@
 	#If true, Millenaire's Travel Book will open the Millenaire Info Panel instead of the Travel Book screen
 	#(While this is enabled the Travel Book can still be opened from the Info Panel, or by shift-right-clicking with the book)
 	"Travel Book Info Panel" = true
+	#If true, Grape Vines will be right-clickable like Sweet Berry Bushes if the player has learned how to plant grapes
+	#(It seems unintentional that it isn't like this by default: Grape Vine block extends BushBlock, but it doesn't override useWithoutItem)
+	"Grape Vine Right Click" = true
 
 [Client]
 	#If this option is not empty, the Constructions panel in any town hall will attempt to sort its list by moving items that contain matching strings in its target to the bottom
@@ -71,3 +74,9 @@
 	#A map of spell effects to integers, that when resolved on a millager, will affect reputation with their village
 	#The number of amplifies in the spell recipe will multiply the value provided
 	"Spell Effect Reputations" = ["ars_nouveau:glyph_bubble,-4", "ars_nouveau:glyph_cold_snap,-5", "ars_nouveau:glyph_crush,-3", "ars_nouveau:glyph_cut,-3", "ars_nouveau:glyph_exchange,-2", "ars_nouveau:glyph_explosion,-8", "ars_nouveau:glyph_fangs,-9", "ars_nouveau:glyph_flare,-3", "ars_nouveau:glyph_freeze,-3", "ars_nouveau:glyph_gravity,-2", "ars_nouveau:glyph_harm,-3", "ars_nouveau:glyph_heal,1", "ars_nouveau:glyph_ignite,-6", "ars_nouveau:glyph_gust,-4", "ars_nouveau:glyph_launch,-4", "ars_nouveau:glyph_leap,-4", "ars_nouveau:glyph_lightning,-9", "ars_nouveau:glyph_pull,-3", "ars_nouveau:glyph_snare,-5", "ars_nouveau:glyph_summon_undead,-9", "ars_nouveau:glyph_summon_vex,-9", "ars_nouveau:glyph_summon_wolves,-9", "ars_nouveau:glyph_wind_burst,-4", "ars_nouveau:glyph_wind_shear,-4", "ars_nouveau:glyph_wither,-7", "ars_elemental:glyph_cauterize,-4", "ars_elemental:glyph_cavitate,-4", "ars_elemental:glyph_charm,9", "ars_elemental:glyph_conflagrate,-8", "ars_elemental:glyph_geyser,-6", "ars_elemental:glyph_discharge,-5", "ars_elemental:glyph_mist,-2", "ars_elemental:glyph_nullify_defense,-4", "ars_elemental:glyph_oxidize,-5", "ars_elemental:glyph_phantom_grasp,-3", "ars_elemental:glyph_phantom_grasp,-3", "ars_elemental:glyph_poison_spores,-4", "ars_elemental:glyph_rage,-9", "ars_elemental:glyph_slip_feet,-3", "ars_elemental:glyph_spark,-4", "ars_elemental:glyph_spike,-6", "ars_elemental:glyph_summon_bee,-9", "ars_elemental:glyph_summon_slime,-9", "ars_elemental:glyph_water_jet,-5", "ars_elemental:glyph_watery_grave,-7"]
+
+[Quark]
+	#Cle makes Quark's Simple Harvest feature always check if players have the requisite knowledge of a Millenaire crop before letting them harvest
+	#However, non-players (i.e., fake players and other automated right-click blocks) are in theory still capable of triggering this check, which would always fail.
+	#Setting this to true allows non players to simple harvest
+	"Simple Harvest Non Players" = false

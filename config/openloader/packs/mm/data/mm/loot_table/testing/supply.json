@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:water"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "thirst:purity": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Water Bottle of Beta Testing"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "brewinandchewin:pizza_slice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Pizza Slice of Beta Testing"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "mm:testing/supply"
+}

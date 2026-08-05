@@ -51,6 +51,7 @@ patchouli_data.json
 .probe/
 
 /backups/
+/ftbbackups3/
 
 /kubejs/exported/
 /kubejs/tmp/

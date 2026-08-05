@@ -48,7 +48,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 9,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "simple_br_dimension:chest",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "simple_br_dimension:rice",

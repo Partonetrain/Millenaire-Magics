@@ -1,6 +1,6 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "text": "If you takes more damage than your max health and current health combined, you will die immediately instead of being incapacitated."
+    "text": "If you take more damage than your max health and current health combined, you will die immediately instead of being incapacitated."
   }
 }

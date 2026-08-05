@@ -79,7 +79,7 @@ function addPlankSawmill(event, plankId, chestId) {
       { item: plankId }
     ],
     ingredient_count: 8,
-    result: { id: chestId }
+    result: { id: chestId, count: 1 }
   }).id(`kubejs:sawmill_${safePlank}_to_${safeId}`);
 }
 
@@ -93,7 +93,7 @@ function addLogSawmill(event, logId, chestId) {
       { tag: logIdWithoutHash }
     ],
     ingredient_count: 2,
-    result: { id: chestId }
+    result: { id: chestId, count: 1 }
   }).id(`kubejs:sawmill_${safeLogId}_to_${safeId}`);
 }
 

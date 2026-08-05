@@ -396,6 +396,13 @@ RecipeViewerEvents.addInformation('item', event => {
             'This tree\'s leaves drop Cider Apples.'
         ])
         
+    event.add('millenaire:snow_brick', [
+            'Uses texture from Block Box'
+        ])
+    event.add('millenaire:snow_wall', [
+            'Uses texture from Block Box'
+        ])
+        
     // event.add('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]'  , [
     //         'You should not have this.'
     //     ])

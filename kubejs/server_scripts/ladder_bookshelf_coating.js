@@ -67,7 +67,7 @@ function addPlankSawmill(event, plankId, ladderId) {
       { item: plankId }
     ],
     ingredient_count: 1,
-    result: { id: ladderId }
+    result: { id: ladderId, count: 1 }
   }).id(`kubejs:sawmill_${safePlank}_to_${safeId}`);
 }
 

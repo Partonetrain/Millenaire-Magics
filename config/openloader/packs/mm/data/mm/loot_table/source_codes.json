@@ -23,9 +23,9 @@
           "functions": [
             {
               "function": "trains_tweaks:internet_text_book",
-              "title": "Ars Nouveau Source Code",
-              "author": "baileyholl",
-              "text_source": "https://raw.githubusercontent.com/baileyholl/Ars-Nouveau/refs/heads/main/src/main/java/com/hollingsworth/arsnouveau/ArsNouveau.java",
+              "title": "Ars Elemental Source Code",
+              "author": "Alexthw46",
+              "text_source": "https://raw.githubusercontent.com/Alexthw46/Ars-Elemental/refs/heads/1.21/src/main/java/alexthw/ars_elemental/ArsElemental.java",
               "lines_per_page": 5
             }
           ]
@@ -131,6 +131,23 @@
               "author": "Silentine & MrBysco",
               "text_source": "https://raw.githubusercontent.com/Silentine/GrimoireOfGaia/refs/heads/1.21/src/main/java/gaia/GrimoireOfGaia.java",
               "lines_per_page": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Millénaire Source Code"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Just kidding. Millénaire is closed source."
+              ],
+              "mode": "append"
             }
           ]
         },

@@ -1380,7 +1380,7 @@
 
 	[mobs.forgotten]
 		#This is the probability of a Skeleton that spawns under the height threshold being replaced with a Forgotten.
-		"Forgotten Spawn Rate" = 0.05
+		"Forgotten Spawn Rate" = 0.025
 		"Max Height For Spawn" = 0
 
 	[mobs.foxhound]
