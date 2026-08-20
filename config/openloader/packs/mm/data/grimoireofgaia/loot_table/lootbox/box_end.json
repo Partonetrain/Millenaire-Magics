@@ -51,6 +51,22 @@
           ],
           "name": "the_beyond:void_crystal",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "the_beyond:stardust",
+          "weight": 10
         }
       ],
       "name": "main",

@@ -1,0 +1,42 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "quark:soul_bead"
+      }
+    ],
+    "result": [
+      {
+        "chance": 0.25,
+        "item": {
+          "count": 1,
+          "id": "malum:sacred_spirit"
+        }
+      },
+      {
+        "chance": 0.25,
+        "item": {
+          "count": 1,
+          "id": "malum:wicked_spirit"
+        }
+      },
+      {
+        "chance": 0.25,
+        "item": {
+          "count": 1,
+          "id": "malum:arcane_spirit"
+        }
+      },
+      {
+        "chance": 0.25,
+        "item": {
+          "count": 1,
+          "id": "malum:eldritch_spirit"
+        }
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    }
+  }

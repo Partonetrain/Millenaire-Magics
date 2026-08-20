@@ -1,0 +1,5 @@
+{
+	"tooltip.solcarrot.disabled.blacklist": "This item cannot contribute to improving your health.",
+	"tooltip.solcarrot.cheap": "This item is not nourishing enough to improve your health.",
+	"tooltip.solcarrot.disabled.eaten": "Consumed: No noticeable effect"
+}

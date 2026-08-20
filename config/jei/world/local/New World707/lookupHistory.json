@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"environmental:reindeer_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:cartographers_quill","components":"{\"supplementaries:quill_decoration\":\"minecraft:red_x\",\"supplementaries:quill_search_radius\":75,\"supplementaries:quill_skip_known\":0b,\"supplementaries:quill_structure\":\"ars_additions:arcane_library\",\"supplementaries:quill_zoom\":1}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"brewinandchewin:horror_lasagna"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:feta"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_additions:ender_mask_charm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"brewinandchewin:quiche"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"brewinandchewin:flaxen_cheese_wedge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:yogurt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"environmental:yak_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"environmental:cherries"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"environmental:serenity","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"millenaire:winebasic","components":"{\"minecraft:damage\":64}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

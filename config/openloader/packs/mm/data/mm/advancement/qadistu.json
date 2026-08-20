@@ -1,0 +1,48 @@
+{
+  "parent": "mm:deer",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "grimoireofgaia:succubus",
+                "value": 4
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill 4 Succubi"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ars_elemental:fire_helmet"
+    },
+    "title": {
+      "text": "Qadištu"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "kill"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/qadistu_disc"
+    ]
+  },
+  "sends_telemetry_event": false
+}

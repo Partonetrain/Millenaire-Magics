@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "quark:diamond_heart"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 1,
+          "id": "minecraft:diamond"
+        }
+      },
+      {
+        "item": {
+          "count": 1,
+          "id": "grimoireofgaia:rotten_heart"
+        }
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    }
+  }

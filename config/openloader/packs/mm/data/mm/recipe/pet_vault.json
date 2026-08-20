@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gug",
+    "ubu",
+    "gug"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "quark:soul_bead"
+    },
+    "u": {
+      "item": "grimoireofgaia:totem_of_undying_fragment"
+    }
+  },
+  "result": {
+    "id": "pet_vault:pet_necklace",
+    "count": 1
+  }
+}

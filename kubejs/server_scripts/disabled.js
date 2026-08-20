@@ -1,5 +1,10 @@
 //script for disabling items
 const DISABLED_ITEMS = [
+    'quark:thatch',
+    'quark:thatch_stairs',
+    'quark:thatch_slab',
+    'quark:thatch_vertical_slab',
+
     'quark:beetroot_crate',
     'quark:potato_crate',
     'quark:carrot_crate',
@@ -21,6 +26,9 @@ const DISABLED_ITEMS = [
     'everycomp:fd/ars_nouveau/archwood_cabinet',
     'starbunclemania:star_balloon',
     'starbunclemania:star_battery',
+    'constructionstick:template_battery',
+
+    'ars_additions:golden_chain',
 
     'blockbox:granite_bricks',
     'blockbox:granite_brick_stairs',
@@ -81,10 +89,83 @@ const DISABLED_ITEMS = [
     'supplementaries:gold_bars',
     'supplementaries:timber_frame',
     'supplementaries:timber_brace',
-    'supplementaries:timber_cross_brace'
+    'supplementaries:timber_cross_brace',
     
+    'quark:dirt_bricks',
+    'quark:dirt_bricks_slab',
+    'quark:dirt_bricks_stairs',
+    'quark:dirt_bricks_vertical_slab',
+    'quark:dirt_bricks_wall',
 
+    'abnormals_delight:adzuki_cake_slice',
+    'abnormals_delight:vanilla_cake_slice',
+    'abnormals_delight:banana_cake_slice',
+    'abnormals_delight:cherry_cream_soda',
+    'abnormals_delight:banana_cake_slice',
+    'abnormals_delight:cooked_perch_slice',
+    'abnormals_delight:perch_slice',
+    'abnormals_delight:perch_with_mushrooms',
+    'abnormals_delight:chocolate_cake_slice',
+    'abnormals_delight:strawberry_cake_slice',
+    'abnormals_delight:mint_cake_slice',
+    'abnormals_delight:escargot',
+    'abnormals_delight:maple_cookie',
+    'abnormals_delight:maple_glazed_bacon',
+    'abnormals_delight:mulberry_cookie',
+    'abnormals_delight:pike_with_beetroot',
+    'abnormals_delight:cooked_pike_slice',
+    'abnormals_delight:pike_slice',
+    'abnormals_delight:pickerelweed_juice',
+    'abnormals_delight:necromium_knife',
+    'abnormals_delight:silver_knife',
+    'abnormals_delight:driftwood_cabinet',
+    'abnormals_delight:poise_cabinet',
+    'abnormals_delight:river_cabinet',
+
+    'pet_vault:keepers_magnifier',
+    'pet_vault:golden_bone'
     
+]
+
+//use EveryCompat versions, these are not meant to exist unless WoodWorks is installed (which it isn't here).
+const REMOVED_CHESTS = [
+  'environmental:willow_chest',
+  'environmental:pine_chest',
+  'environmental:plum_chest',
+  'environmental:wisteria_chest',
+  'atmospheric:rosewood_chest',
+  'atmospheric:morado_chest',
+  'atmospheric:yucca_chest',
+  'atmospheric:laurel_chest',
+  'atmospheric:aspen_chest',
+  'atmospheric:kousa_chest',
+  'atmospheric:grimwood_chest'
+]
+const REMOVED_TRAPPED = [
+  'environmental:trapped_willow_chest',
+  'environmental:trapped_pine_chest',
+  'environmental:trapped_plum_chest',
+  'environmental:trapped_wisteria_chest',
+  'atmospheric:trapped_rosewood_chest',
+  'atmospheric:trapped_morado_chest',
+  'atmospheric:trapped_yucca_chest',
+  'atmospheric:trapped_laurel_chest',
+  'atmospheric:trapped_aspen_chest',
+  'atmospheric:trapped_kousa_chest',
+  'atmospheric:trapped_grimwood_chest'
+]
+const REMOVED_BOOKSHELVES = [
+  'environmental:willow_bookshelf',
+  'environmental:pine_bookshelf',
+  'environmental:plum_bookshelf',
+  'environmental:wisteria_bookshelf',
+  'atmospheric:rosewood_bookshelf',
+  'atmospheric:morado_bookshelf',
+  'atmospheric:yucca_bookshelf',
+  'atmospheric:laurel_bookshelf',
+  'atmospheric:aspen_bookshelf',
+  'atmospheric:kousa_bookshelf',
+  'atmospheric:grimwood_bookshelf'
 ]
 
 const DISABLED_ADVANCEMENTS = [
@@ -93,7 +174,7 @@ const DISABLED_ADVANCEMENTS = [
     'minecraft:adventure/voluntary_exile',
     'minecraft:adventure/hero_of_the_village',
     'minecraft:story/cure_zombie_villager',
-    'dmr:find_hybrid'
+    'dmr:find_hybrid' //not getting disabled. this is a weird one.
 ]
 
 function removeFromCrafting(event, itemId){
@@ -113,6 +194,29 @@ ServerEvents.recipes(event => {
 ServerEvents.tags('item', event => {
     for (const itemId of DISABLED_ITEMS) {
         addToHiddenTag(event, itemId)
+    }
+
+    for (const entry of REMOVED_CHESTS) {
+        event.remove('c:chests/wooden', entry)
+        event.remove('c:chests', entry)
+        event.remove('blueprint:wooden_chests', entry)
+        addToHiddenTag(event, entry)
+        //console.info("untagged chest" + entry)
+    }
+    
+    for (const entry of REMOVED_TRAPPED) {
+        event.remove('c:chests/trapped', entry)
+        event.remove('c:chests/wooden', entry)
+        event.remove('c:chests', entry)
+        event.remove('blueprint:wooden_trapped_chests', entry)
+        addToHiddenTag(event, entry)
+        //console.info("untagged trapped " + entry)
+    }
+
+    for (const entry of REMOVED_BOOKSHELVES) {
+        event.remove('c:bookshelves', entry)
+        event.remove('blueprint:wooden_bookshelves', entry)
+        addToHiddenTag(event, entry)
     }
 })
 

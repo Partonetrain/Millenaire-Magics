@@ -23,6 +23,16 @@ ItemEvents.modification(event => {
     })
   })
 
+  event.modify('gag:hearthstone', item => {
+    item.setUnbreakable()
+  })
+  event.modify('gag:energized_hearthstone', item => {
+    item.setUnbreakable()
+  })
+  event.modify('gag:escape_rope', item => {
+    item.setUnbreakable()
+  })
+
   event.modify('grimoireofgaia:withered_brain', item => {
     item.maxStackSize = 16
   })

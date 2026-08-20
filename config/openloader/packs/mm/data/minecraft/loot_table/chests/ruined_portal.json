@@ -205,22 +205,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 12,
-                "min": 4
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_carrot",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:clock",
           "weight": 5
         },
@@ -246,10 +230,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple"
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -261,8 +241,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_block",
-          "conditions": []
+          "name": "minecraft:gold_block"
         }
       ],
       "rolls": {
@@ -272,19 +251,21 @@
       }
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lodestone"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ars_additions:codex_entry"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ars_nouveau:warp_scroll"
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_fire_resistance"
+            }
+          ]
         }
       ]
     }

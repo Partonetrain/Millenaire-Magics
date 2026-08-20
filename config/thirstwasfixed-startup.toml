@@ -1,12 +1,14 @@
 [General]
-	#If true, cauldrons with water in them will have their comparator output replaced to match purity
-	#0 = Invalid/Not Set, 1 = Dirty, 4 = Purified
-	"Cauldron Comparator Purity" = true
-	#The amount of thirst required to gain a speed bonus
-	#If 0, there will be no speed bonus
-	# Default: 0
-	# Range: 0 ~ 20
-	"Thirst Bonus Requirement" = 20
+	#The duration, in ticks, of the Long Fire Resistance Potion
+	#Leave as default for vanilla value
+	# Default: 9600
+	# Range: 1 ~ 432000
+	"Long Fire Resistance Duration" = 12000
+	#The duration, in ticks, of the vanilla Fire Resistance Potion
+	#Leave as default for vanilla value
+	# Default: 3600
+	# Range: 1 ~ 432000
+	"Fire Resistance Duration" = 6000
 	#Purity for water that is missing purity. This is used at several places in this mod, such as Fix Cauldrons and Drink Cauldrons
 	#This used to be an option in Thirst was Taken, but it was removed in Thirst was Reclaimed, so it has been added here.
 	# Default: 2
@@ -27,11 +29,19 @@
 	# Default: 0
 	# Range: 0 ~ 3
 	"Dripstone Purity" = 0
+	#The amount of thirst required to gain a speed bonus
+	#If 0, there will be no speed bonus
+	# Default: 0
+	# Range: 0 ~ 20
+	"Thirst Bonus Requirement" = 0
 	#The amount of speed bonus to give when the Thirst Bonus Requirement is met
 	#This uses the add_multiplied_total operation, so 0.1 = 10% speed increase
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	"Thirst Bonus Value" = 0.1
+	#If true, cauldrons with water in them will have their comparator output replaced to match purity
+	#0 = Invalid/Not Set, 1 = Dirty, 4 = Purified
+	"Cauldron Comparator Purity" = false
 	#Right offset for the quench overlay. You only need this if you have AppleSkin installed and the quench overlay is not aligning with your thirst bar on your HUD for some reason
 	# Default: 0
 	# Range: -100 ~ 100

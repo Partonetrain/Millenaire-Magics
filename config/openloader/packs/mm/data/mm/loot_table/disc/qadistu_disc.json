@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_maker:custom_music_disc",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "music_disc_maker:custom_track": {
+                  "author": "ATLUS Sound Team",
+                  "duration_ms": 280000,
+                  "thumbnail_url": "",
+                  "title": "Battle -Qadištu-",
+                  "url": "https://www.youtube.com/watch?v=FPtJVXxZDRY"
+                },
+                "jukebox_playable": {
+                  "show_in_tooltip": false,
+                  "song": "music_disc_maker:silent_300s"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Easter Egg Music Disc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:disc/qadistu_disc"
+}

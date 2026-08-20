@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_maker:custom_music_disc",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "music_disc_maker:custom_track": {
+                  "author": "Intelligent Systems & Koei Tecmo",
+                  "duration_ms": 500000,
+                  "thumbnail_url": "",
+                  "title": "God Shattering Star",
+                  "url": "https://www.youtube.com/watch?v=qf7ux1JND_Y"
+                },
+                "jukebox_playable": {
+                  "show_in_tooltip": false,
+                  "song": "music_disc_maker:silent_510s"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Easter Egg Music Disc"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:disc/deer_disc"
+}

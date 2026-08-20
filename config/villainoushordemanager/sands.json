@@ -1,0 +1,39 @@
+[
+    {
+      "hordeName": "sands",
+      "advancementForStartingHorde": "",
+      "advancementForWinningAgainstHorde": "",
+      "shouldClearWinningAdvancement": true,
+      "waves": [
+        {
+          "waveName": "wave1",
+          "maximumActiveHordeMembers": 5,
+          "killsRequiredForEasy": 10,
+          "killsRequiredForNormal": 10,
+          "killsRequiredForHard": 10,
+          "bossInfoText": "Ghostly Horde",
+          "bossInfoColor": "white",
+          "despawnLeftBehindMembers": true,
+          "keepSpawningEnemiesWhileBossIsActive": false,
+          "bossInfoTextWhenBossIsActive": "",
+          "bossInfoColorWhenBossIsActive": "white",
+          "bossMobData": [
+          ],
+          "mobData": [
+            {
+                "mobID": "quark:wraith",
+                "spawnWeight": 3,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
+                "mobID": "grimoireofgaia:banshee",
+                "spawnWeight": 1,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]

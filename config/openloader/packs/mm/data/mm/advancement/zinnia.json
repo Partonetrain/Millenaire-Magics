@@ -1,0 +1,49 @@
+{
+  "parent": "mm:qadistu",
+  "criteria": {
+    "sky": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 320
+              }
+            },
+            "dimension": "minecraft:overworld"
+          },
+          "vehicle": {
+            "type": "dmr:dragon"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Fly beyond the build limit in The Overworld while riding a dragon"
+    },
+    "icon": {
+      "count": 1,
+      "id": "icarus:green_dragon_wings"
+    },
+    "title": {
+      "text": "Dragon Ascent"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "sky"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/zinnia_disc"
+    ]
+  },
+  "sends_telemetry_event": true
+}

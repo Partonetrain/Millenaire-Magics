@@ -1,0 +1,50 @@
+=== Millénaire Custom Content Report ===
+Generated: 2026-08-19 22:05:47
+Mod version: millenaire 9.0.0-beta.2
+
+=== Culture: byzantines (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Culture: indian (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Culture: inuits (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Culture: japanese (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Culture: mayan (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Culture: norman (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Culture: seljuk (built-in with overrides) ===
+  Source: standard + custom overlay
+  sub-mods: yafda
+  traded_goods     present (additive merge)
+
+=== Global ===
+  gathering_type   4 custom file(s)
+  quests           0 custom file(s)
+  language overlays 0 custom file(s) across all locales
+
+=== Summary ===
+Cultures: 0 custom, 7 built-in with overrides, 7 total loaded
+Registries after load: 1803 building plans, 285 villager types, 126 village types
+
+For detailed errors and warnings during loading, see logs/latest.log
+(search for 'Error', 'WARN CultureLoader', 'WARN BuildingPlanSet').

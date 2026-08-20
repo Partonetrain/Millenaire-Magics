@@ -23,6 +23,10 @@
           {
             "type": "minecraft:item",
             "name": "yafda:marmalade_sandwich"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:cooked_venison"
           }
         ]
       }

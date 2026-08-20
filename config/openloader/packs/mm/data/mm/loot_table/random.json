@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "grimoireofgaia:projectile_random_magic",
-          "weight": 90,
+          "weight": 80,
           "quality": -10,
           "functions": [
             {
@@ -21,22 +21,22 @@
           ]
         },
         {
+          "type": "minecraft:loot_table",
+          "value": "mm:locators",
+          "weight": 4,
+          "quality": 1
+        },
+        {
           "type": "minecraft:item",
           "name": "grimoireofgaia:bag_book",
-          "weight": 2,
+          "weight": 3,
           "quality": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "grimoireofgaia:box_hat",
+          "type": "minecraft:loot_table",
+          "value": "mm:boxes",
           "weight": 2,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "grimoireofgaia:box_egg",
-          "weight": 1,
-          "quality": 1
+          "quality": 2
         },
         {
           "type": "minecraft:loot_table",
@@ -46,20 +46,14 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mm:locators",
-          "weight": 1,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "mm:natural_seeds",
-          "weight": 1,
+          "weight": 4,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
           "value": "mm:sapling",
-          "weight": 1,
+          "weight": 3,
           "quality": 1
         }
       ]

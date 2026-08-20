@@ -31,6 +31,10 @@
           {
             "type": "minecraft:item",
             "name": "brewinandchewin:kimchi"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:cherries"
           }
         ]
       }

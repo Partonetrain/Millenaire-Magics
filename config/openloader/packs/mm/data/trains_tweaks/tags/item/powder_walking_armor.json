@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:leather_boots",
+    "cosmeticarmoursmod:reclaimed_leather_boots",
+    "millenaire:furboots",
+    "malum:soul_hunter_boots"
+  ]
+}

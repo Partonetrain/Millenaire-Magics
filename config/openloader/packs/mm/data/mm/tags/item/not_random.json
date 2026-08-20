@@ -3,6 +3,7 @@
     "values": [
         "dmr:dragon_armor",
         "dmr:dragon_egg",
+        "dmr:dragon_spawn_egg",
         "minecraft:enchanted_book",
         "minecraft:potion",
         "quark:ancient_tome",
@@ -38,6 +39,12 @@
         "ars_additions:nexus_warp_scroll",
 
         "millenaire:summoning_wand",
-        "millenaire:negation_wand"
+        "millenaire:negation_wand",
+
+        "#dankstorage:dank_storages",
+
+        "pet_vault:pet_necklace",
+        "pet_vault:soul_crystal",
+        "pet_vault:life_crystal"
     ]
 }

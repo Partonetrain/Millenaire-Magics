@@ -1,0 +1,27 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:debug_stick"
+    },
+    "title": {
+      "text": "Test Materials"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "rewards": {
+    "loot": []
+  },
+  "sends_telemetry_event": false
+}

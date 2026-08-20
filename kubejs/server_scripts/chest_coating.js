@@ -35,6 +35,14 @@ const VARIANT_CHESTS = [
   { chest: 'everycomp:q/environmental/pine_chest', plank: 'environmental:pine_planks', log: '#environmental:pine_logs' },
   { chest: 'everycomp:q/environmental/plum_chest', plank: 'environmental:plum_planks', log: '#environmental:plum_logs' },
   { chest: 'everycomp:q/environmental/wisteria_chest', plank: 'environmental:wisteria_planks', log: '#environmental:wisteria_logs' },
+  //atmospheric
+  { chest: 'everycomp:q/atmospheric/rosewood_chest', plank: 'atmospheric:rosewood_planks', log: '#atmospheric:rosewood_logs' },
+  { chest: 'everycomp:q/atmospheric/morado_chest', plank: 'atmospheric:morado_planks', log: '#atmospheric:morado_logs' },
+  { chest: 'everycomp:q/atmospheric/yucca_chest', plank: 'atmospheric:yucca_planks', log: '#atmospheric:yucca_logs' },
+  { chest: 'everycomp:q/atmospheric/laurel_chest', plank: 'atmospheric:laurel_planks', log: '#atmospheric:laurel_logs' },
+  { chest: 'everycomp:q/atmospheric/aspen_chest', plank: 'atmospheric:aspen_planks', log: '#atmospheric:aspen_logs' },
+  { chest: 'everycomp:q/atmospheric/kousa_chest', plank: 'atmospheric:kousa_planks', log: '#atmospheric:kousa_logs' },
+  { chest: 'everycomp:q/atmospheric/grimwood_chest', plank: 'atmospheric:grimwood_planks', log: '#atmospheric:grimwood_logs' },
   //malum
   { chest: 'everycomp:q/malum/soulwood_chest', plank: 'malum:soulwood_planks', log: '#malum:soulwood_logs' },
   { chest: 'everycomp:q/malum/runewood_chest', plank: 'malum:runewood_planks', log: '#malum:runewood_logs' }
@@ -70,11 +78,13 @@ function addLogConversion(event, logId, chestId) {
   ).id(`kubejs:convert_log_to_${safeId}`);
 }
 
+//8 planks->1 chest
 function addPlankSawmill(event, plankId, chestId) {
   const safeId = chestId.replace(':', '__');
   const safePlank = plankId.replace(':', '__');
   event.custom({
     type: 'sawmill:woodcutting',
+    group: 'planks',
     ingredient: [
       { item: plankId }
     ],
@@ -83,12 +93,14 @@ function addPlankSawmill(event, plankId, chestId) {
   }).id(`kubejs:sawmill_${safePlank}_to_${safeId}`);
 }
 
+//2 logs->1 chest
 function addLogSawmill(event, logId, chestId) {
   const safeId = chestId.replace(':', '__');
   const logIdWithoutHash = logId.replace('#', '');
   const safeLogId = logIdWithoutHash.replace(':', '__')
   event.custom({
     type: 'sawmill:woodcutting',
+    group: 'logs',
     ingredient: [
       { tag: logIdWithoutHash }
     ],
@@ -126,22 +138,22 @@ ServerEvents.recipes(event => {
   for (const entry of VARIANT_CHESTS) {
     removeVariantChestRecipes(event, entry.chest);
     if (entry.plank) { //if plank is not null
-      addPlankConversion(event, entry.plank, entry.chest);
       if (variantInSawmill) {
         addPlankSawmill(event, entry.plank, entry.chest);
         if (vanillaInSawmill) {
           addPlankSawmill(event, entry.plank, 'minecraft:chest')
         }
       }
+      addPlankConversion(event, entry.plank, entry.chest);
     }
     if (entry.log) { //if log is not null
-      addLogConversion(event, entry.log, entry.chest);
       if (variantInSawmill) {
         addLogSawmill(event, entry.log, entry.chest);
         if (vanillaInSawmill) {
           addLogSawmill(event, entry.log, 'minecraft:chest')
         }
       }
+      addLogConversion(event, entry.log, entry.chest);
     }
 
   }

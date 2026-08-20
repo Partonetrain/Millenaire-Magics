@@ -31,6 +31,14 @@
           {
             "type": "minecraft:item",
             "name": "brewinandchewin:pizza_slice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "atmospheric:roasted_yucca_fruit"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "environmental:plum"
           }
         ]
       }

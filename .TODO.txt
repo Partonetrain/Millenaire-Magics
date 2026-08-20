@@ -8,17 +8,51 @@
 - resourcepacks
 - shaderpacks
 
-- cle: quark: simple harvest
-- yafda: environmental integration foods?
+
+0.6 changelog:
+- Added Atmospheric
+- Added Clayworks
+- Added Abnormals Delight
+- Added Pet Vault
+- Added Millenaire Community Textures resourcepack
+- Replace FTB Backups 2 with FTB Backups 3
+- Replaced More Enchantment Info with Universal Enchantment Info
+- Updated mods
+- Upped SoL: Carrot Edition max foods to 250
+- Added multiple recipes and advancements
+- Added multiple tips
+- Adjusted loot tables
+
+
+- Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why
+- millenaire customizations:
+	- add yafda knives to shops
+	- redistribute village types to biomes. https://docs.google.com/spreadsheets/d/1XXQG44UhEQqV-bs55lnX_1UHeXsB6FknHgDkZggx8FA/edit?usp=sharing
+		- Normans: Pine biomes, other forests
+		- Indians: Savannah, Sparse Rainforests, Mangrove Swamp, Deserts, Spiny Thicket,
+		- Japanese: (non-snowy) Taigas, Cherry Grove, Blossom Woods, Kousa Jungle
+		- Mayans: Rainforests, Jungles, Swamps, Stony Peaks
+		- Byzantines: Plains, Birch Forests, Laurel Forests
+		- Inuit: All snowy and icy biomes
+		- Seljuks: Desert, Dunes, Windswept Hills, Wooded Badlands
+	- millenaire\cultures\norman\buildings\lone\pantheon_a_0.nbt replacements:
+	- emerald_block -> 'malum:block_of_brilliance'
+	- minecraft:iron_block -> quark:calcite_bricks
+	- put a chest or something in it?? iron blocks in loot table?
 - waiting on: 
 	- archwood good https://github.com/Alexthw46/ArchwoodGood
 	- tiny takeover backport fix https://github.com/evanbones/Tiny-Takeover-Backport/issues/7
-	- Millenaire shops being mergeable (or word from Kinniken that they are not meant to be mergeable)
+	- ars unification update push
+	- Millenaire shops being mergeable (or word from Millenaire devs that they are not meant to be mergeable)
 	- Supplemental Patches update for latest Iris
 	- Ars Elemental's heavy and light armors to get new textures
+	- malum update (huge rework!!! check what items have been removed!!!)
 	- wayward attributes update
-
+	- some mod that adds vertical slabs
 - a bunch of attributes are missing icons
 - some effects are missing their descriptions
 - fusion textures?
 - emerald ore is generating in frozen peaks for some reason and I can't figure out why
+- Mill food effects are not shown in JustEnoughEffectDescriptions, investigate a fix.
+- nitpicks:
+	- everycomp blocks don't have fuel times

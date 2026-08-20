@@ -78,6 +78,7 @@ millenaire:craft_byzantineboots
 millenaire:craft_byzantinechest
 millenaire:craft_byzantinehelmet
 millenaire:craft_byzantinehoe
+millenaire:craft_byzantineknife
 millenaire:craft_byzantinelegs
 millenaire:craft_byzantinemace
 millenaire:craft_byzantinepickaxe
@@ -138,6 +139,7 @@ millenaire:craft_inuit_carving
 millenaire:craft_inuitbow
 millenaire:craft_iron
 millenaire:craft_iron_workshop
+millenaire:craft_ironknife
 millenaire:craft_jb_boots
 millenaire:craft_jb_helmet
 millenaire:craft_jb_legs
@@ -168,6 +170,7 @@ millenaire:craft_masa
 millenaire:craft_mayanaxe
 millenaire:craft_mayangoldblock
 millenaire:craft_mayanhoe
+millenaire:craft_mayanknife
 millenaire:craft_mayanmace
 millenaire:craft_mayanpickaxe
 millenaire:craft_mayanshovel
@@ -192,6 +195,7 @@ millenaire:craft_normanaxe
 millenaire:craft_normanboots
 millenaire:craft_normanhelmet
 millenaire:craft_normanhoe
+millenaire:craft_normanknife
 millenaire:craft_normanlegs
 millenaire:craft_normanpickaxe
 millenaire:craft_normanplate
@@ -483,4 +487,4 @@ millenaire:tree_relax
 millenaire:visit_building
 millenaire:visit_inn
 
-# Total: 480 goals.
+# Total: 484 goals.

@@ -46,6 +46,18 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "farmersdelight:onion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "atmospheric:dragon_roots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "atmospheric:passion_vine"
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "ars_nouveau:sourceberry_bush",
                     "weight": 2
                 }

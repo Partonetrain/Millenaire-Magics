@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"pet_vault:pet_necklace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:ornate_necklace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":"{\"minecraft:stored_enchantments\":{levels:{\"yigd:soulbound\":1}}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pet_vault:soul_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pet_vault:life_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"grimoireofgaia:totem_of_undying_fragment"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:soul_bead"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:dull_trinket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:amulet_of_mana_boost"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pet_vault:keepers_magnifier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"notenoughtrials:storm_front_marker","type":"net.minecraft.core.Holder","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pet_vault:golden_bone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -46,7 +46,9 @@
     ]
   ],
   "rewards": {
-    "experience": 10
+    "loot": [
+      "mm:pickles"
+    ]
   },
   "sends_telemetry_event": false
 }

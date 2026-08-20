@@ -1,0 +1,22 @@
+{
+    "values":[
+        "ars_nouveau:ars_stencil",
+        "environmental:lumberer_banner_pattern",
+        "environmental:helper_banner_pattern",
+        "supplementaries:dragon_banner_pattern",
+        "millenaire:mayan_pattern",
+        "millenaire:mayan_pattern_1",
+        "millenaire:mayan_pattern_2",
+        "millenaire:mayan_pattern_3",
+        "millenaire:mayan_pattern_4",
+        "millenaire:byzantine_pattern",
+        "millenaire:byzantine_pattern_1",
+        "millenaire:byzantine_pattern_2",
+        "millenaire:jappattern",
+        "millenaire:jappattern1",
+        "millenaire:jappattern2",
+        "millenaire:jappattern3",
+        "millenaire:jappattern4",
+        "atmospheric:cochineal_banner_pattern"
+    ]
+}

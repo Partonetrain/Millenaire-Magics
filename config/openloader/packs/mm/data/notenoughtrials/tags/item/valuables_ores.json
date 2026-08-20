@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "minecraft:gold_ingot",
         "malum:raw_soulstone",
         "malum:natural_quartz"
     ],

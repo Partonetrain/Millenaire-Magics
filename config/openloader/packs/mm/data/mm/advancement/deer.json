@@ -1,0 +1,52 @@
+{
+  "parent": "mm:root",
+  "criteria": {
+    "deer": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "environmental:deer"
+            }
+          },
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:gold_ingot"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Hold a Gold Ingot and look at a deer"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      },
+      "count": 1,
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "text": "Golden Deer"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "deer"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "mm:disc/deer_disc"
+    ]
+  },
+  "sends_telemetry_event": true
+}

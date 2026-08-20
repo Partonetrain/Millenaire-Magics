@@ -29,6 +29,14 @@ const VARIANTS = [
   { plank: 'environmental:pine_planks', ladder: 'everycomp:q/environmental/pine_ladder', bookshelf: 'everycomp:q/environmental/pine_bookshelf', log: '#environmental:pine_logs' },
   { plank: 'environmental:plum_planks', ladder: 'everycomp:q/environmental/plum_ladder', bookshelf: 'everycomp:q/environmental/plum_bookshelf',  log: '#environmental:plum_logs' },
   { plank: 'environmental:wisteria_planks', ladder: 'everycomp:q/environmental/wisteria_ladder', bookshelf: 'everycomp:q/environmental/wisteria_bookshelf',  log: '#environmental:wisteria_logs' },
+  //atmospheric
+  { plank: 'atmospheric:rosewood_planks', ladder: 'everycomp:q/atmospheric/rosewood_ladder', bookshelf: 'everycomp:q/atmospheric/rosewood_bookshelf',  log: '#atmospheric:rosewood_logs' },
+  { plank: 'atmospheric:morado_planks', ladder: 'everycomp:q/atmospheric/morado_ladder', bookshelf: 'everycomp:q/atmospheric/morado_bookshelf',  log: '#atmospheric:morado_logs' },
+  { plank: 'atmospheric:yucca_planks', ladder: 'everycomp:q/atmospheric/yucca_ladder', bookshelf: 'everycomp:q/atmospheric/yucca_bookshelf',  log: '#atmospheric:yucca_logs' },
+  { plank: 'atmospheric:laurel_planks', ladder: 'everycomp:q/atmospheric/laurel_ladder', bookshelf: 'everycomp:q/atmospheric/laurel_bookshelf',  log: '#atmospheric:laurel_logs' },
+  { plank: 'atmospheric:aspen_planks', ladder: 'everycomp:q/atmospheric/aspen_ladder', bookshelf: 'everycomp:q/atmospheric/aspen_bookshelf',  log: '#atmospheric:aspen_logs' },
+  { plank: 'atmospheric:kousa_planks', ladder: 'everycomp:q/atmospheric/kousa_ladder', bookshelf: 'everycomp:q/atmospheric/kousa_bookshelf',  log: '#atmospheric:kousa_logs' },
+  { plank: 'atmospheric:grimwood_planks', ladder: 'everycomp:q/atmospheric/grimwood_ladder', bookshelf: 'everycomp:q/atmospheric/grimwood_bookshelf',  log: '#atmospheric:grimwood_logs' },
   //malum
   { plank: 'malum:soulwood_planks', ladder: 'everycomp:q/malum/soulwood_ladder', bookshelf: 'everycomp:q/malum/soulwood_bookshelf',  log: '#malum:soulwood_logs' },
   { plank: 'malum:runewood_planks', ladder: 'everycomp:q/malum/runewood_ladder', bookshelf: 'everycomp:q/malum/runewood_bookshelf', log: '#malum:runewood_logs' }
@@ -63,6 +71,7 @@ function addPlankSawmill(event, plankId, ladderId) {
   const safePlank = plankId.replace(':', '__');
   event.custom({
     type: 'sawmill:woodcutting',
+    group: 'planks',
     ingredient: [
       { item: plankId }
     ],
@@ -77,6 +86,7 @@ function addLogSawmill(event, logId, ladderId) {
   const safeLogId = logIdWithoutHash.replace(':', '__')
   event.custom({
     type: 'sawmill:woodcutting',
+    group: 'logs',
     ingredient: [
       { tag: logIdWithoutHash }
     ],
@@ -97,7 +107,6 @@ ServerEvents.recipes(event => {
   for (const entry of VARIANTS) {
     if (entry.ladder) { //if ladder is not null
       removeOutput(event, entry.ladder);
-      addLadderConversion(event, entry.plank, entry.ladder);
       if (variantInSawmill2) {
         addPlankSawmill(event, entry.plank, entry.ladder);
         if(entry.log){
@@ -110,6 +119,7 @@ ServerEvents.recipes(event => {
           }
         }
       }
+      addLadderConversion(event, entry.plank, entry.ladder);
     }
     if (entry.bookshelf) { //if bookshelf is not null
       removeOutput(event, entry.bookshelf);

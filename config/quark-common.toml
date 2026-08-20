@@ -221,7 +221,7 @@
 
 	[building.thatch]
 		#Allowed values: [0,1]
-		"Fall Damage Multiplier" = 0.5
+		"Fall Damage Multiplier" = 1.0
 		#This feature disables itself if any of the following mods are loaded:
 		# - environmental
 		# - goated
@@ -415,7 +415,7 @@
 		# - <color> being an ARGB hex color (without the #) for the map to display. You can generate one here - https://argb-int-calculator.netlify.app/
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:snowy_slopes,2,8,14,FF7FE4FF
-		Customs = ["minecraft:desert,1,1,2,FFFFFF05", "minecraft:jungle,1,1,2,FF22B600", "minecraft:cherry_grove,1,1,2,FFE9A9E8", "minecraft:mushroom_fields,1,1,2,FF4D4273", "minecraft:ice_spikes,1,1,2,FF80FFC9", "environmental:blossom_woods,1,1,2,FF6D2A3F", "environmental:snowy_old_growth_pine_barrens,1,1,2,FF1EC0C9", "minecraft:pale_garden,1,1,2,FF9EA49A"]
+		Customs = ["minecraft:desert,1,1,2,FFFFFF05", "minecraft:jungle,1,1,2,FF22B600", "minecraft:cherry_grove,1,1,2,FFE9A9E8", "minecraft:mushroom_fields,1,1,2,FF4D4273", "minecraft:ice_spikes,1,1,2,FF80FFC9", "minecraft:savanna_plateau,1,1,2,FFD2632F", "minecraft:mangrove_swamp,1,1,2,FF332719", "environmental:blossom_woods,1,1,2,FF6D2A3F", "environmental:snowy_old_growth_pine_barrens,1,1,2,FF1EC0C9", "atmospheric:sparse_rainforest,1,1,2,FF003200", "atmospheric:aspen_parkland,1,1,2,FFFFC801", "atmospheric:kousa_jungle,1,1,2,FFA5BCB0", "minecraft:pale_garden,1,1,2,FF9EA49A"]
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
 		"Apply Default Trades" = false
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
@@ -669,7 +669,7 @@
 		#Whether you can pet all mobs
 		"Pet All Mobs" = true
 		#If `petAllMobs` is set, these mobs still can't be pet
-		"Pettable Denylist" = ["minecraft:player", "minecraft:ender_dragon", "minecraft:wither", "millenaire:villager", "ars_nouveau:wilden_boss", "minecraft:armor_stand"]
+		"Pettable Denylist" = ["minecraft:player", "minecraft:ender_dragon", "minecraft:wither", "millenaire:villager", "ars_nouveau:wilden_boss", "minecraft:armor_stand", "dmr:dragon"]
 		#Even if `petAllMobs` is not set, these mobs can be pet
 		"Pettable Allowlist" = []
 

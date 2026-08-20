@@ -1,0 +1,6 @@
+{
+  "molding": "json",
+  "remolder": [
+  ],
+  "selector": "minecraft:loot_table/chests/ruined_portal"
+}

@@ -1,9 +1,12 @@
 //misc jei entries with components
+//NOT WORKING \/
 KubeJEIEvents.subtypes(event => {
     event.hide(Item.of('patchouli:guide_book[patchouli:book="grimoireofgaia:gaiapedia"]'))
     event.hide(Item.of('dmr:dragon_armor[dmr:armor_type="netherite"]'))
     event.hide(Item.of('dmr:dragon_armor[dmr:armor_type="emerald"]'))
     event.hide(Item.of('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]')) //this enchant is named "for functions do not use"
+    console.info("Hid some stacks")
+    //event.add(Item.of('minecraft:netherite_pickaxe[custom_name=\'"Pick of Destiny"\']'))
 })
 
 //info tabs
@@ -73,6 +76,12 @@ RecipeViewerEvents.addInformation('item', event => {
             ])
         }
     })
+
+    Ingredient.of('#trains_tweaks:powder_walking_armor').stacks.toArray().forEach(item => {
+        event.add(item, [
+            'Allows for walking on top of Powder Snow.'
+        ])
+    })
     
     Ingredient.of('#miscnetcompat:armor_magic_uncommon').stacks.toArray().forEach(item => {
         event.add(item, [
@@ -84,10 +93,16 @@ RecipeViewerEvents.addInformation('item', event => {
     event.add('minecraft:painting', [
                 'Lots of new, unique paintings are available! If you want to select a painting instead of having it chosen for you when placing, craft an Easel.'
             ])
+    event.add('minecraft:turtle_scute', [
+                'Can now be obtained from brushing adult turtles, in the same way that you can obtain Armadillo Scute.'
+            ])
+    event.add('environmental:truffle', [
+                'Obtained by leading a pig.'
+            ])
 
     //tools
     event.add('minecraft:trident', [
-                'CANNOT be obtained from Drowned. Can only be obtained in Trial Chambers, or if you get really lucky with a Treasure Balloon.'
+                'CANNOT be obtained from Drowned. Can only be obtained from boss rooms in Trial Chambers, or if you get really lucky with a Treasure Balloon.'
             ])
     event.add('minecraft:name_tag', [
                 'Can be shift-right-clicked in the air to rename without an anvil.'
@@ -101,6 +116,9 @@ RecipeViewerEvents.addInformation('item', event => {
     event.add('thirst:terracotta_bowl', [
             'Can only be used for drinking water.'
         ])
+    event.add('farmersdelight:milk_bottle', [
+            'Can be obtained directly from cows by right-clicking them with a glass bottle. Only stacks up to 16.'
+        ])
     event.add('bibliocraft:plumb_line', [
             'Measures the number of blocks down from the block you clicked.'
         ])
@@ -109,6 +127,9 @@ RecipeViewerEvents.addInformation('item', event => {
         ])
     event.add('ars_nouveau:stable_warp_scroll', [
             'After a location has been set, creates a temporary, one-way portal to that location. Make sure you have a way back!\nCan be tossed into a frame of Sourcestone with Source nearby to create a permanent one-way portal.'
+        ])
+    event.add('ars_controle:portable_brazier_relay', [
+            'Lets you carry the effects of a ritual with you. However, it is very difficult if not borderline impossible to craft, due to requiring Heart of Giga Knight.'
         ])
     event.add('parcool:zipline_rope', [
             'Requires a Zipline Hook to be placed. Can be dyed in a crafting table like leather armor.'
@@ -143,8 +164,20 @@ RecipeViewerEvents.addInformation('item', event => {
     event.add('minecraft:experience_bottle', [
             'Always gives exactly 10 points of experience.'
         ])
+    event.add('atmospheric:passion_vine_coil', [
+            'Can be thrown, dropping down a vine that can be climbed where it lands.'
+        ])
     event.add('ars_nouveau:ritual_flight', [
             'Flight in the Overworld requires the advancement "Who\'s the Boss (Defeat a Boss Chamber)".\nFlight in the Nether requires the advancement "Withering Heights (Summon the Wither)"\nFlight in The End requires the advancement "Great View From Up Here (Levitate up 50 blocks from the attacks of a Shulker)".'
+        ])
+    event.add('pet_vault:pet_necklace', [
+            'Holds up to 5 tamed mobs/pets. Right-click a tamed mob with it to absorb the mob into the necklace. While the locket is equipped in your Necklace slot, press B (by default) to open the radial menu, and Shift+B (by default) to dismiss all pets. \nAbsorbed mobs are bound to player data rather than the item iteself, so if you lose the locket, you don\'t need to worry.'
+        ])
+    event.add('pet_vault:soul_crystal', [
+            'Rarely found in Valuables vaults in Trial Chambers. Applies to pets inside the Keeper\'s Locket. Once used, revives a pet every 20 minutes real-time.'
+        ])
+    event.add('pet_vault:life_crystal', [
+            'Rarely found in Valuables vaults in Trial Chambers. Applies to pets inside the Keeper\'s Locket. Once used, heals at least 1 health every 6 seconds real-time.'
         ])
     
     const unconventionalEgg = ' \nThis is not a conventional spawn egg and cannot be used to change a monster spawner.'
@@ -198,11 +231,17 @@ RecipeViewerEvents.addInformation('item', event => {
     event.add('the_beyond:auroracite', [
             'Can only be walked on with Pathfinder Boots.'
         ])
+    event.add('ars_nouveau:enchanting_apparatus', [
+            'Has multiple functions: crafting, creating specific enchantments, and upgrading magic armor. Place it atop an Arance Core, place Arcane Pedestals/Platforms around it, place materials on them, and provide it Source from a Source Jar.'
+        ])
     event.add('minecraft:cauldron', [
             'Water can be purified in a cauldron by boiling it (placing a hot block such as a Campfire underneath). Comparator output has been changed to reflect purity instead of fullness, allowing automation of water purification. Also, can be used to mix dyes together.'
         ])
+    event.add('clayworks:kiln', [
+            'For any item that has a Furnace recipe but not a Smoker or Blast Furnace recipe, the Kiln can be used to bake it faster than a furnace would.'
+        ])
     event.add('brewinandchewin:keg', [
-            'Used to brew various drinks, and event ferment certain foods. Some recipes require a certain temperature; placing hot blocks such as a Campfire adjacent to it heats it up, and placing cold blocks such as Ice cools it down.'
+            'Used to brew various drinks, and even ferment certain foods. Some recipes require a certain temperature; placing hot blocks such as a Campfire adjacent to it heats it up, and placing cold blocks such as Ice cools it down.'
         ])
     event.add('brewinandchewin:ice_crate', [
             'Can be used to cool down Kegs.'
@@ -220,7 +259,7 @@ RecipeViewerEvents.addInformation('item', event => {
             'Moves fluids between the block it is attached to and the block below it. Useful for things like cauldrons and jars. Can also be used to pour water onto concrete powder, dirt, or any liquid into a sponge (voiding the liquid).\nWater moved this way will retain its purity (this was a pain to get working correctly, believe me).'
         ])
     event.add('supplementaries:jar', [
-            'CANNOT hold potions.'
+            'Can hold certain items (cookies) and liquids. CANNOT hold potions.'
         ])
     event.add('supplementaries:relayer', [
             'Copies redstone signal strength from the block in front of it.'
@@ -297,6 +336,12 @@ RecipeViewerEvents.addInformation('item', event => {
         ])
         
     //easter eggs
+    event.add('minecraft:egg', [
+            'There are some easter eggs in this modpack. Consider this one of them.'
+        ])
+    event.add('opalescence:familiar_tiling', [
+            'Just objectively the worst block in the game.'
+        ])
     event.add('yafda:marmalade_sandwich', [
             'Paddington likes these.'
         ])
@@ -321,15 +366,37 @@ RecipeViewerEvents.addInformation('item', event => {
     event.add('environmental:slabfish_spawn_egg', [
             '"Tell me, are you a slabfish, too?\n(Are you a slabfish, too?)"'
         ])
+    event.add('minecraft:cat_spawn_egg', [
+            ':3'
+        ])
+    event.add('minecraft:wolf_spawn_egg', [
+            'Bork!'
+        ])
+    event.add('minecraft:donkey_spawn_egg', [
+            '"I like that boulder. That is a nice boulder."'
+        ])
     event.add('grimoireofgaia:creep_spawn_egg', [
             '"But I\'m a creep...\nI\'m a weirdo..."'
         ])
     event.add('the_beyond:bonfire', [
             '"It\'s a bonfire, turn the lights out"'
         ])
+    event.add('ars_nouveau:glyph_crush', [
+            '"Crush, crush, crush, crush, crush\n(Two, three, four)"'
+        ])
     event.add('quark:crab_bucket', [
             'Crab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others from gaining a favorable position, even if attaining such position would not directly impact those trying to stop them. It is usually summarized with the phrase: "If I can\'t have it, neither can you".\n-Wikipedia'
         ])
+    event.add('grimoireofgaia:giga_gear', [
+            'Can only be found very rarely in ??? ????????? or if you get very lucky with a Treasure Balloon.'
+        ])
+    event.add('atmospheric:passion_fruit_sorbet', [
+            'Gives you a brain freeze :('
+        ])
+    event.add('atmospheric:orange_sorbet', [
+            'Gives you a brain freeze :('
+        ])
+
 
     //everything millenaire
     const learnedCrop = 'Cannot be planted until you have learned how to do so from a village leader.'
@@ -347,7 +414,7 @@ RecipeViewerEvents.addInformation('item', event => {
             learnedCrop
         ])
     });
-    const learnedDrop = 'Cannot be harvested until you have learned how to do so from a millage leader.'
+    const learnedDrop = 'Cannot be harvested from mobs until you have learned how to do so from a millage leader.'
     const learnedDrops =[
         'millenaire:wolfmeat_raw',
         'millenaire:bearmeat_raw',
@@ -361,7 +428,28 @@ RecipeViewerEvents.addInformation('item', event => {
     const noCraft = 'Can only be crafted by millagers and bought from millages.'
     const noCrafts = [
         'millenaire:thatch',
-        'millenaire:byzantine_tiles'
+        'millenaire:byzantine_tiles',
+        'millenaire:mayan_gold_block',
+        'millenaire:obsidian_flake',
+        'millenaire:cider',
+        'millenaire:calva',
+        'millenaire:boudin',
+        'millenaire:tripes',
+        'millenaire:yogurt',
+        'millenaire:feta',
+        'millenaire:wall_indian_statue',
+        'millenaire:wall_mayan_statue',
+        'millenaire:wall_tapestry',
+        'millenaire:wall_byzantine_icon_small',
+        'millenaire:wall_byzantine_icon_medium',
+        'millenaire:wall_byzantine_icon_large',
+        'millenaire:wall_hide_hanging',
+        'millenaire:wooden_bars_rosette',
+        'millenaire:wooden_bars',
+        'millenaire:wooden_bars_indian',
+        'millenaire:charpoy',
+        'millenaire:straw_bed',
+        'millenaire:futon'
     ]
     noCrafts.forEach((b) => {
         event.add(b, [
@@ -375,14 +463,33 @@ RecipeViewerEvents.addInformation('item', event => {
         'millenaire:sod_birch',
         'millenaire:sod_jungle',
         'millenaire:sod_acacia',
-        'millenaire:sod_dark_oak',
+        'millenaire:sod_dark_oak'
     ]
     sods.forEach((b) => {
         event.add(b, [
             sod
         ])
     });
+    const noWear = 'Can only be used by Millagers.'
+    const noWears = [
+        'millenaire:clothes_byz_wool',
+        'millenaire:clothes_byz_silk',
+        'millenaire:clothes_seljuk_wool',
+        'millenaire:clothes_seljuk_cotton'
+    ]
+    noWears.forEach((b) => {
+        event.add(b, [
+            noWear
+        ])
+    });
 
+    event.add('millenaire:brick_mould', [
+            'Used in Indian and Seljuk cultures make Wet Bricks with dirt and sand, which then dry into Sun-dried Bricks.'
+        ])
+    event.add('millenaire:ulu', [
+            'Used in Inuit culture to make Sod with (vanilla) planks and coarse dirt.'
+        ])
+        
     event.add('millenaire:village_scroll', [
             'Contains information about a particular millage.'
         ])
@@ -394,6 +501,9 @@ RecipeViewerEvents.addInformation('item', event => {
         ])
     event.add('millenaire:apple_tree_sapling', [
             'This tree\'s leaves drop Cider Apples.'
+        ])
+    event.add('millenaire:fire_pit', [
+            'Used by the Inuit, this cooks up to 3 foods at once.'
         ])
         
     event.add('millenaire:snow_brick', [

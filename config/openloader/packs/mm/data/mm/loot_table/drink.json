@@ -38,11 +38,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:milk_bottle"
+          "name": "farmersdelight:hot_cocoa"
         },
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:hot_cocoa"
+          "name": "yafda:cherry_plum_shake"
         },
         {
           "type": "minecraft:item",

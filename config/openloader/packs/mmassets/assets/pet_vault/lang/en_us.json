@@ -1,0 +1,7 @@
+{
+  "item.pet_vault.pet_necklace.tooltip.keybind": "Hold %s while equipped to open the vault.",
+  "pet_vault.upgrade.healing.tooltip.line1": "Right-click to permanently unlock stored-pet healing in the Keeper's Locket.",
+  "pet_vault.upgrade.revive.tooltip.line1": "Right-click to permanently unlock pet revive in the Keeper's Locket.",
+  "item.pet_vault.soul_crystal": "Soul Upgrade",
+  "item.pet_vault.life_crystal": "Life Upgrade"
+}

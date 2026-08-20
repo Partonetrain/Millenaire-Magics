@@ -4,22 +4,10 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
+        "min": 1,
+        "max": 3
       },
       "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:decorated_pot_sherds",
-          "expand": true,
-          "weight": 2
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:trim_templates",
-          "expand": true,
-          "weight": 2
-        },
         {
           "type": "minecraft:tag",
           "name": "c:eggs",
@@ -83,6 +71,17 @@
           "type": "minecraft:loot_table",
           "value": "mm:wilden_part",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "the_beyond:stardust",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
         }
       ]
     },
@@ -95,8 +94,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mm:source_codes",
-          "weight": 2
+          "value": "mm:source_codes"
         }
       ]
     },
@@ -123,7 +121,7 @@
       "entries": [
         {
           "type": "item",
-          "weight": 9,
+          "weight": 8,
           "name": "vista:cassette",
           "functions": [
             {
@@ -133,26 +131,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "grimoireofgaia:bag_record"
         }
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 0,
-        "max": 1
-      },
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "grimoireofgaia:box_old",
-          "weight": 9
-        },
-        {
-          "type": "minecraft:item",
-          "name": "grimoireofgaia:box_egg"
+          "type": "minecraft:loot_table",
+          "value": "mm:boxes"
         }
       ]
     },
@@ -207,7 +196,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
+          "name": "atmospheric:grimweb",
           "weight": 3
         },
         {
@@ -235,6 +224,33 @@
         {
           "condition": "minecraft:random_chance",
           "chance": 0.33
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:decorated_pot_sherds",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:trim_templates",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "c:loom_patterns",
+          "expand": true,
+          "weight": 2
         }
       ]
     }

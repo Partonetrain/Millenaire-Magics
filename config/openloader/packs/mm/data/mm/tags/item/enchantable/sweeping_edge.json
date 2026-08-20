@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:swords"
+    ],
+    "remove": [
+        "millenaire:mayan_mace",
+        "millenaire:byzantine_mace",
+        "millenaire:inuittrident"
+    ]
+}

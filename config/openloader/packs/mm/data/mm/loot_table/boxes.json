@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_old",
+          "weight": 4,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_egg",
+          "weight": 3,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_hat",
+          "weight": 2,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_overworld",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_nether",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_end",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:christmas"
+}

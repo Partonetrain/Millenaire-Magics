@@ -11,7 +11,7 @@ Millénaire Magics is currently in beta testing - expect bugs and updates.
 - Increased difficulty; seasons, thirst, armored mobs, mob variety, and rarely, hordes of mobs
 - Multiple visual-enhancing mods and support for shaders
 - Multiple food mods that provide hearty meals with exploration-supporting buffs
-- Mods made by me specifically for this pack (ThirstWasFixed, YAFDA, Cle, and more) to reduce content gaps and removal of content overlaps
+- Mods made by me specifically for this pack (ThirstWasFixed, YAFDA, Cle, and more) to better integrate mods and reduce content gaps
 - Customized and reconfigured loot, recipes, and tags
 - Overhauled Trial Chambers (Not Enough Trials)
 - Lots of custom tips on the pause screen and JEI hints to help you out
@@ -19,7 +19,8 @@ Millénaire Magics is currently in beta testing - expect bugs and updates.
 - Vanilla villagers and some related content is completely disabled
 
 ## Readme:
-- Make a Hearthstone as soon as you can.
+- Only en_us is supported.
+- Make a Hearthstone as soon as you can. They have unlimited uses and can save you in a pinch.
 - Thirst is configured to mostly be a bonus, but should still be paid attention to. Thirst does not prevent health regeneration, however, you can die of dehydration and natural health regeneration dehydrates you.
 - Using FTB Ultimine requires full Thirst and is limited to 16 blocks.
 - There's no Waystones, but Warp Nexus towers perform a similar function. Each player can only store 9 Nexus Scrolls. Renaming Nexus Warp Scrolls shows that name in the Nexus GUI.
@@ -28,7 +29,13 @@ Millénaire Magics is currently in beta testing - expect bugs and updates.
 - There is an artificial cap of 8192 reputation gained per village per Minecraft day.
 - Do not build within the bounds of a Millénaire village unless you want your base to be destroyed.
 
-![Screenshot of Norman Village](https://raw.githubusercontent.com/Partonetrain/Millenaire-Magics/refs/heads/main/Branding/norman.png)
+
+![Screenshot of Norman Village](https://raw.githubusercontent.com/Partonetrain/Millenaire-Magics/refs/heads/main/Branding/screenshots/norman.png)
+
+#### Useful Resources
+
+- Every enchantment, what its Matrix Enchanting color candle is, and if it is present as an Ancient Tome: https://docs.google.com/spreadsheets/d/1VnSN9BhmYPGo-fLC25cjadH46BByIzb0bFaL-83PUG8/edit?gid=0#gid=0
+- (NYI - THIS IS JUST PLANNED) Every biome, and what cultures can spawn in it: https://docs.google.com/spreadsheets/d/1XXQG44UhEQqV-bs55lnX_1UHeXsB6FknHgDkZggx8FA/edit?gid=0#gid=0
 
 ### AI Use Disclosure
 The Millenaire mod was ported to 1.21.1 by the original author, Kinniken, with the assistance of Claude Code.

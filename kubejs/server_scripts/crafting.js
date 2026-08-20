@@ -26,6 +26,14 @@ function addArsSaplingCycle(event, inSapling, outSapling){
         ]
     ).id(`kubejs:convert_${safeInSapling}_to_${safeOutSapling}`)
 }
+
+function replaceVanillaSand(event, id){
+    event.replaceInput(
+        { input: 'minecraft:sand', id: id },
+        'minecraft:sand',
+        Ingredient.of('#c:sands/colorless') 
+    )
+}
     
 ServerEvents.recipes(event => {
     //reset bucket
@@ -97,9 +105,15 @@ ServerEvents.recipes(event => {
         Ingredient.of('#c:gems/quartz') 
     )
     
+    event.remove({id: 'pet_vault:pet_necklace'})
+    event.remove({id: 'pet_vault:soul_crystal'})
+    event.remove({id: 'pet_vault:life_crystal'})
+
     event.remove({id: 'farmersdelight:salvaging/quartz_block'})
     event.remove({id: 'ars_nouveau:quartz_block_to_quartz'})
     event.remove({id: 'functionalstorage:compacting/quartz'})
+    event.remove({id: 'gag:time_sand_pouch'})
+    event.remove({id: 'grimoireofgaia:gaiapedia'})
 
     //ars sapling cycling
     event.remove({id: 'ars_nouveau:manipulation_essence_to_cascading_sapling'})
@@ -126,6 +140,37 @@ ServerEvents.recipes(event => {
     addArsSaplingCycle(event, 'environmental:cheerful_plum_sapling', 'environmental:plum_sapling')
     addArsSaplingCycle(event, 'environmental:plum_sapling', 'environmental:moody_plum_sapling')
     addArsSaplingCycle(event, 'environmental:moody_plum_sapling', 'environmental:cheerful_plum_sapling')
+
+    addArsSaplingCycle(event, 'atmospheric:laurel_sapling', 'atmospheric:dry_laurel_sapling')
+    addArsSaplingCycle(event, 'atmospheric:dry_laurel_sapling', 'atmospheric:laurel_sapling')
+
+    addArsSaplingCycle(event, 'atmospheric:aspen_sapling', 'atmospheric:green_aspen_sapling')
+    addArsSaplingCycle(event, 'atmospheric:green_aspen_sapling', 'atmospheric:aspen_sapling')
+
+    replaceVanillaSand(event, 'clayworks:concrete_powder');
+
+    replaceVanillaSand(event, 'minecraft:white_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:orange_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:magenta_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:light_blue_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:yellow_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:lime_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:pink_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:gray_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:light_gray_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:cyan_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:purple_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:blue_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:brown_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:green_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:red_concrete_powder');
+    replaceVanillaSand(event, 'minecraft:black_concrete_powder');
+
+    event.replaceInput(
+        { input: '#minecraft:smelts_to_glass', id: 'minecraft:tnt' },
+        'minecraft:sand',
+        Ingredient.of('#c:sands') 
+    )
 
     }
 

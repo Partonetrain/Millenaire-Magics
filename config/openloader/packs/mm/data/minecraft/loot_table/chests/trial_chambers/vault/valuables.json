@@ -53,11 +53,33 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 13,
-                "max": 18
+                "min": 15,
+                "max": 30
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 90,
+          "quality": -5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pet_vault:soul_crystal",
+          "weight": 5,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pet_vault:life_crystal",
+          "weight": 5,
+          "quality": 5
         }
       ]
     }

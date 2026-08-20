@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#bibliocraft:cookie_jar_cookies"
+    "#bibliocraft:cookie_jar_cookies",
+    "brewinandchewin:pickled_pickles"
   ]
 }

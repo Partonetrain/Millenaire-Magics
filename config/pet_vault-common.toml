@@ -1,0 +1,65 @@
+#Internal schema version used for future config migrations.
+#Only update this if you know what you are doing.
+# Default: 1
+# Range: > 1
+configVersion = 1
+
+[storage]
+	#Maximum number of pets a player can store (1–16).
+	# Default: 10
+	# Range: 1 ~ 16
+	maxPets = 5
+	#Maximum number of pets a player can have summoned at once. -1 = unlimited.
+	# Default: -1
+	# Range: -1 ~ 16
+	maxSummonedPets = -1
+	#Entity types that cannot be stored by the Keeper's Locket.
+	#Use namespaced IDs, e.g. "minecraft:wolf" or "alexsmobs:grizzly_bear".
+	#The pet_vault:excluded data-pack tag also excludes entities (mod-author extension point).
+	excludedEntities = ["ars_nouveau:summon_wolf", "ars_nouveau:summon_skeleton", "ars_nouveau:summon_horse", "ars_elemental:summon_bee", "ars_elemental:summon_camel", "ars_elemental:summon_direwolf", "ars_elemental:summon_dolphin", "ars_elemental:summon_skelehorse", "ars_elemental:summon_slime", "ars_elemental:summon_strider", "ars_elemental:summon_vhex", "ars_elemental:summon_wskeleton"]
+	#Entity types that can be auto-ridden via shift-left-click summon-and-mount.
+	#Use namespaced IDs, e.g. "minecraft:pig" or "alexsmobs:grizzly_bear".
+	#The pet_vault:auto_rideable data-pack tag also allows auto-riding (mod-author extension point).
+	extraRideableEntities = ["minecraft:happy_ghast"]
+	#Entity types with no vanilla ownership concept (e.g. iron golems) that can still be
+	#stored by the Keeper's Locket, first-come, first-served — there is no owner to check.
+	#Use namespaced IDs, e.g. "minecraft:iron_golem".
+	#The pet_vault:storable data-pack tag also opts types in (mod-author extension point).
+	#excludedEntities and the pet_vault:excluded tag still take precedence over this list.
+	storableEntities = ["minecraft:happy_ghast"]
+
+[upgrades]
+	#If false, the Life Crystal is non-functional and its crafting recipe is removed.
+	enableLifeCrystal = true
+	#If false, the Soul Crystal is non-functional and its crafting recipe is removed.
+	enableSoulCrystal = true
+
+[healing]
+	#Percentage of max health healed per heal tick (minimum 1 HP always applies).
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	healingRatePercent = 1.0
+	#Ticks between each passive-healing tick. Default 60 = every 3 seconds at 20 TPS.
+	# Default: 60
+	# Range: 1 ~ 1200
+	healIntervalTicks = 120
+
+[cooldowns]
+	#Ticks after storing a pet before it can be summoned again. 0 = disabled. 20 ticks = 1 second.
+	# Default: 40
+	# Range: 0 ~ 1200
+	summonCooldownTicks = 40
+	#Ticks after summoning a pet before it can be stored again. 0 = disabled. 20 ticks = 1 second.
+	# Default: 40
+	# Range: 0 ~ 1200
+	storeCooldownTicks = 40
+
+[revive]
+	#Seconds a dead pet must wait before it can be summoned again. Default 300 = 5 minutes.
+	# Default: 300
+	# Range: 0 ~ 86400
+	reviveTimerSeconds = 1200
+	#If true, sends a chat message when a stored pet dies (only for mob types that don't already send a vanilla death notification).
+	notifyPetDeath = true
+	#If true, sends a chat message when a dead pet's revive timer expires and it becomes summonable again.
+	notifyPetRespawn = true

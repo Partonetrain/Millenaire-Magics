@@ -41,4 +41,19 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
         const player = event.entity;
         player.server.runCommandSilent(`/tellraw ${player.username} {"text":"[Tiny Potato] I believe in you, ${player.username}!","color":"light_purple"}`);
     }
+    else if (event.getAdvancement().id() == 'mm:testing/materials') {
+        const player = event.entity;
+        
+        const one = 'minecraft:brown_bundle[bundle_contents=[{count:8,id:"minecraft:coal"},{count:8,id:"minecraft:quartz"},{count:8,id:"minecraft:redstone"},{count:8,id:"minecraft:diamond"},{count:8,id:"minecraft:lapis_lazuli"},{count:8,id:"minecraft:copper_ingot"},{count:8,id:"minecraft:gold_ingot"},{count:8,id:"minecraft:iron_ingot"}],custom_name=\'"Vanilla Ores"\']';
+        const two = 'minecraft:blue_bundle[bundle_contents=[{count:32,id:"ars_nouveau:source_gem"},{count:8,id:"malum:blazing_quartz"},{count:8,id:"malum:cthonic_gold_fragment"},{count:8,id:"malum:refined_soulstone"},{count:8,id:"malum:raw_brilliance"}],custom_name=\'"Magic Materials"\']';
+        const three = 'minecraft:gray_bundle[bundle_contents=[{count:24,id:"minecraft:cobblestone"},{count:16,id:"minecraft:obsidian"},{count:8,id:"minecraft:white_wool"},{count:16,id:"minecraft:oak_log"}],custom_name=\'"Building Materials"\']';
+        const four = 'minecraft:pink_bundle[bundle_contents=[{count:8,id:"ars_nouveau:conjuration_essence"},{count:8,id:"ars_nouveau:manipulation_essence"},{count:8,id:"ars_nouveau:abjuration_essence"},{count:8,id:"sauce:anima_essence"},{count:8,id:"ars_nouveau:water_essence"},{count:8,id:"ars_nouveau:earth_essence"},{count:8,id:"ars_nouveau:air_essence"},{count:8,id:"ars_nouveau:fire_essence"}],custom_name=\'"Essences"\']';
+        const five = 'minecraft:purple_bundle[bundle_contents=[{count:8,id:"malum:aqueous_spirit"},{count:8,id:"malum:earthen_spirit"},{count:8,id:"malum:infernal_spirit"},{count:8,id:"malum:aerial_spirit"},{count:8,id:"malum:arcane_spirit"},{count:8,id:"malum:wicked_spirit"},{count:8,id:"malum:eldritch_spirit"},{count:8,id:"malum:sacred_spirit"}],custom_name=\'"Spirits"\']';
+
+        player.give(one);
+        player.give(two);
+        player.give(three);
+        player.give(four);
+        player.give(five);
+    }
 });

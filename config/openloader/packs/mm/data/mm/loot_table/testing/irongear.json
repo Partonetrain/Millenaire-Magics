@@ -276,6 +276,21 @@
                     }
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "gag:hearthstone"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": "Hearthstone of Beta Testing"
+                }
+            ]
         }
     ],
     "random_sequence": "mm:testing/irongear"

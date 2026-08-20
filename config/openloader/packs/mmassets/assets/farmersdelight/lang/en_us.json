@@ -14,5 +14,8 @@
   "effect.farmersdelight.comfort.description": "Provides natural regeneration, regardless of how hungry you are.",
 
   "farmersdelight.block.feast.use_container": "You need a Bowl to eat this.",
-  "farmersdelight.jei.info.knife": "For some reason this knife's JEI hint uses a different lang key than every other knife, so I had to add it myself.\nI mean, uhh, a knife is a lightweight melee weapo-\nYou know what? I'm not going to type the whole rest of it out. It works like every other knife does."
+  "farmersdelight.jei.info.knife": "For some reason this knife's JEI hint uses a different lang key than every other knife, so I had to add it myself.\nI mean, uhh, a knife is a lightweight melee weapo-\nYou know what? I'm not going to type the whole rest of it out. It works like every other knife does.",
+  "advancements.farmersdelight.harvest_straw.description": "Harvest grass or wheat with a Knife, or flax, to collect Straw",
+
+  "enchantment.farmersdelight.backstabbing.desc": "Amplifies damage when striking a target from behind."
 }

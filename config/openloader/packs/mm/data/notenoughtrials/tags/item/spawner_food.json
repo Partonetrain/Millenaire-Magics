@@ -5,6 +5,15 @@
     "arsdelight:mendosteen_chicken",
     "arsdelight:bastion_pork",
     "arsdelight:frostaya_mutton",
-    "yafda:flashpine_fish"
+    "yafda:flashpine_fish",
+    "#incapacitated:adrenaline_food",
+    "ars_nouveau:source_berry_roll",
+    "ars_nouveau:source_berry_pie"
+  ],
+  "remove": [
+    "minecraft:dried_kelp",
+    "farmersdelight:kelp_roll",
+    "farmersdelight:vegetable_soup",
+    "farmersdelight:mushroom_rice"
   ]
 }

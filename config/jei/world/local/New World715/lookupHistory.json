@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"atmospheric:smooth_arid_sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"atmospheric:suspicious_arid_sand","components":"{\"minecraft:custom_name\":\u0027\"Sands of Time\"\u0027,\"minecraft:enchantment_glint_override\":1b,\"minecraft:rarity\":\"rare\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:smooth_soul_sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

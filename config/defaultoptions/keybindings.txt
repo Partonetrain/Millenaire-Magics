@@ -45,6 +45,7 @@ key_key.keybindatlas.open_keyboard:key.keyboard.unknown:
 key_quark.keybind.autorun:key.keyboard.caps.lock:
 key_quark.keybind.back:key.mouse.4:
 key_quark.keybind.camera_mode:key.keyboard.f12:
+key_supplementaries.keybind.quiver:key.keyboard.unknown:
 key_quark.keybind.transfer_insert:key.keyboard.unknown:
 key_quark.keybind.transfer_extract:key.keyboard.unknown:
 key_quark.keybind.shift_lock:key.keyboard.unknown:
@@ -66,7 +67,6 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:
-key_supplementaries.keybind.quiver:key.keyboard.unknown:
 key_quark.keybind.change_hotbar:key.keyboard.unknown:
 key_quark.keybind.sort_player:key.keyboard.unknown:
 key_quark.keybind.sort_container:key.keyboard.unknown:
@@ -200,4 +200,6 @@ key_key.parcool.QuickTurn:key.keyboard.unknown:
 key_key.parcool.Flipping:key.keyboard.unknown:
 key_key.parcool.HangDown:key.mouse.right:
 key_key.ars_elemental.open_pouch:key.keyboard.j:
+key_key.pet_vault.open_locket:key.keyboard.b:
+key_key.pet_vault.unsummon_all:key.keyboard.b:SHIFT
 key_key.entityculling.toggle:key.keyboard.unknown:

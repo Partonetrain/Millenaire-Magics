@@ -27,6 +27,10 @@
           {
             "type": "minecraft:item",
             "name": "farmersdelight:fried_rice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "brewinandchewin:creamy_onion_soup"
           }
         ]
       }

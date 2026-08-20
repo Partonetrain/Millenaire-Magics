@@ -58,31 +58,31 @@
           },
           {
             "type": "minecraft:item",
-            "name": "environmental:cheerful_plum_sapling"
-          },
-          {
-            "type": "minecraft:item",
             "name": "environmental:plum_sapling"
           },
           {
             "type": "minecraft:item",
-            "name": "environmental:moody_plum_sapling"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "environmental:pink_wisteria_sapling"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "environmental:purple_wisteria_sapling"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "environmental:blue_wisteria_sapling"
-          },
-          {
-            "type": "minecraft:item",
             "name": "environmental:white_wisteria_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "atmospheric:morado_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "atmospheric:yucca_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "atmospheric:laurel_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "atmospheric:aspen_sapling"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "atmospheric:kousa_sapling"
           }
         ]
       }

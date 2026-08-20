@@ -19,6 +19,15 @@
 			runewood = true
 			soulwood = true
 
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+
 		[types.leaves_type.ars_nouveau]
 			blue_archwood = true
 			red_archwood = true
@@ -61,6 +70,19 @@
 			apple_tree = true
 			olive_tree = true
 			pistachio_tree = true
+
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			aspen = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			kousa = true
+			currant = true
+			grimwood = true
 
 		[types.lantern.ars_additions]
 			golden_lantern = true

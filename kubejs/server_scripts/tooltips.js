@@ -13,8 +13,13 @@ ItemEvents.modifyTooltips(event => {
   event.add(['minecraft:honey_bottle'], Text.blue("Cures Poison"))
   event.add(['minecraft:milk_bucket'], Text.blue("Cures Most Effects"))
   event.add(['millenaire:oliveoil'], Text.blue("Cures All Effects"))
+  event.add(['atmospheric:aloe_leaves'], Text.blue("Extinguishes"))
+  event.add(['atmospheric:aloe_gel_bottle'], Text.blue("Extinguishes"))
+
 
   event.add(['ars_nouveau:ritual_flight'], Text.red("Cannot fly in certain dimensions until certain advancements are unlocked"))
+
+  event.add(['ars_nouveau:glyph_cut'], Text.gray("Use with Sensitive to simulate using a Cutting Board on dropped items"))
 
   Ingredient.of("#c:hidden_from_recipe_viewers").itemIds.forEach(itemId => {
     if(itemId === 'millenaire:inuittrident' ||

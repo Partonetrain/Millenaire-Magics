@@ -1,0 +1,2 @@
+1
+#This file is used by yafda to determine integration version. Please do not edit it, unless want to prevent deployment (set it to -1).

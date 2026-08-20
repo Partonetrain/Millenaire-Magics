@@ -8,6 +8,7 @@
     "enchantment.minecraft.swift_sneak": "§eSwift Sneak§r",
     
     "enchantment.minecraft.wind_burst": "§6Wind Burst§r",
+    "enchantment.minecraft.wind_burst.desc": "Causes upward knockback to the user upon executing a smash attack (by falling more than 1.5 blocks).",
 
     "enchantment.minecraft.protection.desc": "Reduces damage from most sources.",
     "enchantment.minecraft.fire_protection.desc": "Reduces the effects of fire damage and reduces burn time. Also reduces thirst depletion.",
@@ -21,7 +22,7 @@
     "enchantment.minecraft.smite.desc": "Increases damage against undead mobs such as Zombies and Skeletons.",
     "enchantment.minecraft.bane_of_arthropods.desc": "Increases damage against arthropods such as Spiders and Silverfish.",
     "enchantment.minecraft.knockback.desc": "Increases the knockback strength of the weapon.",
-    "enchantment.minecraft.fire_aspect.desc": "Causes additional fire damage when used to attack a mob.",
+    "enchantment.minecraft.fire_aspect.desc": "Causes struck mobs to be ignited.",
     "enchantment.minecraft.looting.desc": "Mobs will drop more loot when killed.",
     "enchantment.minecraft.efficiency.desc": "Increases mining speed of the tool.",
     "enchantment.minecraft.silk_touch.desc": "Allows fragile blocks such as glass to be collected.",
@@ -38,7 +39,7 @@
     "enchantment.minecraft.mending.desc": "Repairs the durability of armor and tools with XP.",
     "enchantment.minecraft.binding_curse.desc": "Prevents the cursed item from being removed from an armor slot.",
     "enchantment.minecraft.vanishing_curse.desc": "Destroys the cursed item if you die with it in your inventory.",
-    "enchantment.minecraft.sweeping.desc": "Increases the damage of sweeping attacks.",
+    "enchantment.minecraft.sweeping_edge.desc": "Increases the damage of sweeping attacks.",
     "enchantment.minecraft.loyalty.desc": "Allows the trident to automatically return after being thrown.",
     "enchantment.minecraft.impaling.desc": "Increases damage to aquatic mobs.",
     "enchantment.minecraft.riptide.desc": "Using the trident while in rain or water will launch the user forward.",
@@ -58,5 +59,13 @@
 
     "block.minecraft.milk": "Milk fluid",
     "block.minecraft.emerald_ore": "Definetely Not Emerald Ore",
-    "block.minecraft.deepslate_emerald_ore": "Definetely Not Emerald Ore"
+    "block.minecraft.deepslate_emerald_ore": "Definetely Not Emerald Ore",
+
+    "options.difficulty.easy": "Easy",
+    "options.difficulty.easy.info": "Easy difficulty is disabled.",
+    "options.difficulty.normal": "Normal",
+    "options.difficulty.normal.info": "Normal difficulty is disabled.",
+    "options.difficulty.hard": "Hard",
+    "options.difficulty.hard.info": "Modpack is locked to Hard difficulty, but mobs deal Normal damage."
+    
 }

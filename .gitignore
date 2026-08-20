@@ -41,6 +41,7 @@ whitelist.json
 .qmenu_opened.marker
 malum_extra.json
 patchouli_data.json
+fancymenu_data\last_world.fmdata
 
 *.lock
 *.tmp
