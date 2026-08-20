@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"ars_nouveau:stable_warp_scroll","components":{"ars_nouveau:warp_scroll":{"pos":[3,-60,1],"dimension":"minecraft:overworld","rotation":{"x":21.599997,"y":19.95001},"crossDim":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ars_nouveau:stable_warp_scroll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ars_nouveau:warp_scroll","components":{"minecraft:custom_name":"\"Sands of Time Banishment Scroll\"","minecraft:lore":["\"A one-way trip to the space at the end of time\"","\"You might be teleported into blocks or high into the air - be prepared\""],"ars_nouveau:warp_scroll":{"pos":[0,72,0],"dimension":"sands_of_time:sands_of_time","rotation":{"x":0.0,"y":0.0}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

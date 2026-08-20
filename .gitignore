@@ -53,6 +53,9 @@ fancymenu_data\last_world.fmdata
 
 /backups/
 /ftbbackups3/
+/config/jei/world/
+/config/jei/world/local/
+*.lookupHistory.json
 
 /kubejs/exported/
 /kubejs/tmp/

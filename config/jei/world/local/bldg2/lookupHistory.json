@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"malum:fractured_cobalt_impetus"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"malum:fractured_silver_impetus"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ars_elemental:air_upstream"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
