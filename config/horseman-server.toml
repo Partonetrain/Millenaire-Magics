@@ -66,7 +66,7 @@
 	#IGNORE_ALL: no collision in all leaves blocks.
 	#Default: IGNORE_LOWEST_BLOCK (enough to make riding through forests viable).
 	#Allowed Values: FULL, IGNORE_LOWEST_BLOCK, IGNORE_ALL
-	leaves_collision_mode_when_mounted = "IGNORE_LOWEST_BLOCK"
+	leaves_collision_mode_when_mounted = "IGNORE_ALL"
 	#Untying or breaking a leash knot now has a sound (backported from 1.21.6). Default: true
 	leash_knot_sounds = true
 	#Dismounting from a horse will place a player towards their view direction. Default: true

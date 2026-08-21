@@ -67,7 +67,7 @@ enable_natural_dragon_spawns = false
 
 	[base_stats.random_stats]
 		#Whether to enable random stats for dragons.
-		enable_random_stats = true
+		enable_random_stats = false
 		#The maximum health bonus for dragons with random stats.
 		# Default: 10
 		# Range: > 0

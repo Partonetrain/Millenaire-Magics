@@ -1,4 +1,6 @@
 NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEvent$AdvancementEarnEvent", event => {
+
+
     if (event.getAdvancement().id() == 'mm:root') {
         const player = event.entity;
         const inventory = player.inventory;

@@ -8,20 +8,11 @@
 - resourcepacks
 - shaderpacks
 
-
-0.6 changelog:
-- Added Atmospheric
-- Added Clayworks
-- Added Abnormals Delight
-- Added Pet Vault
-- Added Millenaire Community Textures resourcepack
-- Replace FTB Backups 2 with FTB Backups 3
-- Replaced More Enchantment Info with Universal Enchantment Info
-- Updated mods
-- Upped SoL: Carrot Edition max foods to 250
-- Added multiple recipes and advancements
-- Added multiple tips
-- Adjusted loot tables
+0.7 changelog
+- Removed KubeJS JEI (By BadMiiickey)
+- Added KubeJEI (by ZZZank)
+- Removed Dynamic Asset Generator
+- minor config changes
 
 
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why

@@ -147,6 +147,9 @@ ServerEvents.recipes(event => {
     addArsSaplingCycle(event, 'atmospheric:aspen_sapling', 'atmospheric:green_aspen_sapling')
     addArsSaplingCycle(event, 'atmospheric:green_aspen_sapling', 'atmospheric:aspen_sapling')
 
+    addArsSaplingCycle(event, 'minecraft:turtle_scute', 'minecraft:armadillo_scute')
+    addArsSaplingCycle(event, 'minecraft:armadillo_scute', 'minecraft:turtle_scute')
+
     replaceVanillaSand(event, 'clayworks:concrete_powder');
 
     replaceVanillaSand(event, 'minecraft:white_concrete_powder');

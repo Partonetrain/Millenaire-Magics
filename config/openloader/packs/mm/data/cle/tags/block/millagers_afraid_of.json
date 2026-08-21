@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:command_block",
+    {
+      "id": "vista:television",
+      "required": false
+    },
+    "minecraft:spawner",
+    "ars_additions:source_spawner",
+    "minecraft:trial_spawner",
+    "quark:monster_box"
+  ]
+}

@@ -1,18 +1,24 @@
-//misc jei entries with components
-//NOT WORKING \/
-KubeJEIEvents.subtypes(event => {
-    event.hide(Item.of('patchouli:guide_book[patchouli:book="grimoireofgaia:gaiapedia"]'))
-    event.hide(Item.of('dmr:dragon_armor[dmr:armor_type="netherite"]'))
-    event.hide(Item.of('dmr:dragon_armor[dmr:armor_type="emerald"]'))
-    event.hide(Item.of('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]')) //this enchant is named "for functions do not use"
-    console.info("Hid some stacks")
-    //event.add(Item.of('minecraft:netherite_pickaxe[custom_name=\'"Pick of Destiny"\']'))
+var runtimes = 0;
+KubeJEIEvents.onRuntimeAvailable(event => { //KubeJEI by ZZZAnk
+    runtimes++;
+    console.log("onRuntimeAvailable " + runtimes)
+    const thisRuntime = event.runtime
+
+    thisRuntime.getRecipeManager().removeRecipes(EnchantmentRecipeCategory.TYPE, oldRecipes);
+    thisRuntime.getRecipeManager().addRecipes(EnchantmentRecipeCategory.TYPE, EnchantmentDataFactory.getOrComputeRecipes());
+})
+
+RecipeViewerEvents.removeEntriesCompletely('item', event => { //native KubeJS event
+    //misc jei ingredients that were added from mod code
+    event.hide('dmr:dragon_armor[dmr:armor_type="netherite"]')
+    event.hide('dmr:dragon_armor[dmr:armor_type="emerald"]')
+    //these are added from creative menu
+    event.hide('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]') //this enchant is named "for functions do not use"
+    event.hide('patchouli:guide_book[patchouli:book="grimoireofgaia:gaiapedia"]')
 })
 
 //info tabs
-RecipeViewerEvents.addInformation('item', event => {
-    
-
+RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     Ingredient.of('#incapacitated:adrenaline_food').stacks.toArray().forEach(item => {
         if(item === 'minecraft:golden_carrot' || item === 'farmersdelight:gleaming_salad') {
             event.add(item, [
@@ -87,6 +93,20 @@ RecipeViewerEvents.addInformation('item', event => {
         event.add(item, [
             'Apply to armor that has thread slots (either mage armor, or any other armor enchanted with Spellweaving) in an Alteration Table.'
         ])
+    })
+    
+    Ingredient.of('#hyecunbound:enchantable/animal_armor').stacks.toArray().forEach(item => {
+        const ench = 'Accepts enchantments on the anvil or Enchanting Apparatus.'
+        if(item === 'minecraft:wolf_armor'){
+            event.add(item, [
+                'Mechanics have been altered from vanilla; wolf armor does not take durability damage. Instead of preventing all incoming damage, adds 11 armor points. \n'+ ench
+            ])
+        }
+        else{
+            event.add(item, [
+                ench
+            ])
+        }
     })
 
     //items

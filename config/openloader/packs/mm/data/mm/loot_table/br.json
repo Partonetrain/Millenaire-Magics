@@ -35,16 +35,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cinnabar",
-          "weight": 1
+          "weight": 1,
+          "quality": -1
         },
         {
           "type": "minecraft:item",
           "name": "quark:tiny_potato",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "quark:bottled_cloud",
           "weight": 1
         },
         {
@@ -55,12 +51,14 @@
         {
           "type": "minecraft:item",
           "name": "grimoireofgaia:honeydew",
-          "weight": 1
+          "weight": 1,
+          "quality": 1
         },
         {
           "type": "minecraft:item",
           "name": "grimoireofgaia:nether_wart_jam",
-          "weight": 1
+          "weight": 1,
+          "quality": 1
         },
         {
           "type": "minecraft:item",

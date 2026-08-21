@@ -1,7 +1,7 @@
 #Whether or not to enable any of the tweaks relating to wolves
 "Wolf Tweaks" = true
 #If enabled, newly tamed wolves will have their max health set to 20 (instead of 40)
-"Nerf Wolf Health" = true
+"Nerf Wolf Health" = false
 #If enabled, wolf armor will not completely negate damage
 #Wolf armor will still grant 11 points of armor (which is actually useless in vanilla: https://bugs.mojang.com/browse/MC-268913)
 #As an upside, Wolf Armor will not take durability damage, acting like diamond horse armor

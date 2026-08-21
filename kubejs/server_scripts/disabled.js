@@ -4,6 +4,7 @@ const DISABLED_ITEMS = [
     'quark:thatch_stairs',
     'quark:thatch_slab',
     'quark:thatch_vertical_slab',
+    'quark:bottled_cloud',
 
     'quark:beetroot_crate',
     'quark:potato_crate',

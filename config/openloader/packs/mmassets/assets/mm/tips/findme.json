@@ -11,7 +11,7 @@
         "text": " while scrolling over an item to find the same item, or ."
       },
       {
-        "key.findme.pull_stack": "key.findme.search"
+        "keybind": "key.findme.pull_stack"
       },
       {
         "text": " to pull a stack to you (within 4 blocks of the storage block)."

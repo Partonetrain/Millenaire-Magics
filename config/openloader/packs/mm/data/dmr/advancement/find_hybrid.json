@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "parent": "dmr:main",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "blank",
+    "description": "blank",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "unlock_right_away": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
