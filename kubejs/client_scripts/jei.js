@@ -74,7 +74,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     Ingredient.of('#icarus:wings').stacks.toArray().forEach(item => {
         if(item !== 'icarus:zanzas_wings'){
             event.add(item, [
-                'End-game gliding accessory. Unlike Elytra, does not have durability, and allows for propelling itself without fireworks by pressing forwards as long as you have flight stamina remaining. However, there are still some physics restraints (you can\'t fly straight up forever).'
+                'End-game gliding accessory. Crafting recipe must be unlocked from secret knowledge. Unlike Elytra, does not have durability, and allows for propelling itself without fireworks by pressing forwards as long as you have flight stamina remaining. However, there are still some physics restraints (you can\'t fly straight up forever).'
             ])
         }else{
             event.add(item, [
@@ -121,6 +121,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             ])
 
     //tools
+    event.add('ars_nouveau:potion_flask', [
+                'Can be used as a flask. Automatically purifies water.'
+            ])
     event.add('minecraft:trident', [
                 'CANNOT be obtained from Drowned. Can only be obtained from boss rooms in Trial Chambers, or if you get really lucky with a Treasure Balloon.'
             ])
@@ -138,6 +141,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         ])
     event.add('farmersdelight:milk_bottle', [
             'Can be obtained directly from cows by right-clicking them with a glass bottle. Only stacks up to 16.'
+        ])
+    event.add('farmersdelight:skillet', [
+            'If placed in the main hand with raw food in the off-hand, stand next to a heat source and right-click to cook on the go!'
         ])
     event.add('bibliocraft:plumb_line', [
             'Measures the number of blocks down from the block you clicked.'
@@ -199,6 +205,14 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('pet_vault:life_crystal', [
             'Rarely found in Valuables vaults in Trial Chambers. Applies to pets inside the Keeper\'s Locket. Once used, heals at least 1 health every 6 seconds real-time.'
         ])
+    event.add('grimoireofgaia:weresheep_token', [
+            'Rarely found in Valuables vaults in Trial Chambers. Once used, adds 2 blocks to maximum Ultimine blocks, up to 16. Texture by malcolmriley, from https://github.com/malcolmriley/unused-textures (CC BY 4.0).'
+        ])
+    event.add('grimoireofgaia:holstaurus_token', [
+            'Only used to upgrade Spawners. Texture by malcolmriley, from https://github.com/malcolmriley/unused-textures (CC BY 4.0).'
+        ])
+        
+
     
     const unconventionalEgg = ' \nThis is not a conventional spawn egg and cannot be used to change a monster spawner.'
     event.add('grimoireofgaia:spawn_trader', [
@@ -276,7 +290,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Once filled with any kind of rope or chain, a Turn Table or Crank can be attached to it to raise or lower the rope/chain. The block at the bottom of the rope/chain will also be moved, and this follows Slime Block rules, but not Chains Connect Blocks rules. Pulleys can only pull up to 12 non-rope/chain attached blocks at a time, but they can be combined to pull more.'
         ])
     event.add('supplementaries:faucet', [
-            'Moves fluids between the block it is attached to and the block below it. Useful for things like cauldrons and jars. Can also be used to pour water onto concrete powder, dirt, or any liquid into a sponge (voiding the liquid).\nWater moved this way will retain its purity (this was a pain to get working correctly, believe me).'
+            'Moves fluids between the block it is attached to and the block below it. Useful for things like cauldrons and jars. Can also be used to pour water onto concrete powder, dirt, or any liquid into a sponge (voiding the liquid).\nWater moved this way will retain its purity, and mixing water purities will result in the lower of the two purities.\n(All this purity stuff was a pain to get working correctly, believe me).'
         ])
     event.add('supplementaries:jar', [
             'Can hold certain items (cookies) and liquids. CANNOT hold potions.'
@@ -502,6 +516,18 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             noWear
         ])
     });
+    const denier = 'Used for trade with Millagers. Can be stored in a Denier Pouch. Right-click to convert between denominations.'
+    const deniers = [
+        'millenaire:denier',
+        'millenaire:denier_argent',
+        'millenaire:denier_or'
+    ]
+    deniers.forEach((b) => {
+        event.add(b, [
+            denier
+        ])
+    });
+
 
     event.add('millenaire:brick_mould', [
             'Used in Indian and Seljuk cultures make Wet Bricks with dirt and sand, which then dry into Sun-dried Bricks.'

@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:horse",
+        "minecraft:donkey",
+        "minecraft:mule",
+        "minecraft:zombie_horse",
+        "minecraft:skeleton_horse",
+        "environmental:zebra",
+        "environmental:zorse",
+        "environmental:zonkey",
+        "dmr:dragon"
+    ]
+}

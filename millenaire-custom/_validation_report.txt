@@ -1,5 +1,5 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-08-20 22:46:37
+Generated: 2026-08-25 19:57:07
 Mod version: millenaire 9.0.0-beta.2
 
 === Culture: byzantines (built-in with overrides) ===
@@ -9,7 +9,8 @@ Mod version: millenaire 9.0.0-beta.2
 
 === Culture: indian (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: IronFix, yafda
+  villager_type    2 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: inuits (built-in with overrides) ===
@@ -19,7 +20,9 @@ Mod version: millenaire 9.0.0-beta.2
 
 === Culture: japanese (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: IronFix, yafda
+  building_plan    1 file(s) on disk
+  villager_type    2 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: mayan (built-in with overrides) ===
@@ -29,12 +32,14 @@ Mod version: millenaire 9.0.0-beta.2
 
 === Culture: norman (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: IronFix, mm, yafda
+  villager_type    2 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: seljuk (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: IronFix, yafda
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Global ===
@@ -44,7 +49,7 @@ Mod version: millenaire 9.0.0-beta.2
 
 === Summary ===
 Cultures: 0 custom, 7 built-in with overrides, 7 total loaded
-Registries after load: 1803 building plans, 285 villager types, 126 village types
+Registries after load: 1802 building plans, 284 villager types, 125 village types
 
 For detailed errors and warnings during loading, see logs/latest.log
 (search for 'Error', 'WARN CultureLoader', 'WARN BuildingPlanSet').

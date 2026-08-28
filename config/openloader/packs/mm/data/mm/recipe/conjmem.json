@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "the_beyond:remembrances"
+    },
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  ],
+  "result": {
+    "id": "grimoireofgaia:holstaurus_token"
+  }
+}

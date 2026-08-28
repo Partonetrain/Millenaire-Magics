@@ -1,6 +1,6 @@
 [Limitations]
 	#Whether these limitations will be imposed to players
-	limitation_imposed = false
+	limitation_imposed = true
 
 	[Limitations.Control]
 		#Allow disabling cooldown of wall jump
@@ -35,10 +35,14 @@
 		max_breakfall_damage_reduction_rate = 0.6
 
 		[Limitations.Control.Modifier]
+			#FastSwim speed modifier
+			# Default: 2.0
+			# Range: 0.001 ~ 10.0
+			max_fast-swim_modifier = 1.5
 			#How long you can do Horizontal Wall Run
 			# Default: 40
 			# Range: 15 ~ 100
-			wall-run_continuable_tick = 30
+			wall-run_continuable_tick = 40
 			#How long you can do Slide
 			# Default: 30
 			# Range: 10 ~ 60
@@ -47,10 +51,6 @@
 			# Default: 2.0
 			# Range: 0.001 ~ 10.0
 			max_fast-run_modifier = 2.0
-			#FastSwim speed modifier
-			# Default: 2.0
-			# Range: 0.001 ~ 10.0
-			max_fast-swim_modifier = 2.0
 			#Dodge speed modifier
 			# Default: 1.0
 			# Range: 0.5 ~ 3.0

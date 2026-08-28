@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:block_of_soulstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:source_gem_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:drink"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:useful"
+}

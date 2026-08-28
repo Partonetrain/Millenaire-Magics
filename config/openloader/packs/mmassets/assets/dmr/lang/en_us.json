@@ -1,4 +1,7 @@
 {
   "dmr.advancements.find_egg.title": "Weird-Looking Egg",
-  "dmr.advancements.find_egg.description": "Obtain a dragon egg."
+  "dmr.advancements.find_egg.description": "Obtain a dragon egg.",
+
+  "dmr.advancements.find_hybrid_egg.title": "Here Be Dragons",
+  "dmr.advancements.find_hybrid_egg.description": "Dragons are real.\n\n(This advancement absolutely REFUSED to get disabled in any capacity, so I had to rename it)"
 }

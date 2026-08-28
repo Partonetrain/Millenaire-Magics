@@ -117,3 +117,6 @@
 	dimensions = []
 	#When summoning/binding a horse with Copper Horn fails, error message will show above the hotbar.
 	copper_horn_error_messages = true
+	#Copper Horn item is enabled. If set to false, item will not be craftable and usable.
+	#Default: true
+	copper_horn_enabled = true

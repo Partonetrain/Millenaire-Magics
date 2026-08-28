@@ -38,6 +38,20 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_fire_resistance"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "farmersdelight:hot_cocoa"
         },
         {

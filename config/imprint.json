@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "showOtherPlayers": true,
+  "showMobs": true,
+  "showWhileCrouching": true,
+  "footprintSizes": "Medium",
+  "footprintLifetime": 3.0,
+  "footprintColor": 0,
+  "alpha": 40,
+  "rainbowMode": false,
+  "tickInterval": 7,
+  "speedThreshold": 0.6,
+  "footOffset": 0.2,
+  "enableDustParticles": true
+}

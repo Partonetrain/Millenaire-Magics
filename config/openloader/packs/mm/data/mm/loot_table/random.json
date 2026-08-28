@@ -1,4 +1,6 @@
 {
+  "//comment1": "Dissapointingly RealmRPG ballons run context-less server commands when broken so luck does NOT affect when this table is rolled from balloons",
+  "//comment2": "Total weights: weight: 100 quality: 10 + -10 = 0",
   "type": "minecraft:chest",
   "pools": [
     {
@@ -7,8 +9,8 @@
         {
           "type": "minecraft:item",
           "name": "grimoireofgaia:projectile_random_magic",
-          "weight": 80,
-          "quality": -10,
+          "weight": 76,
+          "quality": -9,
           "functions": [
             {
               "function": "trains_tweaks:randomize_exclude",
@@ -19,6 +21,12 @@
               "max_tries": 50
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:useful",
+          "weight": 6,
+          "quality": -1
         },
         {
           "type": "minecraft:loot_table",

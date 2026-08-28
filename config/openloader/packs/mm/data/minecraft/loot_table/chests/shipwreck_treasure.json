@@ -27,7 +27,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5,
+                "max": 16,
                 "min": 1
               },
               "function": "minecraft:set_count"
@@ -145,6 +145,16 @@
             }
           ],
           "name": "minecraft:coast_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:random"
         }
       ],
       "rolls": 1

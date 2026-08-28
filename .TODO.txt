@@ -8,13 +8,12 @@
 - resourcepacks
 - shaderpacks
 
-0.7 changelog
-- Removed KubeJS JEI (By BadMiiickey)
-- Added KubeJEI (by ZZZank)
-- Removed Dynamic Asset Generator
-- minor config changes
 
 
+- check if mill fixes:
+	- pantheon_a_0
+	- do patterns have items? (no)
+	- are pattern shields fixed (no)
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why
 - millenaire customizations:
 	- add yafda knives to shops
@@ -27,13 +26,13 @@
 		- Inuit: All snowy and icy biomes
 		- Seljuks: Desert, Dunes, Windswept Hills, Wooded Badlands
 	- millenaire\cultures\norman\buildings\lone\pantheon_a_0.nbt replacements:
-	- emerald_block -> 'malum:block_of_brilliance'
-	- minecraft:iron_block -> quark:calcite_bricks
-	- put a chest or something in it?? iron blocks in loot table?
+		- emerald_block -> 'malum:block_of_brilliance'
+		- minecraft:iron_block -> quark:calcite_bricks
+		- put a chest or something in it?? iron blocks in loot table?
 - waiting on: 
 	- archwood good https://github.com/Alexthw46/ArchwoodGood
 	- tiny takeover backport fix https://github.com/evanbones/Tiny-Takeover-Backport/issues/7
-	- ars unification update push
+	- ars unification update push https://github.com/Vonr/Ars-Unification/issues/10
 	- Millenaire shops being mergeable (or word from Millenaire devs that they are not meant to be mergeable)
 	- Supplemental Patches update for latest Iris
 	- Ars Elemental's heavy and light armors to get new textures

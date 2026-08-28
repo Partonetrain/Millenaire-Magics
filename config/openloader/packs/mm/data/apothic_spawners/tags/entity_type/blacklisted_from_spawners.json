@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "dmr:dragon"
+        "dmr:dragon",
+        "#c:bosses"
     ]
 }

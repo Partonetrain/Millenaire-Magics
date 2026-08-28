@@ -1,14 +1,17 @@
 [General]
+	#If true, cauldrons with water in them will have their comparator output replaced to match purity
+	#0 = Invalid/Not Set, 1 = Dirty, 4 = Purified
+	"Cauldron Comparator Purity" = true
 	#The duration, in ticks, of the Long Fire Resistance Potion
 	#Leave as default for vanilla value
 	# Default: 9600
 	# Range: 1 ~ 432000
-	"Long Fire Resistance Duration" = 12000
+	"Long Fire Resistance Duration" = 24000
 	#The duration, in ticks, of the vanilla Fire Resistance Potion
 	#Leave as default for vanilla value
 	# Default: 3600
 	# Range: 1 ~ 432000
-	"Fire Resistance Duration" = 6000
+	"Fire Resistance Duration" = 12000
 	#Purity for water that is missing purity. This is used at several places in this mod, such as Fix Cauldrons and Drink Cauldrons
 	#This used to be an option in Thirst was Taken, but it was removed in Thirst was Reclaimed, so it has been added here.
 	# Default: 2
@@ -39,9 +42,6 @@
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	"Thirst Bonus Value" = 0.1
-	#If true, cauldrons with water in them will have their comparator output replaced to match purity
-	#0 = Invalid/Not Set, 1 = Dirty, 4 = Purified
-	"Cauldron Comparator Purity" = false
 	#Right offset for the quench overlay. You only need this if you have AppleSkin installed and the quench overlay is not aligning with your thirst bar on your HUD for some reason
 	# Default: 0
 	# Range: -100 ~ 100
@@ -50,6 +50,12 @@
 	# Default: 0
 	# Range: -100 ~ 100
 	"Quench Overlay Top Offset" = 0
+	#If true, water containing items (water bottles, water buckets, and water bowls) without a purity component will have the purity component added and set to max on inventory tick
+	#(Example of this: water bottles in the creative inventory that have the Purified tooltip but only have 7 components instead of the expected 8)
+	"Enforce Water Container Component" = false
+	#If true, any time a water potion is created (ultimately a water bottle), the stack will also have its purity set
+	#(technical note: this inject is in PotionContents#createItemStack, which other code can act on the return value of.)
+	"Enforce Water Potion Purity" = false
 
 ["Ars Nouveau"]
 	#The capacity of the Ars Nouveau Potion Flask
@@ -77,10 +83,13 @@
 	#(In other cases, the purity will be the default purity set above)
 	# Default: 2
 	# Range: 0 ~ 3
-	"Everfull Urn Purity" = 2
+	"Everfull Urn Purity" = 3
 	#Whether or not water with purity can be taken from the Everfull Urn with bottles and buckets
 	#If Potion Flasks Everfull Urn is true, potion flasks will also be able to pick up water from the Everfull Urn
 	"Fill from Everfull Urn" = true
+	#Whether or not the Everfull Urn can be drunk from directly by right-clicking it with an empty hand
+	#The amount of thirst/quenchness restored is set in the Thirst config handDrinkingHydration and handDrinkingQuenched, and these values are used even if canDrinkByHand is false
+	"Drink from Everfull Urn" = true
 	#Whether or not the Flask can be filled from the Everfull Urn
 	#Requires Fill from Everfull Urn to be true
 	"Fill Flask from Everfull Urn" = true
@@ -88,9 +97,6 @@
 	#Determined by "waterUrnCost" in the Ars Elemental config
 	#Requires "Fill from Everfull Urn" to be true
 	"Everfull Urn Requests Source" = true
-	#Whether or not the Everfull Urn can be drunk from directly by right-clicking it with an empty hand
-	#The amount of thirst/quenchness restored is set in the Thirst config handDrinkingHydration and handDrinkingQuenched, and these values are used even if canDrinkByHand is false
-	"Drink from Everfull Urn" = true
 
 ["FTB Ultimine"]
 	#The amount of thirst required to use FTB Ultimine
@@ -104,21 +110,21 @@
 	"Fix Faucets" = true
 
 [ParCool]
-	#The amount of thirst required to gain a stamina recovery bonus
-	#If 0, there will be no stamina regeneration bonus
-	# Default: 0
-	# Range: 0 ~ 20
-	"Stamina Bonus Requirement" = 20
-	#The amount of stamina regeneration to give when the Stamina Bonus Requirement is met
-	#This uses the add_value operation
-	# Default: 10
-	# Range: 0 ~ 80
-	"Thirst Bonus Value" = 5
 	#The amount of stamina regeneration penalty to give when the Stamina Penalty Requirement is met
 	#This uses the add_value operation
 	# Default: -10
 	# Range: -20 ~ 0
-	"Stamina Penalty Value" = -15
+	"Stamina Penalty Value" = -10
+	#The amount of thirst required to gain a stamina recovery bonus
+	#If 0, there will be no stamina regeneration bonus
+	# Default: 0
+	# Range: 0 ~ 20
+	"Stamina Bonus Requirement" = 0
+	#The amount of stamina regeneration to give when the Stamina Bonus Requirement is met
+	#This uses the add_value operation
+	# Default: 10
+	# Range: 0 ~ 80
+	"Thirst Bonus Value" = 10
 	#The amount of thirst that the player must have to NOT incur the stamina regeneration penalty
 	#If 0, there will be no stamina regeneration penalty
 	# Default: 0
@@ -137,3 +143,8 @@
 	# Default: 1
 	# Range: 0 ~ 5
 	"Amendments Boil Purity Chance" = 1
+
+[Moonlight]
+	#If true, Moonlight's soft fluid system (e.g., the kind Supplementaries Jars use) will be capable of merging water FluidStacks that do not have the same purity
+	#The resulting fluid takes the lower (dirtier) purity value, because dirty water contaminates clean water. Thirst mod has this same mechanic, but only for neoforge fluid tanks
+	"Soft Fluid Water Merge" = true

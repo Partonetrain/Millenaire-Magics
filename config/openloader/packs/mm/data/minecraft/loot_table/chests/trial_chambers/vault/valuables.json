@@ -66,8 +66,8 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90,
-          "quality": -5
+          "weight": 85,
+          "quality": -15
         },
         {
           "type": "minecraft:item",
@@ -80,6 +80,12 @@
           "name": "pet_vault:life_crystal",
           "weight": 5,
           "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:weresheep_token",
+          "weight": 5,
+          "quality": 10
         }
       ]
     }

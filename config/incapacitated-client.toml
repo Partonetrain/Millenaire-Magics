@@ -7,7 +7,7 @@ downCounterColorful = true
 #Modified X position value for the display of the down counter
 # Default: 0
 # Range: -10000 ~ 10000
-downCounterModX = 0
+downCounterModX = 300
 #Modified Y position value for the display of the down counter
 # Default: 0
 # Range: -10000 ~ 10000

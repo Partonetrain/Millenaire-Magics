@@ -1,14 +1,14 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "text": "Can't find where you put your blocks? Press",
+    "text": "Can't find where you put your blocks? Press ",
     "type": "text",
     "extra": [
       {
         "keybind": "key.findme.search"
       },
       {
-        "text": " while scrolling over an item to find the same item, or ."
+        "text": " while scrolling over an item to find the same item, or "
       },
       {
         "keybind": "key.findme.pull_stack"

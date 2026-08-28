@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": "Ultimine 2",
+    "description": "You can now mine up to 12 blocks at once.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "mm:um/um_1",
+  "criteria": {
+    "uses": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "mm:um/um_2"
+  },
+  "sends_telemetry_event": false
+}

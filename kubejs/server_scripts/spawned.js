@@ -3,7 +3,11 @@ EntityEvents.spawned(event =>
         const entity = event.getEntity();
         const level = event.getLevel();
 
-        if(entity.getType() === 'minecraft:item'){
+        if(entity.getType() === 'minecraft:zombie_villager'){
+            event.cancel;
+        }
+
+        else if(entity.getType() === 'minecraft:item'){
             var item = entity.getItem();
             //fix bugged Malum drop interaction
             if(item === 'quark:soul_bead' || item === 'quark:diamond_heart'){
@@ -15,6 +19,11 @@ EntityEvents.spawned(event =>
             else if(item === 'minecraft:nether_star' || item === 'minecraft:debug_stick'){
                 entity.age = -32768;
                 entity.pickupDelay = 10;
+            }
+
+            //these items despawn faster
+            else if(item === 'yigd:death_scroll'){
+                entity.age = 3000;
             }
         }
 

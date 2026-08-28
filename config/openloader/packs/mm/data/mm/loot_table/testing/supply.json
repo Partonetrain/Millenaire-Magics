@@ -71,6 +71,25 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_carrot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Golden Carrot of Beta Testing"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "random_sequence": "mm:testing/supply"

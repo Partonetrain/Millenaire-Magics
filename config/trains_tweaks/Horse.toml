@@ -13,7 +13,7 @@
 #Leave as default for vanilla value
 # Default: 0.1125
 # Range: 0.1125 ~ 0.3375
-"Horse Speed Minimum" = 0.225
+"Horse Speed Minimum" = 0.275
 #Newly-spawned horses (including offspring) with a jump value lower than this will have their jump upped to this minimum
 #For reference, the average is ~0.7, or 2.89 blocks (does not scale linearly)
 #Leave as default for vanilla value

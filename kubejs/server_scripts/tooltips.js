@@ -21,6 +21,9 @@ ItemEvents.modifyTooltips(event => {
 
   event.add(['ars_nouveau:glyph_cut'], Text.gray("Use with Sensitive to simulate using a Cutting Board on dropped items"))
 
+   event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oRight-click to permanently upgrade Ultimine by 2 blocks."))
+   event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oCan be used up to 4 times."))
+
   Ingredient.of("#c:hidden_from_recipe_viewers").itemIds.forEach(itemId => {
     if(itemId === 'millenaire:inuittrident' ||
        itemId === 'millenaire:byzantine_mace' ||

@@ -1,10 +1,6 @@
 {
     "replace": false,
     "values": [
-        "malum:malignant_pewter_ingot",
-        {
-            "required": false,
-            "id": "twilightforest:knightmetal_ingot"
-        }
+        "malum:umbral_spirit"
     ]
 }

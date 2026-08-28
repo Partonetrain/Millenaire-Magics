@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:testing/testers"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:testing/irongear"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:testing/supply"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:testing/pantheon"
+}

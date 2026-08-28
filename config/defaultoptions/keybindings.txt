@@ -41,6 +41,8 @@ key_iris.keybind.reload:key.keyboard.unknown:
 key_iris.keybind.toggleShaders:key.keyboard.f10:
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown:
 key_iris.keybind.wireframe:key.keyboard.unknown:
+key_key.blockprints.open_menu:key.keyboard.f6:
+key_key.blockprints.tool_menu:key.keyboard.f7:
 key_key.keybindatlas.open_keyboard:key.keyboard.unknown:
 key_quark.keybind.autorun:key.keyboard.caps.lock:
 key_quark.keybind.back:key.mouse.4:

@@ -16,6 +16,7 @@
     {
       "id": "millenaire:path_sandstone_slab",
       "required": false
-    }
+    },
+    "#c:concretes"
   ]
 }

@@ -3,7 +3,7 @@ const ITEM_CONVERSIONS = [
   { inputId: "millenaire:denier", inputCount: 64, outputId: "millenaire:denier_argent", outputCount: 1 },
   { inputId: "millenaire:denier_argent", inputCount: 1, outputId: "millenaire:denier", outputCount: 64 },
   { inputId: "millenaire:denier_argent", inputCount: 64, outputId: "millenaire:denier_or", outputCount: 1 },
-  { inputId: "millenaire:denier_or", inputCount: 64, outputId: "millenaire:denier_argent", outputCount: 1 }
+  { inputId: "millenaire:denier_or", inputCount: 1, outputId: "millenaire:denier_argent", outputCount: 64 }
 
   //{ inputId: "minecraft:bone_meal", inputCount: 1, outputId: "minecraft:white_dye", outputCount: 1 },
   //{ inputId: "minecraft:bone_meal", inputCount: 9, outputId: "minecraft:bone_block", outputCount: 1 }
@@ -20,7 +20,7 @@ function byHighestCount(a, b) {
 
 ItemEvents.rightClicked(event => {
   const player = event.player;
-  const item   = event.item;
+  const item = event.item;
 
   //don't try to convert nothing
   if (!item || item.isEmpty()) return;
@@ -38,6 +38,7 @@ ItemEvents.rightClicked(event => {
 
   item.shrink(entry.inputCount);
   const outputStack = Item.of(entry.outputId, entry.outputCount);
+  player.swing();
   player.give(outputStack);
 
   //prevent vanilla logic

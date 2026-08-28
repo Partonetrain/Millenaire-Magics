@@ -281,6 +281,16 @@
           "name": "arsdelight:bastion_pork"
         }
       ]
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:random"
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/bastion_treasure"

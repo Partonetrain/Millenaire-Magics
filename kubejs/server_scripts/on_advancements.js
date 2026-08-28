@@ -1,8 +1,8 @@
 NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEvent$AdvancementEarnEvent", event => {
 
-
-    if (event.getAdvancement().id() == 'mm:root') {
-        const player = event.entity;
+    const player = event.entity;
+    const id = event.getAdvancement().id();
+    if (id === 'mm:root') {
         const inventory = player.inventory;
         
         player.inventory.clear();
@@ -15,6 +15,7 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
         player.give('minecraft:wooden_shovel');
         player.give('minecraft:wooden_axe');
         player.give('minecraft:wooden_hoe');
+        player.give('farmersdelight:flint_knife');
         player.give(Item.of('minecraft:bread', 4));
         player.give(Item.of('minecraft:potion[potion_contents={potion:"minecraft:water"},thirst:purity=2]', 4));
         player.give(tome);
@@ -26,25 +27,28 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
 
         console.info(`Gave starting items to ${player.name} and set up gamerules`);
     }
-    if (event.getAdvancement().id() == 'mm:birthday') {
-        const player = event.entity;
-        const inventory = player.inventory;
-        
+    if (id === 'mm:pantheon') {
+        var bonus = 'quark:ancient_chest[container_loot={loot_table:"mm:testing/pantheon"},custom_name=\'"M.M. Beta Tester Chest"\',lore=[\'"Place and open for loot"\']]';
+        player.give(bonus);
+    }
+    if (id === 'mm:birthday') {
         var bonus = `minecraft:light_blue_bundle[custom_name='"Birthday Bundle"',bundle_contents=[{count:1,id:"malum:infernal_spirit"},{count:1,id:"malum:earthen_spirit"},{count:1,id:"malum:aqueous_spirit"},{count:1,id:"malum:aerial_spirit"},{count:1,id:"malum:eldritch_spirit"},{count:1,id:"malum:arcane_spirit"},{count:1,id:"malum:wicked_spirit"},{count:1,id:"malum:sacred_spirit"},{count:1,id:"sauce:anima_essence"},{count:1,id:"ars_nouveau:water_essence"},{count:1,id:"ars_nouveau:manipulation_essence"},{count:1,id:"ars_nouveau:fire_essence"},{count:1,id:"ars_nouveau:earth_essence"},{count:1,id:"ars_nouveau:air_essence"},{count:1,id:"ars_nouveau:conjuration_essence"},{count:1,id:"ars_nouveau:abjuration_essence"}]]`
 
         player.give(bonus);
     }
-    else if (event.getAdvancement().id() == 'supplementaries:husbandry/soap') {
-        const player = event.entity;
+    else if (id === 'supplementaries:husbandry/soap') {
         player.server.runCommandSilent(`/tellraw @a {"text":"Hey everyone! ${player.username} just ate soap!","color":"red"}`);
         player.server.runCommand(`/tellraw ${player.username} {"text":"Why did you do that? At least you learned your lesson and won't do it again.","italic":true,"color":"gray"}`);
     }
-    else if (event.getAdvancement().id() == 'quark:content/pat_potato') {
-        const player = event.entity;
+    else if (id === 'quark:content/pat_potato') {
         player.server.runCommandSilent(`/tellraw ${player.username} {"text":"[Tiny Potato] I believe in you, ${player.username}!","color":"light_purple"}`);
     }
-    else if (event.getAdvancement().id() == 'mm:testing/materials') {
-        const player = event.entity;
+    else if (id === 'ars_nouveau:eat_bombegranate') {
+        player.server.runCommandSilent(`/tellraw ${player.username} {"text":"What's gonna happen, am I gonna blow up?","italic":true,"color":"gray"}`);
+        player.server.runCommandSilent(`/tellraw ${player.username} {"text":"No, worse! It'll go right to your thighs...","italic":true,"color":"yellow"}`);
+        player.server.runCommandSilent(`/tellraw ${player.username} {"text":"And then you'll blow up.","italic":true,"color":"yellow"}`);
+    }
+    else if (id === 'mm:testing/materials') {
         
         const one = 'minecraft:brown_bundle[bundle_contents=[{count:8,id:"minecraft:coal"},{count:8,id:"minecraft:quartz"},{count:8,id:"minecraft:redstone"},{count:8,id:"minecraft:diamond"},{count:8,id:"minecraft:lapis_lazuli"},{count:8,id:"minecraft:copper_ingot"},{count:8,id:"minecraft:gold_ingot"},{count:8,id:"minecraft:iron_ingot"}],custom_name=\'"Vanilla Ores"\']';
         const two = 'minecraft:blue_bundle[bundle_contents=[{count:32,id:"ars_nouveau:source_gem"},{count:8,id:"malum:blazing_quartz"},{count:8,id:"malum:cthonic_gold_fragment"},{count:8,id:"malum:refined_soulstone"},{count:8,id:"malum:raw_brilliance"}],custom_name=\'"Magic Materials"\']';

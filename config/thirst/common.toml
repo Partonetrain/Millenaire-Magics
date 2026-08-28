@@ -1,24 +1,24 @@
 [General]
+	#Whether or not drink loot will be added to vanilla loot tables
+	EnableLoot = false
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
-	thirstDepletionModifier = 1.0
+	thirstDepletionModifier = 1.2
 	#Whether hydration depletion in peaceful mode
 	thirstDepletionInPeace = false
 	#How much is hydration depletion in nether faster than overworld
 	# Default: 3.0
 	# Range: 1.0 ~ 5.0
-	netherThirstDeletionModifier = 1.5
+	netherThirstDeletionModifier = 3.0
 	#How much faster is hydration depletion when players with fire resistance(Range 0 to 100, 0 means not to depletion,100 means depletion like normal)
 	# Default: 0
 	# Range: 0 ~ 100
-	fireResistanceDehydration = 50
+	fireResistanceDehydration = 0
 	#Thirst depletes when player is nausea
 	depletesWhenNausea = true
 	#Whether players won't be able to sprint if their thirst bar is 3 droplets or less
 	moveSlowWhenThirsty = true
 	#Whether players can drink rain water
 	DrinkRainWater = true
-	#Whether or not drink loot will be added to vanilla loot tables
-	EnableLoot = false
 
 ["Drinking Mechanics"]
 	#Stack size for water bottles

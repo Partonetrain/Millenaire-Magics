@@ -1,0 +1,11 @@
+{
+	"type": "apothic_spawners:spawner_modifier",
+	"mainhand": {
+		"item": "grimoireofgaia:holstaurus_token"
+	},
+	"stat_changes": [{
+		"type": "apothic_spawners:spawn_count",
+		"value": 2,
+		"max": 16
+	}]
+}
