@@ -50,11 +50,11 @@
     {
       "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
       "entries": [
-        { "type": "minecraft:empty", "weight": 8 },
+        { "type": "minecraft:empty", "weight": 3 },
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": { "type": "minecraft:uniform", "min": 1, "max": 3 }
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 5 }
             }
           ]
         },
@@ -147,47 +147,9 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": { "type": "minecraft:uniform", "min": 1, "max": 3 }
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 5 }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "supplementaries:candy",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": { "type": "minecraft:uniform", "min": 2, "max": 4 }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "moonlight:load_conditions",
-              "fabric:load_conditions": [
-                {
-                  "condition": "supplementaries:flag",
-                  "flag": "candy"
-                }
-              ],
-              "neoforge:conditions": [
-                {
-                  "type": "supplementaries:flag",
-                  "flag": "candy"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 2
         }
       ]
     },

@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "container": {
+    "count": 1,
+    "id": "minecraft:glass_bottle"
+  },
+  "ingredients": [
+    {
+      "item": "millenaire:olives"
+    },
+    {
+      "item": "millenaire:olives"
+    },
+    {
+      "item": "millenaire:olives"
+    },
+    {
+      "item": "millenaire:olives"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 1,
+    "id": "millenaire:oliveoil"
+  }
+}

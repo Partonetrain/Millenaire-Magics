@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    "atmospheric:dunes",
+    "atmospheric:flourishing_dunes",
+    "atmospheric:petrified_dunes",
+    "atmospheric:rocky_dunes",
+    "atmospheric:scrubland",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_savanna",
+    "minecraft:wooded_badlands"
+  ]
+}

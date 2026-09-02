@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:signs",
+        "#minecraft:hanging_signs",
+        "#supplementaries:way_signs",
+        "ars_nouveau:archwood_sign",
+        "ars_nouveau:archwood_hanging_sign",
+        "#bibliocraft:fancy_signs"
+    ]
+}

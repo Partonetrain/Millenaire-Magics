@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "atmospheric:aspen_parkland",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "minecraft:forest",
+    "environmental:old_growth_pine_barrens",
+    "environmental:pine_barrens",
+    "environmental:pine_slopes",
+    "environmental:snowy_old_growth_pine_barrens",
+    "minecraft:windswept_forest"
+  ]
+}

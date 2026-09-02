@@ -31,10 +31,7 @@
           "modifier": {
             "function": "minecraft:set_enchantments",
             "enchantments": {
-              "ars_additions:spellweave": {
-                "min": 1,
-                "max": 2
-              }
+              "ars_additions:spellweave": 2
             }
           }
         }

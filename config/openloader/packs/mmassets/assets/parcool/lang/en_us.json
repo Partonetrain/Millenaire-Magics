@@ -1,4 +1,9 @@
 {
     "effect.parcool.inexhaustible.description": "Your Stamina does not decrease.",
-    "entity.parcool.zipline_rope": "Zipline"
+    "entity.parcool.zipline_rope": "Zipline",
+
+    "parcool.max_stamina": "Max Stamina",
+    "parcool.stamina_recovery": "Stamina Regeneration",
+    "attribute.name.parcool.max_stamina": "Max Stamina",
+    "attribute.name.parcool.stamina_recovery": "Stamina Regeneration"
 }

@@ -16,6 +16,10 @@
 		#
 		#Default is false.
 		enable_show_sub_season = false
+		#Show the current fertility of the biome?
+		#Only shows if not the default fertility of the season
+		#Default is false.
+		enable_show_fertility = false
 		#Show the current day of the season/sub-season?
 		#Default is SHOW_DAY.
 		#Allowed Values: NONE, SHOW_DAY, SHOW_WITH_TOTAL_DAYS
@@ -26,10 +30,6 @@
 		#(true/false)
 		#Default is true.
 		enable_show_tropical_season = true
-		#Show the current fertility of the biome?
-		#Only shows if not the default fertility of the season
-		#Default is false.
-		enable_show_fertility = false
 		#If the season name should be replaced with the fertility
 		#value when it differs from the default of the biome
 		#Default is false.

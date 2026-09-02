@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "supplementaries:block/daub_brace",
+    "side": "supplementaries:block/daub_brace",
+    "top": "supplementaries:block/daub_brace"
+  }
+}

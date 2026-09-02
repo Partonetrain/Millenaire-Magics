@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "atmospheric:laurel_forest",
+    "minecraft:meadow",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:plains",
+    "minecraft:sunflower_plains"
+  ]
+}

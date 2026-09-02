@@ -86,5 +86,17 @@
   "malum.gui.book.entry.spellweaving_tools.enchanting.weavers_propagation.headline": "Weaver's Propagation",
 
   "malum.effect.geas.soul_ward_on_hit": "Spirit Damage Recovers Soul Ward",
-  "malum.effect.keyword.gluttony": "Gluttony; Increases Spirit Damage, But Drains Hunger"
+  "malum.effect.keyword.gluttony": "Gluttony; Increases Spirit Damage, But Drains Hunger",
+
+
+  "description.attribute.name.malum.soul_ward_capacity": "The capacity for Soul Ward (magical shield granted by Soulstained Steel armor)",
+  "description.attribute.name.malum.soul_ward_integrity": "A percentile increase in durability for Soul Ward",
+  "description.attribute.name.malum.soul_ward_recovery_gain": "A percentile increase the amount of Soul Ward recovered",
+  "description.attribute.name.malum.soul_ward_recovery_rate": "A percentile increase in recovery rate for Soul Ward",
+  "description.attribute.name.malum.spirit_spoils": "Flat increase to spirits looted from reaped foes",
+  "description.attribute.name.malum.arcane_resonance": "Bonus potency for spirit-collection effects",
+  "description.attribute.name.malum.charge_capacity": "The capacity for Spell Charges",
+  "description.attribute.name.malum.charge_duration": "The duration for charging a staff",
+  "description.attribute.name.malum.charge_recovery_rate": "A percentile increase in recovery rate for Spell Charges",
+  "description.attribute.name.malum.healing_received": "An increase in how much healing is received"
 }

@@ -1,0 +1,9 @@
+{
+    "ftbultimine.modifier.max_blocks": "Ultimine Bonus Blocks",
+	"ftbultimine.modifier.cooldown": "Ultimine Cooldown Ticks",
+	"ftbultimine.modifier.exhaustion": "Ultimine Food Exhaustion",
+	"ftbultimine.modifier.experience": "Ultimine Experience Cost",
+
+
+	"description.attribute.name.ftbultimine.max_blocks_modifier": "Extra blocks gained for Ultimine from Mining Upgrades."
+}

@@ -3,10 +3,10 @@
 "Critical Hit tweaks" = false
 #If enabled, the attributes trains_tweaks:melee_crit_chance and trains_tweaks:ranged_crit_chance will be registered,
 #applied to players, and the vanilla critical hit mechanics will be disabled
-"Add Attributes" = true
+"Add Attributes" = false
 #If enabled, the effects trains_tweaks:melee_fury and trains_tweaks:ranged_fury will be registered
 #They both increase the relevant attribute by 0.1, and thus require Add Attributes to be enabled
-"Add Effects" = true
+"Add Effects" = false
 #The multiplier applied to the damage of melee critical hits
 #This will work with ranged crits too if Normalize Ranged Crits from the Yeet feature is enabled
 # Default: 1.5

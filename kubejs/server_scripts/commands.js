@@ -32,8 +32,10 @@ ServerEvents.commandRegistry(event => {
   const wip = (player) => {
     player.tell('Hi! This is a note from the developer of Millenaire Magics, Partonetrain. Here is a summary of changes to watch out for.')
     player.tell('- The modpack balance is actively being playtested, certain config values, recipes, or loot tables may change.')
-    player.tell('- Millenaire culture-to-biome distribution is currently the default. This will change in the future to better distribute the cultures. This should only affect new villages.')
     player.tell('- Malum is currently recieving a major rework. I don\'t know the details, but the rework could potentially remove items. Keep this in mind while progressing in it.')
+    player.tell('- Both Farmer\'s Delight and Brewin\' and Chewin\' have significant updates in development that might affect this modpack.')
+
+    player.tell('- Millenaire culture-to-biome distribution is currently the default. This will change in the future to better distribute the cultures. This should only affect new villages.')
     player.tell('- YAFDA\'s cultural knives are currently not buyable, this can be fixed but it depends on Millenaire.')
     player.tell('- Millenaire structures may have disabled blocks in them currently, this is going to be fixed later.')
 

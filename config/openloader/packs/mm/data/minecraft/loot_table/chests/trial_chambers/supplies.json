@@ -148,6 +148,26 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:item",
+          "value": "supplementaries:candy",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:tag",
           "name": "notenoughtrials:supplies_extra",
           "expand": true

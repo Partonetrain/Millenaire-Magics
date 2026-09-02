@@ -39,6 +39,11 @@
         {
           "type": "minecraft:loot_table",
           "value": "mm:drink"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "notenoughtrials:supplies_extra",
+          "expand": true
         }
       ]
     }

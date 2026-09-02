@@ -115,6 +115,29 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gag:time_sand_pouch'})
     event.remove({id: 'grimoireofgaia:gaiapedia'})
 
+    //recipes for white concrete with soap disabled by supps config
+    event.shapeless(
+        Item.of('clayworks:concrete', 1),
+        [
+            '#c:concretes',
+            'supplementaries:soap'
+        ]
+    ).id('kubejs:soap_concrete')
+    event.shapeless(
+        Item.of('clayworks:concrete_powder', 1),
+        [
+            '#c:concrete_powders',
+            'supplementaries:soap'
+        ]
+    ).id('kubejs:soap_concrete_powder')
+
+    //we have custom recipes for these millenaire foods
+    event.remove({id: 'millenaire:winebasic'})
+    event.remove({id: 'millenaire:cider'})
+    event.remove({id: 'millenaire:oliveoil'})
+    event.remove({id: 'millenaire:vegcurry'})
+    event.remove({id: 'millenaire:chickencurry'})
+
     //ars sapling cycling
     event.remove({id: 'ars_nouveau:manipulation_essence_to_cascading_sapling'})
     event.remove({id: 'ars_nouveau:manipulation_essence_to_blazin_sapling'}) //sic

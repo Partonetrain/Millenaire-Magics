@@ -1,5 +1,12 @@
 //script for disabling items
-const DISABLED_ITEMS = [
+
+//tag is emptied and all items in it are added to DISABLED_ITEMS
+const DISABLED_TAGS =[
+    '#woodworks:leaf_piles',
+    '#woodworks:wooden_boards'
+]
+
+var DISABLED_ITEMS = [
     'quark:thatch',
     'quark:thatch_stairs',
     'quark:thatch_slab',
@@ -7,6 +14,8 @@ const DISABLED_ITEMS = [
     'quark:bottled_cloud',
     'quark:deepslate_furnace',
     'quark:blackstone_furnace',
+
+    'quark:paper_wall_big', //millenaires has been retextured to use this ones texture
 
     'quark:beetroot_crate',
     'quark:potato_crate',
@@ -133,8 +142,21 @@ const DISABLED_ITEMS = [
     'abnormals_delight:river_cabinet',
 
     'pet_vault:keepers_magnifier',
-    'pet_vault:golden_bone'
-    
+    'pet_vault:golden_bone',
+
+    'spudaciousshops:shop_window_calcite',
+    'spudaciousshops:shop_window_andesite',
+    'spudaciousshops:shelf_shop_acacia',
+    'spudaciousshops:shelf_shop_bamboo',
+    'spudaciousshops:shelf_shop_birch',
+    'spudaciousshops:shelf_shop_cherry',
+    'spudaciousshops:shelf_shop_crimson',
+    'spudaciousshops:shelf_shop_dark_oak',
+    'spudaciousshops:shelf_shop_mangrove',
+    'spudaciousshops:shelf_shop_oak',
+    'spudaciousshops:shelf_shop_spruce',
+    'spudaciousshops:shelf_shop_warped',
+    'spudaciousshops:shelf_shop_jungle'
 ]
 
 //use EveryCompat versions, these are not meant to exist unless WoodWorks is installed (which it isn't here).
@@ -178,6 +200,24 @@ const REMOVED_BOOKSHELVES = [
   'atmospheric:grimwood_bookshelf'
 ]
 
+const DISABLED_SHOPS_UNDYED = [
+    'spudaciousshops:shop_acacia',
+    'spudaciousshops:shop_bamboo',
+    'spudaciousshops:shop_birch',
+    'spudaciousshops:shop_cherry',
+    'spudaciousshops:shop_crimson',
+    'spudaciousshops:shop_dark_oak',
+    'spudaciousshops:shop_mangrove',
+    'spudaciousshops:shop_oak',
+    'spudaciousshops:shop_spruce',
+    'spudaciousshops:shop_warped',
+    'spudaciousshops:shop_jungle'
+]
+
+const COLORS = [
+    'white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'
+]
+
 const DISABLED_ADVANCEMENTS = [
     'minecraft:adventure/trade',
     'minecraft:adventure/trade_at_world_height',
@@ -196,13 +236,23 @@ function addToHiddenTag(event, itemId){
     event.add('c:hidden_from_recipe_viewers', itemId)
 }
 
-ServerEvents.recipes(event => {
-    for (const itemId of DISABLED_ITEMS) {
-        removeFromCrafting(event, itemId)
-    }
-})
-
 ServerEvents.tags('item', event => {
+
+    DISABLED_SHOPS_UNDYED.forEach((i) => {
+        addToHiddenTag(event, i) //uncolored
+        DISABLED_ITEMS.push(i);
+        
+        COLORS.forEach((c) => {
+            addToHiddenTag(event, i + '_' + c) //colored
+            DISABLED_ITEMS.push(i + '_' + c);
+        });
+    });
+
+    DISABLED_TAGS.forEach((i) => {
+        addToHiddenTag(event, i)
+        DISABLED_ITEMS.push(i);
+    });
+
     for (const itemId of DISABLED_ITEMS) {
         addToHiddenTag(event, itemId)
     }
@@ -228,6 +278,12 @@ ServerEvents.tags('item', event => {
         event.remove('c:bookshelves', entry)
         event.remove('blueprint:wooden_bookshelves', entry)
         addToHiddenTag(event, entry)
+    }
+})
+
+ServerEvents.recipes(event => {
+    for (const itemId of DISABLED_ITEMS) {
+        removeFromCrafting(event, itemId)
     }
 })
 

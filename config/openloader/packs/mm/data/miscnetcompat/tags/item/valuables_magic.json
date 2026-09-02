@@ -13,6 +13,20 @@
     "malum:necklace_of_the_mystic_mirror",
     "malum:necklace_of_the_narrow_edge",
     "malum:necklace_of_blissful_harmony",
+
+    "ars_nouveau:ring_of_lesser_discount",
+    "malum:ornate_ring",
+    "malum:ring_of_esoteric_spoils",
+    
+    "#curios:bracelet",
+    "ars_elemental:lesser_fire_focus",
+    "ars_elemental:lesser_water_focus",
+    "ars_elemental:lesser_air_focus",
+    "ars_elemental:lesser_earth_focus",
+
     "grimoireofgaia:totem_of_undying_fragment"
+  ],
+  "remove": [
+    "ars_elemental:base_bangle"
   ]
 }

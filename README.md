@@ -13,7 +13,7 @@ Millénaire Magics is currently in beta testing - expect bugs and updates.
 - Multiple food mods that provide hearty meals with exploration-supporting buffs
 - Mods made by me specifically for this pack (ThirstWasFixed, YAFDA, Cle, and more) to better integrate mods and reduce content gaps
 - Customized and reconfigured loot, recipes, and tags
-- Overhauled Trial Chambers (Not Enough Trials)
+- Overhauled Trial Chambers (Not Enough Trials) and exclusive permanent upgrades within them
 - Lots of custom tips on the pause screen and JEI hints to help you out
 - Some custom easter eggs :)
 - Vanilla villagers and some related content is completely disabled

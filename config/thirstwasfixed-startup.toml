@@ -36,7 +36,7 @@
 	#If 0, there will be no speed bonus
 	# Default: 0
 	# Range: 0 ~ 20
-	"Thirst Bonus Requirement" = 0
+	"Thirst Bonus Requirement" = 20
 	#The amount of speed bonus to give when the Thirst Bonus Requirement is met
 	#This uses the add_multiplied_total operation, so 0.1 = 10% speed increase
 	# Default: 0.1
@@ -52,7 +52,7 @@
 	"Quench Overlay Top Offset" = 0
 	#If true, water containing items (water bottles, water buckets, and water bowls) without a purity component will have the purity component added and set to max on inventory tick
 	#(Example of this: water bottles in the creative inventory that have the Purified tooltip but only have 7 components instead of the expected 8)
-	"Enforce Water Container Component" = false
+	"Enforce Water Container Component" = true
 	#If true, any time a water potion is created (ultimately a water bottle), the stack will also have its purity set
 	#(technical note: this inject is in PotionContents#createItemStack, which other code can act on the return value of.)
 	"Enforce Water Potion Purity" = false
@@ -110,26 +110,26 @@
 	"Fix Faucets" = true
 
 [ParCool]
-	#The amount of stamina regeneration penalty to give when the Stamina Penalty Requirement is met
-	#This uses the add_value operation
-	# Default: -10
-	# Range: -20 ~ 0
-	"Stamina Penalty Value" = -10
 	#The amount of thirst required to gain a stamina recovery bonus
 	#If 0, there will be no stamina regeneration bonus
 	# Default: 0
 	# Range: 0 ~ 20
-	"Stamina Bonus Requirement" = 0
+	"Stamina Bonus Requirement" = 20
 	#The amount of stamina regeneration to give when the Stamina Bonus Requirement is met
 	#This uses the add_value operation
 	# Default: 10
 	# Range: 0 ~ 80
 	"Thirst Bonus Value" = 10
+	#The amount of stamina regeneration penalty to give when the Stamina Penalty Requirement is met
+	#This uses the add_value operation
+	# Default: -10
+	# Range: -20 ~ 0
+	"Stamina Penalty Value" = -10
 	#The amount of thirst that the player must have to NOT incur the stamina regeneration penalty
 	#If 0, there will be no stamina regeneration penalty
 	# Default: 0
 	# Range: 0 ~ 20
-	"Stamina Penalty Requirement" = 0
+	"Stamina Penalty Requirement" = 5
 
 [Millenaire]
 	#Whether or not to add thirst values for Millenaire drinks

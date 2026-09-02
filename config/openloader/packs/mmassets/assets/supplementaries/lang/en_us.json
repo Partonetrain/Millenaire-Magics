@@ -266,7 +266,7 @@
   "enchantment.supplementaries.lumisene_flame": "Lumisene Flame",
   "enchantment.supplementaries.lumisene_flame.desc": "Arrows fired from the bow will deal additional lumisene fire damage.",
   "enchantment.supplementaries.stasis": "§eStasis§r",
-  "enchantment.supplementaries.stasis.desc": "Allows Slingshots projectiles to ignore gravity",
+  "enchantment.supplementaries.stasis.desc": "Allows Slingshots projectiles to ignore gravity, and Bubble Blowers to place Bubble Blocks.",
 
   "entity.supplementaries.brick_projectile": "Brick Projectile",
   "entity.supplementaries.cannonball": "Cannonball",

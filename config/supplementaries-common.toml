@@ -211,7 +211,7 @@
 	[functional.soap]
 		enabled = true
 		#Dyed Bock/Item types that cannot be cleaned with soap
-		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
+		clean_blacklist = ["minecraft:concrete_powder", "minecraft:concrete", "minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", "minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
 		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
 		block_cleaning_enabled = true
 
@@ -221,6 +221,8 @@
 			"minecraft:sticky_piston" = "minecraft:piston"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"#c:concretes" = "clayworks:concrete"
+			"#c:concrete_powders" = "clayworks:concrete_powder"
 
 	[functional.cannon]
 		enabled = true
@@ -262,6 +264,14 @@
 		[functional.cannon.plunderer]
 			enabled = true
 			galleon = true
+			#Chance for a raid wave to spawn in open water near the village instead of on land. Such waves arrive on boats steered by plunderers, which take the place of some of the wave pillagers. The rest swim along and hop on when a seat is free. Set to 0 to disable
+			# Default: 0.75
+			# Range: 0.0 ~ 1.0
+			naval_raid_chance = 0.75
+			#Chance for a naval wave pillager to be replaced by a plunderer. 1 replaces them all
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			naval_raid_plunderer_chance = 0.5
 
 	[functional.present]
 		enabled = true

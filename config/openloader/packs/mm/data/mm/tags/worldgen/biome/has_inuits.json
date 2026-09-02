@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_peaks",
+    "minecraft:ice_spikes",
+    "environmental:snowy_pine_barrens",
+    "minecraft:snowy_plains",
+    "atmospheric:snowy_scrubland",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_taiga"
+  ]
+}

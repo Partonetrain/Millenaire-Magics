@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mangrove_swamp",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "atmospheric:sparse_rainforest",
+    "atmospheric:sparse_rainforest_basin"
+  ]
+}

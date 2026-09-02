@@ -2,10 +2,6 @@ var runtimes = 0;
 KubeJEIEvents.onRuntimeAvailable(event => { //KubeJEI by ZZZAnk
     runtimes++;
     console.log("onRuntimeAvailable " + runtimes)
-    const thisRuntime = event.runtime
-
-    thisRuntime.getRecipeManager().removeRecipes(EnchantmentRecipeCategory.TYPE, oldRecipes);
-    thisRuntime.getRecipeManager().addRecipes(EnchantmentRecipeCategory.TYPE, EnchantmentDataFactory.getOrComputeRecipes());
 })
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => { //native KubeJS event
@@ -41,7 +37,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     //item tags of blocks
     Ingredient.of('#bibliocraft:printing_tables').stacks.toArray().forEach(item => {
         event.add(item, [
-                'CANNOT duplicate enchanted books. The ability to copy and merge regular books is still present.'
+                'CANNOT duplicate enchanted books. The ability to copy and merge written books is still present.'
             ])
     })
     Ingredient.of('#morered:red_alloy_wires').stacks.toArray().forEach(item => {
@@ -124,6 +120,12 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('ars_nouveau:potion_flask', [
                 'Can be used as a flask. Automatically purifies water.'
             ])
+    event.add('sereneseasons:calendar', [
+                'Gives detailed information about seasons. The later in a season, the more days will be marked off in the item\'s sprite.'
+            ])
+    event.add('bibliocraft:clipboard', [
+                'Can be attached to a wall with shift-right-click.'
+            ])
     event.add('minecraft:trident', [
                 'CANNOT be obtained from Drowned. Can only be obtained from boss rooms in Trial Chambers, or if you get really lucky with a Treasure Balloon.'
             ])
@@ -173,7 +175,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Can be crafted together guide books to add them to the tome. This way you don\'t have to carry around a bunch of guide books. Right-click to select a book, and left-click after to return to the Tome. \nYou should have spawned with one containing every guidebook.'
         ])
     event.add('supplementaries:soap', [
-            'Can be crafted together with dyed items to remove its dye. This consumes the soap.\n\nYou can also eat it, but you REALLY shouldn\'t.'
+            'Can be crafted together with dyed items (or used on dyed blocks) to remove dye. This consumes the soap.\n\nYou can also eat it, but you REALLY shouldn\'t.'
         ])
     event.add('ars_artillery:tier_2_upgrade', [
             'Can be applied to autoturrets by left-clicking them. Improves autoturret health and firing speed.'
@@ -358,6 +360,35 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('ars_nouveau:mob_jar', [
             'See Tablet of Containment for how to capture mobs inside.'
             ])
+    //player shops
+    const SHOPS = [
+        'spudaciousshops:hook_shop',
+        'spudaciousshops:rug_shop',
+        'spudaciousshops:rug_shop_white',
+        'spudaciousshops:rug_shop_orange',
+        'spudaciousshops:rug_shop_magenta',
+        'spudaciousshops:rug_shop_light_blue',
+        'spudaciousshops:rug_shop_yellow',
+        'spudaciousshops:rug_shop_lime',
+        'spudaciousshops:rug_shop_pink',
+        'spudaciousshops:rug_shop_gray',
+        'spudaciousshops:rug_shop_light_gray',
+        'spudaciousshops:rug_shop_cyan',
+        'spudaciousshops:rug_shop_purple',
+        'spudaciousshops:rug_shop_blue',
+        'spudaciousshops:rug_shop_brown',
+        'spudaciousshops:rug_shop_green',
+        'spudaciousshops:rug_shop_black',
+        'spudaciousshops:crate_shop'
+    ]
+    SHOPS.forEach((b) => {
+        event.add(b, [
+            'A block for trading items between players (not millagers). Only the owner can set the trade. Players can use this block in claimed chunks, even if they are not allied. Cannot interact with hoppers or pipes.'
+        ])
+    });
+    event.add('spudaciousshops:contract_scroll', [
+            'Used in player shops to add permissions for other players to manage the shop. Right-click with it to sign your name and give it to the shop owner.'
+        ])
     //lootbags
     event.add('grimoireofgaia:box_old', [
         'Contains an item to help you locate biomes or structures. For best results, open while in the Overworld.'
@@ -444,8 +475,12 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:cotton'
     ]
     learnedCrops.forEach((crop) => {
+        var s = learnedCrop
+        if(crop == 'millenaire:apple_tree_sapling'){
+            s = s + '\n\nThis tree\'s leaves drop Cider Apples.'
+        }
         event.add(crop, [
-            learnedCrop
+            s
         ])
     });
     const learnedDrop = 'Cannot be harvested from mobs until you have learned how to do so from a millage leader.'
@@ -465,11 +500,11 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:byzantine_tiles',
         'millenaire:mayan_gold_block',
         'millenaire:obsidian_flake',
-        'millenaire:cider',
         'millenaire:calva',
         'millenaire:boudin',
         'millenaire:tripes',
         'millenaire:yogurt',
+        'millenaire:winefancy',
         'millenaire:feta',
         'millenaire:wall_indian_statue',
         'millenaire:wall_mayan_statue',
@@ -483,7 +518,8 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:wooden_bars_indian',
         'millenaire:charpoy',
         'millenaire:straw_bed',
-        'millenaire:futon'
+        'millenaire:futon',
+        'millenaire:inuit_carving'
     ]
     noCrafts.forEach((b) => {
         event.add(b, [
@@ -533,31 +569,56 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Used in Indian and Seljuk cultures make Wet Bricks with dirt and sand, which then dry into Sun-dried Bricks.'
         ])
     event.add('millenaire:ulu', [
-            'Used in Inuit culture to make Sod with (vanilla) planks and coarse dirt.'
+            'Used by the Inuit to make Sod with (vanilla) planks and coarse dirt.'
         ])
         
     event.add('millenaire:village_scroll', [
             'Contains information about a particular millage.'
         ])
     event.add('millenaire:wet_brick', [
-            'Placed with a Brick Mould while having Sand and Dirt in the inventory.'
+            'Placed with a Brick Mould while having Sand and Dirt in the inventory. To dry, leave out in the sun.'
         ])
     event.add('millenaire:mud_brick', [
             'Created by a drying a Wet Brick in the sun. Wet Bricks are placed with a Brick Mould.'
-        ])
-    event.add('millenaire:apple_tree_sapling', [
-            'This tree\'s leaves drop Cider Apples.'
         ])
     event.add('millenaire:fire_pit', [
             'Used by the Inuit, this cooks up to 3 foods at once.'
         ])
         
-    event.add('millenaire:snow_brick', [
-            'Uses texture from Block Box'
+
+    const BB_RETEX = 'This is a Millenaire item, but has had its model overridden to use textures from a disabled Block Box item.'
+    const BB_RETEXS = [
+        'millenaire:snow_brick',
+        'millenaire:snow_wall'
+    ]
+    BB_RETEXS.forEach((b) => {
+        event.add(b, [
+            BB_RETEX
         ])
-    event.add('millenaire:snow_wall', [
-            'Uses texture from Block Box'
+    });
+    
+    const QUARK_RETEX = 'This is a Millenaire item, but has had its model overridden to use textures from a disabled Quark item.'
+    const QUARK_RETEXS = [
+        'millenaire:paper_wall'
+    ]
+    QUARK_RETEXS.forEach((b) => {
+        event.add(b, [
+            QUARK_RETEX
         ])
+    });
+
+    const SUPPS_RETEX = 'This is a Millenaire item, but has had its model overridden to use textures from a disabled Supplementaries item.'
+    const SUPPS_RETEXS = [
+        'millenaire:timber_frame_plain',
+        'millenaire:timber_frame_cross',
+        'millenaire:timber_frame_stairs',
+        'millenaire:timber_frame_slab'
+    ]
+    SUPPS_RETEXS.forEach((b) => {
+        event.add(b, [
+            SUPPS_RETEX
+        ])
+    });
         
     // event.add('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]'  , [
     //         'You should not have this.'

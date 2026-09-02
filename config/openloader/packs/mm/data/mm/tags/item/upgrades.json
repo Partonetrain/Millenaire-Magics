@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "pet_vault:soul_crystal",
+        "pet_vault:life_crystal",
+        "grimoireofgaia:weresheep_token"
+    ]
+}

@@ -1,3 +1,16 @@
+
+0.8 changelog
+- Updated mods
+- Added Kev's Attribute Panel
+- Added EntityJS
+- Added Spark
+- Added Spud's Shops (Fork)
+- Added BlueMap
+- Added BlueChunks
+- Disabled calender curio slot
+- Multiple Millenaire blocks now use other mods' textures
+
+
 # CURSEFORGE EXPORT CHECKMARKS
 - config
 - fancymenu_data
@@ -8,12 +21,23 @@
 - resourcepacks
 - shaderpacks
 
+- check all attributes for:
+	- wayward icon
+	- .desc lang key
+{
 
+  "description.attribute.name.modid.attributename": "Your attribute description here.",
+  "description.attribute.name.spell_engine.healing_taken": "Modifies how much healing is received."
 
+}
+
+- wayward bow stats seem broken
+- add loom patterns to #c:loom_patterns
+- fix twf olive oil crash w/ new mill
+- twf arbitrary thirst bonuses?
+- publish yafda w/ new mill
 - check if mill fixes:
-	- pantheon_a_0
-	- do patterns have items? (no)
-	- are pattern shields fixed (no)
+	- pantheon_a_0 (not yet fixed in 9.0.1)
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why
 - millenaire customizations:
 	- add yafda knives to shops
@@ -32,13 +56,11 @@
 - waiting on: 
 	- archwood good https://github.com/Alexthw46/ArchwoodGood
 	- tiny takeover backport fix https://github.com/evanbones/Tiny-Takeover-Backport/issues/7
-	- ars unification update push https://github.com/Vonr/Ars-Unification/issues/10
 	- Millenaire shops being mergeable (or word from Millenaire devs that they are not meant to be mergeable)
 	- Supplemental Patches update for latest Iris
 	- Ars Elemental's heavy and light armors to get new textures
 	- malum update (huge rework!!! check what items have been removed!!!)
 	- wayward attributes update
-	- some mod that adds vertical slabs
 - a bunch of attributes are missing icons
 - some effects are missing their descriptions
 - fusion textures?
