@@ -58,6 +58,7 @@ villager.slaughterchicken=Hühner geben uns Fleisch.
 villager.calltoarms=Töte das Böse!
 villager.calltoarms=Zu den Waffen!
 villager.calltoarms=Der Tag gehört mir!
+villager.hitbyplayer=Hey! Tu mir nicht weh!
 
 villager.gopray.chosen=Ich spreche das Gebet.
 villager.gopray=Die Geister helfen uns.

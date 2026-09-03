@@ -30,7 +30,7 @@
 		#Maximum initial progress % for distant villages
 		# Default: 25
 		# Range: 0 ~ 100
-		maxPercentage = 25
+		maxPercentage = 50
 		#Distance from spawn where initial progress starts (blocks)
 		# Default: 2000
 		# Range: 0 ~ 25000
@@ -38,7 +38,7 @@
 		#Distance from spawn where max initial progress is reached (blocks)
 		# Default: 10000
 		# Range: 0 ~ 100000
-		maxDistance = 10000
+		maxDistance = 20000
 
 #Debug and logging settings
 [debug]

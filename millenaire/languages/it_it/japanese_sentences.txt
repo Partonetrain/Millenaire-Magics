@@ -25,6 +25,7 @@ villager.slaughterchicken=Diventerai un buon pasto per qualcuno.
 villager.calltoarms=Rimpiangeranno il giorno che ci hanno attaccato!
 villager.calltoarms=Afferra la tua arma!
 villager.calltoarms=Difendi il villaggio!
+villager.hitbyplayer=Ehi! Guarda cosa fai!
 villager.gopray.chosen=Calma la tua mente.
 villager.gopray=Kami proteggici dal male.
 villager.gopray=Pregherò la dea Uga-no-Mintama per un raccolto abbondante.

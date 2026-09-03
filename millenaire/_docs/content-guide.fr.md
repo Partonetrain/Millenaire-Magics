@@ -115,7 +115,7 @@ que vous y placez survit aux mises à jour, sans modification.
 Tout le contenu personnalisé est livré sous forme de **sub-mods** : chaque
 enfant direct de `millenaire-custom/` est un sub-mod, avec son propre
 arbre `cultures/`, `languages/`, `gathering_type/` et/ou `quests/`. Choisis
-n'importe quel nom de répertoire matchant `[A-Za-z0-9_-]+` (`my-pack`,
+n'importe quel nom de répertoire matchant `[A-Za-z0-9_.-]+` (`my-pack`,
 `viking_pack`, `BUILDINGSNORMAN_converted`, …). Les noms `cultures`,
 `languages`, `gathering_type`, `quests` et `exports` sont **réservés** au
 niveau racine et **ne doivent pas** être utilisés comme racine de sub-mod
@@ -138,7 +138,7 @@ Cela inclut :
 
 ### 2.3 Où poser quoi
 
-(Choisissez n'importe quel nom de sub-mod `[A-Za-z0-9_-]+` ; `<submod>`
+(Choisissez n'importe quel nom de sub-mod `[A-Za-z0-9_.-]+` ; `<submod>`
 ci-dessous est un placeholder.)
 
 | Vous voulez … | Posez-le sous |
@@ -255,6 +255,17 @@ Un gathering type référencé par un villager type doit donc être visible
 depuis n'importe quelle culture. Vos gathering types custom vivent à
 `millenaire-custom/<submod>/gathering_type/<id>.json`, pas sous `cultures/...`.
 
+L'arbre standard range ses propres gathering types par domaine de métier
+(`gathering_type/weapons/craft_tachi.json`, `gathering_type/food/craft_udon.json`,
+etc.) uniquement pour que le dossier reste navigable. **Le dossier de domaine
+ne porte aucune signification** : un type est identifié par son seul nom de
+fichier. Vous pouvez donc placer les vôtres à plat sous `gathering_type/`, dans
+un dossier de domaine, ou dans un dossier à vous — surcharger un type standard
+n'exige que de reprendre son nom de fichier, jamais son chemin. Corollaire :
+deux gathering types ne peuvent jamais partager un nom de fichier, même dans
+des dossiers différents. Le mod journalise une erreur nommant les deux fichiers
+le cas échéant.
+
 ### 3.5 Sémantique de merge par famille
 
 Trois règles couvrent tous les loaders :
@@ -305,7 +316,7 @@ de layout flat-root : poser du contenu directement sous
 - Un sub-mod est tout enfant direct de `millenaire-custom/` dont la
   racine contient au moins un de `cultures/`, `languages/`,
   `gathering_type/` ou `quests/`.
-- Les noms de répertoire sub-mod doivent matcher `[A-Za-z0-9_-]+` pour
+- Les noms de répertoire sub-mod doivent matcher `[A-Za-z0-9_.-]+` pour
   se combiner sans ambiguïté avec les ids de culture dans les chaînes
   dérivées (e.g. ids de resource pack). Les noms hors de ce shape sont
   ignorés avec un WARN one-shot.
@@ -391,7 +402,7 @@ comme une source legacy que le converter va réécrire en
 ### 5.1 Ajouter un bâtiment à une culture existante
 
 Layout disque minimum (choisissez n'importe quel nom de sub-mod
-`[A-Za-z0-9_-]+`) :
+`[A-Za-z0-9_.-]+`) :
 
 ```
 millenaire-custom/
@@ -417,7 +428,7 @@ boot.
 ### 5.2 Créer une culture entièrement nouvelle
 
 Layout disque minimum (choisissez n'importe quel nom de sub-mod
-`[A-Za-z0-9_-]+`) :
+`[A-Za-z0-9_.-]+`) :
 
 ```
 millenaire-custom/
@@ -707,6 +718,15 @@ définitions TXT de villageois / villages. Millénaire 9 livre **deux
 chemins** pour consommer ce matériel ; les deux produisent un voisin
 `<name>_converted/` (l'original n'est jamais modifié).
 
+Si le nom du répertoire source contient des caractères hors de
+`[A-Za-z0-9_.-]+`, le nom de **sortie** est assaini (chaque caractère
+fautif devient `_`) pour que le résultat soit un sub-mod chargeable —
+`ghana 02/` est converti en `ghana_02_converted/`. Votre répertoire
+source reste intact. Si deux sources s'assainissent vers le même nom de
+sortie (p. ex. `ghana 02/` et `ghana_02/`), aucune des deux n'est
+convertie : le conflit est signalé plutôt qu'un pack n'en écrase
+silencieusement un autre. Renommez l'un des deux pour le résoudre.
+
 ### 8.1 Auto-conversion au boot
 
 Posez le pack legacy comme enfant direct de `millenaire-custom/` :
@@ -768,16 +788,30 @@ Quelques lignes-clés vous disent si votre contenu a atteint le runtime :
 - `Multi sub-mods ship X — first-wins` — résumé pack-level des conflits
   REPLACE.
 
-### 9.2 `_validation_report.json`
+### 9.2 `_validation_report.txt`
 
 Après le boot, un rapport est écrit sous `millenaire-custom/` résumant :
 
 - Les racines découvertes par sub-mod et les fichiers par famille.
 - Les cultures custom avec leurs owners.
-- Tous les conflits REPLACE et fichiers skippés.
+- **Répertoires ignorés** — un dossier qui n'a pas été chargé du tout, avec
+  le renommage ou la suppression exacte qui le corrige.
+- **Problèmes de chargement** — tous les avertissements et erreurs émis par
+  les loaders en lisant vos fichiers : JSON rejeté, NBT manquant,
+  sous-bâtiment nommé par un parent qui n'existe pas, fichier dans un
+  dossier que le loader ne parcourt pas. Un fichier nommé ici a été ignoré,
+  appliqué partiellement, ou remplacé par un fallback. Les messages
+  identiques sont regroupés avec un compteur `(xN)`, ce qui permet de
+  distinguer un fichier cassé d'un template cassé partagé par cinquante
+  bâtiments.
 
-Lisez-le quand un changement "ne semble pas prendre" — c'est plus rapide
-que grepper le log.
+Le haut du fichier porte une bannière `!!` pour ces deux sections, pour ne
+pas avoir à faire défiler tout l'inventaire avant d'apprendre que quelque
+chose a échoué.
+
+Lisez-le quand un changement « ne semble pas prendre » — c'est plus rapide
+que grepper le log, et il se trouve dans le dossier que vous êtes déjà en
+train d'éditer.
 
 ### 9.3 « Mon contenu ne charge pas »
 
@@ -794,9 +828,11 @@ Checklist :
 5. Pour les cultures custom, l'ID matche-t-il `[a-z0-9]+` (alphanumérique
    minuscule, sans séparateur) ?
 6. Avez-vous redémarré le serveur après l'édition ?
-7. Cherchez le basename du fichier dans le log de boot. Si vous ne le
-   voyez ni chargé ni rejeté, le loader ne l'a pas vu du tout —
-   probablement un mismatch de chemin.
+7. Ouvrez `_validation_report.txt` (§9.2) et cherchez-y le basename du
+   fichier. S'il apparaît sous « Problèmes de chargement », la raison est
+   sur la ligne suivante. S'il n'apparaît **nulle part** — ni dans les
+   compteurs, ni dans les problèmes — le loader ne l'a pas vu du tout,
+   c'est un mismatch de chemin : reprenez l'étape 1.
 
 ### 9.4 Tester en jeu avec l'Import Table
 
@@ -885,13 +921,13 @@ real path n'est pas dans la racine standard captée.
 | Resource pack | `cultures/<c>/resourcepack/assets/...` |
 
 Tous les chemins sont relatifs à une racine de sub-mod — un enfant
-direct de `millenaire-custom/` matchant `[A-Za-z0-9_-]+`.
+direct de `millenaire-custom/` matchant `[A-Za-z0-9_.-]+`.
 
 ## Annexe B. Glossaire
 
 - **Sub-mod** : un dossier enfant direct de `millenaire-custom/` qui
   contient sa propre arborescence `cultures/` / `languages/` /
-  `gathering_type/` / `quests/`. Les noms matchent `[A-Za-z0-9_-]+` ;
+  `gathering_type/` / `quests/`. Les noms matchent `[A-Za-z0-9_.-]+` ;
   les noms `cultures`, `languages`, `gathering_type`, `quests` et
   `exports` sont réservés au niveau racine.
 - **REPLACE_FIRST_ALPHA** : règle d'overlay par fichier — le premier

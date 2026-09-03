@@ -73,6 +73,7 @@ villager.construction=Anche le donne sono importanti per questo paese!
 villager.calltoarms=Alle armi! Allah è con noi!
 villager.calltoarms=Alle armi, soldati, alle armi!
 villager.calltoarms=Ya Allah!
+villager.hitbyplayer=Ehi! Guarda cosa fai!
 orderguard.patrol=Temo solo Allah!
 orderguard.greetings=Passa una buona giornata.
 villager.godrinkayran=Puoi darmi qualcosa da bere, per favore?

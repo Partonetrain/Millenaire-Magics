@@ -70,6 +70,7 @@ pandit.gopray.chosen=Ha én nem törődöm a templommal, ki fog?
 villager.calltoarms=Verjétek meg az ellenséget!
 villager.calltoarms=Mienk lesz a győzelem.
 villager.calltoarms=Mindenki fegyverbe!
+villager.hitbyplayer=Hé! Vigyázz!
 
 smith.maketools=Mindenki használja a szerszámaimat, mégis mindenki lenéz.
 armysmith.makeweapons=Fegyvert kovácsolni sokkal rangosabb, mint szerszámot készíteni!

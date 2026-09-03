@@ -9,7 +9,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "mm:root",
+  "parent": "mm:firstcontactwarning",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick",

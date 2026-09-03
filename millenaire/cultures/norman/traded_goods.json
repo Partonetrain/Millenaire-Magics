@@ -1326,6 +1326,14 @@
       "reserved_quantity": 4,
       "target_quantity": 16,
       "category": "construction"
+    },
+    {
+      "id": "norpattern",
+      "item": "millenaire:norman_pattern",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "category": "crafting"
     }
   ]
 }

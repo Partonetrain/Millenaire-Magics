@@ -47,5 +47,6 @@ villager.greeting=Mis uudist?
 villager.construction=Töötage ühtsuses, töötage jõuga.
 villager.calltoarms=Relvile!
 villager.calltoarms=Päev kuulub mulle!
+villager.hitbyplayer=Hei! Ära tee mulle haiget!
 villager.constructionstepbystep=Mul on tugevat töökaaslast vaja.
 

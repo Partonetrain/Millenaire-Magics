@@ -71,6 +71,7 @@
     "millenaire:yumibow",
     "millenaire:japanese_tachi",
     "millenaire:japaneseguardboots",
+    "millenaire:japaneseguardplate",
     "millenaire:japaneseblueboots",
     "millenaire:japanesebluehelmet",
     "millenaire:japanesebluelegs",
@@ -78,6 +79,8 @@
     "millenaire:japaneseredboots",
     "millenaire:japaneseredhelmet",
     "millenaire:japaneseredlegs",
-    "millenaire:japaneseredplate"
+    "millenaire:japaneseredplate",
+    "minecraft:diamond_sword",
+    "minecraft:diamond_chestplate"
   ]
 }

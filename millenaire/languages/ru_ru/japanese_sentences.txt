@@ -40,5 +40,6 @@ villager.greeting=Как ты, $name-сан?
 villager.construction=Отец научил меня искусству строительства.
 villager.calltoarms=Хватай оружие!
 villager.calltoarms=К оружию!
+villager.hitbyplayer=Эй! Поосторожнее!
 villager.constructionstepbystep=Отец научил меня строить.
 

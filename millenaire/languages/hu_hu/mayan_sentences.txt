@@ -56,6 +56,7 @@ mayan_shaman.gopray.chosen=Az imám megvéd minket.
 villager.calltoarms=Enyém a nap!
 villager.calltoarms=Öljétek meg a gonosz embert!
 villager.calltoarms=Fegyverbe!
+villager.hitbyplayer=Hé! Ne bánts!
 
 villager.maketools=Vedd meg a szerszámaimat.
 villager.makeweapons=Itt szilárdak a fegyverek.

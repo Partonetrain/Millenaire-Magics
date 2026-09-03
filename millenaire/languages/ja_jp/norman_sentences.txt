@@ -85,6 +85,7 @@ lady.greeting=姉は公爵に嫁いだのよ。私はここで暮らしている
 villager.calltoarms=武器を取れ！武器を取れ！
 villager.calltoarms=市民たちよ、武器を取れ！
 villager.calltoarms=モンジョワ・サン＝ドニ！
+villager.hitbyplayer=おい！何をするんだ！
 villager.goplayorgan=孤独だ、ひどく孤独だ……。
 knight.greeting=$name殿、私がヘイスティングスで戦ったことをご存じか？
 knight.greeting=私が従うのはノルマンディー公ウィリアム王と神のみ、それもこの順でな。

@@ -54,6 +54,7 @@ villager.greeting=Proč tady neprší?
 villager.greeting=Jsi snad zpoza oceánu?
 villager.calltoarms=Všichni do zbraně!
 villager.calltoarms=Vítězství bude naše.
+villager.hitbyplayer=Hej! Dávej pozor!
 peasant.slaughterchicken=Mám dost vegetariánského kari!
 villager.gopray=Drahý Bože, ať je tentokrát úroda dobrá.
 female.gorest=Jsem unavená.

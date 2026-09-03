@@ -434,6 +434,7 @@ villager.goplay=Хочу побегать!
 
 villager.calltoarms=На Ромейскую империю напали! К оружию!
 villager.calltoarms=Варвары здесь! Защищайте деревню любой ценой!
+villager.hitbyplayer=Эй! Поосторожнее!
 
 villager.childeatgrapes=Клянусь, этот виноград сам упал!
 

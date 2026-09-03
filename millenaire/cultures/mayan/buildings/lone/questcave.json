@@ -2,9 +2,11 @@
   "culture": "millenaire:mayan",
   "building_id": "questcave",
   "category": "lone",
-  "tags": ["worldquest"],
   "native_name": "Kak Actun",
   "max_count": 0,
+  "tags": [
+    "worldquest"
+  ],
   "starting_sub_buildings": [
     "questcave_door"
   ],

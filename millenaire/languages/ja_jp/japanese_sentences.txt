@@ -37,6 +37,7 @@ villager.gopray.chosen=心を落ち着かせるのだ。
 villager.calltoarms=奴らに私達を襲ったことを後悔させてやれ！
 villager.calltoarms=武器を持て！
 villager.calltoarms=村を守れ！
+villager.hitbyplayer=おい！何をするんだ！
 
 villager.maketools=私は長年、最高級の道具を作っているんだ。
 villager.makeweapons=最高級の武器の秘密は師匠直伝の技だよ。

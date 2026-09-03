@@ -58,6 +58,7 @@ villager.slaughterchicken=Chickens give us meat.
 villager.calltoarms=Kill the enemy!
 villager.calltoarms=To arms!
 villager.calltoarms=The day is mine!
+villager.hitbyplayer=Hey! Don't hurt me!
 
 villager.gopray.chosen=I speak the prayer.
 villager.gopray=Spirits help us.

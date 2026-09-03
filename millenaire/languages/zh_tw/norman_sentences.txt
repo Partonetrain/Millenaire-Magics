@@ -80,6 +80,7 @@ villager.calltoarms=拿起武器！拿起武器！
 villager.calltoarms=蒙茹瓦，聖但尼！
 villager.calltoarms=團結一心！
 villager.calltoarms=公民們，拿起武器吧！
+villager.hitbyplayer=喂！小心點！
 
 monk.makebooks=若不是虛榮乃罪，我敢說我的手稿乃是這片土地上最為精美的。
 

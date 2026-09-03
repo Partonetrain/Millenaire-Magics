@@ -202,8 +202,11 @@
     "minecraft:birch_log",
     "minecraft:jungle_log",
     "minecraft:dark_oak_log",
+    "minecraft:cooked_cod",
     "minecraft:purple_carpet",
     "minecraft:yellow_carpet",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_cod",
     "minecraft:book",
     "minecraft:wheat",
     "millenaire:straw_bed",
@@ -211,6 +214,7 @@
     "millenaire:byzantine_fresco",
     "minecraft:bookshelf",
     "minecraft:paper",
+    "minecraft:bread",
     "minecraft:carrot"
   ]
 }

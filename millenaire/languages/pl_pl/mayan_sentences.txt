@@ -47,5 +47,6 @@ villager.greeting=Co nowego?
 villager.construction=Pracujcie zgodnie, pracujcie z siłą.
 villager.calltoarms=Do broni!
 villager.calltoarms=Dzień jest mój!
+villager.hitbyplayer=Hej! Nie bij mnie!
 villager.constructionstepbystep=Praca, praca, praca.
 

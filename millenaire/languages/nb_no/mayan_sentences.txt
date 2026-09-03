@@ -47,6 +47,7 @@ mayan_shaman.gopray.chosen=Bønnen vil beskytte deg.
 villager.calltoarms=Drep den slemme!
 villager.calltoarms=Til våpen!
 villager.calltoarms=Dagen er min!
+villager.hitbyplayer=Hei! Ikke gjør meg vondt!
 
 villager.maketools=Kjøp ting av meg.
 villager.makeweapons=Våpnene her er sterke.

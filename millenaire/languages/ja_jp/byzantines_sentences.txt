@@ -434,6 +434,7 @@ villager.goplay=走りたい！
 
 villager.calltoarms=攻撃されているぞ！ 武器を持て！
 villager.calltoarms=蛮族どもが来たぞ！何としてもこの村を守れ！
+villager.hitbyplayer=おい！何をするんだ！
 
 villager.childeatgrapes=誓って言うけど、このぶどうは勝手に落ちたんだよ！
 

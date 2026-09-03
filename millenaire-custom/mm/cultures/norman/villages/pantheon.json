@@ -1,0 +1,21 @@
+{
+  "culture": "millenaire:norman",
+  "biome_tags": [
+    "#mm:has_norman"
+  ],
+  "name": "Panthéon",
+  "weight": 1000,
+  "lone_building": true,
+  "key_lone_building": true,
+  "radius": 120,
+  "max": 1,
+  "min_distance_from_spawn": 2000,
+  "show_town_hall_signs": true,
+  "layout": [
+    {
+      "plan": "millenaire:norman/pantheon",
+      "role": "centre"
+    }
+  ],
+  "allow_extra_buildings": false
+}

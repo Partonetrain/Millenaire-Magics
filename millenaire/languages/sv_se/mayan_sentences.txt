@@ -47,5 +47,6 @@ villager.greeting=Himlen är het i dag.
 villager.construction=Arbeta tillsammans, arbeta med kraft.
 villager.calltoarms=Till vapen!
 villager.calltoarms=Dagen är min!
+villager.hitbyplayer=Hallå! Gör mig inte illa!
 villager.constructionstepbystep=Arbete, arbete, arbete.
 

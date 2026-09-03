@@ -74,6 +74,7 @@ villager.construction=Ka naised on selle maa jaoks tähtsad!
 villager.calltoarms=Relvile! Allah on meiega!
 villager.calltoarms=Relvile, sõdurid, relvile!
 villager.calltoarms=Ya Allah!
+villager.hitbyplayer=Hei! Vaata ette!
 orderguard.patrol=Ma kardan ainult Allahit!
 orderguard.greetings=Ilusat päeva.
 villager.godrinkayran=Kas sa palun annaksid mulle midagi juua?

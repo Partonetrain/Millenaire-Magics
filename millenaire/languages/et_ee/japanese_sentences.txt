@@ -40,5 +40,6 @@ villager.greeting=Kuidas läheb, $name-san?
 villager.construction=Mu isa õpetas mulle ehitamise kunsti.
 villager.calltoarms=Haara oma relv!
 villager.calltoarms=Kaitskem küla!
+villager.hitbyplayer=Hei! Vaata ette!
 villager.constructionstepbystep=Mu isa õpetas mulle ehitama.
 

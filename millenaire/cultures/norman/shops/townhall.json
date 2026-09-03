@@ -38,7 +38,8 @@
     "tapestry",
     "carrot",
     "purse",
-    "summoning_wand"
+    "summoning_wand",
+    "norpattern"
   ],
   "buys": [
     "wood",

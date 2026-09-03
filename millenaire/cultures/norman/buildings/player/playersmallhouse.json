@@ -1,6 +1,7 @@
 {
   "culture": "millenaire:norman",
   "building_id": "playersmallhouse",
+  "converter_skip": true,
   "category": "player",
   "native_name": "Petite maison",
   "max_count": 0,
@@ -18,7 +19,7 @@
           "footprint": {
             "width": 5,
             "height": 8,
-            "depth": 8
+            "depth": 9
           },
           "priority": 1000000
         }

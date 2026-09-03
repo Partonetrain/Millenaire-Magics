@@ -85,6 +85,7 @@ lady.greeting=Mu õde abiellus hertsogiga. Mina elan siin.
 villager.calltoarms=Relvile! Relvile!
 villager.calltoarms=Relvile, kodanikud!
 villager.calltoarms=Montjoi Saint-Denis!
+villager.hitbyplayer=Hei! Vaata ette!
 villager.goplayorgan=Olen üksildane, nii üksildane…
 knight.greeting=$name, kas teadsid, et ma võitlesin Hastingsis?
 knight.greeting=Kuuletun ainult kuningas Williamile, Normandia hertsogile, ja Jumalale. Just selles järjekorras.

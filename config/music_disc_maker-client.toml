@@ -2,10 +2,6 @@
 # Default: 0.5
 # Range: 0.0 ~ 1.0
 volumeMultiplier = 1.0
-#Maximum number of custom discs playing simultaneously (memory protection).
-# Default: 16
-# Range: 1 ~ 64
-maxConcurrent = 1
 #Distance in blocks at which custom disc audio fades to silence (vanilla discs use 16).
 # Default: 64
 # Range: 16 ~ 256
@@ -14,3 +10,9 @@ playbackRange = 64
 # Default: 256
 # Range: 16 ~ 256
 maxPlaybackRange = 256
+#Maximum number of custom discs playing simultaneously (memory protection).
+#0 = follow the sound engine's streaming channel limit (2-8, device dependent). Recommended.
+#The engine silently drops sounds beyond that limit, so a value above it never helps.
+# Default: 0
+# Range: 0 ~ 64
+maxConcurrentDiscs = 0

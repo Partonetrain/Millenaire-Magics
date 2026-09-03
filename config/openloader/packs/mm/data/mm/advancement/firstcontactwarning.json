@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bricks"
+    },
+    "title": "First Contact Warning",
+    "description": "You've discovered a millage! Just be careful not to build inside its bounds!",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "mm:root",
+  "criteria": {
+    "friendly": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "millenaire:villager"
+            }
+          },
+          "nbt": "{Tags:[\"cle.in_millage\"]}"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

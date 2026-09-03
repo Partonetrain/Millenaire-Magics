@@ -54,6 +54,7 @@ villager.greeting=Почему здесь не идут дожди?
 villager.greeting=Ты из-за океана?
 villager.calltoarms=Берите все оружие!
 villager.calltoarms=Победа будет за нами.
+villager.hitbyplayer=Эй! Поосторожнее!
 peasant.slaughterchicken=Хватит с меня вегетарианского карри!
 villager.gopray=Богиня, пусть в этот раз урожай будет хорошим.
 female.gorest=Я устала.

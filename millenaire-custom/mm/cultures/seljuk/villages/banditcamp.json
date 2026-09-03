@@ -1,0 +1,19 @@
+{
+  "culture": "millenaire:seljuk",
+  "name": "Soyguncu Kampı",
+  "weight": 10,
+  "lone_building": true,
+  "radius": 20,
+  "min_distance_from_spawn": 600,
+  "biome_tags": [
+    "#mm:has_seljuk"
+  ],
+  "layout": [
+    {
+      "plan": "millenaire:seljuk/banditcamp",
+      "role": "centre"
+    }
+  ],
+  "carries_raid": true,
+  "allow_extra_buildings": false
+}

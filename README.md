@@ -2,7 +2,7 @@
 
 Millénaire Magics is a highly customized Minecraft 1.21.1 modpack designed to challenge you, encourage you to explore new forms of magic, and gain a reputation for helping multiple cultures build themselves a new life in the Minecraft world.
 
-Millénaire Magics is currently in beta testing - expect bugs and updates.
+Millénaire Magics is currently in beta testing! Expect bugs and updates. For more detailed information about what to watch out for, use the `/wip` command in-game.
 
 # Features:
 - Millénaire, a classic civilization mod finally brought up to 1.21
@@ -11,7 +11,7 @@ Millénaire Magics is currently in beta testing - expect bugs and updates.
 - Increased difficulty; seasons, thirst, armored mobs, mob variety, and rarely, hordes of mobs
 - Multiple visual-enhancing mods and support for shaders
 - Multiple food mods that provide hearty meals with exploration-supporting buffs
-- Mods made by me specifically for this pack (ThirstWasFixed, YAFDA, Cle, and more) to better integrate mods and reduce content gaps
+- Mods made by me specifically for this pack (ThirstWasFixed, YAFDA, Clé, and more) to better integrate mods and reduce content gaps
 - Customized and reconfigured loot, recipes, and tags
 - Overhauled Trial Chambers (Not Enough Trials) and exclusive permanent upgrades within them
 - Lots of custom tips on the pause screen and JEI hints to help you out
@@ -37,11 +37,12 @@ Millénaire Magics is currently in beta testing - expect bugs and updates.
 #### Useful Resources
 
 - Every enchantment, what its Matrix Enchanting candle color is, and if it is present as an Ancient Tome: https://docs.google.com/spreadsheets/d/1VnSN9BhmYPGo-fLC25cjadH46BByIzb0bFaL-83PUG8/edit?gid=0#gid=0
-- (NYI - THIS IS JUST PLANNED) Every biome, and what cultures can spawn in it: https://docs.google.com/spreadsheets/d/1XXQG44UhEQqV-bs55lnX_1UHeXsB6FknHgDkZggx8FA/edit?gid=0#gid=0
+- Every biome, and what cultures can spawn in it: https://docs.google.com/spreadsheets/d/1XXQG44UhEQqV-bs55lnX_1UHeXsB6FknHgDkZggx8FA/edit?gid=0#gid=0
 
 ### Shoutouts/Thanks
 
 Thanks to playtesters!
+
 Some texture by malcolmriley, from https://github.com/malcolmriley/unused-textures (CC BY 4.0)
 
 ### AI Use Disclosure

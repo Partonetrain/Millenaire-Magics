@@ -40,5 +40,6 @@ villager.greeting=Witaj.
 villager.construction=Mój ojciec nauczył mnie sztuki budowania.
 villager.calltoarms=Pożałują dnia, w którym nas zaatakowali!
 villager.calltoarms=Chwytajcie za broń!
+villager.hitbyplayer=Hej! Uważaj, co robisz!
 villager.constructionstepbystep=Mój ojciec nauczył mnie budować.
 

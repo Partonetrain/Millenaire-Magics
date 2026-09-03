@@ -73,6 +73,7 @@ villager.construction=Vrouwen zijn ook belangrijk voor dit land!
 villager.calltoarms=Te wapen! Allah is met ons!
 villager.calltoarms=Te wapen, soldaten, te wapen!
 villager.calltoarms=Ya Allah!
+villager.hitbyplayer=Hé! Kijk toch uit!
 orderguard.patrol=Ik vrees alleen Allah!
 orderguard.greetings=Fijne dag verder.
 villager.godrinkayran=Kun je me alsjeblieft iets te drinken geven?

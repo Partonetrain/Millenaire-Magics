@@ -58,6 +58,7 @@ pandit.gopray.chosen=Hvis ikke jeg vil ta meg av tempelet, hvem vil gjøre det d
 villager.calltoarms=Fienden skal beseires!
 villager.calltoarms=Seieren vil bli vår.
 villager.calltoarms=Ta opp våpen, alle sammen!
+villager.hitbyplayer=Hei! Pass på hva du gjør!
 
 smith.maketools=Alle bruker verktøyene mine, og allikevel ser alle ned på meg.
 armysmith.makeweapons=Å lage våpen er mye mer prestisjefylt enn å lage verktøy!

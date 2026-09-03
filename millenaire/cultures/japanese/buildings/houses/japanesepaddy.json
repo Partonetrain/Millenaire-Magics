@@ -1,17 +1,20 @@
 {
-  "converter_skip": true,
   "culture": "millenaire:japanese",
   "building_id": "japanesepaddy",
-  "category": "houses",
+  "category": "core",
   "native_name": "Suiden",
+  "converter_skip": true,
   "min_distance": 0.6,
+  "priority_move_in": 10,
   "tags": [
     "paddy"
   ],
   "icon": "millenaire:rice",
+  "travel_book_category": "othervillage",
   "variants": [
     {
       "variant": "a",
+      "building_orientation": 0,
       "ground_level": -2,
       "tags": [
         "paddy"
@@ -21,15 +24,10 @@
           "level": 0,
           "footprint": {
             "width": 28,
-            "height": 4,
+            "height": 3,
             "depth": 29
           },
-          "priority": 1000,
-          "infoSoils": [
-            {
-              "crop": "rice"
-            }
-          ]
+          "priority": 1000
         },
         {
           "level": 1,
@@ -38,7 +36,8 @@
             "height": 4,
             "depth": 29
           },
-          "path_level": 1
+          "path_level": 1,
+          "ground_level": -2
         },
         {
           "level": 2,
@@ -47,7 +46,9 @@
             "height": 7,
             "depth": 29
           },
-          "priority": 95
+          "priority": 95,
+          "path_level": 1,
+          "ground_level": -2
         },
         {
           "level": 3,
@@ -56,10 +57,10 @@
             "height": 7,
             "depth": 29
           },
-          "priority": 90
+          "priority": 90,
+          "path_level": 1
         }
-      ],
-      "building_orientation": 2
+      ]
     }
   ]
 }

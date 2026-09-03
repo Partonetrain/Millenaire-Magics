@@ -4,6 +4,7 @@
   "category": "player",
   "native_name": "Eki Tochi",
   "max_count": 0,
+  "min_distance": 0.6,
   "icon": "minecraft:oak_fence",
   "price": 4096,
   "reputation": 4096,

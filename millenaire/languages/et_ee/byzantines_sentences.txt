@@ -434,6 +434,7 @@ villager.goplay=Ma tahan joosta!
 
 villager.calltoarms=Rooma impeeriumi rünnatakse! Relvile!
 villager.calltoarms=Barbarid on siin! Kaitskem oma küla iga hinna eest!
+villager.hitbyplayer=Hei! Vaata ette!
 
 villager.childeatgrapes=Vannun, et need viinamarjad kukkusid ise!
 

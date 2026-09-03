@@ -54,6 +54,7 @@ villager.greeting=สวัสดี $name-ji!
 villager.greeting=ทำไมที่นี่ฝนไม่ตกเลย?
 villager.calltoarms=สังหารเหล่าศัตรู!
 villager.calltoarms=ชัยชนะจะเป็นของพวกเรา
+villager.hitbyplayer=เฮ้! ระวังหน่อย!
 peasant.slaughterchicken=เบื่อแกงมังสวิรัติเต็มทีแล้ว!
 villager.gopray=พระเจ้า พระองค์คือความหวังเดียวของเรา
 female.gorest=ตอนนี้ ฉันจะไปพักผ่อนแล้ว

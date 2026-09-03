@@ -85,6 +85,7 @@ lady.greeting=Моя сестра вышла замуж за герцога. А 
 villager.calltoarms=К оружию! К оружию!
 villager.calltoarms=К оружию, граждане!
 villager.calltoarms=Монжуа Сен-Дени!
+villager.hitbyplayer=Эй! Поосторожнее!
 villager.goplayorgan=Почему никто не поёт?
 knight.greeting=$name, а ты знал, что я сражался при Гастингсе?
 knight.greeting=Я повинуюсь лишь королю Вильгельму, герцогу Нормандии, и Богу. Именно в таком порядке.

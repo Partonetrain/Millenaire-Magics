@@ -434,6 +434,7 @@ villager.goplay=أريد أن أركض!
 
 villager.calltoarms=الإمبراطورية الرومانية تتعرّض للهجوم! إلى السلاح!
 villager.calltoarms=البرابرة هنا! دافعوا عن قريتنا مهما كلّف الأمر!
+villager.hitbyplayer=يا هذا! انتبه!
 
 villager.childeatgrapes=أُقسم إن هذا العنب وقع من تلقاء نفسه!
 

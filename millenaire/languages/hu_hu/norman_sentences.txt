@@ -50,6 +50,7 @@ villager.calltoarms=Fegyverbe! Fegyverbe!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=Mind egyért!
 villager.calltoarms=Fegyverbe, polgárok!
+villager.hitbyplayer=Hé! Vigyázz!
 villager.godrink=Ide nekem egy kis italt!
 villager.godrink=Egy kis cider sosem ártott senkinek.
 villager.gopray.chosen=Régen imádkoztam már…

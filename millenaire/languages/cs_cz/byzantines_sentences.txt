@@ -434,6 +434,7 @@ villager.goplay=Chci si zaběhat!
 
 villager.calltoarms=Římská říše je napadena! Do zbraně!
 villager.calltoarms=Barbaři jsou tu! Braňte vesnici za každou cenu!
+villager.hitbyplayer=Hej! Dávej pozor!
 
 villager.childeatgrapes=Přísahám, ty hrozny spadly samy!
 

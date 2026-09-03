@@ -50,6 +50,7 @@ villager.calltoarms=Til våben! Til våben!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=Alle for én!
 villager.calltoarms=Til våben, borgere!
+villager.hitbyplayer=Hov! Pas dog på!
 villager.godrink=Vi trænger til en tår!
 villager.godrink=En cider har aldrig skadet nogen.
 villager.gopray.chosen=Det er længe siden, jeg sidst bad ...

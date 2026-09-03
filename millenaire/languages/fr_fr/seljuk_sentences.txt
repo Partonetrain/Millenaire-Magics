@@ -41,6 +41,7 @@ villager.calltoarms=Aux armes ! Allah veille sur nous !
 villager.calltoarms=Aux armes soldats, aux armes !
 villager.calltoarms=Ya Allah !
 villager.calltoarms=Qu'Allah nous donne la force !
+villager.hitbyplayer=Hé ! Fais donc attention !
 villager.childeatapple=Pourquoi toutes les pommes sont rouges ?
 villager.childobserveagriculture=Les fermiers sont importants pour notre pays !
 villager.childobserveconstruction=Pourquoi les hommes n'aident jamais les femmes ?

@@ -5,9 +5,6 @@
   "is_border_building": true,
   "native_name": "Sınır köşesi",
   "max_count": 0,
-  "tags": [
-    "nopaths"
-  ],
   "icon": "minecraft:white_banner",
   "area_to_clear": 1,
   "variants": [
@@ -15,9 +12,6 @@
       "variant": "a",
       "building_orientation": 2,
       "ground_level": -1,
-      "tags": [
-        "nopaths"
-      ],
       "levels": [
         {
           "level": 0,
@@ -25,7 +19,8 @@
             "width": 3,
             "height": 7,
             "depth": 3
-          }
+          },
+          "no_paths_to_building": true
         }
       ]
     }

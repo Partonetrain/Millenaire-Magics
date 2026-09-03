@@ -73,6 +73,7 @@ villager.plantturmeric=毕竟，每个人都需要姜黄。
 villager.calltoarms=击败那些敌人！
 villager.calltoarms=胜利必将属于我们。
 villager.calltoarms=大家都拿起自己的武器！
+villager.hitbyplayer=喂！小心点！
 
 villager.gopray.chosen=是时候再次去拜访寺庙了。
 villager.gopray=神啊，你是我们唯一的希望。

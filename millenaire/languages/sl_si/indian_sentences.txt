@@ -54,6 +54,7 @@ villager.greeting=Je doma vse v redu?
 villager.greeting=Pozdravljen, $name-ji!
 villager.calltoarms=Vsi naj primejo za orožje!
 villager.calltoarms=Zmaga bo naša.
+villager.hitbyplayer=Hej! Pazi, kaj delaš!
 peasant.slaughterchicken=Vegetarijanskega curryja sem se naveličal!
 villager.gopray=Dragi Bog, naj bo žetev tokrat dobra.
 female.gorest=Utrujena sem.

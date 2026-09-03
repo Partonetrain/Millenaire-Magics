@@ -44,7 +44,13 @@
     "vegcurry",
     "chickencurry",
     "purse",
-    "summoning_wand"
+    "summoning_wand",
+    "indpattern",
+    "indpattern1",
+    "indpattern2",
+    "indpattern3",
+    "indpattern4",
+    "indpattern5"
   ],
   "buys": [
     "wood",

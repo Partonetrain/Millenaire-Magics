@@ -40,6 +40,7 @@ villager.calltoarms=Do zbraně! Alláh nad námi bdí!
 villager.calltoarms=Do zbraně, vojáci, do zbraně!
 villager.calltoarms=Ya Alláh!
 villager.calltoarms=Ať nám Alláh dá sílu!
+villager.hitbyplayer=Hej! Dávej pozor!
 villager.childeatapple=Proč jsou všechna jablka červená?
 villager.childobserveagriculture=Sedláci jsou pro naši vlast důležití!
 villager.childobserveconstruction=Proč muži nikdy nepomáhají ženám?

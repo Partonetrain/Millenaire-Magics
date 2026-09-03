@@ -434,6 +434,7 @@ villager.goplay=Ik wil rennen!
 
 villager.calltoarms=Het Romeinse Rijk wordt aangevallen! Te wapen!
 villager.calltoarms=De barbaren zijn er! Verdedig ons dorp tot elke prijs!
+villager.hitbyplayer=Hé! Kijk toch uit!
 
 villager.childeatgrapes=Ik zweer dat deze druiven vanzelf gevallen zijn!
 

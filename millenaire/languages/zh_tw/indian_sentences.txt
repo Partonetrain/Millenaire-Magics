@@ -57,6 +57,7 @@ pandit.gopray.chosen=如果我不好好整理寺廟，有誰會去做呢？
 villager.calltoarms=擊敗敵人！
 villager.calltoarms=勝利將會是屬於我們的。
 villager.calltoarms=大家，都拿起自己的武器！
+villager.hitbyplayer=喂！小心點！
 
 smith.maketools=每個人都用我製造的工具，但每個人卻都瞧不起我。
 armysmith.makeweapons=製作武器可比製作工具的人更享負盛名呢！

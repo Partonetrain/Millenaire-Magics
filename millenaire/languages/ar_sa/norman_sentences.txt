@@ -85,6 +85,7 @@ lady.greeting=تزوّجت أختي من دوق. أمّا أنا فأعيش هن
 villager.calltoarms=إلى السلاح! إلى السلاح!
 villager.calltoarms=إلى السلاح أيها المواطنون!
 villager.calltoarms=مونجوا سان دوني!
+villager.hitbyplayer=يا هذا! انتبه!
 villager.goplayorgan=إنّي وحيد، وحيدٌ جداً…
 knight.greeting=يا $name، أتعلم أنّي قاتلتُ في هاستينغز؟
 knight.greeting=لا أُطيع إلا الملك ويليام دوق نورماندي، والرب. وبهذا الترتيب.

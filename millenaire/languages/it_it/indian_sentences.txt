@@ -48,6 +48,7 @@ villager.plantturmeric=Dopotutto, tutti hanno bisogno della curcuma.
 villager.calltoarms=Morte ai nemici!
 villager.calltoarms=La vittoria sarà nostra.
 villager.calltoarms=Tutti vadano a prendere le armi!
+villager.hitbyplayer=Ehi! Guarda cosa fai!
 villager.gopray.chosen=E' ora di andare al tempio.
 villager.gopray=Dio, sei la nostra sola speranza...
 villager.gopray=Dio, possa il raccolto essere abbondante questa volta.

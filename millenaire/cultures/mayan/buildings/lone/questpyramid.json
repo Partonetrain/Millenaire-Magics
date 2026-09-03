@@ -2,7 +2,6 @@
   "culture": "millenaire:mayan",
   "building_id": "questpyramid",
   "category": "lone",
-  "tags": ["worldquest"],
   "native_name": "Keban Muul",
   "male": [
     "questfallenking",
@@ -10,6 +9,9 @@
     "questkingelitewarrior",
     "questkingelitewarrior",
     "questkingelitewarrior"
+  ],
+  "tags": [
+    "worldquest"
   ],
   "starting_sub_buildings": [
     "questpyramid_guards",

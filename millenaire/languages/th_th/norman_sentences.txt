@@ -85,6 +85,7 @@ lady.greeting=พี่สาวฉันแต่งงานกับท่า
 villager.calltoarms=จับอาวุธ พี่น้องร่วมหมู่บ้าน!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=หนึ่งเพื่อทุกคน!
+villager.hitbyplayer=เฮ้! ระวังหน่อย!
 villager.goplayorgan=ฉันเหงา เหงาเหลือเกิน...
 knight.greeting=$name รู้ไหมว่าฉันเคยร่วมรบที่เฮสติงส์?
 knight.greeting=ฉันเชื่อฟังเพียงพระเจ้าวิลเลียม ดยุคแห่งนอร์มังดี และพระเจ้าเท่านั้น ตามลำดับนี้

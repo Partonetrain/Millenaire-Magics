@@ -4,7 +4,7 @@
   "requiredTag": null,
   "basePriority": 0,
   "priorityRandom": 0,
-  "durationTicks": 30000,
+  "durationTicks": 600,
   "reoccurDelayTicks": -1,
   "allowRandomMoves": false,
   "leisure": true,

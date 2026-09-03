@@ -37,6 +37,7 @@ villager.gopray.chosen=Ro sinnet ditt.
 villager.calltoarms=De vil angre på dagen de angrep oss!
 villager.calltoarms=Grip våpnene deres!
 villager.calltoarms=Beskytt landsbyen!
+villager.hitbyplayer=Hei! Pass på hva du gjør!
 
 villager.maketools=Jeg har skapt de fineste verktøyene i flere år.
 villager.makeweapons=Min læremester lærte bort hemmelighetene til de fineste våpnene til meg.

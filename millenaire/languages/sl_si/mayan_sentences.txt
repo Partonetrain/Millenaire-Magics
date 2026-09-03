@@ -47,5 +47,6 @@ villager.greeting=Nebo je danes vroče.
 villager.construction=Delo v složnosti, delo z vso močjo.
 villager.calltoarms=Ubij sovražnika!
 villager.calltoarms=Na orožje!
+villager.hitbyplayer=Hej! Ne tepi me!
 villager.constructionstepbystep=Delo, delo, delo.
 

@@ -73,6 +73,7 @@ villager.plantturmeric=Después de todo, todo el mundo necesita cúrcuma.
 villager.calltoarms=¡Derrotad a los enemigos!
 villager.calltoarms=¡La victoria será nuestra!
 villager.calltoarms=¡Todo el mundo, coged vuestras armas!
+villager.hitbyplayer=¡Eh! ¡Ten cuidado!
 
 villager.gopray.chosen=Es hora de volver a visitar el templo.
 villager.gopray=Dios, eres nuestra única esperanza.

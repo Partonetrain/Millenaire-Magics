@@ -434,6 +434,7 @@ villager.goplay=Jag vill springa!
 
 villager.calltoarms=Det romerska riket angrips! Till vapen!
 villager.calltoarms=Barbarerna är här! Försvara vår by till varje pris!
+villager.hitbyplayer=Hallå! Se dig för!
 
 villager.childeatgrapes=Jag svär att de här druvorna föll av sig själva!
 

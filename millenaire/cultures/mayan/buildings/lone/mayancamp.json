@@ -2,13 +2,15 @@
   "culture": "millenaire:mayan",
   "building_id": "mayancamp",
   "category": "lone",
-  "tags": ["worldquest"],
   "native_name": "Ajaw Cah",
   "male": [
     "questkinglieutnant",
     "questkingelitewarrior",
     "questkingelitewarrior",
     "questkingelitewarrior"
+  ],
+  "tags": [
+    "worldquest"
   ],
   "starting_sub_buildings": [
     "mayancamp_innerguard",

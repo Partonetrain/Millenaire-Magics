@@ -54,6 +54,7 @@ villager.greeting=لمَ لا تُمطر هنا؟
 villager.greeting=هل أنت من وراء المحيط؟
 villager.calltoarms=ليلتقط الجميع سلاحه!
 villager.calltoarms=النصر سيكون لنا.
+villager.hitbyplayer=يا هذا! انتبه!
 peasant.slaughterchicken=اكتفيت من الكاري النباتي!
 villager.gopray=يا آلهتي، عسى أن يكون الحصاد جيدًا هذه المرة.
 female.gorest=أنا مُتعَبة.

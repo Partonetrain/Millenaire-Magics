@@ -2,6 +2,9 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
 
     const player = event.entity;
     const id = event.getAdvancement().id();
+
+    //player.server.runCommandSilent(`/tellraw ${player.username} {"text":" ${player.username} obtained advancement ${id}"}`);
+
     if (id === 'mm:root') {
         const inventory = player.inventory;
         
@@ -27,11 +30,14 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
 
         console.info(`Gave starting items to ${player.name} and set up gamerules`);
     }
-    if (id === 'mm:pantheon') {
+    else if (id === 'mm:firstcontactwarning') {
+        player.server.runCommandSilent(`/tellraw ${player.username} {"text":"You've discovered a Millage! Be careful to not build anything within its boundaries; millagers have a tendency to pave through your builds.","color":"red", "italic":true}`);
+    }
+    else if (id === 'mm:pantheon') {
         var bonus = 'quark:ancient_chest[container_loot={loot_table:"mm:testing/pantheon"},custom_name=\'"M.M. Beta Tester Chest"\',lore=[\'"Place and open for loot"\']]';
         player.give(bonus);
     }
-    if (id === 'mm:birthday') {
+    else if (id === 'mm:birthday') {
         var bonus = `minecraft:light_blue_bundle[custom_name='"Birthday Bundle"',bundle_contents=[{count:1,id:"malum:infernal_spirit"},{count:1,id:"malum:earthen_spirit"},{count:1,id:"malum:aqueous_spirit"},{count:1,id:"malum:aerial_spirit"},{count:1,id:"malum:eldritch_spirit"},{count:1,id:"malum:arcane_spirit"},{count:1,id:"malum:wicked_spirit"},{count:1,id:"malum:sacred_spirit"},{count:1,id:"sauce:anima_essence"},{count:1,id:"ars_nouveau:water_essence"},{count:1,id:"ars_nouveau:manipulation_essence"},{count:1,id:"ars_nouveau:fire_essence"},{count:1,id:"ars_nouveau:earth_essence"},{count:1,id:"ars_nouveau:air_essence"},{count:1,id:"ars_nouveau:conjuration_essence"},{count:1,id:"ars_nouveau:abjuration_essence"}]]`
 
         player.give(bonus);

@@ -351,6 +351,7 @@ villager.goplay=$name! Akarsz velem játszani?
 villager.goplay=Futni akarok!
 villager.calltoarms=A Római Birodalmat megtámadták! Fegyverbe!
 villager.calltoarms=Itt vannak a barbárok! Védjük meg a falunkat bármi áron!
+villager.hitbyplayer=Hé! Vigyázz!
 villager.childeatgrapes=Esküszöm, ezek a szőlőszemek maguktól estek le!
 villager.childobservevines=A felnőtteknek abba kellene hagyniuk, hogy a finom szőlőt elpocsékolják azzal, hogy borrá teszik!
 villager.childobserveconstruction=Egy napon meglátogatom Konstantinápolyt, hogy lássam, milyenek az igazi római épületek!

@@ -56,6 +56,7 @@ mayan_shaman.gopray.chosen=Ma prière nous protège.
 villager.calltoarms=Tuez l'homme mauvais !
 villager.calltoarms=Aux armes!
 villager.calltoarms=Le jour est mien !
+villager.hitbyplayer=Hé ! Ne me blesse pas !
 
 villager.maketools=Achetez mes outils.
 villager.makeweapons=Les armes ici sont solides.

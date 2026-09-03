@@ -57,6 +57,7 @@ villager.slaughterchicken=Los pollos nos dan carne.
 villager.calltoarms=¡Mata al enemigo!
 villager.calltoarms=¡A las armas!
 villager.calltoarms=¡El día es mío!
+villager.hitbyplayer=¡Eh! ¡No me hagas daño!
 
 villager.gopray.chosen=Recito la oración,
 villager.gopray=Los espíritus nos ayudan.

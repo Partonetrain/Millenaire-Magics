@@ -40,6 +40,7 @@ villager.calltoarms=Fegyverbe! Allah vigyáz ránk!
 villager.calltoarms=Fegyverbe, katonák, fegyverbe!
 villager.calltoarms=Ya Allah!
 villager.calltoarms=Allah adjon erőt nekünk!
+villager.hitbyplayer=Hé! Vigyázz!
 villager.childeatapple=Miért piros minden alma?
 villager.childobserveagriculture=A földművesek fontosak a hazánknak!
 villager.childobserveconstruction=Miért nem segítenek a férfiak soha a nőknek?

@@ -37,6 +37,7 @@ villager.gopray.chosen=將你的心思放輕鬆......
 villager.calltoarms=他們以後一定會為他們攻擊我們村莊的愚行，而感到後悔！
 villager.calltoarms=拿起你的武器！
 villager.calltoarms=保衛村莊！
+villager.hitbyplayer=喂！小心點！
 
 villager.maketools=我多年來所製造的都是最好的工具！
 villager.makeweapons=我可是從我的師傳處繼承了製造最好武器的秘訣呢。

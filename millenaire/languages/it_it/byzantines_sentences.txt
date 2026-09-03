@@ -434,6 +434,7 @@ villager.goplay=Voglio correre!
 
 villager.calltoarms=L'Impero romano è sotto attacco! Alle armi!
 villager.calltoarms=Sono qui i barbari! Difendiamo il nostro villaggio a ogni costo!
+villager.hitbyplayer=Ehi! Guarda cosa fai!
 
 villager.childeatgrapes=Giuro che questi grappoli sono caduti da soli!
 

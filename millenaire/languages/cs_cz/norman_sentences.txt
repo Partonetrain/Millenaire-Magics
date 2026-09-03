@@ -85,6 +85,7 @@ lady.greeting=Moje sestra se provdala za vévodu. Já žiju tady.
 villager.calltoarms=Do zbraně! Do zbraně!
 villager.calltoarms=Do zbraně, občané!
 villager.calltoarms=Montjoi Saint-Denis!
+villager.hitbyplayer=Hej! Dávej pozor!
 villager.goplayorgan=Proč nikdo nezpívá?
 knight.greeting=Příteli, věděl jsi, že jsem bojoval u Hastingsu?
 knight.greeting=Poslouchám jen krále Williama, vévodu z Normandie, a Boha. V tomhle pořadí.

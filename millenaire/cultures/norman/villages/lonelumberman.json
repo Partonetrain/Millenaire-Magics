@@ -1,7 +1,7 @@
 {
   "culture": "millenaire:norman",
   "biome_tags": [
-    "#c:is_forest",
+    "#millenaire:is_temperate_forest",
     "#c:is_birch_forest"
   ],
   "name": "Bûcheron solitaire",

@@ -85,6 +85,7 @@ lady.greeting=Minha irmã se casou com um duque. Eu moro aqui.
 villager.calltoarms=Às armas! Às armas!
 villager.calltoarms=Às armas, cidadãos!
 villager.calltoarms=Montjoi Saint-Denis!
+villager.hitbyplayer=Ei! Tome cuidado!
 villager.goplayorgan=Por que ninguém está cantando?
 knight.greeting=$name, você sabia que eu lutei em Hastings?
 knight.greeting=Eu obedeço apenas ao Rei Guilherme, Duque da Normandia, e a Deus. Nessa ordem.

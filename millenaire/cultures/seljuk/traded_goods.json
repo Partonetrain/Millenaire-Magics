@@ -1553,6 +1553,33 @@
       "target_quantity": 16,
       "foreign_merchant_price": 90,
       "category": "construction"
+    },
+    {
+      "id": "sjkpattern",
+      "item": "millenaire:seljuk_pattern",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "foreign_merchant_price": 100,
+      "category": "crafting"
+    },
+    {
+      "id": "sjkrpattern",
+      "item": "millenaire:seljuk_pattern_rel",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "foreign_merchant_price": 100,
+      "category": "crafting"
+    },
+    {
+      "id": "sjkmpattern",
+      "item": "millenaire:seljuk_pattern_mil",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "foreign_merchant_price": 100,
+      "category": "crafting"
     }
   ]
 }

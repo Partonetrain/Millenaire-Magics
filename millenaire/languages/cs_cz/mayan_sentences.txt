@@ -47,5 +47,6 @@ villager.greeting=Co je nového?
 villager.construction=Pracuj svorně, pracuj ze všech sil.
 villager.calltoarms=Do zbraně!
 villager.calltoarms=Dnešní den je můj!
+villager.hitbyplayer=Hej! Neubližuj mi!
 villager.constructionstepbystep=Práce, práce, práce.
 

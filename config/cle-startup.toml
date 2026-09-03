@@ -53,6 +53,16 @@
 	#If true, any alternative items that are enabled above will also be converted in Millager inventories
 	#NOTE: THIS IS CURRENTLY BROKEN (millagers cannot use them) DUE TO tool_categories.json NOT BEING DEPLOYED
 	"Millagers Convert to Alternative Items" = false
+	#If true, enables a datapack that tags various vanilla and modded items with `#millenaire:own_right_click`, which allows them to be used on villagers instead of opening the villager's menu
+	#(As of 9.0.1 this only applies to bandits, which is a bug that needs to be fixed in the main mod)
+	"Own Right Click Datapack" = true
+	#If true, millagers will have a flee block AI goal added to them, where they will run away from any block near them in the tag cle:millagers_afraid_of
+	#If the millager isn't a bandit, any players nearby will be blamed for it, and their reputation reduced
+	#This has a minimal performance impact
+	"Add Flee Block Goal" = true
+	#If true, players will have the nbt tag cle.in_millage applied to them when they are within 50 blocks of a village's center
+	#This can be useful for advancements. This can have a tiny performance impact
+	"Tag Players In Millage" = true
 
 [Client]
 	#If this option is not empty, the Constructions panel in any town hall will attempt to sort its list by moving items that contain matching strings in its target to the bottom
@@ -64,7 +74,7 @@
 	"Prevent Keybindings" = false
 
 [Malum]
-	#The amount of reputation lost for reaping Spirits nearby a non-hostile millager
+	#The amount of reputation lost for reaping Spirits nearby a non-hostilemillager
 	#Set to -1 for no loss
 	# Default: 4
 	# Range: -1 ~ 8192

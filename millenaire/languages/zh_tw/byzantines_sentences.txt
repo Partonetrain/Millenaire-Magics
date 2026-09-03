@@ -434,6 +434,7 @@ villager.goplay=我想跑一跑！
 
 villager.calltoarms=羅馬帝國遭到攻擊了，拿起武器！
 villager.calltoarms=蠻族打到家門口了！我們要不惜一切代價守住村莊！
+villager.hitbyplayer=喂！小心點！
 
 villager.childeatgrapes=我發誓這些葡萄是自己掉下的！
 

@@ -57,6 +57,7 @@ villager.slaughterchicken=鸡能给我们带来肉食。
 villager.calltoarms=干掉那个坏人！
 villager.calltoarms=拿起武器保卫村庄！
 villager.calltoarms=胜利终将属于我！
+villager.hitbyplayer=喂！别打我！
 
 villager.gopray=愿神灵救赎我们。
 villager.gopray=愿神灵赐予我们丰收。

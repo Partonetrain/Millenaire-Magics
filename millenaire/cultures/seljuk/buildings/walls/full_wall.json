@@ -7,7 +7,6 @@
   "max_count": 0,
   "tags": [
     "wall_level_0",
-    "nopaths",
     "wall_level_1",
     "no_upgrade_till_wall_initialized"
   ],
@@ -30,9 +29,9 @@
             "depth": 4
           },
           "priority": 500,
+          "no_paths_to_building": true,
           "tags": [
-            "wall_level_0",
-            "nopaths"
+            "wall_level_0"
           ]
         },
         {
@@ -43,11 +42,11 @@
             "depth": 4
           },
           "priority": 500,
+          "no_paths_to_building": true,
           "clear_tags": [
             "wall_level_0"
           ],
           "tags": [
-            "nopaths",
             "wall_level_1",
             "no_upgrade_till_wall_initialized"
           ]

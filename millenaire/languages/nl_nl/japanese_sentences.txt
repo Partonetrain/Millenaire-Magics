@@ -40,5 +40,6 @@ villager.greeting=Hoe gaat het, $name-san?
 villager.construction=Mijn vader leerde mij de kunst van het bouwen.
 villager.calltoarms=Pak je wapens!
 villager.calltoarms=Ze zullen de dag betreuren waarop ze ons hebben aangevallen!
+villager.hitbyplayer=Hé! Kijk toch uit!
 villager.constructionstepbystep=Mijn vader leerde me hoe ik moest bouwen.
 

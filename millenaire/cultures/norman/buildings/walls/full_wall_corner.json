@@ -8,7 +8,6 @@
   "tags": [
     "wall_level_0",
     "patrol",
-    "nopaths",
     "wall_level_1",
     "wall_level_2",
     "no_upgrade_till_wall_initialized"
@@ -31,10 +30,10 @@
             "height": 11,
             "depth": 6
           },
+          "no_paths_to_building": true,
           "tags": [
             "wall_level_0",
-            "patrol",
-            "nopaths"
+            "patrol"
           ]
         },
         {
@@ -45,12 +44,12 @@
             "depth": 6
           },
           "priority": 1000,
+          "no_paths_to_building": true,
           "clear_tags": [
             "wall_level_0"
           ],
           "tags": [
             "patrol",
-            "nopaths",
             "wall_level_1"
           ]
         },
@@ -62,6 +61,7 @@
             "depth": 6
           },
           "priority": 1000,
+          "no_paths_to_building": true,
           "clear_tags": [
             "wall_level_1"
           ],
@@ -70,7 +70,6 @@
           ],
           "tags": [
             "patrol",
-            "nopaths",
             "wall_level_2",
             "no_upgrade_till_wall_initialized"
           ]

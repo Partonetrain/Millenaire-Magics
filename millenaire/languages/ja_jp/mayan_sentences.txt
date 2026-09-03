@@ -47,5 +47,6 @@ villager.greeting=精霊たちが雨を授けてくれる。
 villager.greeting=貴方の土地はどこにあるのですかな？
 villager.calltoarms=敵を倒せ！
 villager.calltoarms=武器を取れ！
+villager.hitbyplayer=おい！殴るな！
 villager.constructionstepbystep=屈強な仲間が必要だ。
 

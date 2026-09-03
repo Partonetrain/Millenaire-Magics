@@ -54,6 +54,7 @@ villager.greeting=Kommer du från andra sidan havet?
 villager.greeting=Hälsningar, $name-ji!
 villager.calltoarms=Alla, ta till vapen!
 villager.calltoarms=Segern ska bli vår.
+villager.hitbyplayer=Hallå! Se dig för!
 peasant.slaughterchicken=Jag har fått nog av vegetarisk curry!
 villager.gopray=Käre Gud, må skörden bli god den här gången.
 female.gorest=Nu går jag och vilar.

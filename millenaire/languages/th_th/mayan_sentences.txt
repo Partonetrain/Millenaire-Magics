@@ -47,5 +47,6 @@ villager.greeting=วันนี้อากาศร้อน
 villager.construction=ทำงานร่วมใจ ทำงานสุดกำลัง
 villager.calltoarms=สังหารคนชั่ว!
 villager.calltoarms=จับอาวุธ!
+villager.hitbyplayer=เฮ้! อย่าทำร้ายฉัน!
 villager.constructionstepbystep=ทำงาน ทำงาน ทำงาน!
 

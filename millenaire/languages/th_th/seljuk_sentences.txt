@@ -73,6 +73,7 @@ villager.construction=ผู้หญิงก็สำคัญต่อบ้�
 villager.calltoarms=จับอาวุธ! อัลลอฮ์ทรงเฝ้าดูเรา!
 villager.calltoarms=จับอาวุธเหล่าทหาร จับอาวุธ!
 villager.calltoarms=Ya Allah!
+villager.hitbyplayer=เฮ้! ระวังหน่อย!
 orderguard.patrol=ฉันเกรงกลัวเพียงอัลลอฮ์เท่านั้น!
 orderguard.greetings=ขอให้เป็นวันที่ดี
 villager.godrinkayran=ช่วยรินอะไรให้ฉันสักแก้วได้ไหม?

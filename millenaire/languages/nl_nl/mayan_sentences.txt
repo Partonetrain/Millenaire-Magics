@@ -47,5 +47,6 @@ villager.greeting=Wat is er nieuw?
 villager.construction=Werk eensgezind, werk met kracht.
 villager.calltoarms=Te wapen!
 villager.calltoarms=De dag is van mij!
+villager.hitbyplayer=Hé! Doe me geen pijn!
 villager.constructionstepbystep=Werken, werken, werken.
 

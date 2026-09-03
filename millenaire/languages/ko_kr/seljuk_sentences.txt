@@ -41,6 +41,7 @@ villager.calltoarms=무기를 들라! 알라께서 우리와 함께하신다!
 villager.calltoarms=무기를 들라, 병사들이여, 무기를 들라!
 villager.calltoarms=야 알라!
 villager.calltoarms=알라여, 우리에게 힘을 주소서!
+villager.hitbyplayer=이봐요! 조심 좀 해요!
 villager.childeatapple=왜 사과는 다 빨간색이야?
 villager.childobserveagriculture=농부들은 우리나라에 중요한 사람들이야!
 villager.childobserveconstruction=왜 남자들은 여자들을 안 도와주지?

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:dark_oak_sapling",
     "ars_nouveau:purple_archwood_sapling",
     "ars_nouveau:bastion_pod",
     "farmersdelight:brown_mushroom_colony",

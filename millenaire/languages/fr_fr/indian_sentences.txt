@@ -70,6 +70,7 @@ pandit.gopray.chosen=Si je ne me soucie pas du temple, qui le fera ?
 villager.calltoarms=Battez les ennemis !
 villager.calltoarms=La victoire sera notre.
 villager.calltoarms=Que tout le monde prenne les armes !
+villager.hitbyplayer=Hé ! Fais donc attention !
 
 smith.maketools=Tout le monde utilise mes outils, et tout le monde me méprise.
 armysmith.makeweapons=Forger des armes, c'est tellement plus prestigieux que de fabriquer des outils!

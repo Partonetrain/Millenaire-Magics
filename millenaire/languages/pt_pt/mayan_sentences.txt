@@ -31,6 +31,7 @@ villager.slaughterchicken=O frango dá-nos a carne.
 villager.calltoarms=Acabem com o homem malvado!
 villager.calltoarms=Às armas!
 villager.calltoarms=Este dia pertence-me!
+villager.hitbyplayer=Eh! Não me faça mal!
 villager.gopray.chosen=Eu profiro a oração.
 villager.gopray=Os espíritos vêm ao nosso auxílio.
 villager.gopray=Os espíritos enviam-nos uma colheita forte.

@@ -51,6 +51,7 @@ villager.calltoarms=¡A las armas! ¡A las armas!
 villager.calltoarms=¡Montjoie Saint-Denis!
 villager.calltoarms=¡Todos a una!
 villager.calltoarms=¡A las armas, ciudadanos!
+villager.hitbyplayer=¡Eh! ¡Ten cuidado!
 villager.godrink=¡Necesito una bebida!
 villager.godrink=Una sidra no hace daño a nadie.
 villager.gopray.chosen=Ha pasado mucho tiempo desde la última vez que recé...

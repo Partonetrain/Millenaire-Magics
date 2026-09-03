@@ -73,6 +73,7 @@ villager.construction=Kvinnor är också viktiga för det här landet!
 villager.calltoarms=Till vapen! Allah är med oss!
 villager.calltoarms=Till vapen, soldater, till vapen!
 villager.calltoarms=Ya Allah!
+villager.hitbyplayer=Hallå! Se dig för!
 orderguard.patrol=Jag fruktar endast Allah!
 orderguard.greetings=Ha en trevlig dag.
 villager.godrinkayran=Kan du vara snäll och ge mig något att dricka?

@@ -85,6 +85,7 @@ lady.greeting=Mijn zus is met een hertog getrouwd. Ik woon hier.
 villager.calltoarms=Te wapen! Te wapen!
 villager.calltoarms=Te wapen, burgers!
 villager.calltoarms=Montjoi Saint-Denis!
+villager.hitbyplayer=Hé! Kijk toch uit!
 villager.goplayorgan=Waarom zingt er niemand?
 knight.greeting=$name, wist je dat ik bij Hastings heb gevochten?
 knight.greeting=Ik gehoorzaam alleen koning Willem, hertog van Normandië, en God. In die volgorde.

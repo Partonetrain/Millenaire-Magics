@@ -434,6 +434,7 @@ villager.goplay=อยากวิ่งเล่น!
 
 villager.calltoarms=จักรวรรดิโรมันถูกโจมตี! จับอาวุธ!
 villager.calltoarms=พวกป่าเถื่อนมาแล้ว! ปกป้องหมู่บ้านสุดชีวิต!
+villager.hitbyplayer=เฮ้! ระวังหน่อย!
 
 villager.childeatgrapes=สาบานเลย องุ่นพวกนี้ร่วงเอง!
 

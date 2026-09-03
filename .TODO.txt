@@ -1,16 +1,3 @@
-
-0.8 changelog
-- Updated mods
-- Added Kev's Attribute Panel
-- Added EntityJS
-- Added Spark
-- Added Spud's Shops (Fork)
-- Added BlueMap
-- Added BlueChunks
-- Disabled calender curio slot
-- Multiple Millenaire blocks now use other mods' textures
-
-
 # CURSEFORGE EXPORT CHECKMARKS
 - config
 - fancymenu_data
@@ -20,6 +7,7 @@
 - mods
 - resourcepacks
 - shaderpacks
+- .qmenu_opened.marker
 
 - check all attributes for:
 	- wayward icon
@@ -32,10 +20,9 @@
 }
 
 - wayward bow stats seem broken
-- add loom patterns to #c:loom_patterns
+- add loom patterns to #c:loom_patterns ?
 - fix twf olive oil crash w/ new mill
-- twf arbitrary thirst bonuses?
-- publish yafda w/ new mill
+
 - check if mill fixes:
 	- pantheon_a_0 (not yet fixed in 9.0.1)
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why

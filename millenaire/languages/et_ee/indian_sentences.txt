@@ -54,6 +54,7 @@ villager.greeting=Miks siin ei saja vihma?
 villager.greeting=Kas sa tuled ookeani tagant?
 villager.calltoarms=Kõik haarake relvad!
 villager.calltoarms=Võit saab olema meie.
+villager.hitbyplayer=Hei! Vaata ette!
 peasant.slaughterchicken=Mul on taimetoidukarrist kõrini!
 villager.gopray=Armas Jumal, olgu seekord saak hea.
 female.gorest=Olen väsinud.

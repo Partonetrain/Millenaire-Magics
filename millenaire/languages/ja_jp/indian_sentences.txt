@@ -54,6 +54,7 @@ villager.greeting=海の向こうからのお越しですかな？
 villager.greeting=ご挨拶申し上げる、$name-ji！
 villager.calltoarms=敵に死を！
 villager.calltoarms=勝利は我らのものとなろう。
+villager.hitbyplayer=おい！何をするんだ！
 peasant.slaughterchicken=ベジタリアン・カレーはもう飽き飽きだ！
 villager.gopray=神よ、あなたが我らの唯一の希望です。
 female.gorest=もう休ませてもらうわ。

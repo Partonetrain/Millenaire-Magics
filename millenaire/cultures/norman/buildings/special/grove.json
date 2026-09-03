@@ -5,7 +5,8 @@
   "native_name": "Bosquet",
   "min_distance": 0.6,
   "tags": [
-    "grove"
+    "grove",
+    "nopaths"
   ],
   "icon": "minecraft:oak_sapling",
   "variants": [

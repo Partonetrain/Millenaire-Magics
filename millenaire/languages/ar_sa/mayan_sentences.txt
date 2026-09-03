@@ -47,5 +47,6 @@ villager.greeting=ما الجديد؟
 villager.construction=اعمل بانسجام، اعمل بقوة.
 villager.calltoarms=إلى السلاح!
 villager.calltoarms=النصر لي!
+villager.hitbyplayer=يا هذا! لا تؤذني!
 villager.constructionstepbystep=أحتاج إلى زميل قوي.
 

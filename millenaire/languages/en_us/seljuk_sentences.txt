@@ -58,6 +58,7 @@ villager.calltoarms=To arms! Allah is with us!
 villager.calltoarms=To arms,soldiers,to arms!
 villager.calltoarms=Ya Allah!
 villager.calltoarms=Allah give us power!
+villager.hitbyplayer=Hey! Watch what you are doing!
 
 villager.childeatapple=Why are all apple's red?
 

@@ -54,6 +54,7 @@ villager.greeting=Чи всі вдома здорові?
 villager.greeting=Вітаю, $name-ji!
 villager.calltoarms=Усі — до зброї!
 villager.calltoarms=Перемога буде нашою.
+villager.hitbyplayer=Гей! Обережніше!
 peasant.slaughterchicken=З мене досить вегетаріанського каррі!
 villager.gopray=Боже, нехай цього разу врожай буде добрим.
 female.gorest=Я втомилася.

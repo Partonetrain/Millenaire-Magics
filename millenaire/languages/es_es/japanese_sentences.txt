@@ -42,6 +42,7 @@ villager.slaughterchicken=Servirás para hacer una buena comida a alguien.
 villager.calltoarms=¡Lamentarán el día que decidieron atacarnos!
 villager.calltoarms=¡Coged vuestras armas!
 villager.calltoarms=¡Defended la aldea!
+villager.hitbyplayer=¡Eh! ¡Ten cuidado!
 
 villager.gopray.chosen=Calma tu mente.
 villager.gopray=Kami nos protege del mal.

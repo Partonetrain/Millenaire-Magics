@@ -25,6 +25,7 @@ villager.slaughterchicken=Vais dar uma óptima refeição para alguém.
 villager.calltoarms=Eles arrepender-se-ão do dia em que nos atacaram!
 villager.calltoarms=Às armas!
 villager.calltoarms=Protejam a aldeia!
+villager.hitbyplayer=Eh! Tenha cuidado!
 villager.gopray.chosen=Meditemos.
 villager.gopray=Deus proteger-nos-á do mal.
 villager.gopray=Vou rezar à Deusa Uga-no-Mitama por uma colheita abundante.

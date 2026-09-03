@@ -42,6 +42,7 @@ villager.slaughterchicken=Du bliver et godt måltid til en eller anden.
 villager.calltoarms=De vil fortryde den dag, de angreb os!
 villager.calltoarms=Grib jeres våben!
 villager.calltoarms=Forsvar landsbyen!
+villager.hitbyplayer=Hov! Pas dog på!
 
 villager.gopray.chosen=Fald til ro i sindet.
 villager.gopray=Kami, beskyt os mod det onde.

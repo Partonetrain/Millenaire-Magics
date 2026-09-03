@@ -351,6 +351,7 @@ villager.goplay=$name！你想和我一块玩吗？
 villager.goplay=我想跑！
 villager.calltoarms=罗马帝国受到攻击！拿起武器！
 villager.calltoarms=野蛮人在这里！不惜一切代价保卫我们的村庄！
+villager.hitbyplayer=喂！小心点！
 villager.childeatgrapes=我发誓这些葡萄是自己掉下的！
 villager.childobservevines=成年人应该停止浪费可口的葡萄，使其变成糟糕的葡萄酒！
 villager.childobserveconstruction=有一天我要参观君士坦丁堡，看看真正的罗马建筑是什么样子的！

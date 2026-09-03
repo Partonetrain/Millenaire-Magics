@@ -80,6 +80,7 @@ villager.calltoarms=Til våpen! Til våpen!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=Alle for én!
 villager.calltoarms=Aux armes, citoyens!
+villager.hitbyplayer=Hei! Pass på hva du gjør!
 
 monk.makebooks=Var ikke forfengelighet en synd, ville jeg sagt at mine håndskrifter er de fineste i landet.
 

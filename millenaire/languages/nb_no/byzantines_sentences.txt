@@ -434,6 +434,7 @@ villager.goplay=Jeg vil løpe!
 
 villager.calltoarms=Romerriket er under angrep! Til våpen!
 villager.calltoarms=Barbarene er her! Forsvar landsbyen vår for enhver pris!
+villager.hitbyplayer=Hei! Pass på hva du gjør!
 
 villager.childeatgrapes=Jeg sverger på at disse druene falt av seg selv!
 

@@ -351,6 +351,7 @@ villager.goplay=$name! Veux-tu jouer avec moi?
 villager.goplay=Je veux courir!
 villager.calltoarms=L'empire romain est attaqué! Aux armes!
 villager.calltoarms=Les barbares sont là! Défendons notre village à tout prix!
+villager.hitbyplayer=Hé ! Fais donc attention !
 villager.childeatgrapes=Je jure que ces raisins sont tombés d'eux-mêmes!
 villager.childobservevines=Les adultes devraient cesser de gaspiller de délicieux raisins en faisant ce vin affreux!
 villager.childobserveconstruction=Un jour, je visiterai Constantinople pour voir à quoi ressemblent les vrais édifices romains!

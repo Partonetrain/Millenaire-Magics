@@ -119,6 +119,7 @@ millenaire:craft_dyewool_red
 millenaire:craft_dyewool_yellow
 millenaire:craft_feta
 millenaire:craft_firepit
+millenaire:craft_flintknife
 millenaire:craft_fresco
 millenaire:craft_furboots
 millenaire:craft_furhelmet
@@ -487,4 +488,4 @@ millenaire:tree_relax
 millenaire:visit_building
 millenaire:visit_inn
 
-# Total: 484 goals.
+# Total: 485 goals.

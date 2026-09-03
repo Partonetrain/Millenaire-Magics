@@ -434,6 +434,7 @@ villager.goplay=달리고 싶어요!
 
 villager.calltoarms=로마 제국이 공격받고 있어요! 무기를 들어요!
 villager.calltoarms=야만인들이 왔어요! 무슨 일이 있어도 마을을 지킵시다!
+villager.hitbyplayer=이봐요! 조심 좀 해요!
 
 villager.childeatgrapes=맹세컨대 이 포도들은 저절로 떨어진 거예요!
 

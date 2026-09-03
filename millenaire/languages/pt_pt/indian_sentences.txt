@@ -48,6 +48,7 @@ villager.plantturmeric=Afinal de contas, todos precisam de açafrão.
 villager.calltoarms=Derrota para os nossos inimigos!
 villager.calltoarms=A vitória será nossa.
 villager.calltoarms=Peguem todos nas vossas armas!
+villager.hitbyplayer=Eh! Tenha cuidado!
 villager.gopray.chosen=Está na hora de visitar o templo outra vez.
 villager.gopray=Deus, é a nossa única esperança.
 villager.gopray=Deus, rezo para que a colheita seja boa desta vez.

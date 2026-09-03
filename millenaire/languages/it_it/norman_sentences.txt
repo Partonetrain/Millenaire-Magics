@@ -79,6 +79,7 @@ villager.calltoarms=Alle armi! Alle armi!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=Tutti per uno!
 villager.calltoarms=Aux armes, citoyens!
+villager.hitbyplayer=Ehi! Guarda cosa fai!
 
 monk.makebooks=Se la vanità non fosse un peccato, direi che i miei manoscritti sono i migliori di queste terre.
 

@@ -41,6 +41,7 @@ villager.calltoarms=Til våpen! Allah våker over oss!
 villager.calltoarms=Til våpen, soldater, til våpen!
 villager.calltoarms=Ya Allah!
 villager.calltoarms=Måtte Allah gi oss styrke!
+villager.hitbyplayer=Hei! Pass på hva du gjør!
 villager.childeatapple=Hvorfor er alle eplene røde?
 villager.childobserveagriculture=Bøndene er viktige for vårt land!
 villager.childobserveconstruction=Hvorfor hjelper aldri mennene kvinnene?

@@ -14,5 +14,22 @@
     "innservant"
   ],
   "icon": "millenaire:udon",
-  "variants": []
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 2,
+      "ground_level": -3,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 65,
+            "height": 14,
+            "depth": 84
+          },
+          "priority": 50
+        }
+      ]
+    }
+  ]
 }

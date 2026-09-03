@@ -54,6 +54,7 @@ villager.greeting=Dlaczego tu nie pada?
 villager.greeting=Czy przybywasz zza oceanu?
 villager.calltoarms=Wszyscy do broni!
 villager.calltoarms=Zwycięstwo będzie nasze.
+villager.hitbyplayer=Hej! Uważaj, co robisz!
 peasant.slaughterchicken=Mam już dość wegetariańskiego curry!
 villager.gopray=Drogi Boże, oby tegoroczne zbiory były dobre.
 female.gorest=Jestem zmęczona.

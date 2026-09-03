@@ -28,7 +28,10 @@
             "height": 15,
             "depth": 40
           },
-          "priority": 400
+          "priority": 400,
+          "male": [
+            "soldier_byzantine"
+          ]
         },
         {
           "level": 1,
@@ -40,6 +43,10 @@
           "priority": 400,
           "required_parent_tags": [
             "wallcomplete"
+          ],
+          "male": [
+            "soldier_byzantine",
+            "soldier_byzantine"
           ]
         },
         {
@@ -55,6 +62,11 @@
           ],
           "required_parent_tags": [
             "wallcomplete"
+          ],
+          "male": [
+            "soldier_byzantine",
+            "soldier_byzantine",
+            "soldier_byzantine"
           ]
         },
         {
@@ -69,6 +81,12 @@
           ],
           "required_parent_tags": [
             "wallcomplete"
+          ],
+          "male": [
+            "soldier_byzantine",
+            "soldier_byzantine",
+            "soldier_byzantine",
+            "soldier_byzantine"
           ]
         }
       ]

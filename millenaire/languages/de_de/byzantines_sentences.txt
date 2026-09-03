@@ -350,6 +350,7 @@ villager.goplay=$name! Willst du mit mir spielen?
 villager.goplay=Ich will rennen!
 villager.calltoarms=Das römische Imperium wird angegriffen! Zu den Waffen!
 villager.calltoarms=Die Barbaren sind hier! Verteidigt das Dorf mit allen Mitteln!
+villager.hitbyplayer=Hey! Pass doch auf!
 villager.childeatgrapes=Ich schwöre die Trauben sind von allein abgefallen!
 villager.childobservevines=Erwachsene sollten aufhören die leckern Trauben für diesen ekelhaften Wein zu verschwenden!
 villager.childobserveconstruction=Eines Tages werde ich Konstantinopel besuchen und sehen wie echte römische Gebäude aussehen!

@@ -1,0 +1,20 @@
+{
+  "sells": [
+    "byzantine_axe",
+    "byzantine_pickaxe",
+    "byzantine_shovel",
+    "byzantine_hoe",
+    "stone_axe",
+    "stone_pickaxe",
+    "stone_shovel",
+    "stone_hoe",
+
+    "yafda_byzantine_knife"
+  ],
+  "buys": [
+    "iron_ingot",
+    "cobblestone"
+  ],
+  "buys_optional": [],
+  "deliver_to": []
+}

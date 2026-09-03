@@ -50,6 +50,7 @@ villager.calltoarms=Aux armes ! Aux armes !
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=Tous pour un !
 villager.calltoarms=Aux armes, citoyens!
+villager.hitbyplayer=Hé ! Fais donc attention !
 villager.godrink=C'est à boire qu'il nous faut !
 villager.godrink=Un cidre n'a jamais fait de mal à personne.
 villager.gopray.chosen=Ca fait longtemps que je n’ai pas prié…

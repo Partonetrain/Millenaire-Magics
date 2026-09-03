@@ -72,6 +72,7 @@ villager.construction=Жінки теж важливі для цієї краї�
 villager.calltoarms=До зброї! Аллах із нами!
 villager.calltoarms=До зброї, воїни, до зброї!
 villager.calltoarms=О Аллах!
+villager.hitbyplayer=Гей! Обережніше!
 orderguard.patrol=Я боюся лише Аллаха!
 orderguard.greetings=Гарного дня.
 villager.godrinkayran=Чи не даси мені попити?

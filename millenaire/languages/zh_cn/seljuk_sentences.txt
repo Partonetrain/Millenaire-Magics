@@ -58,6 +58,7 @@ villager.calltoarms=去拿起武器！真主与我们同在！
 villager.calltoarms=去拿起武器，士兵们，去拿起武器！
 villager.calltoarms=真主啊！
 villager.calltoarms=真主赐予我们力量！
+villager.hitbyplayer=喂！小心点！
 
 villager.childeatapple=为什么苹果都是红色的？
 

@@ -49,6 +49,7 @@ mayan_shaman.gopray.chosen=祈禱會保護你。
 villager.calltoarms=我們要懲罰惡人！
 villager.calltoarms=拿起武器，集合！
 villager.calltoarms=今天真是個大日子啊！
+villager.hitbyplayer=喂！別打我！
 
 villager.maketools=買我的工具吧！
 villager.makeweapons=這裏的武器質量是最好的。

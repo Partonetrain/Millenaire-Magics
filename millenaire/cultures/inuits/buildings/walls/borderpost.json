@@ -6,8 +6,7 @@
   "native_name": "Ayak",
   "max_count": 0,
   "tags": [
-    "borderpostsign",
-    "nopaths"
+    "borderpostsign"
   ],
   "icon": "minecraft:white_banner",
   "area_to_clear": 1,
@@ -17,8 +16,7 @@
       "building_orientation": 2,
       "ground_level": -1,
       "tags": [
-        "borderpostsign",
-        "nopaths"
+        "borderpostsign"
       ],
       "levels": [
         {
@@ -27,7 +25,8 @@
             "width": 3,
             "height": 4,
             "depth": 3
-          }
+          },
+          "no_paths_to_building": true
         }
       ]
     }

@@ -47,5 +47,6 @@ villager.greeting=Що нового?
 villager.construction=Працювати разом, працювати з силою.
 villager.calltoarms=До зброї!
 villager.calltoarms=Цей день — мій!
+villager.hitbyplayer=Гей! Не бий мене!
 villager.constructionstepbystep=Мені потрібен дужий напарник.
 

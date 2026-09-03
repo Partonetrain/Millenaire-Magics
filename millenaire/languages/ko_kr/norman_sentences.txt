@@ -85,6 +85,7 @@ lady.greeting=제 언니는 공작님과 결혼했어요. 저는 여기서 살�
 villager.calltoarms=무기를 들어라! 무기를 들어라!
 villager.calltoarms=무기를 들라, 시민들이여!
 villager.calltoarms=몽주아 생드니!
+villager.hitbyplayer=이봐요! 조심 좀 해요!
 villager.goplayorgan=외로워요, 너무 외로워요...
 knight.greeting=$name님, 제가 헤이스팅스에서 싸웠다는 사실 아셨어요?
 knight.greeting=나는 노르망디 공 윌리엄 왕과 신께만 복종한다. 그 순서로.

@@ -86,6 +86,7 @@ villager.calltoarms=去拿起武器！真主與我們同在！
 villager.calltoarms=去拿起武器，士兵們，去拿起武器！
 villager.calltoarms=真主啊！
 villager.calltoarms=真主賜予我們力量！
+villager.hitbyplayer=喂！小心點！
 villager.childeatapple=為什麼蘋果都是紅色的？
 villager.childobserveagriculture=農民對我們國家很重要！
 villager.childobserveconstruction=為什麼男人不幫助女人？

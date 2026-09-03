@@ -1216,6 +1216,46 @@
       "reserved_quantity": 4,
       "target_quantity": 16,
       "category": "construction"
+    },
+    {
+      "id": "inupattern",
+      "item": "millenaire:inuit_pattern",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "category": "crafting"
+    },
+    {
+      "id": "inupattern1",
+      "item": "millenaire:inuit_pattern_1",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "category": "crafting"
+    },
+    {
+      "id": "inupattern2",
+      "item": "millenaire:inuit_pattern_2",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "category": "crafting"
+    },
+    {
+      "id": "inupattern3",
+      "item": "millenaire:inuit_pattern_3",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "category": "crafting"
+    },
+    {
+      "id": "inupattern4",
+      "item": "millenaire:inuit_pattern_4",
+      "selling_price": 64,
+      "auto_generate": true,
+      "min_reputation": 8192,
+      "category": "crafting"
     }
   ]
 }

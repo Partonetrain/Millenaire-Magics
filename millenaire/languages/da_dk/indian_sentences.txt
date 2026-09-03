@@ -70,6 +70,7 @@ pandit.gopray.chosen=Hvis jeg ikke tager mig af templet, hvem skal så?
 villager.calltoarms=Nederlag til fjenderne!
 villager.calltoarms=Sejren bliver vores.
 villager.calltoarms=Alle, grib til våben!
+villager.hitbyplayer=Hov! Pas dog på!
 
 smith.maketools=Alle bruger mit værktøj, og alligevel ser alle ned på mig.
 armysmith.makeweapons=At smede våben er så meget mere fornemt end at fremstille værktøj!

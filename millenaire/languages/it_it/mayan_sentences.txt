@@ -31,6 +31,7 @@ villager.slaughterchicken=Il pollame dà la carne.
 villager.calltoarms=Uccidiamo i nemici!
 villager.calltoarms=Alle armi!
 villager.calltoarms=Oggi e è il mio giorno!
+villager.hitbyplayer=Ehi! Non farmi male!
 villager.gopray.chosen=Recito le preghiere.
 villager.gopray=Spiriti aiutateci.
 villager.gopray=Spiriti mandateci un raccolto abbondante.

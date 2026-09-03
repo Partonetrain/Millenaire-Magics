@@ -73,6 +73,7 @@ villager.plantturmeric=After all, everyone needs turmeric.
 villager.calltoarms=Defeat to the enemies!
 villager.calltoarms=Victory will be ours.
 villager.calltoarms=Everyone pick up their arms!
+villager.hitbyplayer=Hey! Watch what you are doing!
 
 villager.gopray.chosen=Time to visit the temple again.
 villager.gopray=God, you are our only hope.

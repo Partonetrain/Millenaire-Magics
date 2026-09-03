@@ -50,6 +50,7 @@ villager.calltoarms=Till vapen! Till vapen!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=En för alla!
 villager.calltoarms=Till vapen, medborgare!
+villager.hitbyplayer=Hallå! Se dig för!
 villager.godrink=Det är det vi behöver — något att dricka!
 villager.godrink=En cider har aldrig skadat någon.
 villager.gopray.chosen=Det var länge sedan jag bad senast...

@@ -72,6 +72,7 @@ villager.construction=この国には女もまた大切なのよ！
 villager.calltoarms=武器を取れ！アッラーは我らと共におわす！
 villager.calltoarms=武器を取れ、兵士たちよ、武器を取れ！
 villager.calltoarms=ヤー・アッラー！
+villager.hitbyplayer=おい！何をするんだ！
 orderguard.patrol=我が恐れるはアッラーのみ！
 orderguard.greetings=良い一日を。
 villager.godrinkayran=一杯飲ませてもらえないか？

@@ -39,5 +39,6 @@ villager.greeting=Hur mår du, $name-san?
 villager.greeting=Hej.
 villager.calltoarms=Grip era vapen!
 villager.calltoarms=Försvara byn!
+villager.hitbyplayer=Hallå! Se dig för!
 villager.constructionstepbystep=Min far lärde mig att bygga.
 

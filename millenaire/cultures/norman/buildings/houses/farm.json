@@ -11,6 +11,9 @@
   "female": [
     "wife"
   ],
+  "tags": [
+    "nopaths"
+  ],
   "icon": "minecraft:wheat",
   "variants": [
     {

@@ -1,0 +1,20 @@
+{
+  "culture": "millenaire:norman",
+  "biome_tags": [
+    "#mm:has_norman"
+  ],
+  "name": "Relais",
+  "weight": 10,
+  "lone_building": true,
+  "namelist": "loneinns",
+  "radius": 15,
+  "show_town_hall_signs": true,
+  "layout": [
+    {
+      "plan": "millenaire:norman/loneroadhouse",
+      "role": "centre"
+    }
+  ],
+  "icon": "millenaire:cider",
+  "allow_extra_buildings": false
+}

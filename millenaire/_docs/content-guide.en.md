@@ -110,7 +110,7 @@ here survives every mod update unchanged.
 All custom content is shipped as **sub-mods**: every direct child of
 `millenaire-custom/` is one sub-mod, with its own `cultures/`,
 `languages/`, `gathering_type/` and/or `quests/` subtree. Pick any
-directory name matching `[A-Za-z0-9_-]+` (`my-pack`, `viking_pack`,
+directory name matching `[A-Za-z0-9_.-]+` (`my-pack`, `viking_pack`,
 `BUILDINGSNORMAN_converted`, …). The names `cultures`, `languages`,
 `gathering_type`, `quests` and `exports` are reserved at the top level
 and **must not** be used as a sub-mod root — content placed directly
@@ -131,7 +131,7 @@ That includes:
 
 ### 2.3 Where to put what
 
-(Pick any sub-mod name `[A-Za-z0-9_-]+`; `<submod>` below is a placeholder.)
+(Pick any sub-mod name `[A-Za-z0-9_.-]+`; `<submod>` below is a placeholder.)
 
 | You want to … | Put it under |
 |---|---|
@@ -247,6 +247,15 @@ A gathering type referenced by a villager type must therefore be visible
 from any culture. Custom gathering types you add live at
 `millenaire-custom/<submod>/gathering_type/<id>.json`, not under `cultures/...`.
 
+The standard tree groups its own gathering types by trade domain
+(`gathering_type/weapons/craft_tachi.json`, `gathering_type/food/craft_udon.json`,
+…) purely to keep the folder browsable. **The domain folder carries no
+meaning**: a type is identified by its filename alone. So you may put yours
+flat under `gathering_type/`, or in a domain folder, or in one of your own —
+overriding a standard type only requires matching its filename, never its
+path. One consequence: two gathering types can never share a filename, even
+in different folders. The mod logs an error naming both files if that happens.
+
 ### 3.5 Merge semantics by family
 
 Three merge rules cover every loader:
@@ -297,7 +306,7 @@ a startup WARN.
 - A sub-mod is any direct child of `millenaire-custom/` whose root
   contains at least one of `cultures/`, `languages/`, `gathering_type/`
   or `quests/`.
-- Sub-mod directory names must match `[A-Za-z0-9_-]+` so they combine
+- Sub-mod directory names must match `[A-Za-z0-9_.-]+` so they combine
   unambiguously with culture ids in derived strings (e.g. resource-pack
   ids). Names outside that shape are skipped with a one-shot WARN.
 - The names `cultures`, `languages`, `gathering_type`, `quests` and
@@ -376,7 +385,7 @@ re-conversion, delete the `_converted/` sibling.
 
 ### 5.1 Add one building to an existing culture
 
-Minimum disk layout (pick any sub-mod name `[A-Za-z0-9_-]+`):
+Minimum disk layout (pick any sub-mod name `[A-Za-z0-9_.-]+`):
 
 ```
 millenaire-custom/
@@ -400,7 +409,7 @@ After saving, restart the server. You should see a log line like
 
 ### 5.2 Create a brand-new culture
 
-Minimum disk layout (pick any sub-mod name `[A-Za-z0-9_-]+`):
+Minimum disk layout (pick any sub-mod name `[A-Za-z0-9_.-]+`):
 
 ```
 millenaire-custom/
@@ -685,6 +694,15 @@ definitions. Millénaire 9 ships **two paths** to consume that material;
 both produce a sibling `<name>_converted/` tree (the original is never
 modified).
 
+If the source directory name contains characters outside
+`[A-Za-z0-9_.-]+`, the **output** name is sanitised (each offending
+character becomes `_`) so the result is a loadable sub-mod — `ghana 02/`
+converts into `ghana_02_converted/`. Your source directory is left
+untouched. When two sources sanitise to the same output name (e.g.
+`ghana 02/` and `ghana_02/`), neither is converted: the conflict is
+reported instead of one pack silently overwriting the other. Rename one
+of them to resolve it.
+
 ### 8.1 Auto-conversion at boot
 
 Drop the legacy pack as a direct child of `millenaire-custom/`:
@@ -746,16 +764,26 @@ A few key lines tell you whether your content reached the runtime:
 - `Multi sub-mods ship X — first-wins` — pack-level summary of REPLACE
   conflicts.
 
-### 9.2 `_validation_report.json`
+### 9.2 `_validation_report.txt`
 
 After boot, a report is written under `millenaire-custom/` summarising:
 
 - Each sub-mod's discovered roots and files per family.
 - Custom cultures with their owners.
-- All REPLACE conflicts and skipped files.
+- **Ignored directories** — a folder that was not loaded at all, with the
+  exact rename or deletion that fixes it.
+- **Loading problems** — every warning and error the loaders emitted while
+  reading your files: rejected JSON, missing NBT, a sub-building named by a
+  parent that does not exist, a file in a folder the loader does not scan.
+  A file named here was skipped, partially applied, or replaced by a
+  fallback. Identical messages are folded with a `(xN)` count, which is how
+  you tell one broken file from one broken template shared by fifty.
+
+The top of the file carries a `!!` banner for the last two, so you do not
+have to scroll past the inventory to find out something went wrong.
 
 Read it whenever a change "doesn't seem to take" — it's faster than
-grepping the log.
+grepping the log, and it sits in the folder you are already editing.
 
 ### 9.3 "My content does not load"
 
@@ -770,9 +798,11 @@ Checklist:
 5. For custom cultures, does the culture ID match `[a-z0-9]+` (lowercase
    alphanumeric, no separators)?
 6. Did you restart the server after the edit?
-7. Search the boot log for the file's basename. If you don't see it
-   loaded **or** rejected, the loader didn't see it at all — likely a
-   path mismatch.
+7. Open `_validation_report.txt` (§9.2) and search it for the file's
+   basename. If it appears under "Loading problems", the reason is on the
+   next line. If it appears **nowhere** — neither in the counts nor in the
+   problems — the loader never saw it at all, which is a path mismatch:
+   re-check step 1.
 
 ### 9.4 Test in-game with the Import Table
 
@@ -859,13 +889,13 @@ the captured standard root.
 | Resource pack | `cultures/<c>/resourcepack/assets/...` |
 
 All paths are relative to a sub-mod root — a direct child of
-`millenaire-custom/` matching `[A-Za-z0-9_-]+`.
+`millenaire-custom/` matching `[A-Za-z0-9_.-]+`.
 
 ## Annex B. Glossary
 
 - **Sub-mod**: a direct-child directory of `millenaire-custom/` that
   contains its own `cultures/` / `languages/` / `gathering_type/` /
-  `quests/` tree. Names match `[A-Za-z0-9_-]+`; the names `cultures`,
+  `quests/` tree. Names match `[A-Za-z0-9_.-]+`; the names `cultures`,
   `languages`, `gathering_type`, `quests` and `exports` are reserved at
   the top level.
 - **REPLACE_FIRST_ALPHA**: per-file overlay rule — the first sub-mod

@@ -41,6 +41,7 @@ villager.calltoarms=¡A las armas! ¡Alá está con nosotros!
 villager.calltoarms=¡A las armas, soldados, a las armas!
 villager.calltoarms=¡Ya Allah!
 villager.calltoarms=¡Alá danos el poder!
+villager.hitbyplayer=¡Eh! ¡Ten cuidado!
 villager.childeatapple=¿Por qué todas las manzanas son rojas?
 villager.childobserveagriculture=¡Los granjeros son importantes para nuestro país!
 villager.childobserveconstruction=¿Por qué los hombres no ayudarán a las mujeres?

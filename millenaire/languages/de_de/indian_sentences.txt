@@ -74,6 +74,7 @@ villager.plantturmeric=Ehrlich gesagt, jeder braucht Gelbwurz.
 villager.calltoarms=Besiegt die Feinde!
 villager.calltoarms=Der Sieg wird unser sein.
 villager.calltoarms=Jeder zu seinen Waffen!
+villager.hitbyplayer=Hey! Pass doch auf!
 
 villager.gopray=Gott, du bist unsere einzige Hoffnung.
 villager.gopray=Lieber Gott, möge diese Ernte reich ausfallen.

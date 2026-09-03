@@ -2,9 +2,11 @@
   "culture": "millenaire:mayan",
   "building_id": "mayancave",
   "category": "houses",
-  "tags": ["worldquest"],
   "native_name": "Ch'en",
   "max_count": 0,
+  "tags": [
+    "worldquest"
+  ],
   "icon": "minecraft:dirt",
   "variants": [
     {

@@ -47,5 +47,6 @@ villager.greeting=Что нового?
 villager.construction=Трудиться в согласии, трудиться со всей силой.
 villager.calltoarms=К оружию!
 villager.calltoarms=День — мой!
+villager.hitbyplayer=Эй! Не бей меня!
 villager.constructionstepbystep=Работа, работа, работа.
 

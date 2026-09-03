@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "minecraft:acacia_sapling",
+    "minecraft:dark_oak_sapling",
+    "minecraft:jungle_sapling",
     "ars_nouveau:magebloom_crop",
     "ars_elemental:yellow_archwood_sapling",
     "ars_elemental:flashpine_pod",

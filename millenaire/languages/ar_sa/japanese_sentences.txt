@@ -40,5 +40,6 @@ villager.greeting=أهلاً.
 villager.construction=أبي علّمني فنّ البناء.
 villager.calltoarms=خذوا أسلحتكم!
 villager.calltoarms=دافعوا عن القرية!
+villager.hitbyplayer=يا هذا! انتبه!
 villager.constructionstepbystep=أبي علّمني كيف أبني.
 

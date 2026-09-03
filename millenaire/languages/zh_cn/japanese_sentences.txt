@@ -42,6 +42,7 @@ villager.slaughterchicken=小鸡，你会成为人们喜欢的优质肉类。
 villager.calltoarms=他们终将会为攻击了我们而后悔！
 villager.calltoarms=拿上你的武器！
 villager.calltoarms=保卫村庄！
+villager.hitbyplayer=喂！小心点！
 
 villager.gopray=神明保佑我们远离邪恶。
 villager.gopray=我要向女神“宇贺魂命”祈求丰收。

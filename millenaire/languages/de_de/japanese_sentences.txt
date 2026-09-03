@@ -42,6 +42,7 @@ villager.slaughterchicken=Dein Tod wird nicht umsonst sein, Huhn!
 villager.calltoarms=Sie werden den Tag verfluchen an dem sie uns angegriffen haben!
 villager.calltoarms=Zu den Waffen!
 villager.calltoarms=Verteidigt das Dorf!
+villager.hitbyplayer=Hey! Pass doch auf!
 
 villager.gopray=Ich werde beten, dass dir unsere Vorfahren eine reiche Ernte bescheren.
 villager.gopray=Die Geister beschützen uns.

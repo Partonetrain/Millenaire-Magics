@@ -40,5 +40,6 @@ villager.greeting=Hej.
 villager.construction=Oče me je naučil umetnosti gradnje.
 villager.calltoarms=Obžalovali bodo dan, ko so nas napadli!
 villager.calltoarms=Zgrabi orožje!
+villager.hitbyplayer=Hej! Pazi, kaj delaš!
 villager.constructionstepbystep=Oče me je naučil graditi.
 

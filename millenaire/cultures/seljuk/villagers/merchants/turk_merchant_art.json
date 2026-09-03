@@ -44,6 +44,9 @@
   "travelbook_held_item": "millenaire:purse",
   "foreign_merchant_stock": {
     "minecraft:white_banner": 16,
+    "millenaire:seljuk_pattern": 8,
+    "millenaire:seljuk_pattern_mil": 8,
+    "millenaire:seljuk_pattern_rel": 8,
     "minecraft:painting": 32,
     "millenaire:wall_carpet_large": 4,
     "millenaire:wall_carpet_medium": 6,

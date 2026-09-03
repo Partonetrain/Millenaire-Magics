@@ -85,6 +85,7 @@ lady.greeting=Moja sestra se je poročila z vojvodo. Jaz živim tukaj.
 villager.calltoarms=Na orožje! Na orožje!
 villager.calltoarms=Na orožje, državljani!
 villager.calltoarms=Montjoi Saint-Denis!
+villager.hitbyplayer=Hej! Pazi, kaj delaš!
 villager.goplayorgan=Sam sem, tako sam ...
 knight.greeting=$name, ali si vedel, da sem se bojeval pri Hastingsu?
 knight.greeting=Ubogam le kralja Viljema, vojvodo Normandije, in Boga. V tem vrstnem redu.

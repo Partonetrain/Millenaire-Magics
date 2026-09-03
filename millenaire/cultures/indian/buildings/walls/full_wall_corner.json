@@ -8,7 +8,9 @@
   "tags": [
     "wall_level_0",
     "patrol",
-    "nopaths"
+    "wall_level_1",
+    "no_upgrade_till_wall_initialized",
+    "wall_level_2"
   ],
   "icon": "minecraft:sandstone",
   "area_to_clear_length_before": 0,
@@ -20,11 +22,6 @@
       "variant": "a",
       "building_orientation": 2,
       "ground_level": -5,
-      "tags": [
-        "wall_level_0",
-        "patrol",
-        "nopaths"
-      ],
       "levels": [
         {
           "level": 0,
@@ -32,7 +29,12 @@
             "width": 6,
             "height": 9,
             "depth": 6
-          }
+          },
+          "no_paths_to_building": true,
+          "tags": [
+            "wall_level_0",
+            "patrol"
+          ]
         },
         {
           "level": 1,
@@ -40,7 +42,16 @@
             "width": 6,
             "height": 13,
             "depth": 6
-          }
+          },
+          "no_paths_to_building": true,
+          "clear_tags": [
+            "wall_level_0"
+          ],
+          "tags": [
+            "patrol",
+            "wall_level_1",
+            "no_upgrade_till_wall_initialized"
+          ]
         },
         {
           "level": 2,
@@ -48,7 +59,19 @@
             "width": 6,
             "height": 17,
             "depth": 6
-          }
+          },
+          "no_paths_to_building": true,
+          "clear_tags": [
+            "wall_level_1"
+          ],
+          "forbidden_tags_in_village": [
+            "wall_level_0"
+          ],
+          "tags": [
+            "patrol",
+            "no_upgrade_till_wall_initialized",
+            "wall_level_2"
+          ]
         }
       ]
     }

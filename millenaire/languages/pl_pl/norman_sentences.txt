@@ -85,6 +85,7 @@ lady.greeting=Moja siostra wyszła za księcia. A ja mieszkam tutaj.
 villager.calltoarms=Do broni, obywatele!
 villager.calltoarms=Montjoi Saint-Denis!
 villager.calltoarms=Do broni! Do broni!
+villager.hitbyplayer=Hej! Uważaj, co robisz!
 villager.goplayorgan=Czemu nikt nie śpiewa?
 knight.greeting=Zajmuję tę dziwną ziemię w imieniu Księcia Normandii!
 knight.greeting=$name, czy wiedziałeś, że walczyłem pod Hastings?

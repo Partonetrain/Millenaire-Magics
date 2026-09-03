@@ -1,50 +1,122 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-09-01 18:07:44
-Mod version: millenaire 9.0.0-beta.2
+Generated: 2026-09-03 12:49:43
+Mod version: millenaire 9.0.1
+
+  !! 18 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: mm, yafda
+  shops            3 file(s) on disk
+  village_type     14 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: indian (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: mm, yafda
+  shops            2 file(s) on disk
+  village_type     14 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: inuits (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: mm, yafda
+  shops            2 file(s) on disk
+  village_type     25 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: japanese (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: mm, yafda
+  shops            2 file(s) on disk
+  village_type     13 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: mayan (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: mm, yafda
+  shops            2 file(s) on disk
+  village_type     14 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: norman (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
+  shops            2 file(s) on disk
+  village_type     27 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: seljuk (built-in with overrides) ===
   Source: standard + custom overlay
-  sub-mods: yafda
+  sub-mods: mm, yafda
+  village_type     19 file(s) on disk
+  villager_type    3 file(s) on disk
   traded_goods     present (additive merge)
 
 === Global ===
-  gathering_type   4 custom file(s)
+  gathering_type   5 custom file(s)
   quests           0 custom file(s)
   language overlays 0 custom file(s) across all locales
 
+=== Loading problems ===
+Every warning and error the content loaders emitted during this load.
+A file named here was skipped, partially applied, or replaced by a
+fallback — it is not doing what it was written to do. Same lines as
+logs/latest.log, repeated here because that is not where you are
+working. Content that loaded correctly does not appear.
+
+Not all of these are necessarily yours: Millénaire's own shipped
+content produces a few, and they name a built-in culture and building.
+Those are ours — please report them rather than trying to fix them.
+
+  2 error(s), 16 warning(s) during content loading.
+
+  [WARN] BuildingPlanSetLoader
+    [Millenaire] Building plan japanese/japanesepaddy has category 'core' in JSON but lives under path category 'houses'. JSON field wins; consider moving the file to the matching folder.
+  [ERROR] VillagerTypeLoader
+    Error parsing villager type millenaire:seljuk/toolsmith: Missing culture, expected to find a string
+  [ERROR] VillagerTypeLoader
+    Error parsing villager type millenaire:seljuk/townhall: Missing culture, expected to find a string
+  [WARN] CultureLoader
+    VillagerType millenaire:indian/smith: missing goal in GoalRegistry: yafda:craft_ironknife
+  [WARN] CultureLoader
+    VillagerType millenaire:japanese/smith: missing goal in GoalRegistry: yafda:craft_ironknife
+  [WARN] CultureLoader
+    VillagerType millenaire:seljuk/turk_toolsmith: missing goal in GoalRegistry: yafda:craft_ironknife
+  [WARN] CultureLoader
+    VillagerType millenaire:norman/smith: missing goal in GoalRegistry: yafda:craft_normanknife
+  [WARN] CultureLoader
+    VillagerType millenaire:byzantines/smith_byzantine: missing goal in GoalRegistry: yafda:craft_byzantineknife
+  [WARN] CultureLoader
+    VillagerType millenaire:inuits/inuit_smith: missing goal in GoalRegistry: yafda:craft_flintknife
+  [WARN] CultureLoader
+    VillagerType millenaire:mayan/obsidiancrafter: missing goal in GoalRegistry: yafda:craft_mayanknife
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:byzantines/playerfortress_a_armyforge: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:seljuk/thmosque_a_femaleside: parent building plan millenaire:seljuk/mosque does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:seljuk/barrackssmall_a_bed0: parent building plan millenaire:seljuk/barrackssmall does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:indian/playerpalace_temple: parent building plan millenaire:indian/palace does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:seljuk/watchtower_a_soldier0: parent building plan millenaire:seljuk/watchtower does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:seljuk/watchtower_a_soldier1: parent building plan millenaire:seljuk/watchtower does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:byzantines/playerfortress_a_barracks: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] CultureLoader
+    BuildingPlanSet millenaire:seljuk/hamlettownhallplayer_a_inn: parent building plan millenaire:seljuk/hamlettownhallplayer does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+
 === Summary ===
 Cultures: 0 custom, 7 built-in with overrides, 7 total loaded
-Registries after load: 1803 building plans, 285 villager types, 126 village types
+Registries after load: 1811 building plans, 285 villager types, 126 village types
 
 For detailed errors and warnings during loading, see logs/latest.log
 (search for 'Error', 'WARN CultureLoader', 'WARN BuildingPlanSet').

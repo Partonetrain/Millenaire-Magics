@@ -47,6 +47,7 @@ villager.gopray.chosen=Méditons.
 villager.calltoarms=Ils regretteront le jour où ils nous ont attaqué !
 villager.calltoarms=Aux armes !
 villager.calltoarms=Défendons le village!
+villager.hitbyplayer=Hé ! Fais donc attention !
 
 villager.maketools=Je fabrique les meilleurs outils depuis bien des années.
 villager.makeweapons=Les secrets des meilleures armes me viennent de mon maitre.

@@ -54,6 +54,7 @@ villager.greeting=Waarom regent het hier niet?
 villager.greeting=Kom je van overzee?
 villager.calltoarms=Dood aan de vijanden!
 villager.calltoarms=De overwinning zal van ons zijn.
+villager.hitbyplayer=Hé! Kijk toch uit!
 peasant.slaughterchicken=Ik heb genoeg van vegetarische curry!
 villager.gopray=God, jij bent onze enige hoop.
 female.gorest=Ik ga nu uitrusten.

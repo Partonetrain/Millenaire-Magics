@@ -40,5 +40,6 @@ villager.greeting=เฮ้
 villager.construction=พ่อสอนศิลปะการก่อสร้างให้ฉัน
 villager.calltoarms=พวกมันจะเสียใจในวันที่กล้าโจมตีเรา!
 villager.calltoarms=คว้าอาวุธของเจ้า!
+villager.hitbyplayer=เฮ้! ระวังหน่อย!
 villager.constructionstepbystep=พ่อสอนวิธีก่อสร้างให้ฉัน
 

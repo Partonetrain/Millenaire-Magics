@@ -1,6 +1,7 @@
 {
   "culture": "millenaire:indian",
   "building_id": "playerhugefield",
+  "converter_skip": true,
   "category": "player",
   "native_name": "Visaala Saajisa",
   "max_count": 0,
@@ -11,7 +12,7 @@
   "variants": [
     {
       "variant": "a",
-      "building_orientation": 1,
+      "building_orientation": 2,
       "ground_level": -1,
       "levels": [
         {

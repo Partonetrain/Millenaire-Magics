@@ -54,6 +54,7 @@ villager.greeting=여기는 왜 비가 안 오는 걸까요?
 villager.greeting=바다 건너에서 오셨나요?
 villager.calltoarms=모두 무기를 들어요!
 villager.calltoarms=승리는 우리의 것이에요.
+villager.hitbyplayer=이봐요! 조심 좀 해요!
 peasant.slaughterchicken=채식 카레는 이제 지긋지긋해요!
 villager.gopray=신이시여, 이번 수확이 풍성하기를 비나이다.
 female.gorest=피곤해요.
