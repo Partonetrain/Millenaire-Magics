@@ -138,7 +138,8 @@
     "byzantine_shovel",
     "byzantine_hoe",
 
-    "yafda_mayan_knife"
+    "yafda_mayan_knife",
+    "mm_earth"
   ],
   "deliver_to": [
     "minecraft:oak_log",

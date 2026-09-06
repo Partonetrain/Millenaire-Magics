@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "atmospheric:currant"
+    }
+  ],
+  "id": "atmospheric:kousa_sanctum",
+  "structure": {
+    "key": "atmospheric:kousa_sanctum"
+  }
+}

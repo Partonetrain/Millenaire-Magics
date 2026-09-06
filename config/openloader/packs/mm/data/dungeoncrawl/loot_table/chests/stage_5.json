@@ -43,7 +43,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
+                "max": 6.0,
                 "min": 4.0
               },
               "function": "minecraft:set_count"
@@ -59,22 +59,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_apple",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "name": "grimoireofgaia:bag_record"
         },
         {
@@ -83,12 +67,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "trains_tweaks:enchant_max"
-            }
-          ],
-          "name": "minecraft:book",
+          "name": "grimoireofgaia:bag_book",
           "weight": 1
         },
         {

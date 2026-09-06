@@ -1,0 +1,11 @@
+{
+  "goods": [
+    {
+      "id": "mm_manipulation",
+      "item": "ars_nouveau:manipulation_essence",
+      "selling_price": 512,
+      "buying_price": 480,
+      "category": "playeritem"
+    }
+  ]
+}

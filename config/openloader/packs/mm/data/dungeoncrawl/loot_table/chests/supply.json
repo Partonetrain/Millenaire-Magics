@@ -15,7 +15,7 @@
         },
         {
           "type": "minecraft:item",
-          "value": "supplementaries:candy",
+          "name": "supplementaries:candy",
           "functions": [
             {
               "add": false,

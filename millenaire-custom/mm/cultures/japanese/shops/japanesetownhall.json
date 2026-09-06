@@ -149,7 +149,8 @@
     "byzantine_hoe",
     "straw_bed",
 
-    "yafda_iron_knife"
+    "yafda_iron_knife",
+    "mm_manipulation"
   ],
   "deliver_to": [
     "minecraft:oak_log",

@@ -182,7 +182,8 @@
     "byzantine_hoe",
     "dirt",
 
-    "yafda_flint_knife"
+    "yafda_flint_knife",
+    "mm_water"
   ],
   "deliver_to": [
     "millenaire:path_snow",

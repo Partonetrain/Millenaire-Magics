@@ -95,6 +95,10 @@
                   "mm": "crown_check"
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "False Crown"
             }
           ]
         }

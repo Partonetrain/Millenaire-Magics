@@ -170,7 +170,8 @@
     "byzantine_hoe",
     "gold_ingot",
 
-    "yafda_norman_knife"
+    "yafda_norman_knife",
+    "mm_abjuration"
   ],
   "deliver_to": [
     "minecraft:oak_log",

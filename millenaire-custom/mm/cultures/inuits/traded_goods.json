@@ -1,0 +1,11 @@
+{
+  "goods": [
+    {
+      "id": "mm_water",
+      "item": "ars_nouveau:water_essence",
+      "selling_price": 512,
+      "buying_price": 480,
+      "category": "playeritem"
+    }
+  ]
+}

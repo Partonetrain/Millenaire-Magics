@@ -5,12 +5,15 @@
   "key": {
     "c": {
       "item": "minecraft:diamond"
+    },
+    "o": {
+      "item": "minecraft:diamond_block"
     }
   },
   "pattern": [
-    "ccc",
-    "c c",
-    "ccc"
+    "coc",
+    "o o",
+    "coc"
   ],
   "result": {
     "count": 1,

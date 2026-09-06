@@ -15,23 +15,14 @@
     "4": {
       "item": "ars_nouveau:air_essence"
     },
-    "5": {
-      "item": "ars_nouveau:abjuration_essence"
-    },
-    "6": {
-      "item": "ars_nouveau:conjuration_essence"
-    },
-    "7": {
-      "item": "ars_nouveau:manipulation_essence"
-    },
-    "8": {
-      "item": "sauce:anima_essence"
+    "u": {
+      "item": "malum:umbral_spirit"
     }
   },
   "pattern": [
     "123",
-    "4 5",
-    "678"
+    "4 u",
+    "uuu"
   ],
   "result": {
     "count": 1,

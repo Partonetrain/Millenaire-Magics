@@ -65,6 +65,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'farmersdelight:organic_compost_from_tree_bark'})
     event.remove({id: 'ars_nouveau:ritual_flight'}) //ars elemental provides its own recipe
 
+    event.remove({id: 'millenaire:snow_brick'}) //use the ulu
+
     event.remove({id: 'arsdelight:source_berry_unpack'}) //disabled item
 
     event.remove({id: 'malum:experience_bottle_from_brilliance'}) //xp bottle gives 10, brilliance does not

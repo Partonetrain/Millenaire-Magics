@@ -1,0 +1,12 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "supplementaries:cannonball"
+    }
+  ],
+  "id": "supplementaries:galleon",
+  "structure": {
+    "key": "supplementaries:galleon"
+  }
+}

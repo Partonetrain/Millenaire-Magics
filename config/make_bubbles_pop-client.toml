@@ -8,7 +8,7 @@ BUBBLE_POP_VOLUME = 10
 POPPED_BUBBLES_MAINTAIN_VELOCITY = false
 #If enabled, bubbles will be affected by physics when colliding with blocks or entities. Default: true
 BUBBLE_PHYSICS_ENABLED = true
-#The time it takes for a bubble to pop underwater. By default, this is set longer than in vanilla to allow bubbles to reach the water surface. Default: 32 (Vanilla: 8)
+#The time it takes for a bubble to pop underwater. Default: 32 (Vanilla: 8)
 # Default: 32
 # Range: 1 ~ 100
 BUBBLE_LIFETIME_MULTIPLIER = 32

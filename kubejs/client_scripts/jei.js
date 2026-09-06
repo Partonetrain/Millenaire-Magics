@@ -213,7 +213,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('grimoireofgaia:holstaurus_token', [
             'Only used to upgrade Spawners. Texture by malcolmriley, from https://github.com/malcolmriley/unused-textures (CC BY 4.0).'
         ])
-        
+    event.add('minecraft:furnace_minecart', [
+            'Now has a GUI. Fuel can be placed into it'
+        ])
 
     
     const unconventionalEgg = ' \nThis is not a conventional spawn egg and cannot be used to change a monster spawner.'
@@ -249,6 +251,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Does not provide Water Breathing, only the helmet does.'
         ]) 
     //blocks
+    event.add('minecraft:chain', [
+            'Iron chains are durable enough to link minecarts together! Shift-right-click a minecart to start linking, and then shift-right-click another to link them.'
+        ])
     event.add('quark:limestone', [
             'Spawns in large quantities under swampy biomes.'
         ])
@@ -486,7 +491,6 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     const learnedDrop = 'Cannot be harvested from mobs until you have learned how to do so from a millage leader.'
     const learnedDrops =[
         'millenaire:wolfmeat_raw',
-        'millenaire:bearmeat_raw',
         'millenaire:seafood_raw'
     ]
     learnedDrops.forEach((i) => {
@@ -494,6 +498,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             learnedDrop
         ])
     });
+    event.add('millenaire:bearmeat_raw', ["Drops from polar bears. Does not require learning how to harvest."])
     const noCraft = 'Can only be crafted by millagers and bought from millages.'
     const noCrafts = [
         'millenaire:thatch',
@@ -506,6 +511,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:yogurt',
         'millenaire:winefancy',
         'millenaire:feta',
+        'millenaire:inuitpotatostew',
+        'millenaire:inuitmeatystew',
+        'millenaire:inuitbearstew',
         'millenaire:wall_indian_statue',
         'millenaire:wall_mayan_statue',
         'millenaire:wall_tapestry',
@@ -526,7 +534,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             noCraft
         ])
     });
-    const sod = 'Placed with an Ulu while having vanilla planks and coarse dirt in the inventory.'
+    const sod = 'Placed with an Ulu while having the corresponding planks and coarse dirt in the inventory. Used by the Inuit for building.'
     const sods = [
         'millenaire:sod_oak',
         'millenaire:sod_spruce',
@@ -538,6 +546,30 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     sods.forEach((b) => {
         event.add(b, [
             sod
+        ])
+    });
+    const paint = 'Use on Painted Bricks to change the block\'s color. The base White Painted Brick can be obtained by smelting Sun-dried Bricks.'
+    const paints = [
+        'millenaire:paint_bucket_white',
+        'millenaire:paint_bucket_orange',
+        'millenaire:paint_bucket_magenta',
+        'millenaire:paint_bucket_light_blue',
+        'millenaire:paint_bucket_yellow',
+        'millenaire:paint_bucket_lime',
+        'millenaire:paint_bucket_pink',
+        'millenaire:paint_bucket_gray',
+        'millenaire:paint_bucket_light_gray',
+        'millenaire:paint_bucket_cyan',
+        'millenaire:paint_bucket_purple',
+        'millenaire:paint_bucket_blue',
+        'millenaire:paint_bucket_brown',
+        'millenaire:paint_bucket_green',
+        'millenaire:paint_bucket_red',
+        'millenaire:paint_bucket_black'
+    ]
+    paints.forEach((b) => {
+        event.add(b, [
+            paint
         ])
     });
     const noWear = 'Can only be used by Millagers.'
@@ -569,7 +601,13 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Used in Indian and Seljuk cultures make Wet Bricks with dirt and sand, which then dry into Sun-dried Bricks.'
         ])
     event.add('millenaire:ulu', [
-            'Used by the Inuit to make Sod with (vanilla) planks and coarse dirt.'
+            'Used by the Inuit to make Sod while having planks and coarse dirt in the inventory. Only certain plank types can be made into sod: oak, spruce, birch, jungle, acacia, and dark oak. Can also carve snow and ice bricks from snow blocks/snow layers and ice, respectively.'
+        ])
+    event.add('millenaire:snow_brick', [
+            'Made by right-clicking a snow block or snow layer with the Ulu.'
+        ])
+    event.add('millenaire:ice_brick', [
+            'Made by right-clicking an ice block with the Ulu.'
         ])
         
     event.add('millenaire:village_scroll', [
@@ -623,5 +661,21 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     // event.add('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]'  , [
     //         'You should not have this.'
     //     ])
-    
+
+    //flavor text hints for essence trades
+    const ESSENCE_BUYS = [
+        {item: 'ars_nouveau:fire_essence', desc: "Seljuk individuals seem to revere this particular essence as a symbol of Od Ana, a old folklore spirit of the hearth. Although the tradition is waning in favor of official religion, they are still willing to trade for this essence."},
+        {item: 'ars_nouveau:water_essence', desc: "Although millagers are somewhat apprehensive to the forms of magic in this world, the Inuit culture seems to view this kind of essence as represenative of the Sedna, the goddess of the sea and marine life."},
+        {item: 'ars_nouveau:earth_essence', desc: "Mayans seem to view this specific essence as an aspect of Juun Ixi'm, a god whose name means 'One Maize'. As a result they are willing to trade for this, although they cannot use it in the same way you can."},
+        //{item: 'ars_nouveau:air_essence', desc: "Ghanians revere the sky god Nyame, although the exact nature of this diety differs from region to region. Still, it seems they are willing to trade for this essence."},
+        {item: 'ars_nouveau:abjuration_essence', desc: "Normans find this magical essence to be symbolic of their patron saint, Archangel Michael, who casted down Satan from heaven. Perhaps they will trade for it."},
+        {item: 'ars_nouveau:conjuration_essence', desc: "Hindus seem to have a different idea of what this essence represents than you do; they see the creator god Brahma as the only 'conjurer'. Even still, they view this essence as a symbol of Brahma's cosmic significance and are willing to trade for it."},
+        {item: 'ars_nouveau:manipulation_essence', desc: "Japanese millagers speak of a fox spirit called Kitsune, which is said to be able to manipulate itself into different forms. As such, they consider this essence to be representative of the Kitsune. "},
+        {item: 'sauce:anima_essence', desc: "Byzantines worship the risen Christos, and oddly enough, they seem to view this essence as a symbol of his resurrection. In a way, they also see their own culture as a resurrection of the Roman Empire."},
+    ]
+    ESSENCE_BUYS.forEach((b) => {
+        event.add(b.item, [
+            b.desc
+        ])
+    });
 })

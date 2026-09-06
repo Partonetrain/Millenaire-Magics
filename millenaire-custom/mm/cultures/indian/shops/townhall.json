@@ -177,7 +177,8 @@
     "byzantine_shovel",
     "byzantine_hoe",
 
-    "yafda_iron_knife"
+    "yafda_iron_knife",
+    "mm_conjuration"
   ],
   "deliver_to": [
     "minecraft:oak_log",

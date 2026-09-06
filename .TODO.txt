@@ -1,4 +1,17 @@
+0.7.7 changelog
+- Updated mods: YAFDA to 0.16, Pet Vault to 1.5.0, JEI to 19.53.0.425, Moonlight to 3.6.3, Supplementaries to 3.9.8, YungsBetterCaves to 3.1.6, IrisSearch to 1.7.1, Blueprint to 8.2.0, JEIOptimizer to 19.53, Make Bubbles Pop 0.4.0-beta.2, Puzzles Lib to 21.1.59, Lithostitched to v.1.8.0+beta6, Fusion to 1.3.15a
+- Updated Supplemental Patches to 1.0.1 and enabled it
+- Updated Millenaire Community Textures to 0.4
+- Added Modern Minecarts
+- Removed Cyclops Core
+- You can no longer place items in ice blocks (it was causing a conflict with Millenaire's Ulu)
+- Loot table and recipe balance adjustments
+- Fixed some issues with recipes
+- Certain cultures now buy certain Ars Nouveau essences
+- JEI info tab adjustments
+
 # CURSEFORGE EXPORT CHECKMARKS
+- .qmenu_opened.marker
 - config
 - fancymenu_data
 - kubejs
@@ -7,7 +20,6 @@
 - mods
 - resourcepacks
 - shaderpacks
-- .qmenu_opened.marker
 
 - check all attributes for:
 	- wayward icon
@@ -20,8 +32,7 @@
 }
 
 - wayward bow stats seem broken
-- add loom patterns to #c:loom_patterns ?
-- fix twf olive oil crash w/ new mill
+- add crab meat to inuits? can I make them use it?
 
 - check if mill fixes:
 	- pantheon_a_0 (not yet fixed in 9.0.1)
@@ -44,13 +55,13 @@
 	- archwood good https://github.com/Alexthw46/ArchwoodGood
 	- tiny takeover backport fix https://github.com/evanbones/Tiny-Takeover-Backport/issues/7
 	- Millenaire shops being mergeable (or word from Millenaire devs that they are not meant to be mergeable)
-	- Supplemental Patches update for latest Iris
 	- Ars Elemental's heavy and light armors to get new textures
 	- malum update (huge rework!!! check what items have been removed!!!)
+	- Farmer's Delight update
+	- Brewin and Chewin update
 	- wayward attributes update
 - a bunch of attributes are missing icons
 - some effects are missing their descriptions
-- fusion textures?
 - emerald ore is generating in frozen peaks for some reason and I can't figure out why
 - Mill food effects are not shown in JustEnoughEffectDescriptions, investigate a fix.
 - nitpicks:

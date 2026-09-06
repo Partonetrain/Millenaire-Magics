@@ -154,7 +154,8 @@
     "egg",
     "straw_bed",
 
-    "yafda_byzantine_knife"
+    "yafda_byzantine_knife",
+    "mm_anima"
   ],
   "deliver_to": [
     "minecraft:oak_log",

@@ -1,5 +1,5 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-09-03 12:49:43
+Generated: 2026-09-06 14:27:25
 Mod version: millenaire 9.0.1
 
   !! 18 problem(s) reported while loading — see 'Loading problems' below.
@@ -55,6 +55,7 @@ Mod version: millenaire 9.0.1
 === Culture: seljuk (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
+  shops            1 file(s) on disk
   village_type     19 file(s) on disk
   villager_type    3 file(s) on disk
   traded_goods     present (additive merge)

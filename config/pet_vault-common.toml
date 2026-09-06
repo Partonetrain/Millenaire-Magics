@@ -63,3 +63,8 @@ configVersion = 1
 	notifyPetDeath = true
 	#If true, sends a chat message when a dead pet's revive timer expires and it becomes summonable again.
 	notifyPetRespawn = true
+
+[locket]
+	#If true, the Keeper's Locket's radial menu (keybind) can be opened while it's only in the
+	#player's inventory, without needing an accessory-mod (Curios/Trinkets) slot equipped.
+	allowUnequippedLocket = false
