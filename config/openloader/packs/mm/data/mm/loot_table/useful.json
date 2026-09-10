@@ -37,6 +37,18 @@
           "name": "minecraft:ender_pearl"
         },
         {
+          "type": "minecraft:item",
+          "name": "malum:hallowed_gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:block_of_arcane_charcoal"
+        },
+        {
           "type": "minecraft:loot_table",
           "value": "mm:drink"
         },

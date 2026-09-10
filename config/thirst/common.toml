@@ -37,6 +37,8 @@
 	handDrinkingQuenched = 2
 	#Whether extra hydration will convert to quenched
 	ExtraHydrationConvertToQuenched = false
+	#Cooldown in ticks between drinking by hand attempts
+	handDrinkingCooldown = 20
 
 [World]
 	#Y level above which water has 1 more level of purification by default (i.e Mountains)

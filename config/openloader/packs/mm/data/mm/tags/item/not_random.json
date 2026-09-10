@@ -81,9 +81,12 @@
         "#minecraft:wooden_buttons",
         "#quark:posts",
         "#c:ladders",
+        "#c:bookshelves",
         "#c:chests/wooden",
         "#farmersdelight:cabinets/wooden",
         "#bibliocraft:seat_backs",
+        "#bibliocraft:labels",
+        "#bibliocraft:display_cases",
         "#bibliocraft:seats",
         "#bibliocraft:bookcases",
         "#bibliocraft:display_cases",
@@ -93,9 +96,13 @@
         "#bibliocraft:fancy_clocks",
         "#bibliocraft:grandfather_clocks",
         "#bibliocraft:fancy_crafters",
-        "#bibliocraft:fancy_armor_stands/wood"
+        "#bibliocraft:fancy_armor_stands/wood",
+
+        "#blockbox:wooden_seats",
+        "#blockbox:palisades"
     ],
     "remove": [
-        "quark:iron_ladder"
+        "quark:iron_ladder",
+        "minecraft:bookshelf"
     ]
 }

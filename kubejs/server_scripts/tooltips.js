@@ -20,6 +20,7 @@ ItemEvents.modifyTooltips(event => {
   event.add(['ars_nouveau:ritual_flight'], Text.red("Cannot fly in certain dimensions until certain advancements are unlocked"))
 
   event.add(['ars_nouveau:glyph_cut'], Text.gray("Use with Sensitive to simulate using a Cutting Board on dropped items"))
+  event.add(['ars_nouveau:glyph_bounce'], Text.gray("Effect is removed when entity is hurt"))
 
    event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oRight-click to permanently upgrade Ultimine by 2 blocks."))
    event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oCan be used up to 4 times."))

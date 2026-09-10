@@ -71,6 +71,9 @@
         "millenaire:mock_animal_spawn",
         "millenaire:mock_decor",
         "millenaire:mock_banner_wall",
-        "millenaire:mock_banner_standing"
+        "millenaire:mock_banner_standing",
+
+        "spudaciousshops:payment_warning",
+        "spudaciousshops:stock_warning"
     ]
 }

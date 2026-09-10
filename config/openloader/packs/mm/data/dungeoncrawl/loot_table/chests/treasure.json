@@ -202,6 +202,22 @@
           ],
           "name": "malum:cthonic_gold",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "malum:hallowed_gold_ingot",
+          "weight": 3
         }
       ]
     },

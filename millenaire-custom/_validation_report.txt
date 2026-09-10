@@ -1,8 +1,8 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-09-06 14:27:25
+Generated: 2026-09-10 18:31:18
 Mod version: millenaire 9.0.1
 
-  !! 18 problem(s) reported while loading — see 'Loading problems' below.
+  !! 16 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
@@ -57,7 +57,7 @@ Mod version: millenaire 9.0.1
   sub-mods: mm, yafda
   shops            1 file(s) on disk
   village_type     19 file(s) on disk
-  villager_type    3 file(s) on disk
+  villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
 
 === Global ===
@@ -76,14 +76,10 @@ Not all of these are necessarily yours: Millénaire's own shipped
 content produces a few, and they name a built-in culture and building.
 Those are ours — please report them rather than trying to fix them.
 
-  2 error(s), 16 warning(s) during content loading.
+  0 error(s), 16 warning(s) during content loading.
 
   [WARN] BuildingPlanSetLoader
     [Millenaire] Building plan japanese/japanesepaddy has category 'core' in JSON but lives under path category 'houses'. JSON field wins; consider moving the file to the matching folder.
-  [ERROR] VillagerTypeLoader
-    Error parsing villager type millenaire:seljuk/toolsmith: Missing culture, expected to find a string
-  [ERROR] VillagerTypeLoader
-    Error parsing villager type millenaire:seljuk/townhall: Missing culture, expected to find a string
   [WARN] CultureLoader
     VillagerType millenaire:indian/smith: missing goal in GoalRegistry: yafda:craft_ironknife
   [WARN] CultureLoader

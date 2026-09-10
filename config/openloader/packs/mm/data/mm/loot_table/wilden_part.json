@@ -8,7 +8,7 @@
           "type": "minecraft:tag",
           "name": "ars_nouveau:wilden_drop",
           "expand": true,
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",

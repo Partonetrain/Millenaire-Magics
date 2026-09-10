@@ -150,6 +150,21 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "malum:hallowed_gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 5,
                 "min": 2
               },
@@ -195,8 +210,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5,
-                "min": 3
+                "max": 8,
+                "min": 4
               },
               "function": "minecraft:set_count"
             }
@@ -210,7 +225,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 23,
+                "max": 24,
                 "min": 8
               },
               "function": "minecraft:set_count"

@@ -4,4 +4,7 @@ EntityEvents.beforeHurt(event => {
     if (event.getSource()['is(net.minecraft.tags.TagKey)']('mm:mount_immune') && counts) {
         event.cancel();
     }
+    
+    event.getEntity().removeEffect('ars_nouveau:bounce'); //does nothing if entity does not have bounce
+
 })
