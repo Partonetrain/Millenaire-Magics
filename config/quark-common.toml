@@ -20,7 +20,7 @@
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not show the Quark Programmer Art resource pack in the resource pack selection screen
-	"Generate Programmer Art" = true
+	"Generate Programmer Art" = false
 	#Set this to false to prevent Quark from ever disabling any vanilla data files. This will break certain modules, so only do this if you know what you're doing!
 	"Quark V D O" = true
 
@@ -612,7 +612,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+minecraft:sharpness@10".
-		"Item Enchantments" = []
+		"Item Enchantments" = ["minecraft:iron_sword+minecraft:unbreaking@1", "minecraft:iron_shovel+minecraft:unbreaking@1", "minecraft:iron_axe+minecraft:unbreaking@1", "minecraft:iron_pickaxe+minecraft:unbreaking@1", "minecraft:iron_hoe+minecraft:unbreaking@1", "minecraft:iron_helmet+minecraft:unbreaking@1", "minecraft:iron_chestplate+minecraft:unbreaking@1", "minecraft:iron_leggings+minecraft:unbreaking@1", "minecraft:iron_boots+minecraft:unbreaking@1", "farmersdelight:iron_knife+minecraft:unbreaking@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -631,10 +631,10 @@
 	[tweaks.improved_sponges]
 		#The maximum number of water tiles that a sponge can soak up. Vanilla default is 64.
 		#Allowed values: [64,)
-		"Maximum Water Drain" = 256
+		"Maximum Water Drain" = 512
 		#The maximum number of water tiles that a sponge can 'crawl along' for draining. Vanilla default is 6.
 		#Allowed values: [6,)
-		"Maximum Crawl Distance" = 10
+		"Maximum Crawl Distance" = 12
 		"Enable Placing On Water" = true
 
 	[tweaks.lock_rotation]
@@ -677,7 +677,7 @@
 		#Allowed values: [1,)
 		"Min Pig Litter Size" = 2
 		#Allowed values: [1,)
-		"Max Pig Litter Size" = 4
+		"Max Pig Litter Size" = 3
 		"Pigs Eat Golden Carrots" = false
 		#Allowed values: [0,)
 		"Min Golden Carrot Boost" = 0
@@ -1513,7 +1513,7 @@
 	[mobs.wraith]
 		#List of sound sets to use with wraiths.
 		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
-		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+		"Wraith Sounds" = ["entity.villager.ambient|entity.villager.hurt|entity.villager.death"]
 
 		[mobs.wraith.spawn_config]
 			"Max Cost" = 0.7

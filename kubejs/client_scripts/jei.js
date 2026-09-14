@@ -105,6 +105,12 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         }
     })
 
+    Ingredient.of('#supplementaries:candle_holders').stacks.toArray().forEach(item => {
+        event.add(item, [
+            'Candle Holders cannot be used to influence Matrix Enchanting.'
+        ])
+    })
+
     //items
     event.add('minecraft:painting', [
                 'Lots of new, unique paintings are available! If you want to select a painting instead of having it chosen for you when placing, craft an Easel.'
@@ -113,10 +119,19 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
                 'Can now be obtained from brushing adult turtles, in the same way that you can obtain Armadillo Scute.'
             ])
     event.add('environmental:truffle', [
-                'Obtained by leading a pig.'
+                'Obtained by giving a pig a Golden Carrot. It might take a second to find one.'
+            ])
+    event.add('minecraft:bone_meal', [
+                'All plants can be bone mealed, in addition to normal crops.'
             ])
 
     //tools
+    event.add('not_enough_glyphs:spell_binder', [
+                'An alternative to a Spell Book. Casts spells from the Spell Parchment and Caster Tomes found as loot. Spell Parchments casted from a Spell Binder are not consumed.'
+            ])
+    event.add('yigd:death_scroll', [
+                'Shows you what items went into your grave and the coordinates you died at.\nThis item despawns quicker that usual if tossed.'
+            ])
     event.add('ars_nouveau:potion_flask', [
                 'Can be used as a flask. Automatically purifies water.'
             ])
@@ -141,6 +156,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('thirst:terracotta_bowl', [
             'Can only be used for drinking water.'
         ])
+    event.add('supplementaries:lunch_basket', [
+            'Holds many foods at once. Left-click to toggle open/closed, and right click while open to eat out of. Shift-right-click while closed to place down.'
+        ])
     event.add('farmersdelight:milk_bottle', [
             'Can be obtained directly from cows by right-clicking them with a glass bottle. Only stacks up to 16.'
         ])
@@ -157,7 +175,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'After a location has been set, creates a temporary, one-way portal to that location. Make sure you have a way back!\nCan be tossed into a frame of Sourcestone with Source nearby to create a permanent one-way portal.'
         ])
     event.add('ars_controle:portable_brazier_relay', [
-            'Lets you carry the effects of a ritual with you. However, it is very difficult if not borderline impossible to craft, due to requiring Heart of Giga Knight.'
+            'Lets you carry the effects of a ritual with you. However, it is very difficult if not borderline impossible to craft, due to requiring Heart of Giga Knight, which does not have a consistent method of obtaining.'
         ])
     event.add('parcool:zipline_rope', [
             'Requires a Zipline Hook to be placed. Can be dyed in a crafting table like leather armor.'
@@ -249,10 +267,19 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         ]) 
     event.add('cosmeticarmoursmod:turtle_armour_boots'  , [
             'Does not provide Water Breathing, only the helmet does.'
+        ])
+    event.add('ars_additions:warp_index' , [
+            'Allows you to access a (chunk-loaded) Storage Lectern remotely, as long as it is in the same dimension.'
+        ]) 
+    event.add('ars_additions:stabilized_warp_index' , [
+            'Upgraded from the Warp Index, allows you to access a (chunk-loaded) Storage Lectern remotely, even if it\'s in a different dimension.'
         ]) 
     //blocks
     event.add('minecraft:chain', [
             'Iron chains are durable enough to link minecarts together! Shift-right-click a minecart to start linking, and then shift-right-click another to link them.'
+        ])
+    event.add('minecraft:sponge', [
+            'Absorbs SIGNIFICANTLY more water than in vanilla.'
         ])
     event.add('quark:limestone', [
             'Spawns in large quantities under swampy biomes.'
@@ -293,6 +320,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('supplementaries:slidy_block', [
             'Right-click a placed Sliding Block to slide it in the direction you clicked.'
         ])
+    event.add('supplementaries:fodder', [
+            'When placed nearby farm animals, they may eat this.'
+        ])
     event.add('supplementaries:pulley_block', [
             'Once filled with any kind of rope or chain, a Turn Table or Crank can be attached to it to raise or lower the rope/chain. The block at the bottom of the rope/chain will also be moved, and this follows Slime Block rules, but not Chains Connect Blocks rules. Pulleys can only pull up to 12 non-rope/chain attached blocks at a time, but they can be combined to pull more.'
         ])
@@ -312,13 +342,13 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
                 'Can be placed above Tomato crops to extend their growth height by 1 block.'
             ])
     event.add('supplementaries:rope', [
-                'Differs from Straw Rope in that it must be attached to something, and can be placed on fences.'
+                'Differs from Straw Rope in that it must be attached to something, connects horizontally, and can be placed on fences.'
             ])
     event.add('the_beyond:guster', [
-            'Unlike the Gust Igniter, the Autoguster automatically activates when something steps on it, cannot be placed at an angle, and sends dangerously high without applying any effects for safety. Use with caution.'
+            'Unlike the Gust Igniter, the Autoguster automatically activates when something steps on it, cannot be placed at an angle, and sends dangerously high without applying any effects for safety. Useful if you have wings, but very dangerous otherwise.'
             ])
     event.add('morered:hexidecrubrometer', [
-            'Displays redstone power level of its back side in hexadecimal (0 through F)'
+            'Displays redstone power level of its back side in hexadecimal (0 through F).'
             ])
     event.add('morered:soldering_table', [
             'Can be used to craft redstone gates more cost-effectively.'
@@ -334,6 +364,12 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             ])
     event.add('ars_nouveau:ritual_brazier', [
             'Right-click a Tablet into it to begin a Ritual. These usually require nearby Source Jars. \nCan be lit for cosmetic purposes; shift-right-click with a Touch > Conjure Magelight spell.'
+            ])
+    event.add('ars_nouveau:scribes_table', [
+            'Used to craft spell glyphs. Right-click with a Spell Book to open the crafting GUI.\nNote that it will pull nearby ingredients to itself from certain containers.\n\nTechnical note: the \"EXP factor\" in glyph crafting is renamed from \"level cost\", because it uses the vanilla experience formula rather than the one provided by Train\'s Tweaks. In most cases this can be ignored.'
+            ])
+    event.add('ars_nouveau:alteration_table', [
+            'Used to apply Threads to wizard armor, or to armor that is enchanted with Spellweaving. Also used to apply Book Covers to a Spell Binder in the same way.'
             ])
     event.add('vista:mirror', [
             'Reflects in real-time, but unfortunately doesn\'t work if shaders are on.'
@@ -409,6 +445,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('minecraft:egg', [
             'There are some easter eggs in this modpack. Consider this one of them.'
         ])
+    event.add('minecraft:sea_pickle', [
+            'Sea Pickles can be Bone Mealed if they are on top of a living Coral Block.\n\n\"Hi Kevin\"'
+        ])
     event.add('opalescence:familiar_tiling', [
             'Just objectively the worst block in the game.'
         ])
@@ -465,6 +504,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         ])
     event.add('atmospheric:orange_sorbet', [
             'Gives you a brain freeze :('
+        ])
+    event.add('farmersdelight:raw_pasta', [
+            '\"This 97 year old modding group writes unmaintainable spaghetti code the old fashioned way.\" - quat 7/21/2026'
         ])
 
 

@@ -67,7 +67,7 @@
         {
           "type": "minecraft:empty",
           "weight": 85,
-          "quality": -15
+          "quality": -20
         },
         {
           "type": "minecraft:item",

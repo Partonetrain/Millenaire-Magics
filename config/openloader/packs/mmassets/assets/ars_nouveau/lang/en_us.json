@@ -9,6 +9,7 @@
 
   "ars_nouveau.imbuement.norecipe": "No recipe found. If Arcane Pedestals are required, they must be placed within the 1 block cube around the chamber.",
 
+  "ars_nouveau.levels_required": "EXP factor: %s",
   "ars_nouveau.exp": "EXP factor: %s",
 
   "effect.ars_nouveau.blasting.description": "Causes the target to explode when the duration ends.",

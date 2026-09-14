@@ -139,7 +139,9 @@
     "byzantine_hoe",
 
     "yafda_mayan_knife",
-    "mm_earth"
+    "mm_earth",
+    "mm_brown_egg",
+    "mm_blue_egg"
   ],
   "deliver_to": [
     "minecraft:oak_log",

@@ -94,6 +94,13 @@
 	bilinear_sampling = false
 	#A list of regex which will filter out valid URLs. At least one of these must match for a URL video to work
 	safe_urls = []
+	#When wave gates with TVs videos play their audio. Speaker mode means  you need a speaker block or noteblock next to the TV (or other tagged blocks)
+	#Allowed Values: OFF, REQUIRE_SPEAKER, ON
+	audio_mode = "REQUIRE_SPEAKER"
+	#Volume scale for videos audio. Applied on top of the Blocks sound slider
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	audio_volume = 1.0
 
 [picture_tape]
 	#How a picture is fitted onto the TV screen when the two don't have the same shape. STRETCH: distorts the picture to fill the screen. CONTAIN: shows all of it, leaving bars on the two shorter sides. COVER: fills the screen, cropping whatever sticks out. FIT_WIDTH / FIT_HEIGHT: match that side of the screen and let the other one bar or crop

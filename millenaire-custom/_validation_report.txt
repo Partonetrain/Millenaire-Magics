@@ -1,13 +1,13 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-09-10 18:31:18
+Generated: 2026-09-13 15:15:48
 Mod version: millenaire 9.0.1
 
-  !! 16 problem(s) reported while loading — see 'Loading problems' below.
+  !! 9 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
-  shops            3 file(s) on disk
+  shops            4 file(s) on disk
   village_type     14 file(s) on disk
   villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
@@ -33,7 +33,7 @@ Mod version: millenaire 9.0.1
   sub-mods: mm, yafda
   shops            2 file(s) on disk
   village_type     13 file(s) on disk
-  villager_type    1 file(s) on disk
+  villager_type    3 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: mayan (built-in with overrides) ===
@@ -41,7 +41,7 @@ Mod version: millenaire 9.0.1
   sub-mods: mm, yafda
   shops            2 file(s) on disk
   village_type     14 file(s) on disk
-  villager_type    1 file(s) on disk
+  villager_type    3 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: norman (built-in with overrides) ===
@@ -49,7 +49,7 @@ Mod version: millenaire 9.0.1
   sub-mods: mm, yafda
   shops            2 file(s) on disk
   village_type     27 file(s) on disk
-  villager_type    1 file(s) on disk
+  villager_type    3 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: seljuk (built-in with overrides) ===
@@ -76,24 +76,10 @@ Not all of these are necessarily yours: Millénaire's own shipped
 content produces a few, and they name a built-in culture and building.
 Those are ours — please report them rather than trying to fix them.
 
-  0 error(s), 16 warning(s) during content loading.
+  0 error(s), 9 warning(s) during content loading.
 
   [WARN] BuildingPlanSetLoader
     [Millenaire] Building plan japanese/japanesepaddy has category 'core' in JSON but lives under path category 'houses'. JSON field wins; consider moving the file to the matching folder.
-  [WARN] CultureLoader
-    VillagerType millenaire:indian/smith: missing goal in GoalRegistry: yafda:craft_ironknife
-  [WARN] CultureLoader
-    VillagerType millenaire:japanese/smith: missing goal in GoalRegistry: yafda:craft_ironknife
-  [WARN] CultureLoader
-    VillagerType millenaire:seljuk/turk_toolsmith: missing goal in GoalRegistry: yafda:craft_ironknife
-  [WARN] CultureLoader
-    VillagerType millenaire:norman/smith: missing goal in GoalRegistry: yafda:craft_normanknife
-  [WARN] CultureLoader
-    VillagerType millenaire:byzantines/smith_byzantine: missing goal in GoalRegistry: yafda:craft_byzantineknife
-  [WARN] CultureLoader
-    VillagerType millenaire:inuits/inuit_smith: missing goal in GoalRegistry: yafda:craft_flintknife
-  [WARN] CultureLoader
-    VillagerType millenaire:mayan/obsidiancrafter: missing goal in GoalRegistry: yafda:craft_mayanknife
   [WARN] CultureLoader
     BuildingPlanSet millenaire:byzantines/playerfortress_a_armyforge: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader

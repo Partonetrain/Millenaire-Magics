@@ -9,6 +9,19 @@
       {
         "item": {
           "count": 1,
+          "id": "minecraft:orange_dye"
+        }
+      },
+      {
+        "item": {
+          "count": 1,
+          "id": "minecraft:white_dye"
+        }
+      },
+      {
+        "chance": 0.1,
+        "item": {
+          "count": 1,
           "id": "minecraft:spider_eye"
         }
       }

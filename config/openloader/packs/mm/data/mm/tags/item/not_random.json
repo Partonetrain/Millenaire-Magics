@@ -99,7 +99,15 @@
         "#bibliocraft:fancy_armor_stands/wood",
 
         "#blockbox:wooden_seats",
-        "#blockbox:palisades"
+        "#blockbox:palisades",
+
+        "ars_nouveau:caster_tome",
+        "ars_elemental:fire_caster_tome",
+        "ars_elemental:water_caster_tome",
+        "ars_elemental:earth_caster_tome",
+        "ars_elemental:air_caster_tome",
+        "ars_elemental:anima_caster_tome",
+        "ars_elemental:manipulation_caster_tome"
     ],
     "remove": [
         "quark:iron_ladder",

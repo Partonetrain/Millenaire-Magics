@@ -171,7 +171,9 @@
     "gold_ingot",
 
     "yafda_norman_knife",
-    "mm_abjuration"
+    "mm_abjuration",
+    "mm_brown_egg",
+    "mm_blue_egg"
   ],
   "deliver_to": [
     "minecraft:oak_log",

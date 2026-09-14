@@ -44,16 +44,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:trial_key",
-          "conditions": [
-            {
-              "condition": "minecraft:killed_by_player",
-              "inverse": true
-            }
-          ]
+          "conditions": []
         }
       ],
       "functions": [],
       "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
         {
           "condition": "minecraft:entity_properties",
           "entity": "this",

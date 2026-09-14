@@ -74,6 +74,9 @@
         "millenaire:mock_banner_standing",
 
         "spudaciousshops:payment_warning",
-        "spudaciousshops:stock_warning"
+        "spudaciousshops:stock_warning",
+
+        "#boatload:large_boats",
+        "#boatload:furnace_boats"
     ]
 }

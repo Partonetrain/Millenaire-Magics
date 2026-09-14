@@ -72,6 +72,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:sea_pickle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "the_beyond:stardust",
           "weight": 1,
           "functions": [
@@ -149,11 +154,16 @@
         {
           "type": "minecraft:item",
           "name": "quark:slime_in_a_bucket",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "environmental:slabfish_bucket",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "atmospheric:tetra_bucket",
           "weight": 2
         },
         {
@@ -210,7 +220,7 @@
         {
           "type": "minecraft:item",
           "name": "malum:living_flesh",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",

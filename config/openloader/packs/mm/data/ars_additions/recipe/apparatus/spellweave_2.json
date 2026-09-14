@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_additions:spellweave",
+  "level": 2,
+  "pedestalItems": [
+    {
+      "tag": "c:rods/blaze"
+    },
+    {
+      "tag": "c:rods/blaze"
+    },
+    {
+      "item": "ars_nouveau:magebloom_block"
+    },
+    {
+      "item": "ars_nouveau:magebloom_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "sourceCost": 10000
+}

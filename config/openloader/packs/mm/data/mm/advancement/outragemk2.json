@@ -5,6 +5,9 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
+          "flags": {
+            "is_sneaking": true
+          },
           "equipment": {
             "mainhand": {
               "items": "minecraft:iron_sword"
@@ -21,7 +24,7 @@
   },
   "display": {
     "description": {
-      "text": "Kill a Blaze with an Iron Sword. \"Can't you see I'm blazing! Still my heart is blazing!\""
+      "text": "Kill a Blaze with an Iron Sword while sneaking. \"Can't you see I'm blazing! Still my heart is blazing!\""
     },
     "icon": {
       "count": 1,

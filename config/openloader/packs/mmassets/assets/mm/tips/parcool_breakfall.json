@@ -1,0 +1,15 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Falling to your death? Quick, press",
+    "type": "text",
+    "extra": [
+      {
+        "keybind": "key.parcool.Dodge"
+      },
+      {
+        "text": " right before landing to reduce your fall damage!"
+      }
+    ]
+  }
+}

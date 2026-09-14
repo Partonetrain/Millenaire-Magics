@@ -6,7 +6,6 @@ EntityEvents.spawned(event =>
         if(entity.getType() === 'minecraft:zombie_villager'){
             event.cancel;
         }
-
         else if(entity.getType() === 'minecraft:item'){
             var item = entity.getItem();
             //fix bugged Malum drop interaction
@@ -26,18 +25,26 @@ EntityEvents.spawned(event =>
                 entity.age = 3000;
             }
         }
-
-        if(entity.getType() === 'minecraft:chicken'){
+        else if(entity.getType() === 'minecraft:chicken'){
             const xyz = entity.getBlockX() + " " + entity.getBlockY() + " " + entity.getBlockZ();
             if(entity.hasControllingPassenger()){
                 //event.getServer().runCommandSilent('/say A chicken jockey has spawned.');
-                event.getServer().runCommandSilent('/playsound oof_button:jackblack_chickenjockey hostile @a ' + xyz + " 1 1 0.1");
+                event.getServer().runCommandSilent('/playsound oof_button:jackblack_chickenjockey hostile @a ' + xyz + " 1 1 0.05");
             }
         }
         else if(entity.getType() === 'the_beyond:totem_of_respite'){
             const xyz = entity.getBlockX() + " " + entity.getBlockY() + " " + entity.getBlockZ();
             event.cancel();
             console.log("discarded totem of respite at " + xyz)
+        }
+        else if(entity.getType() === 'millenaire:villager'){
+            //const clearFire = '/execute as @e[type=millenaire:villager] run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:air replace minecraft:fire'
+            //event.getServer().runCommandSilent(clearFire);
+
+            if(entity.getRandom().nextDouble() < 0.05){
+                const xyz = entity.getBlockX() + " " + entity.getBlockY() + " " + entity.getBlockZ();
+                event.getServer().runCommandSilent('/summon minecraft:cat ' + xyz);
+            }
         }
     }
 )

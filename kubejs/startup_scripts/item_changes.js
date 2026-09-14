@@ -23,6 +23,21 @@ ItemEvents.modification(event => {
     })
   })
 
+  const sixtyfourEggs = [
+    'minecraft:brown_egg',
+    'minecraft:blue_egg',
+    'environmental:duck_egg',
+    'quark:egg_parrot_gray',
+    'quark:egg_parrot_yellow_blue',
+    'quark:egg_parrot_green',
+    'quark:egg_parrot_blue',
+    'quark:egg_parrot_red_blue'
+  ]
+
+  sixtyfourEggs.forEach(id => event.modify(id, item => {
+    item.setMaxStackSize(64)
+  }))
+
   event.modify('gag:hearthstone', item => {
     item.setUnbreakable()
   })

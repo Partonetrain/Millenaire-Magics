@@ -1,0 +1,29 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_additions:spellweave",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:blank_thread"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "sourceCost": 5000
+}

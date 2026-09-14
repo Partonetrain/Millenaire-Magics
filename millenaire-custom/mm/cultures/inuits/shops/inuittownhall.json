@@ -183,7 +183,9 @@
     "dirt",
 
     "yafda_flint_knife",
-    "mm_water"
+    "mm_water",
+    "mm_brown_egg",
+    "mm_blue_egg"
   ],
   "deliver_to": [
     "millenaire:path_snow",

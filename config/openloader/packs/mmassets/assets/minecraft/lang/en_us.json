@@ -25,7 +25,7 @@
     "enchantment.minecraft.fire_aspect.desc": "Causes struck mobs to be ignited.",
     "enchantment.minecraft.looting.desc": "Mobs will drop more loot when killed.",
     "enchantment.minecraft.efficiency.desc": "Increases mining speed of the tool.",
-    "enchantment.minecraft.silk_touch.desc": "Allows fragile blocks such as glass to be collected.",
+    "enchantment.minecraft.silk_touch.desc": "Allows fragile blocks such as glass to be collected. Monster Spawners can be collected as well, but the mob inside will be lost.",
     "enchantment.minecraft.unbreaking.desc": "Causes the tool to lose durability at a slower rate.",
     "enchantment.minecraft.fortune.desc": "Some blocks like coal and diamond ore may drop additional items.",
     "enchantment.minecraft.power.desc": "Increases the damage of arrows fired from the bow or crossbow.",

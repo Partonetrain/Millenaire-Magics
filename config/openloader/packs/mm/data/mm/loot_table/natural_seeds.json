@@ -54,12 +54,16 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "atmospheric:aloe_kernels"
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "atmospheric:passion_vine"
                 },
                 {
                     "type": "minecraft:item",
                     "name": "ars_nouveau:sourceberry_bush",
-                    "weight": 2
+                    "weight": 3
                 }
             ]
         }

@@ -11,3 +11,11 @@
 #This prints the name of every scheduled function to the chat at when the gametime it is scheduled for
 #This can be useful for debugging datapacks and/or determining if they are causing any lag
 "Show Scheduled Functions" = true
+#If set to true, the vanilla /loot spawn command will attempt to scan for nearby players and use their luck value
+#Players are scanned for within 3 blocks of the source of the command, which is not necessarily the same as the position arguments
+#This is useful for scripts or datapacks that spawn loot this way. It can apply to mods too, but mods really shouldn't be running serverside commands...
+"Loot Spawn Command Considers Luck" = true
+#If set to true, the set_hunger command will be added
+#This is useful for testing foods that aren't always-edible
+#Note that the client's hunger bar only shakes when saturation is 0
+"Set Hunger" = true

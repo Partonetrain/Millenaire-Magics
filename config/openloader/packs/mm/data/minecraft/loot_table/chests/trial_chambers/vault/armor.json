@@ -142,6 +142,22 @@
           "quality": 2
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:soulbound",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/trial_chambers/vault/armor"

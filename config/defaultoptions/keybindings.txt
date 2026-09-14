@@ -121,8 +121,8 @@ key_key.constructionstick.toggle_random:key.keyboard.unknown:
 key_key.constructionstick.open_gui:key.keyboard.unknown:
 key_key.constructionstick.undo:key.keyboard.unknown:
 key_key.constructionstick.show_previous:key.keyboard.unknown:
-key_key.open_convenient_screen:key.keyboard.unknown:
 key_cos.key.opencosarmorinventory:key.keyboard.unknown:
+key_key.open_convenient_screen:key.keyboard.unknown:
 key_dmr.keybind.summon_dragon:key.keyboard.enter:
 key_dmr.keybind.attack:key.keyboard.left.alt:
 key_dmr.keybind.dragon_command:key.keyboard.unknown:
@@ -146,11 +146,11 @@ key_key.ars_nouveau.qc9:key.keyboard.unknown:
 key_key.ars_nouveau.qc10:key.keyboard.unknown:
 key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown:
 key_key.ars_additions.open_lectern:key.keyboard.unknown:
+key_placebo.toggleTrails:key.keyboard.unknown:
+key_placebo.toggleWings:key.keyboard.unknown:
 key_key.dankstorage.construction:key.keyboard.i:
 key_key.dankstorage.lock_slot:key.keyboard.left.control:
 key_key.dankstorage.pickup_mode:key.keyboard.o:
-key_placebo.toggleTrails:key.keyboard.unknown:
-key_placebo.toggleWings:key.keyboard.unknown:
 key_fpsreducer.key.openGui:key.keyboard.unknown:
 key_fpsreducer.key.forceIdle:key.keyboard.pause:
 key_key.carry.desc:key.keyboard.unknown:

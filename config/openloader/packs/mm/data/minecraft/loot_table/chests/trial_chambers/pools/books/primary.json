@@ -8,6 +8,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
+          "weight": 4,
           "functions": [
             {
               "function": "trains_tweaks:enchant_max",
@@ -15,8 +16,20 @@
                 "minecraft:sharpness",
                 "minecraft:protection",
                 "minecraft:efficiency",
-                "minecraft:power",
-                "minecraft:unbreaking"
+                "minecraft:power"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "trains_tweaks:enchant_max",
+              "options": [
+                "yigd:soulbound"
               ]
             }
           ]

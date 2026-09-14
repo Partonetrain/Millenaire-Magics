@@ -30,6 +30,9 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
 
         console.info(`Gave starting items to ${player.name} and set up gamerules`);
     }
+    else if (id === 'minecraft:nether/all_effects') {
+        player.server.runCommandSilent(`/tellraw ${player.username} {"text":"How did you do manage to get How Did We Get Here? Did you cheat?","color":"orange", "italic":true}`);
+    }
     else if (id === 'mm:firstcontactwarning') {
         player.server.runCommandSilent(`/tellraw ${player.username} {"text":"You've discovered a Millage! Be careful to not build anything within its boundaries; millagers have a tendency to pave through your builds.","color":"red", "italic":true}`);
     }

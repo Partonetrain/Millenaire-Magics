@@ -1,8 +1,19 @@
-- 0.7.8 changelog
-- Updated Thirst was Reclaimed to 3.0.5, Quark to 4.1-485, Moonlight to 3.6.4, Supplementaries to 3.9.9, Amendments to 3.1.10, Vista to 5.5.0, MmmMmmMmmMmm to 2.1.1 to , Ars Controle to 1.6.16, JEI to 19.54.0.427, Puzzles Lib to 21.1.60, KubeJS to 2101.7.2-377, Farsight to 5.4, KotlinLanguageForge to 2.4.20, Iris&Oculus Search to 1.8.0, CreativeCore to 2.13.45
+0.8 changelog
+- Updated Train's Tweaks to 1.2.0, Yafda to 0.17, Cle to 1.2.3, Thirst was Reclaimed to 3.0.5, Quark to 4.1-485, Moonlight to 3.6.4, Supplementaries to 3.9.9, Amendments to 3.1.10, EveryComp to 2.11.51, Vista to 5.5.4, MmmMmmMmmMmm to 2.1.1 to , Ars Controle to 1.6.16, MezzConfig to 0.5.8, JEI to 19.54.0.439, JEIOptimizer to 19.56, Puzzles Lib to 21.1.60, KubeJS to 2101.7.2-377, Farsight to 5.5, KotlinLanguageForge to 2.14.0-k2.4.20-3.0, Iris&Oculus Search to 1.8.1, CreativeCore to 2.13.45, EuphoriaPatches to 5.9.2, FTB Library to 2101.1.36, CreativeCore to 2.13.46, Not Enough Glyphs to 4.6.2
+- Updated Millenaire Community Textures to 0.5
+- Updated both Complimentary shaderpacks
+- Removed BlueMap and BlueChunks. These are server utilties and I realized it's not appropriate to include them in a client distribution, sorry about that.
+- Removed Millenaire FChunks compat as it does not work on servers.
 - Leap and Bounce glyphs have had their mana cost increased significantly
 - The Bounce effect now gets removed upon taking damage
-- Loot table, recipe, and config adjustments
+- Loot table, recipe, and config adjustments. In particular Spellweave's Enchantment Apparatus recipe has been massively cheapened.
+- Millenaire villages now accept VanillaBackport eggs for trade. They cannot use them at this time (waiting on millenaire villager_config).
+- Fixed millagers being unable to craft knives (this seemed to be a YAFDA bug stemming from a Millenaire bug?)
+- Iron tools now have builtin Unbreaking 1.
+- Silk touching spawners now loses the mob inside.
+- Variants and Ventures mobs should now spawn in Trial Chambers.
+- Fixed Environmental's pig litters being enabled and resulting in too many baby pigs.
+- Multiple mobs now inflict additional effects.
 
 # CURSEFORGE EXPORT CHECKMARKS
 - .qmenu_opened.marker
@@ -25,9 +36,10 @@
 
 }
 
+- can't seem to roll soulbound in the matrix enchanter...
 - wayward bow stats seem broken
-- blacklist poison potato
-- add crab meat to inuits? can I make them use it?
+- add crab meat to inuits and japanese? can I make them use it? (currently: no)
+- variants and ventures is supposed to add trial chamber spawners but it does not, can this be fixed?
 
 - check if mill fixes:
 	- pantheon_a_0 (not yet fixed in 9.0.1)

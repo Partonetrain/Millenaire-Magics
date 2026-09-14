@@ -34,11 +34,11 @@
           },
           {
             "type": "minecraft:item",
-            "name": "atmospheric:roasted_yucca_fruit"
+            "name": "environmental:plum"
           },
           {
             "type": "minecraft:item",
-            "name": "environmental:plum"
+            "name": "atmospheric:candied_orange_slices"
           }
         ]
       }

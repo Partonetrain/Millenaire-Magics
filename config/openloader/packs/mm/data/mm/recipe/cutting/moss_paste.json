@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "quark:moss_paste"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 1,
+        "id": "minecraft:green_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

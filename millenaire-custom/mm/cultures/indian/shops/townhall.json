@@ -178,7 +178,9 @@
     "byzantine_hoe",
 
     "yafda_iron_knife",
-    "mm_conjuration"
+    "mm_conjuration",
+    "mm_brown_egg",
+    "mm_blue_egg"
   ],
   "deliver_to": [
     "minecraft:oak_log",

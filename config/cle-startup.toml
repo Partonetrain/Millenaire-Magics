@@ -63,6 +63,12 @@
 	#If true, players will have the nbt tag cle.in_millage applied to them when they are within 50 blocks of a village's center
 	#This can be useful for advancements. This can have a tiny performance impact
 	"Tag Players In Millage" = true
+	#If true, the hardcoded check for a minecraft:egg in every child millager's home every night that increases their growth is disabled
+	#This check is technically redundant as there are already minecraft:egg in the villager config json, as indicated by this comment in default.json:
+	#"Valeur = growth bonus (growth += value + random(value)). Trié par valeur descendante. Egg est aussi dans cette liste (iso-legacy) en plus du cas spécial dans le code."
+	#which translates to:
+	#"Value = growth bonus (growth += value + random(value)). Sorted by descending value. 'Egg' is also included in this list (legacy parity), in addition to the special case in the code."
+	"Disable Hardcoded Egg Check" = true
 
 [Client]
 	#If this option is not empty, the Constructions panel in any town hall will attempt to sort its list by moving items that contain matching strings in its target to the bottom

@@ -179,7 +179,9 @@
     "byzantine_shovel",
     "byzantine_hoe",
 
-    "yafda_byzantine_knife"
+    "yafda_byzantine_knife",
+    "mm_brown_egg",
+    "mm_blue_egg"
   ],
   "deliver_to": [
     "minecraft:spruce_log",

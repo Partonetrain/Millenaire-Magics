@@ -165,7 +165,9 @@
     "seeds",
 
     "yafda_iron_knife",
-    "mm_fire"
+    "mm_fire",
+    "mm_brown_egg",
+    "mm_blue_egg"
   ],
   "deliver_to": [
     "minecraft:hay_block",

@@ -1,0 +1,49 @@
+{
+    "entity.villager.ambient": {
+    "sounds": [
+      {
+        "name": "mob/villager/idle1",
+        "pitch": 0.2
+      },
+      {
+        "name": "mob/villager/idle2",
+        "pitch": 0.2
+      },
+      {
+        "name": "mob/villager/idle3",
+        "pitch": 0.2
+      }
+    ],
+    "subtitle": "subtitles.entity.villager.ambient"
+  },
+  "entity.villager.hurt": {
+    "sounds": [
+      {
+        "name": "mob/villager/hit1",
+        "pitch": 0.2
+      },
+      {
+        "name": "mob/villager/hit2",
+        "pitch": 0.2
+      },
+      {
+        "name": "mob/villager/hit3",
+        "pitch": 0.2
+      },
+      {
+        "name": "mob/villager/hit4",
+        "pitch": 0.2
+      }
+    ],
+    "subtitle": "subtitles.entity.villager.hurt"
+  },
+  "entity.villager.death": {
+    "sounds": [
+      {
+        "name": "mob/villager/death",
+        "pitch": 0.1
+      }
+    ],
+    "subtitle": "subtitles.entity.villager.death"
+  }
+}

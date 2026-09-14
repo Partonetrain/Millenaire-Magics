@@ -1,0 +1,46 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:rich_soil"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:brown_dye"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 1,
+        "id": "minecraft:brown_dye"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 1,
+        "id": "minecraft:brown_dye"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 1,
+        "id": "minecraft:brown_dye"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "shovel_dig"
+    },
+    {
+      "tag": "minecraft:shovels"
+    }
+  ]
+}
