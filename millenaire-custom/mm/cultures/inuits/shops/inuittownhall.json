@@ -185,7 +185,9 @@
     "yafda_flint_knife",
     "mm_water",
     "mm_brown_egg",
-    "mm_blue_egg"
+    "mm_blue_egg",
+    "mm_crab",
+    "mm_cooked_crab"
   ],
   "deliver_to": [
     "millenaire:path_snow",

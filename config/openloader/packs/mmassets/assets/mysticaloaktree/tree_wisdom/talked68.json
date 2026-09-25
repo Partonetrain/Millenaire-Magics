@@ -1,0 +1,9 @@
+{
+  "type": "talked_to",
+  "trust_required": 50,
+  "text": [
+    "Hello, human...",
+    "You seem a bit different than the others...",
+    "Perhaps they can help you if you help them?"
+  ]
+}

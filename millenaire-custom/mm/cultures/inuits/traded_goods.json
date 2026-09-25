@@ -22,6 +22,22 @@
       "buying_price": 2,
       "foreign_merchant_price": 6,
       "category": "agriculture"
+    },
+    {
+      "id": "mm_crab",
+      "item": "quark:crab_leg",
+      "selling_price": 8,
+      "buying_price": 4,
+      "foreign_merchant_price": 12,
+      "category": "agriculture"
+    },
+    {
+      "id": "mm_cooked_crab",
+      "item": "quark:cooked_crab_leg",
+      "selling_price": 28,
+      "buying_price": 20,
+      "foreign_merchant_price": 48,
+      "category": "agriculture"
     }
   ]
 }

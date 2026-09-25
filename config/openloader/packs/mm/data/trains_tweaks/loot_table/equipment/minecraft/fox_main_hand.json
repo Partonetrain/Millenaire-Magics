@@ -24,16 +24,6 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:egg",
-              "weight": 15
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:wheat",
-              "weight": 20
-            },
-            {
-              "type": "minecraft:item",
               "name": "minecraft:leather",
               "weight": 20
             },

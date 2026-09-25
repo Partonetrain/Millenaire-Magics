@@ -144,8 +144,9 @@
 	legacyAutoConvert = true
 	#Per-boot cap on PNG file count before auto-conversion refuses to run.
 	#Large packs should use /millenaire dev convert-addon during a maintenance
-	#window to avoid multi-minute boot freezes — cold-JVM PngToNbtConverter
-	#costs ~30-60s per legacy culture.
-	# Default: 300
+	#window to avoid boot freezes. Measured cold-JVM cost is ~2-4s per 800 PNGs;
+	#the default absorbs every legacy culture at once (~2100 PNGs in total,
+	#the Norman culture alone being 454).
+	# Default: 2500
 	# Range: 0 ~ 5000
 	legacyAutoConvertMaxPngs = 300

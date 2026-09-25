@@ -17,7 +17,8 @@
     "millenaire:mine_sand",
     "millenaire:cook_stone",
     "millenaire:cook_sand",
-    "millenaire:bring_back_home"
+    "millenaire:bring_back_home",
+    "millenaire:mine_sandstone"
   ],
   "tags": [
     "helpInAttacks"

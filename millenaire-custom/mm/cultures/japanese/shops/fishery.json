@@ -1,0 +1,14 @@
+{
+  "sells": [
+    "cooked_cod"
+  ],
+  "buys": [],
+  "buys_optional": [
+    "mm_crab",
+    "mm_cooked_crab"
+  ],
+  "deliver_to": [
+    "minecraft:cooked_cod",
+    "minecraft:cod"
+  ]
+}

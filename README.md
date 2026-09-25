@@ -3,6 +3,7 @@
 Millénaire Magics is a highly customized Minecraft 1.21.1 modpack designed to challenge you, encourage you to explore new forms of magic, and gain a reputation for helping multiple cultures build themselves a new life in the Minecraft world.
 
 Millénaire Magics is currently in beta testing! Expect bugs and updates. For more detailed information about what to watch out for, use the `/wip` command in-game.
+Please report issues here: https://github.com/Partonetrain/Millenaire-Magics/issues
 
 # Features:
 - Millénaire, a classic civilization mod finally brought up to 1.21

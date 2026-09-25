@@ -1,0 +1,8 @@
+{
+  "type": "talked_to",
+  "trust_required": 65,
+  "text": [
+    "You know, maybe my first impression of you was wrong.",
+    "Maybe you are not like the other humans, $player_name."
+  ]
+}

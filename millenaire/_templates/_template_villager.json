@@ -1,5 +1,5 @@
 {
-  "_comment": "Skeleton villager type. Place under cultures/<culture>/villager_type/<name>.json.",
+  "_comment": "Skeleton villager type. Place under cultures/<culture>/villagers/<category>/<id>.json. Names and speech: see the content guide, 'add a villager type'.",
   "id": "millenaire:<culture>/my_villager",
   "culture": "millenaire:<culture>",
   "native_name": "My Villager",

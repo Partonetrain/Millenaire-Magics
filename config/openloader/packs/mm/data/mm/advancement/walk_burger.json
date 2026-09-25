@@ -1,0 +1,43 @@
+{
+  "parent": "mm:spaghetti",
+  "criteria": {
+    "burger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true,
+            "is_sprinting": false
+          }
+        },
+        "item": {
+          "items": "farmersdelight:hamburger"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Eat a burger while sneaking and not sprinting (Shoutouts to Simpleflips)"
+    },
+    "icon": {
+      "count": 1,
+      "id": "farmersdelight:hamburger"
+    },
+    "title": {
+      "text": "Most tempted I've ever been to EAT"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "burger"
+    ]
+  ],
+  "rewards": {
+    "function": "mm:walk_burger"
+  },
+  "sends_telemetry_event": true
+}

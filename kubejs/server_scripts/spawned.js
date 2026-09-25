@@ -6,6 +6,9 @@ EntityEvents.spawned(event =>
         if(entity.getType() === 'minecraft:zombie_villager'){
             event.cancel;
         }
+        else if(entity.getType() === 'the_beyond:totem_of_respite'){
+            event.cancel();
+        }
         else if(entity.getType() === 'minecraft:item'){
             var item = entity.getItem();
             //fix bugged Malum drop interaction
@@ -31,11 +34,6 @@ EntityEvents.spawned(event =>
                 //event.getServer().runCommandSilent('/say A chicken jockey has spawned.');
                 event.getServer().runCommandSilent('/playsound oof_button:jackblack_chickenjockey hostile @a ' + xyz + " 1 1 0.05");
             }
-        }
-        else if(entity.getType() === 'the_beyond:totem_of_respite'){
-            const xyz = entity.getBlockX() + " " + entity.getBlockY() + " " + entity.getBlockZ();
-            event.cancel();
-            console.log("discarded totem of respite at " + xyz)
         }
         else if(entity.getType() === 'millenaire:villager'){
             //const clearFire = '/execute as @e[type=millenaire:villager] run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:air replace minecraft:fire'

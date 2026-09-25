@@ -25,7 +25,8 @@ multijoueur n'a **pas** besoin de fournir les fichiers de données : le
 serveur conduit les comportements, et le protocole transporte assez de
 métadonnées pour que le client affiche villageois et dialogues.
 
-Une exception : les **assets du resource pack** (textures, modèles, sons).
+Une exception : les **assets du resource pack** (textures, modèles, sons,
+fichiers lang vanilla).
 Une culture custom ne s'affichera correctement que sur un client qui a les
 fichiers correspondants sous
 `millenaire-custom/<submod>/cultures/<c>/resourcepack/assets/...`. Un
@@ -514,6 +515,32 @@ tiret, pas de majuscule.
 `cultures/<c>/villagers/<cat>/<id>.json`, copie depuis
 `millenaire/_templates/_template_villager.json`, dépose, redémarre.
 
+Un nouveau villager type a aussi besoin de ses **noms et de sa parole**, à
+trois endroits :
+
+1. **`native_name`** dans le JSON du villageois — le nom dans la langue de
+   la culture (`"Fermier"`, `"Kisan"`). C'est ce que le joueur voit sur
+   l'entité, dans les panneaux du village et dans le carnet de voyage —
+   seul tant qu'il ne lit pas la langue de la culture, puis sous la forme
+   `Natif (Traduit)` ; c'est aussi le repli quand un nom traduit manque.
+   `alt_native_name` est optionnel (un second nom, plus rare).
+2. **Le nom de rôle traduit** — la clé lang vanilla
+   `role.millenaire.<c>_<id>` (ex. `role.millenaire.norman_farmer`), dans
+   `millenaire-custom/<submod>/cultures/<c>/resourcepack/assets/millenaire/lang/<locale>.json`.
+   Cette arborescence est montée comme resource pack client (rechargée
+   avec les resource packs du client, `F3+T`). Clé absente : le nom natif
+   s'affiche seul, jamais une clé brute. C'est **côté client** : les
+   exports propres au serveur dédié (carnet de voyage, encyclopédie) ne
+   lisent que l'`en_us.json` de base.
+3. **Les sentences** — des lignes `<id>.<goalKey>=texte` dans
+   `millenaire-custom/<submod>/languages/<locale>/<c>_sentences.txt` **et**
+   dans `languages/native/<c>_sentences.txt` (ce que le villageois dit
+   réellement, avant traduction). La résolution se replie `<id>` →
+   `<genre>` → `villager`, donc un villageois sans lignes propres parle
+   avec les génériques. Copiez les lignes du villageois livré le plus
+   proche depuis `millenaire/languages/<locale>/<c>_sentences.txt` et
+   renommez le préfixe.
+
 → **Variation : ajouter un village type.** Même forme —
 `cultures/<c>/villages/<id>.json`, copie depuis
 `millenaire/_templates/_template_village_type.json`, dépose, redémarre.
@@ -581,6 +608,13 @@ Exemples :
   préserve le déterminisme `speechRef.lineIdx` entre serveur et client.
   Pour override un dialogue existant, il faut le désactiver (replace via
   la machinerie `speechRef` — hors scope de ce guide).
+- **Clés lang vanilla** (`role.millenaire.<c>_<id>`,
+  `building.millenaire.<c>.<id>`, textes de GUI). Elles ne sont pas dans
+  l'arborescence `languages/` : livrez un
+  `cultures/<c>/resourcepack/assets/millenaire/lang/<locale>.json` dans le
+  sub-mod. Il est monté comme resource pack client et peut ajouter ou
+  surcharger des clés ; les exports côté serveur continuent de lire
+  l'`en_us.json` de base.
 
 ---
 
@@ -762,6 +796,43 @@ plutôt que son best-effort silencieux.
 - **`_manifest.json` custom** : les manifests édités à la main dans les
   packs legacy sont ignorés. Le converter régénère l'équivalent moderne
   depuis les fichiers scannés.
+
+### 8.4 Fichiers de langue
+
+L'arborescence 1.12 `languages/<xx>/` (dossiers à 2 lettres, lignes
+bilingues `natif / traduction`) n'est pas le format 9.0. Le converter lit
+les fichiers suivants, pour chaque culture du pack et chaque dossier de
+locale legacy connu (`en`, `fr`, `de`, `es`, `it`, `nl`, `pl`, `pt`, `ru`,
+`cs`, `dk`, `no`, `sv`, `hu`, `et`, `sl`, `th`, `tr`, `uk`, `ar`, `hi`,
+`ja`, `ko`, …) :
+
+| Fichier legacy (`languages/<xx>/`) | Sortie convertie (`<nom>_converted/`) |
+|---|---|
+| `<c>_sentences.txt`, `<c>_dialogues.txt` | `languages/native/<fichier>` (côté gauche du `/`, pris dans `en/` en priorité) et `languages/<locale>/<fichier>` (côté droit), monolingues |
+| `<c>_buildings.txt` (`plan_a0=Nom`) | `building.millenaire.<c>.<id>` dans `cultures/<c>/resourcepack/assets/millenaire/lang/<locale>.json` |
+| `<c>_strings.txt` (`villager.<role>=`, `culture.<c>=`) | `role.millenaire.<c>_<role>` (une clé legacy `villager.<c>_<role>=` n'est pas doublée : le `<c>_` est retiré avant la recherche), `culture.millenaire.<c>` dans le même JSON |
+| `<c>_travelbook.txt` | `travelbook.millenaire.<c>.<type>.<id>.desc` dans le même JSON |
+| `quests_*.txt` | `languages/<xx>/quest_lang.json` (dossier à 2 lettres) |
+
+Règles :
+
+- Un fichier que le pack livre déjà au format 9.0 (`languages/native/…`,
+  `languages/<locale>/…`, `languages/<xx>/quest_lang.json`, un JSON de
+  langue du resourcepack) est copié tel quel et jamais régénéré ; un JSON
+  de langue est fusionné — les clés existantes gagnent, rien n'est
+  supprimé.
+- Les noms dont l'id de bâtiment / de villageois n'a pas été converti ne
+  sont pas portés (le rapport les liste). Les clés `village.*`,
+  `<c>_reputation.txt`, `strings.txt`, `help/` et les autres fichiers sans
+  cible 9.0 ne sont ni convertis ni copiés — le rapport dit pourquoi, une
+  ligne par fichier.
+- Un overlay sur une culture livrée (`languages/en/norman_sentences.txt`
+  dans un pack qui ne définit pas `norman`) n'est pas converti.
+- `pt_br/`, `zh_cn/` et `zh_tw/` existent dans les deux formats : ils sont
+  lus comme legacy (bilingues) quand le pack livre au moins un dossier à
+  2 lettres (`en/`, `fr/`, …) à côté, et copiés comme fichiers 9.0 sinon.
+- Les fichiers Windows-1252 sont lus de façon tolérante ; un JSON cible
+  malformé est signalé et laissé intact.
 
 Pour les détails complets, voir
 [docs/archive/plans/legacy-auto-conversion.md](https://github.com/Kinniken/Millenaire/blob/main/docs/archive/plans/legacy-auto-conversion.md).

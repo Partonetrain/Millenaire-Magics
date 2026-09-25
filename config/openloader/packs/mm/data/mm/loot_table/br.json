@@ -89,15 +89,17 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 0,
-        "max": 1
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mm:source_codes"
+          "value": "mm:source_codes",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
         }
       ]
     },
@@ -190,12 +192,27 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:altimeter",
+          "weight": 1
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.1
+          "chance": 0.333
         }
       ]
     },
@@ -231,7 +248,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.33
+          "chance": 0.333
         }
       ]
     },

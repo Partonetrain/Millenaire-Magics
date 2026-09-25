@@ -1,8 +1,8 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-09-13 15:15:48
-Mod version: millenaire 9.0.1
+Generated: 2026-09-25 16:35:26
+Mod version: millenaire 9.0.2
 
-  !! 9 problem(s) reported while loading — see 'Loading problems' below.
+  !! 10 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
@@ -23,7 +23,7 @@ Mod version: millenaire 9.0.1
 === Culture: inuits (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
-  shops            2 file(s) on disk
+  shops            3 file(s) on disk
   village_type     25 file(s) on disk
   villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
@@ -31,7 +31,7 @@ Mod version: millenaire 9.0.1
 === Culture: japanese (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
-  shops            2 file(s) on disk
+  shops            3 file(s) on disk
   village_type     13 file(s) on disk
   villager_type    3 file(s) on disk
   traded_goods     present (additive merge)
@@ -76,10 +76,12 @@ Not all of these are necessarily yours: Millénaire's own shipped
 content produces a few, and they name a built-in culture and building.
 Those are ours — please report them rather than trying to fix them.
 
-  0 error(s), 9 warning(s) during content loading.
+  0 error(s), 10 warning(s) during content loading.
 
   [WARN] BuildingPlanSetLoader
     [Millenaire] Building plan japanese/japanesepaddy has category 'core' in JSON but lives under path category 'houses'. JSON field wins; consider moving the file to the matching folder.
+  [WARN] VillagerConfig
+    Unknown villager_config 'japaneseweaponpriority' (no villager_config/japaneseweaponpriority.json in any content layer); using the default config
   [WARN] CultureLoader
     BuildingPlanSet millenaire:byzantines/playerfortress_a_armyforge: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader

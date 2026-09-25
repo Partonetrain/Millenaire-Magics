@@ -1,0 +1,9 @@
+{
+  "type": "talked_to",
+  "trust_required": 45,
+  "text": [
+   "Hey $player_name! Listen carefully: ",
+   "There's a hidden treasure at $random_pos!",
+   "But don't tell anyone!"
+  ]
+}

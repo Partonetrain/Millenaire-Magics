@@ -33,6 +33,10 @@
 		# Default: 0.6
 		# Range: 0.0 ~ 1.0
 		max_breakfall_damage_reduction_rate = 0.6
+		#Max coyote time tick (how long tick player can behave like on ground after getting off ledge
+		# Default: 3
+		# Range: 0 ~ 20
+		max_coyote_time = 3
 
 		[Limitations.Control.Modifier]
 			#FastSwim speed modifier
@@ -91,6 +95,10 @@
 			# Default: 0.6
 			# Range: 0.0 ~ 1.0
 			max_breakfall_damage_reduction_rate = 0.6
+			#Max coyote time tick (how long tick player can behave like on ground after getting off ledge
+			# Default: 3
+			# Range: 0 ~ 20
+			max_coyote_time = 3
 
 	[Limitations.Action_Permissions]
 		permit_BreakfallReady = true
@@ -122,7 +130,7 @@
 		permit_StartSwimByCrawl = true
 
 	[Limitations.Stamina]
-		#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER
+		#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
 		forced_stamina = "NONE"
 		#Permission of infinite stamina
 		allow_infinite_stamina = true

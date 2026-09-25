@@ -179,6 +179,10 @@
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
 	max_breakfall_damage_reduction_rate = 0.6
+	#coyote time tick (how long tick player can behave like on ground after getting off ledge
+	# Default: 3
+	# Range: 0 ~ 20
+	coyote_time = 3
 
 [Modifier]
 	#FastRun speed modifier
@@ -230,7 +234,7 @@
 
 [Stamina]
 	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
-	#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER
+	#Allowed Values: NONE, PARCOOL, HUNGER, PARAGLIDER, EPIC_FIGHT
 	used_stamina = "PARCOOL"
 	#Enable slowing down of stamina exhaustion
 	enable_stamina_exhaustion_penalty = true

@@ -15,7 +15,9 @@
     "millenaire:bring_back_home",
     "millenaire:build",
     "millenaire:build_path",
-    "millenaire:clear_old_path"
+    "millenaire:clear_old_path",
+    "millenaire:mine_clay",
+    "millenaire:mine_sandstone"
   ],
   "tags": [
     "seller",

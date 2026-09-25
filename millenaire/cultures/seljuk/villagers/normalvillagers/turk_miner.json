@@ -51,6 +51,8 @@
     "millenaire:take_bath",
     "millenaire:drink_ayran",
     "millenaire:mine_stone",
+    "millenaire:mine_sand",
+    "millenaire:mine_sandstone",
     "millenaire:craft_mineiron",
     "millenaire:dry_brick",
     "millenaire:gather_brick",

@@ -275,6 +275,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Upgraded from the Warp Index, allows you to access a (chunk-loaded) Storage Lectern remotely, even if it\'s in a different dimension.'
         ]) 
     //blocks
+    event.add('mysticaloaktree:wise_oak', [
+            'It\'s a mystical oak tree... Speak to it for some wisdom! (new lines added by modpack)'
+        ])
     event.add('minecraft:chain', [
             'Iron chains are durable enough to link minecarts together! Shift-right-click a minecart to start linking, and then shift-right-click another to link them.'
         ])
@@ -511,6 +514,15 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
 
 
     //everything millenaire
+
+    event.add('millenaire:summoning_wand', [
+            'Used to bring forward souls from another world. The type of millage you specify will be brought with them. With enough cultural reputation, you will be able to summon fully-player-controlled variants. '
+        ])
+    event.add('millenaire:negation_wand', [
+            'Used to banish the souls of the occupants of a millage or lone building back from whence they came. Can only be used once all of the subject\'s defenders have been killed.'
+        ])
+
+
     const learnedCrop = 'Cannot be planted until you have learned how to do so from a village leader.'
     const learnedCrops = [
         'millenaire:apple_tree_sapling',
@@ -566,6 +578,11 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:wooden_bars_rosette',
         'millenaire:wooden_bars',
         'millenaire:wooden_bars_indian',
+        'millenaire:stained_glass_white',
+        'millenaire:stained_glass_yellow',
+        'millenaire:stained_glass_yellow_red',
+        'millenaire:stained_glass_red_blue',
+        'millenaire:stained_glass_green_blue',
         'millenaire:charpoy',
         'millenaire:straw_bed',
         'millenaire:futon',

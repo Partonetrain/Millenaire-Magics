@@ -1,5 +1,5 @@
 {
-  "parent": "mm:moebius",
+  "parent": "mm:bts",
   "criteria": {
     "sword": {
       "trigger": "minecraft:inventory_changed",

@@ -4,20 +4,6 @@
 	#They only work with hoppers by default due to inheriting vanilla chest code
 	#However, other modded hoppers may or may not be affected by this - it depends on how they were implemented
 	"Prevent Hopper Interactions" = true
-	#If true, Millenaire foods will use vanilla food components
-	#This can enhance compatibility with mods like AppleSkin
-	#However, other mods that utilize this component probably will not correctly account for the food's durability
-	"Use Food Components" = true
-	#If true, Yogurt and Curry will give the player a bowl after it is eaten (only in survival)
-	"Food Gives Bowl" = true
-	#If true, all drinks will give the player a glass bottle after it is drunk (only in survival)
-	"Drink Gives Bottle" = true
-	#If true, any Inuit Tridents obtained by survival mode players will behave like a Minecraft trident instead of a sword
-	#WARNING: this auto-replaces millenaire:inuittrident in player inventories with cle:inuit_trident
-	"Alternative Inuit Trident" = true
-	#If true, any Mayan or Byzantine Maces obtained by survival mode players will behave like a Minecraft mace instead of a sword
-	#WARNING: this auto-replaces millenaire:mayan_mace and millenaire:byzantine_mace in player inventories with the Cle versions
-	"Alternative Maces" = true
 	#If true, enables a datapack containing composter values for Millenaire crops and related blocks will be enabled
 	"Compost Datapack" = true
 	#Entities in the entity type tag cle:millagers_deal_modified_damage_to will take modified damage when attacked by millagers
@@ -39,20 +25,12 @@
 	# Default: -1
 	# Range: -1 ~ 32768
 	"Reputation Cap per Day" = 8192
-	#If not 0, the max distance from world spawn at which Millenaire villages and long buildings can generate
-	#This can be used in combination with the spawnProtectionRadius option in Millenaire server config to define a square region around world spawn in which villages are allowed to generate
-	# Default: 0
-	# Range: 0 ~ 12550821
-	"Max Radius" = 12550000
 	#If true, Millenaire's Travel Book will open the Millenaire Info Panel instead of the Travel Book screen
 	#(While this is enabled the Travel Book can still be opened from the Info Panel, or by shift-right-clicking with the book)
 	"Travel Book Info Panel" = true
 	#If true, Grape Vines will be right-clickable like Sweet Berry Bushes if the player has learned how to plant grapes
 	#(It seems unintentional that it isn't like this by default: Grape Vine block extends BushBlock, but it doesn't override useWithoutItem)
 	"Grape Vine Right Click" = true
-	#If true, any alternative items that are enabled above will also be converted in Millager inventories
-	#NOTE: THIS IS CURRENTLY BROKEN (millagers cannot use them) DUE TO tool_categories.json NOT BEING DEPLOYED
-	"Millagers Convert to Alternative Items" = false
 	#If true, enables a datapack that tags various vanilla and modded items with `#millenaire:own_right_click`, which allows them to be used on villagers instead of opening the villager's menu
 	#(As of 9.0.1 this only applies to bandits, which is a bug that needs to be fixed in the main mod)
 	"Own Right Click Datapack" = true
@@ -78,9 +56,12 @@
 	#If true, Millenaire's keybindings will not be registered
 	#There is currently no alternative to the Stance key, however
 	"Prevent Keybindings" = false
+	#If true, several instances of text colors in Millenaire's GUIs will be changed to make them more readable
+	#No more squinting over bright green text
+	"Readable Screens" = true
 
 [Malum]
-	#The amount of reputation lost for reaping Spirits nearby a non-hostilemillager
+	#The amount of reputation lost for reaping Spirits nearby a non-hostile millager
 	#Set to -1 for no loss
 	# Default: 4
 	# Range: -1 ~ 8192
@@ -96,3 +77,41 @@
 	#However, non-players (i.e., fake players and other automated right-click blocks) are in theory still capable of triggering this check, which would always fail.
 	#Setting this to true allows non players to simple harvest
 	"Simple Harvest Non Players" = false
+
+[Items]
+	#If true, Millenaire foods will use vanilla food components
+	#This can enhance compatibility with mods like AppleSkin
+	#However, other mods that utilize this component probably will not correctly account for the food's durability
+	"Use Food Components" = true
+	#If true, Yogurt and Curry will give the player a bowl after it is eaten (only in survival)
+	"Food Gives Bowl" = true
+	#If true, all drinks will give the player a glass bottle after it is drunk (only in survival)
+	"Drink Gives Bottle" = true
+	#If true, any Inuit Tridents obtained by survival mode players will behave like a Minecraft trident instead of a sword
+	#WARNING: this auto-replaces millenaire:inuittrident in player inventories with cle:inuit_trident
+	"Alternative Inuit Trident" = true
+	#If true, any Mayan or Byzantine Maces obtained by survival mode players will behave like a Minecraft mace instead of a sword
+	#WARNING: this auto-replaces millenaire:mayan_mace and millenaire:byzantine_mace in player inventories with the Cle versions
+	"Alternative Maces" = true
+	#If true, any alternative items that are enabled above will also be converted in Millager inventories
+	#This puts a "cle_millagers_convert_to_alternatives" folder in your millenaire-custom folder, so millagers can actually use these items. Delete it if you set the option back to false
+	"Millagers Convert to Alternative Items" = true
+
+[Network]
+	#If true, Millenaire's version check will be disabled
+	#Otherwise, this occurs 60 seconds after a player logs in and queries a millenaire.org endpoint
+	#If your installed version is outdated, it sends you a message in chat
+	#But it can be annoying if for instance you are playing on a modpack that hasn't updated yet
+	"Disable Version Check" = true
+
+[World]
+	#If not 0, the max distance from world spawn at which Millenaire villages and long buildings can generate
+	#This can be used in combination with the spawnProtectionRadius option in Millenaire server config to define a square region around world spawn in which villages are allowed to generate
+	# Default: 0
+	# Range: 0 ~ 12550821
+	"Max Radius" = 12550000
+	#If not 0, chance that a millage/lone building generation attempt will be randomly rejected
+	#This can be used to make millages less frequent
+	# Default: 0.0
+	# Range: 0.0 ~ 0.99
+	"Rejection Chance" = 0.05

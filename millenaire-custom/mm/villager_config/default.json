@@ -28,7 +28,8 @@
     "minecraft:carrot": 1,
 
     "minecraft:brown_egg": 1,
-    "minecraft:blue_egg": 1
+    "minecraft:blue_egg": 1,
+    "quark:cooked_crab_leg": 3
   },
 
   "food_conception": {

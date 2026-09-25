@@ -612,7 +612,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+minecraft:sharpness@10".
-		"Item Enchantments" = ["minecraft:iron_sword+minecraft:unbreaking@1", "minecraft:iron_shovel+minecraft:unbreaking@1", "minecraft:iron_axe+minecraft:unbreaking@1", "minecraft:iron_pickaxe+minecraft:unbreaking@1", "minecraft:iron_hoe+minecraft:unbreaking@1", "minecraft:iron_helmet+minecraft:unbreaking@1", "minecraft:iron_chestplate+minecraft:unbreaking@1", "minecraft:iron_leggings+minecraft:unbreaking@1", "minecraft:iron_boots+minecraft:unbreaking@1", "farmersdelight:iron_knife+minecraft:unbreaking@1"]
+		"Item Enchantments" = ["malum:crude_scythe+minecraft:unbreaking@1", "minecraft:iron_sword+minecraft:unbreaking@1", "minecraft:iron_shovel+minecraft:unbreaking@1", "minecraft:iron_axe+minecraft:unbreaking@1", "minecraft:iron_pickaxe+minecraft:unbreaking@1", "minecraft:iron_hoe+minecraft:unbreaking@1", "minecraft:iron_helmet+minecraft:unbreaking@1", "minecraft:iron_chestplate+minecraft:unbreaking@1", "minecraft:iron_leggings+minecraft:unbreaking@1", "minecraft:iron_boots+minecraft:unbreaking@1", "farmersdelight:iron_knife+minecraft:unbreaking@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -802,6 +802,8 @@
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
+		#If true, the oak log in the vanilla azalea tree ConfiguredFeature will be replaced with Quark's azalea log. Disabling this makes Azalea unobtainable
+		"Replace Azalea Tree Log" = true
 
 	[world.big_stone_clusters]
 		#Blocks that stone clusters can replace. If you want to make it so it only replaces in one dimension,
