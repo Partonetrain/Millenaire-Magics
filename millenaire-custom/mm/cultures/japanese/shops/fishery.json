@@ -2,7 +2,8 @@
   "sells": [
     "cooked_cod"
   ],
-  "buys": [],
+  "buys": [
+  ],
   "buys_optional": [
     "mm_crab",
     "mm_cooked_crab"

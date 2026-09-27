@@ -5,29 +5,19 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:tag",
-          "expand": true,
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 0.0
               },
               "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "c:nuggets/iron"
+          "name": "malum:hallowed_gold_nugget"
         }
       ],
       "rolls": 1.0
@@ -101,7 +91,7 @@
       ],
       "rolls": 1.0
     },
-        {
+    {
       "bonus_rolls": 0,
       "conditions": [
         {

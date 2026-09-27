@@ -23,7 +23,9 @@
     "rotten_flesh",
     "leather",
     "bone",
-    "boneblock"
+    "boneblock",
+    "mm_crab",
+    "mm_cooked_crab"
   ],
   "buys_optional": [
     "leather_helmet",
@@ -52,10 +54,7 @@
     "baked_potato",
     "wheat",
     "bread",
-    "inuitbearstew",
-    
-    "mm_crab",
-    "mm_cooked_crab"
+    "inuitbearstew"
   ],
   "deliver_to": []
 }

@@ -527,6 +527,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     const learnedCrops = [
         'millenaire:apple_tree_sapling',
         'millenaire:olive_tree_sapling',
+        'millenaire:pistachio_tree_sapling',
         'millenaire:grapes',
         'millenaire:rice',
         'millenaire:maize',
@@ -535,8 +536,14 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     ]
     learnedCrops.forEach((crop) => {
         var s = learnedCrop
-        if(crop == 'millenaire:apple_tree_sapling'){
+        if(crop === 'millenaire:apple_tree_sapling'){
             s = s + '\n\nThis tree\'s leaves drop Cider Apples.'
+        }
+        if(crop === 'millenaire:grapes'){
+            s = s + '\nGrows two blocks high automatically.'
+        }
+        if(!crop.includes("sapling")){
+            s = s + '\n\nLike potatoes or carrots, acts as both the seed and the crop.'
         }
         event.add(crop, [
             s
@@ -547,9 +554,18 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:wolfmeat_raw',
         'millenaire:seafood_raw'
     ]
-    learnedDrops.forEach((i) => {
+    learnedDrops.forEach((drop) => {
+
+        var s = learnedDrop
+        if(drop === 'millenaire:seafood_raw'){
+            s = s + '\nOnce learned, drops from Squids and Glow Squids (rarely), and Guardians and Elder Guardians.'
+        }
+        else if(drop === 'millenaire:wolfmeat_raw'){
+            s = s + '\nOnce learned, drops from Wolves and Foxhounds. Summoned wolves do not count.'
+        }
+
         event.add(i, [
-            learnedDrop
+            s
         ])
     });
     event.add('millenaire:bearmeat_raw', ["Drops from polar bears. Does not require learning how to harvest."])

@@ -35,8 +35,7 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:tag",
-          "expand": true,
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -48,7 +47,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "c:nuggets/gold"
+          "name": "malum:hallowed_gold_nugget"
         }
       ],
       "rolls": 1.0
@@ -79,7 +78,7 @@
       ],
       "rolls": 1.0
     },
-        {
+    {
       "bonus_rolls": 0,
       "conditions": [
         {

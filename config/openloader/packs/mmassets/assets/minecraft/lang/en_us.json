@@ -59,9 +59,9 @@
 
     "block.minecraft.milk": "Milk fluid",
     "block.minecraft.chain": "Iron Chain",
-    "block.minecraft.emerald_ore": "Definetely Not Emerald Ore",
-    "block.minecraft.deepslate_emerald_ore": "Definetely Not Emerald Ore",
-    "block.minecraft.emerald_block": "Definetely Not an Emerald Block",
+    "block.minecraft.emerald_ore": "Definitely Not Emerald Ore",
+    "block.minecraft.deepslate_emerald_ore": "Definitely Not Emerald Ore",
+    "block.minecraft.emerald_block": "Definitely Not an Emerald Block",
 
     "options.difficulty.easy": "Easy",
     "options.difficulty.easy.info": "Easy difficulty is disabled.",

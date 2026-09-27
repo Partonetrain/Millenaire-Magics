@@ -49,6 +49,10 @@
           "name": "malum:block_of_arcane_charcoal"
         },
         {
+          "type": "minecraft:item",
+          "name": "millenaire:denier_argent"
+        },
+        {
           "type": "minecraft:loot_table",
           "value": "mm:drink"
         },

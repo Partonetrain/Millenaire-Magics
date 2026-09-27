@@ -15,7 +15,8 @@
 	#If true, any entity in the the entity type tag cle:hunts_millagers will hunt millagers, even if their original logic said they should not
 	#(This is a config option unlike the other tags because it has the potential to introduce lag)
 	"Hunts Millagers" = true
-	#If true, any entity in the the entity type tag cle:hunts_millagers will despawn if it enters a millage
+	#If true, any entity in the the entity type tag cle:hunts_millagers will despawn if it is within the bounds of a millage
+	#This is a distinct mechanic from individual buildings with the despawnallmobs tag
 	#(Similar to Hunts Millagers, this has the potential to introduce lag)
 	"Despawns In Millage" = true
 	#If greater than -1, the maximum amount of reputation a player can gain with per village per Minecraft day
@@ -47,6 +48,9 @@
 	#which translates to:
 	#"Value = growth bonus (growth += value + random(value)). Sorted by descending value. 'Egg' is also included in this list (legacy parity), in addition to the special case in the code."
 	"Disable Hardcoded Egg Check" = true
+	#If true, the mechanic that despawns mobs near buildings with the "despawnallmobs" tag is disabled
+	#By default only special buildings such as the Pantheon have this tag
+	"Disable Despawn All Mobs" = false
 
 [Client]
 	#If this option is not empty, the Constructions panel in any town hall will attempt to sort its list by moving items that contain matching strings in its target to the bottom

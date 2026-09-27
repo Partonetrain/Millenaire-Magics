@@ -137,6 +137,7 @@ var DISABLED_ITEMS = [
     'abnormals_delight:pickerelweed_juice',
     'abnormals_delight:necromium_knife',
     'abnormals_delight:silver_knife',
+    'abnormals_delight:azalea_cabinet',
     'abnormals_delight:driftwood_cabinet',
     'abnormals_delight:poise_cabinet',
     'abnormals_delight:river_cabinet',

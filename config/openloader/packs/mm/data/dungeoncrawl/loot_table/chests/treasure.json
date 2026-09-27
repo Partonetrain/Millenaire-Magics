@@ -217,7 +217,7 @@
             }
           ],
           "name": "malum:hallowed_gold_ingot",
-          "weight": 3
+          "weight": 2
         }
       ]
     },
@@ -318,6 +318,16 @@
         "max": 2,
         "min": 1
       }
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mm:random"
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "dungeoncrawl:chests/treasure"

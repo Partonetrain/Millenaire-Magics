@@ -1,0 +1,9 @@
+{
+    "blocks": [
+        {
+            "id": "supplementaries:stick",
+            "cost_quantity": 1,
+            "cost_item": "anywood"
+        }
+    ]
+}

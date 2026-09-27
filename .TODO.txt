@@ -21,12 +21,8 @@
 
 }
 
-- disable AbnormalsDelight: azalea cabinet, silver knife, necronium knife
 - can't seem to roll soulbound in the matrix enchanter...
 - wayward bow stats seem broken
-- add crab meat to inuits and japanese? can I make them use it? (currently: no)
-
-
 
 
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why

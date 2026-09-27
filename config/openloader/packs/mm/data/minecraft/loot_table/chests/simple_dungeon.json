@@ -34,11 +34,6 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_horse_armor",
           "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 7
         }
       ],
       "rolls": {
