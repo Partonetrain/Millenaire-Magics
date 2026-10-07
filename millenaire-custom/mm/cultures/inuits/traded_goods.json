@@ -3,8 +3,7 @@
     {
       "id": "mm_water",
       "item": "ars_nouveau:water_essence",
-      "selling_price": 512,
-      "buying_price": 480,
+      "buying_price": 512,
       "category": "playeritem"
     },
     {
@@ -38,6 +37,34 @@
       "buying_price": 20,
       "foreign_merchant_price": 48,
       "category": "agriculture"
+    },
+    {
+      "id": "yumibow",
+      "item": "millenaire:yumibow",
+      "buying_price": 448,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "mayan_mace",
+      "item": "cle:mayan_mace",
+      "buying_price": 2048,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "byzantine_mace",
+      "item": "cle:byzantine_mace",
+      "buying_price": 4096,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "inuittrident",
+      "item": "cle:inuit_trident",
+      "selling_price": 2560,
+      "buying_price": 1280,
+      "reserved_quantity": 1,
+      "target_quantity": 1,
+      "foreign_merchant_price": 2048,
+      "category": "weapons"
     }
   ]
 }

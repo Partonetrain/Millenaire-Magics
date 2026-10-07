@@ -306,6 +306,8 @@
 		"Enable Lava Interaction" = true
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
+		#Set this to true to use left clicks instead of right clicks for all Expanded Item Interactions. Some JEI hints may be incorrect if this is enabled
+		"Invert Clicks" = false
 
 	[management.hotbar_changer]
 		"Animation Time" = 7.0
@@ -500,7 +502,7 @@
 
 [tweaks]
 	"Armed Armor Stands" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true

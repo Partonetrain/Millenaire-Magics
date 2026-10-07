@@ -3,8 +3,7 @@
     {
       "id": "mm_conjuration",
       "item": "ars_nouveau:conjuration_essence",
-      "selling_price": 512,
-      "buying_price": 480,
+      "buying_price": 512,
       "category": "playeritem"
     },
     {
@@ -22,6 +21,18 @@
       "buying_price": 2,
       "foreign_merchant_price": 6,
       "category": "agriculture"
+    },
+    {
+      "id": "mayan_mace",
+      "item": "cle:mayan_mace",
+      "buying_price": 2048,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "byzantine_mace",
+      "item": "cle:byzantine_mace",
+      "buying_price": 4096,
+      "category": "foreigntrade"
     }
   ]
 }

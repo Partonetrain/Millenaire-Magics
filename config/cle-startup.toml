@@ -118,4 +118,8 @@
 	#This can be used to make millages less frequent
 	# Default: 0.0
 	# Range: 0.0 ~ 0.99
-	"Rejection Chance" = 0.05
+	"Rejection Chance" = 0.01
+	#Structure IDs to add to Millenaire's built-in structure avoidance logic
+	#Millenaire already avoids structures like vanilla igloos and desert pyramids, this just adds more structures to that logic
+	#Keep in mind the more of these there are, the longer a millage/lone building will take to be placed
+	"Structures To Avoid" = ["minecraft:monument"]

@@ -1,6 +1,6 @@
 #Whether or not to enable quasi-connectivity related tweaks
 #read more about quasi-connectivity here: https://minecraft.wiki/w/Tutorial:Quasi-connectivity
-"Quasi-connectivity tweaks" = false
+"Quasi-connectivity tweaks" = true
 #What mode Dispensers and Droppers will use to determine their quasi-connectivity
 #Allowed Values: VANILLA, DISABLED, SHIFT_RCLICK_OPT_IN, SHIFT_RCLICK_OPT_OUT
 "Dispenser Quasi Mode" = "SHIFT_RCLICK_OPT_OUT"

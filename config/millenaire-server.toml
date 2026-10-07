@@ -34,11 +34,11 @@
 		#Distance from spawn where initial progress starts (blocks)
 		# Default: 2000
 		# Range: 0 ~ 25000
-		minDistance = 2000
+		minDistance = 2500
 		#Distance from spawn where max initial progress is reached (blocks)
 		# Default: 10000
 		# Range: 0 ~ 100000
-		maxDistance = 20000
+		maxDistance = 30000
 
 #Debug and logging settings
 [debug]

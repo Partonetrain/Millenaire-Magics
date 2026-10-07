@@ -36,6 +36,7 @@ ServerEvents.commandRegistry(event => {
     player.tell('- The modpack balance is actively being playtested, certain config values, recipes, or loot tables may change.')
     player.tell('- Malum is currently recieving a major rework. I don\'t know the details, but the rework could potentially remove items. Keep this in mind while progressing in it.')
     player.tell('- Both Farmer\'s Delight and Brewin\' and Chewin\' have significant updates in development that might affect this modpack.')
+    player.tell('- ParCool is recieving a major update that will be included in the next version.')
     player.tell('-----------------------------')
     player.tell(Text.of("Please report any issues you find to the github issue tracker!").blue().underlined(true).hover(Text.of("https://github.com/Partonetrain/Millenaire-Magics/issues")).click(Text.clickEventOf({action: 'open_url', value: 'https://github.com/Partonetrain/Millenaire-Magics/issues'})))
     return 1

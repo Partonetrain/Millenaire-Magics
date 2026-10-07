@@ -32,7 +32,7 @@ EntityEvents.spawned(event =>
             const xyz = entity.getBlockX() + " " + entity.getBlockY() + " " + entity.getBlockZ();
             if(entity.hasControllingPassenger()){
                 //event.getServer().runCommandSilent('/say A chicken jockey has spawned.');
-                event.getServer().runCommandSilent('/playsound oof_button:jackblack_chickenjockey hostile @a ' + xyz + " 1 1 0.05");
+                event.getServer().runCommandSilent('/playsound oof_button:jackblack_chickenjockey hostile @a ' + xyz + " 1 1 0.04");
             }
         }
         else if(entity.getType() === 'millenaire:villager'){

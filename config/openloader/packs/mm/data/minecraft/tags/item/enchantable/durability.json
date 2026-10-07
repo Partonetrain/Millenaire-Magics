@@ -6,6 +6,9 @@
     "remove": [
         "gag:hearthstone",
         "gag:energized_hearthstone",
-        "gag:escape_rope"
+        "gag:escape_rope",
+        "millenaire:byzantine_mace",
+        "millenaire:mayan_mace",
+        "millenaire:inuittrident"
     ]
 }

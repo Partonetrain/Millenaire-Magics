@@ -548,33 +548,24 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         event.add(crop, [
             s
         ])
-    });
-    const learnedDrop = 'Cannot be harvested from mobs until you have learned how to do so from a millage leader.'
-    const learnedDrops =[
-        'millenaire:wolfmeat_raw',
-        'millenaire:seafood_raw'
-    ]
-    learnedDrops.forEach((drop) => {
+    })
 
-        var s = learnedDrop
-        if(drop === 'millenaire:seafood_raw'){
-            s = s + '\nOnce learned, drops from Squids and Glow Squids (rarely), and Guardians and Elder Guardians.'
-        }
-        else if(drop === 'millenaire:wolfmeat_raw'){
-            s = s + '\nOnce learned, drops from Wolves and Foxhounds. Summoned wolves do not count.'
-        }
+    event.add('millenaire:seafood_raw', [
+        'Cannot be harvested from mobs until you have learned how to do so from a millage leader.\nOnce learned, drops from Squids and Glow Squids (rarely), and Guardians and Elder Guardians.'
+    ])
+    event.add('millenaire:wolfmeat_raw', [
+        'Cannot be harvested from mobs until you have learned how to do so from a millage leader.\nOnce learned, drops from Wolves and Foxhounds. Summoned wolves do not count.'
+    ])
+    event.add('millenaire:bearmeat_raw', [
+        'Drops from polar bears. Does not require learning how to harvest.'
+    ])
 
-        event.add(i, [
-            s
-        ])
-    });
-    event.add('millenaire:bearmeat_raw', ["Drops from polar bears. Does not require learning how to harvest."])
     const noCraft = 'Can only be crafted by millagers and bought from millages.'
     const noCrafts = [
         'millenaire:thatch',
         'millenaire:byzantine_tiles',
+        'millenaire:byzantine_sandstone_ornament',
         'millenaire:mayan_gold_block',
-        'millenaire:obsidian_flake',
         'millenaire:calva',
         'millenaire:boudin',
         'millenaire:tripes',
@@ -601,12 +592,24 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:stained_glass_green_blue',
         'millenaire:charpoy',
         'millenaire:straw_bed',
-        'millenaire:futon',
-        'millenaire:inuit_carving'
+        'millenaire:inuit_carving',
+        'millenaire:wall_carpet_small',
+        'millenaire:wall_carpet_medium',
+        'millenaire:wall_carpet_large'
     ]
     noCrafts.forEach((b) => {
         event.add(b, [
             noCraft
+        ])
+    });
+    const excCraft = 'Exclusively used by millagers for crafting. Cannot be obtained by players unless from looting a destroyed millage.'
+    const excCrafts = [
+        'millenaire:obsidian_flake',
+        'millenaire:tannedhide'
+    ]
+    excCrafts.forEach((b) => {
+        event.add(b, [
+            excCraft
         ])
     });
     const sod = 'Placed with an Ulu while having the corresponding planks and coarse dirt in the inventory. Used by the Inuit for building.'
@@ -623,6 +626,21 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             sod
         ])
     });
+    
+    const buildingCost = 'Created at build-time instead of being crafted'
+    const buildingCosts = [
+        'millenaire:futon',
+        'millenaire:wooden_sliding_door',
+        'millenaire:japanese_sliding_door',
+        'millenaire:silk_worm',
+        'millenaire:snail_soil'
+    ]
+    buildingCosts.forEach((b) => {
+        event.add(b, [
+            buildingCost
+        ])
+    });
+    
     const paint = 'Use on Painted Bricks to change the block\'s color. The base White Painted Brick can be obtained by smelting Sun-dried Bricks.'
     const paints = [
         'millenaire:paint_bucket_white',
@@ -647,7 +665,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             paint
         ])
     });
-    const noWear = 'Can only be used by Millagers.'
+    const noWear = 'Can only be used by Millagers of the relevant culture.'
     const noWears = [
         'millenaire:clothes_byz_wool',
         'millenaire:clothes_byz_silk',
@@ -746,7 +764,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         {item: 'ars_nouveau:abjuration_essence', desc: "Normans find this magical essence to be symbolic of their patron saint, Archangel Michael, who casted down Satan from heaven. Perhaps they will trade for it."},
         {item: 'ars_nouveau:conjuration_essence', desc: "Hindus seem to have a different idea of what this essence represents than you do; they see the creator god Brahma as the only 'conjurer'. Even still, they view this essence as a symbol of Brahma's cosmic significance and are willing to trade for it."},
         {item: 'ars_nouveau:manipulation_essence', desc: "Japanese millagers speak of a fox spirit called Kitsune, which is said to be able to manipulate itself into different forms. As such, they consider this essence to be representative of the Kitsune. "},
-        {item: 'sauce:anima_essence', desc: "Byzantines worship the risen Christos, and oddly enough, they seem to view this essence as a symbol of his resurrection. In a way, they also see their own culture as a resurrection of the Roman Empire."},
+        {item: 'sauce:anima_essence', desc: "Byzantines worship the risen Christos, and oddly enough, they seem to view this essence as a symbol of His resurrection. In a way, they also see their own culture as a resurrection of the Roman Empire."},
     ]
     ESSENCE_BUYS.forEach((b) => {
         event.add(b.item, [

@@ -1,13 +1,13 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-09-26 19:54:51
+Generated: 2026-10-07 10:57:21
 Mod version: millenaire 9.0.2
 
-  !! 10 problem(s) reported while loading — see 'Loading problems' below.
+  !! 13 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
-  shops            4 file(s) on disk
+  shops            6 file(s) on disk
   village_type     14 file(s) on disk
   villager_type    1 file(s) on disk
   traded_goods     present (additive merge)
@@ -61,9 +61,9 @@ Mod version: millenaire 9.0.2
   traded_goods     present (additive merge)
 
 === Global ===
-  gathering_type   5 custom file(s)
+  gathering_type   8 custom file(s)
   quests           0 custom file(s)
-  language overlays 0 custom file(s) across all locales
+  language overlays 4 custom file(s) across all locales
 
 === Loading problems ===
 Every warning and error the content loaders emitted during this load.
@@ -76,12 +76,18 @@ Not all of these are necessarily yours: Millénaire's own shipped
 content produces a few, and they name a built-in culture and building.
 Those are ours — please report them rather than trying to fix them.
 
-  0 error(s), 10 warning(s) during content loading.
+  3 error(s), 10 warning(s) during content loading.
 
   [WARN] BuildingPlanSetLoader
     [Millenaire] Building plan japanese/japanesepaddy has category 'core' in JSON but lives under path category 'houses'. JSON field wins; consider moving the file to the matching folder.
   [WARN] VillagerConfig
     Unknown villager_config 'japaneseweaponpriority' (no villager_config/japaneseweaponpriority.json in any content layer); using the default config
+  [ERROR] GatheringTypeLoader
+    Duplicate external gathering type id 'craft_byzantinemace' — 'gathering_type/weapons/craft_byzantinemace.json' is ignored, 'gathering_type/craft_byzantinemace.json' wins. Ids key on the filename alone, so the folder does not disambiguate. Rename one of them.
+  [ERROR] GatheringTypeLoader
+    Duplicate external gathering type id 'craft_mayanmace' — 'gathering_type/weapons/craft_mayanmace.json' is ignored, 'gathering_type/craft_mayanmace.json' wins. Ids key on the filename alone, so the folder does not disambiguate. Rename one of them.
+  [ERROR] GatheringTypeLoader
+    Duplicate external gathering type id 'craft_spear' — 'gathering_type/weapons/craft_spear.json' is ignored, 'gathering_type/craft_spear.json' wins. Ids key on the filename alone, so the folder does not disambiguate. Rename one of them.
   [WARN] CultureLoader
     BuildingPlanSet millenaire:byzantines/playerfortress_a_armyforge: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader

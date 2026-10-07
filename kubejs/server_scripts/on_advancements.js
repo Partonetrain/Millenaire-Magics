@@ -3,15 +3,13 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
     const player = event.entity;
     const id = event.getAdvancement().id();
 
+    const tome = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"millenaire"},count:1,id:"millenaire:travel_book"},{components:{"akashictome:defined_mod":"ars_nouveau"},count:1,id:"ars_nouveau:worn_notebook"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"parcool","patchouli:book":"parcool:parcool_guide"},count:1,id:"patchouli:guide_book"},{components:{"akashictome:defined_mod":"solcarrot"},count:1,id:"solcarrot:food_book"},{components:{"akashictome:defined_mod":"cosmeticarmoursmod","patchouli:book":"cosmeticarmoursmod:cosmeticarmours_book"},count:1,id:"patchouli:guide_book"}]]'
+
     //player.server.runCommandSilent(`/tellraw ${player.username} {"text":" ${player.username} obtained advancement ${id}"}`);
 
     if (id === 'mm:root') {
-        const inventory = player.inventory;
-        
         player.inventory.clear();
-        
-        const tome = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"millenaire"},count:1,id:"millenaire:travel_book"},{components:{"akashictome:defined_mod":"ars_nouveau"},count:1,id:"ars_nouveau:worn_notebook"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"parcool","patchouli:book":"parcool:parcool_guide"},count:1,id:"patchouli:guide_book"},{components:{"akashictome:defined_mod":"solcarrot"},count:1,id:"solcarrot:food_book"},{components:{"akashictome:defined_mod":"cosmeticarmoursmod","patchouli:book":"cosmeticarmoursmod:cosmeticarmours_book"},count:1,id:"patchouli:guide_book"}]]'
-        
+
         //give starting items
         player.give('minecraft:wooden_sword');
         player.give('minecraft:wooden_pickaxe');
@@ -29,6 +27,9 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
         player.server.runCommandSilent('/gamerule doTraderSpawning false');
 
         console.info(`Gave starting items to ${player.name} and set up gamerules`);
+    }
+    if (id === 'mm:akashictome') {
+        player.give(tome);
     }
     else if (id === 'minecraft:nether/all_effects') {
         player.server.runCommandSilent(`/tellraw ${player.username} {"text":"How did you do manage to get How Did We Get Here? Did you cheat?","color":"orange", "italic":true}`);

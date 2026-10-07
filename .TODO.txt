@@ -1,3 +1,12 @@
+0.8.1.3
+- Updated Cle to 1.3.2, Difficulty Lock to 5.0, Tiny Takeover Backport to 1.6.0, Quark to 4.1-487, Followers Teleport Too to 2.9, EntityJS to 1.5.2, JEI to 0.451, JEED to 2.3.5, MezzConfig 0.6.8, Collective to 8.4.1, ACI 1.4.0, to ALI to 2.4.0, JEIbr to 3.3.1, Ars Delight to 2.2.5, Ars Nouveau to 5.13.3, Ars Elemental to 0.7.10.4 Vault Timers to 1.0.4, SuperMartijnCoreLib to 1.1.25, MoonlightLib to 3.7.1, Placebo to 9.9.3, Jade Addons to 6.1.2, Fusion to 1.3.16, Collective to 8.42, Iris Search to 1.8.2
+- Added MillenaireJEIm
+- Added FTB Teams: Friendly Fire addon
+- Removed More Zombie Villagers since KubeJS is handling preventing zombie villager spawns
+- Train's Tweaks toggleable quasi-connectivity mechanic has been enabled
+- Grimoire of Gaia Honey Bees now despawn in millages
+- Millagers now craft and trade Cle's alternative items natively
+- Millenaire dialogue adjusted to not assume player is male
 
 
 # CURSEFORGE EXPORT CHECKMARKS
@@ -22,28 +31,18 @@
 }
 
 - can't seem to roll soulbound in the matrix enchanter...
+- Seljuk and Inuit weapons/armors are not sellable to other cultures...
 - wayward bow stats seem broken
+- continue auditing millenaire dialogs:
+	- for "he", "him", and "his" (assuming the player is male is weird)
+	- references to vanilla villagers
 
 
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why
-- millenaire customizations:
-	- redistribute village types to biomes. https://docs.google.com/spreadsheets/d/1XXQG44UhEQqV-bs55lnX_1UHeXsB6FknHgDkZggx8FA/edit?usp=sharing
-		- Normans: Pine biomes, other forests
-		- Indians: Savannah, Sparse Rainforests, Mangrove Swamp, Deserts, Spiny Thicket,
-		- Japanese: (non-snowy) Taigas, Cherry Grove, Blossom Woods, Kousa Jungle
-		- Mayans: Rainforests, Jungles, Swamps, Stony Peaks
-		- Byzantines: Plains, Birch Forests, Laurel Forests
-		- Inuit: All snowy and icy biomes
-		- Seljuks: Desert, Dunes, Windswept Hills, Wooded Badlands
-	- millenaire\cultures\norman\buildings\lone\pantheon_a_0.nbt replacements:
-		- minecraft:emerald_block -> quark:lime_shingles
-		- minecraft:iron_block -> quark:calcite_bricks
-		- minecraft:lapis_block -> blockbox:lapis_lazuli_bricks
-		- minecraft:gold_block -> blockbox:golden_tiles
 
 - waiting on: 
 	- archwood good https://github.com/Alexthw46/ArchwoodGood
-	- tiny takeover backport fix https://github.com/evanbones/Tiny-Takeover-Backport/issues/7
+	- tiny takeover backport fix 2 https://github.com/evanbones/Tiny-Takeover-Backport/issues/31
 	- BlockBox PR https://github.com/vectorwing/BlockBox/pull/32
 	- Ars Elemental's heavy and light armors to get new textures
 	- malum update (huge rework!!! check what items have been removed!!!)
@@ -56,3 +55,15 @@
 - Mill food effects are not shown in JustEnoughEffectDescriptions, investigate a fix.
 - nitpicks:
 	- everycomp blocks don't have fuel times
+	
+	
+notes
+
+- cultures are redistributed. https://docs.google.com/spreadsheets/d/1XXQG44UhEQqV-bs55lnX_1UHeXsB6FknHgDkZggx8FA/edit?usp=sharing
+		- Normans: Pine biomes, other forests
+		- Indians: Savannah, Sparse Rainforests, Mangrove Swamp, Deserts, Spiny Thicket
+		- Japanese: (non-snowy) Taigas, Cherry Grove, Blossom Woods, Kousa Jungle
+		- Mayans: Rainforests, Jungles, Swamps, Stony Peaks
+		- Byzantines: Plains, Birch Forests, Laurel Forests
+		- Inuit: All snowy and icy biomes
+		- Seljuks: Desert, Dunes, Windswept Hills, Wooded Badlands

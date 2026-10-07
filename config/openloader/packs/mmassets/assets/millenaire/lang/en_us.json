@@ -38,5 +38,10 @@
   "item.millenaire.travel_book": "Millénaire Guide",
   "item.millenaire.wall_mayan_statue": "Wall Mayan Statue",
 
-  "reputation.millenaire.byzantines.fellow_civilized_man": "Fellow Civilized Individual"
+  "reputation.millenaire.byzantines.fellow_civilized_man": "Fellow Civilized Individual",
+
+  "goal.millenaire.craft_mudbrick_decorated": "Crafting decorated sun-dried bricks",
+  "goal.millenaire.craft_mudbrick_ornamented": "Crafting ornamented sun-dried bricks",
+  "goal.millenaire.craft_mudbrick_sandstone": "Crafting sun-dried bricks",
+  "goal.millenaire.craft_mudbrick_smooth": "Crafting smooth sun-dried bricks"
 }

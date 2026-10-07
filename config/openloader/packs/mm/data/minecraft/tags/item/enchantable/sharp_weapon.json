@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+
+    ],
+    "remove": [
+        "millenaire:byzantine_mace",
+        "millenaire:mayan_mace",
+        "millenaire:inuittrident"
+    ]
+}
