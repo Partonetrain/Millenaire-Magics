@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_adivasipeasant"
+        "indian/adivasipeasant"
       ],
       "requiredTags": [],
       "forbiddenTags": [
@@ -21,7 +21,7 @@
     {
       "key": "peasant",
       "villagerTypes": [
-        "indian/indian_peasant"
+        "indian/peasant"
       ],
       "relatedTo": "startvillager",
       "relation": "nearbyvillage",

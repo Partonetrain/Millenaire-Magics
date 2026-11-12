@@ -1,15 +1,15 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-10-07 10:57:21
-Mod version: millenaire 9.0.2
+Generated: 2026-11-11 17:55:02
+Mod version: millenaire 9.1.0
 
-  !! 13 problem(s) reported while loading — see 'Loading problems' below.
+  !! 9 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
   sub-mods: mm, yafda
   shops            6 file(s) on disk
   village_type     14 file(s) on disk
-  villager_type    1 file(s) on disk
+  villager_type    2 file(s) on disk
   traded_goods     present (additive merge)
 
 === Culture: indian (built-in with overrides) ===
@@ -61,9 +61,34 @@ Mod version: millenaire 9.0.2
   traded_goods     present (additive merge)
 
 === Global ===
-  gathering_type   8 custom file(s)
-  quests           0 custom file(s)
+  gathering_type   9 custom file(s)
+  quests           4 custom file(s)
   language overlays 4 custom file(s) across all locales
+
+=== Content validation ===
+Tiers run: S/X (384 ms), M (1648 ms)
+12 finding(s) to act on, 754 accepted or informational.
+Each line names the rule, the content it concerns, what is wrong and the fix.
+ERROR findings fail the mod's own checks; WARN ones are reported only.
+
+  [WARN] M-04/X-09 I18nKeyAuditor — [I18nKeyAuditor] 5 i18n keys referenced by loaded content but missing from en_us.json:
+  goals (5):
+    - goal.millenaire.craft_ironknife
+    - goal.millenaire.craft_byzantineknife
+    - goal.millenaire.craft_normanknife
+    - goal.millenaire.craft_flintknife
+    - goal.millenaire.craft_mayanknife Fix: see the loader message; if it is expected, allowlist it with a reason. [I18nKeyAuditor]
+  [WARN] M-04/uncategorised VillagerConfig — Unknown villager_config 'japaneseweaponpriority' (no villager_config/japaneseweaponpriority.json in any content layer); using the default config Fix: see the loader message; if it is expected, allowlist it with a reason. [VillagerConfig]
+  [WARN] S-07 quests/custom/bakedcodstew — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/bakedcodstew' to the manifest. [quests/custom/bakedcodstew.json (submod:mm)]
+  [WARN] S-07 quests/custom/burger — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/burger' to the manifest. [quests/custom/burger.json (submod:mm)]
+  [WARN] S-07 quests/custom/candy — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/candy' to the manifest. [quests/custom/candy.json (submod:mm)]
+  [WARN] S-07 quests/custom/noodles — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/noodles' to the manifest. [quests/custom/noodles.json (submod:mm)]
+  [ERROR] X-05 gathering_type/craft_flintknife — handlerParams.requiredTag 'forge' is declared by no plan set of [inuits] (the cultures whose villagers run this goal) — the goal never finds a building. Fix: fix the tag or add it to a plan set's tags. [gathering_type/craft_flintknife.json (submod:mm)]
+  [ERROR] X-09 byzantines/villagers/normalvillagers/smith_byzantine — en_us.json has no 'goal.millenaire.craft_byzantineknife' — players see the raw key. Fix: add the key to cultures/byzantines/resourcepack/assets/millenaire/lang/en_us.json in your pack. [cultures/byzantines/villagers/normalvillagers/smith_byzantine.json (submod:mm)]
+  [ERROR] X-09 indian/villagers/normalvillagers/smith — en_us.json has no 'goal.millenaire.craft_ironknife' — players see the raw key. Fix: add the key to cultures/indian/resourcepack/assets/millenaire/lang/en_us.json in your pack. [cultures/indian/villagers/normalvillagers/smith.json (submod:mm)]
+  [ERROR] X-09 inuits/villagers/normalvillagers/inuit_smith — en_us.json has no 'goal.millenaire.craft_flintknife' — players see the raw key. Fix: add the key to cultures/inuits/resourcepack/assets/millenaire/lang/en_us.json in your pack. [cultures/inuits/villagers/normalvillagers/inuit_smith.json (submod:mm)]
+  [ERROR] X-09 mayan/villagers/normalvillagers/obsidiancrafter — en_us.json has no 'goal.millenaire.craft_mayanknife' — players see the raw key. Fix: add the key to cultures/mayan/resourcepack/assets/millenaire/lang/en_us.json in your pack. [cultures/mayan/villagers/normalvillagers/obsidiancrafter.json (submod:mm)]
+  [ERROR] X-09 norman/villagers/normalvillagers/smith — en_us.json has no 'goal.millenaire.craft_normanknife' — players see the raw key. Fix: add the key to cultures/norman/resourcepack/assets/millenaire/lang/en_us.json in your pack. [cultures/norman/villagers/normalvillagers/smith.json (submod:mm)]
 
 === Loading problems ===
 Every warning and error the content loaders emitted during this load.
@@ -76,26 +101,16 @@ Not all of these are necessarily yours: Millénaire's own shipped
 content produces a few, and they name a built-in culture and building.
 Those are ours — please report them rather than trying to fix them.
 
-  3 error(s), 10 warning(s) during content loading.
+  0 error(s), 9 warning(s) during content loading.
 
-  [WARN] BuildingPlanSetLoader
-    [Millenaire] Building plan japanese/japanesepaddy has category 'core' in JSON but lives under path category 'houses'. JSON field wins; consider moving the file to the matching folder.
   [WARN] VillagerConfig
     Unknown villager_config 'japaneseweaponpriority' (no villager_config/japaneseweaponpriority.json in any content layer); using the default config
-  [ERROR] GatheringTypeLoader
-    Duplicate external gathering type id 'craft_byzantinemace' — 'gathering_type/weapons/craft_byzantinemace.json' is ignored, 'gathering_type/craft_byzantinemace.json' wins. Ids key on the filename alone, so the folder does not disambiguate. Rename one of them.
-  [ERROR] GatheringTypeLoader
-    Duplicate external gathering type id 'craft_mayanmace' — 'gathering_type/weapons/craft_mayanmace.json' is ignored, 'gathering_type/craft_mayanmace.json' wins. Ids key on the filename alone, so the folder does not disambiguate. Rename one of them.
-  [ERROR] GatheringTypeLoader
-    Duplicate external gathering type id 'craft_spear' — 'gathering_type/weapons/craft_spear.json' is ignored, 'gathering_type/craft_spear.json' wins. Ids key on the filename alone, so the folder does not disambiguate. Rename one of them.
   [WARN] CultureLoader
     BuildingPlanSet millenaire:byzantines/playerfortress_a_armyforge: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader
     BuildingPlanSet millenaire:seljuk/thmosque_a_femaleside: parent building plan millenaire:seljuk/mosque does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader
     BuildingPlanSet millenaire:seljuk/barrackssmall_a_bed0: parent building plan millenaire:seljuk/barrackssmall does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
-  [WARN] CultureLoader
-    BuildingPlanSet millenaire:indian/playerpalace_temple: parent building plan millenaire:indian/palace does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader
     BuildingPlanSet millenaire:seljuk/watchtower_a_soldier0: parent building plan millenaire:seljuk/watchtower does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader
@@ -104,6 +119,14 @@ Those are ours — please report them rather than trying to fix them.
     BuildingPlanSet millenaire:byzantines/playerfortress_a_barracks: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader
     BuildingPlanSet millenaire:seljuk/hamlettownhallplayer_a_inn: parent building plan millenaire:seljuk/hamlettownhallplayer does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
+  [WARN] I18nKeyAuditor
+    [I18nKeyAuditor] 5 i18n keys referenced by loaded content but missing from en_us.json:
+  goals (5):
+    - goal.millenaire.craft_ironknife
+    - goal.millenaire.craft_byzantineknife
+    - goal.millenaire.craft_normanknife
+    - goal.millenaire.craft_flintknife
+    - goal.millenaire.craft_mayanknife
 
 === Summary ===
 Cultures: 0 custom, 7 built-in with overrides, 7 total loaded

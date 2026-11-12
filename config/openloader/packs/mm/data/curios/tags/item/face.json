@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "cosmeticarmoursmod:blindfold_black_helmet",
+    "cosmeticarmoursmod:blindfold_white_helmet",
+    "cosmeticarmoursmod:mask_plain_helmet",
+    "cosmeticarmoursmod:mask_pumpkin_helmet",
+    "cosmeticarmoursmod:mask_creeper_helmet",
+    "cosmeticarmoursmod:mask_herobrine_helmet",
+    "cosmeticarmoursmod:mask_guardian_helmet",
+    "cosmeticarmoursmod:mask_warden_helmet",
+    "cosmeticarmoursmod:mask_axolotl_helmet",
+    "cosmeticarmoursmod:kitsune_mask_helmet",
+    "cosmeticarmoursmod:lab_safety_goggles_helmet",
+    "cosmeticarmoursmod:steampunkers_goggles_helmet"
+  ]
+}

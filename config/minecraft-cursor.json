@@ -11,87 +11,91 @@
   "worldIconEnabled": true,
   "serverIconEnabled": true,
   "remapCursorsEnabled": true,
+  "inactiveWidgetsEnabled": true,
+  "aggressiveCursor": false,
+  "virtualMode": false,
+  "veilImGuiDisableCursorChanges": true,
+  "blacklist": [],
   "global": {
     "scaleActive": false,
     "xhotActive": false,
     "yhotActive": false,
     "scale": 1.0,
     "xhot": 0,
-    "yhot": 0,
-    "enabled": true
+    "yhot": 0
   },
   "settings": {
     "resize_ns": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 9,
-      "yhot": 15,
-      "enabled": true
+      "yhot": 15
     },
     "not_allowed": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 15,
-      "yhot": 15,
-      "enabled": true
+      "yhot": 15
     },
     "crosshair": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 13,
-      "yhot": 17,
-      "enabled": true
+      "yhot": 17
     },
     "default": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 7,
-      "yhot": 3,
-      "enabled": true
+      "yhot": 3
     },
     "pointer": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 7,
-      "yhot": 3,
-      "enabled": true
+      "yhot": 3
     },
     "grabbing": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 15,
-      "yhot": 3,
-      "enabled": true
+      "yhot": 3
     },
     "busy": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 13,
-      "yhot": 17,
-      "enabled": true
+      "yhot": 17
     },
     "shift": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 11,
-      "yhot": 3,
-      "enabled": true
+      "yhot": 3
     },
     "text": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 12,
-      "yhot": 15,
-      "enabled": true
+      "yhot": 15
     },
     "resize_nwse": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 13,
-      "yhot": 12,
-      "enabled": true
+      "yhot": 12
     },
     "resize_nesw": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 13,
-      "yhot": 12,
-      "enabled": true
+      "yhot": 12
     },
     "resize_ew": {
+      "enabled": true,
       "scale": 1.0,
       "xhot": 15,
-      "yhot": 17,
-      "enabled": true
+      "yhot": 17
     }
   }
 }

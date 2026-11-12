@@ -1,0 +1,8 @@
+#How mod shaders draw in a shaderpack:
+#overlay: pasted on top of the frame. looks like vanilla and gets shaderpack pack lighting
+#lit: lit by the pack light own logic
+#iris_default: whatever Iris does
+#Allowed Values: OVERLAY, LIT, IRIS_DEFAULT
+mode = "OVERLAY"
+#Lets Iris draw shaders it doesn't know. If off mod shaders are invisible
+forceAllowUnknownShaders = true

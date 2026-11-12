@@ -24,7 +24,7 @@ villager.getresourcesforbuild=我需要更多材料。
 villager.goplay=我想出去玩。
 
 villager.childobserveagriculture=我妈妈说培植水稻很重要，但对我来说很无聊。
-villager.childobserveconstruction=也许当我更大的时候，我会建造宝塔。黄金！
+villager.childobserveconstruction=也许等我长大了，我会建造宝塔。用黄金造的！
 villager.childobservesmithing=我们的武器和盔甲是最酷的！
 villager.childobserveproducefood=为什么这里所有的东西都是用稻米做的？我讨厌吃稻米！
 villager.childobserveproducealcohol=我上次喝酒的时候病了。
@@ -60,7 +60,7 @@ villager.greeting=你好吗，$name-桑？
 villager.greeting=喂。
 villager.greeting=欢迎。
 villager.construction=建造之术乃家父所授。
-villager.construction=愿kami护佑我的工事。
+villager.construction=愿神明护佑我的工事。
 villager.sellercoming=我马上就来！
 villager.tradecomplete=感激不尽，恭候再次光临。
 

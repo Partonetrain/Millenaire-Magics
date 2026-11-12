@@ -102,8 +102,8 @@ turk_peasantwife.gethousethresources=我丈夫带着资源回家了。
 turk_peasantwife.getresourcesforbuild=是时候为建设争取资源了！
 
 turk_cook.makelokum=我们的软糖是如此的美味。
-turk_cook.makepidebeef=我们的皮塔饼真美味。
-turk_cook.makepidemutton=我们的皮塔饼真美味。
+turk_cook.makepidebeef=我们的皮德饼真美味。
+turk_cook.makepidemutton=我们的皮德饼真美味。
 
 turk_cowfarmer.makeyogurt=一起吃饭就很开心。
 

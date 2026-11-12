@@ -4,6 +4,9 @@ KubeJEIEvents.onRuntimeAvailable(event => { //KubeJEI by ZZZAnk
     console.log("onRuntimeAvailable " + runtimes)
 })
 
+/* 
+//THIS EVENT BROKE AT SOME POINT
+//USING JEI EDIT MODE FOR NOW
 RecipeViewerEvents.removeEntriesCompletely('item', event => { //native KubeJS event
     //misc jei ingredients that were added from mod code
     event.hide('dmr:dragon_armor[dmr:armor_type="netherite"]')
@@ -12,6 +15,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => { //native KubeJS ev
     event.hide('minecraft:enchanted_book[stored_enchantments={levels:{"notenoughtrials:storm_front_marker":1}}]') //this enchant is named "for functions do not use"
     event.hide('patchouli:guide_book[patchouli:book="grimoireofgaia:gaiapedia"]')
 })
+*/
 
 //info tabs
 RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
@@ -126,6 +130,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             ])
 
     //tools
+    event.add('the_beyond:ocarina', [
+                'Lets you control Trinket entities.'
+            ])
     event.add('not_enough_glyphs:spell_binder', [
                 'An alternative to a Spell Book. Casts spells from the Spell Parchment and Caster Tomes found as loot. Spell Parchments casted from a Spell Binder are not consumed.'
             ])
@@ -232,7 +239,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Only used to upgrade Spawners. Texture by malcolmriley, from https://github.com/malcolmriley/unused-textures (CC BY 4.0).'
         ])
     event.add('minecraft:furnace_minecart', [
-            'Now has a GUI. Fuel can be placed into it'
+            'Now has a GUI. Fuel can be placed into it.'
         ])
 
     
@@ -250,6 +257,18 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'The Slime Trader trades ender pearls and common mob drops.' + unconventionalEgg
         ])
     //equipment        
+    event.add('parcool:traceur_boots', [
+                'Provides movement benefits, but goes in the feet armor slot and cannot be enchanted (besides Soulbound), making it a trade-off. Can be dyed in a crafting table like leather armor.'
+            ])
+    event.add('parcool:traceur_gloves', [
+                'Provides movement benefits, but goes in the body armor slot and cannot be enchanted (besides Soulbound), making it a trade-off. Can be dyed in a crafting table like leather armor.'
+            ])
+    event.add('parcool:hook', [
+                'Used to craft a Grappling Hook. Only found as loot.'
+            ])
+    event.add('parcool:grappling_hook', [
+                'Oh my gosh, weeee! This is so fun!'
+            ])
     event.add('quark:backpack', [
                 'Can by dyed like leather armor. \nShulker boxes can now be opened from worn backpacks.'
             ])      
@@ -275,8 +294,14 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Upgraded from the Warp Index, allows you to access a (chunk-loaded) Storage Lectern remotely, even if it\'s in a different dimension.'
         ]) 
     //blocks
+    event.add('the_beyond:projector', [
+            'Projects a visual of items inside, as long as a light source is behind it. Works with things like maps, too.'
+        ])
+    event.add('supplementaries:cannon', [
+            'Can fire anything as long as it\'s supplied with gunpowder. It can even fire you! Shift-right-click from the front to get inside. Just don\'t blame anyone but yourself if you get hurt...'
+        ])
     event.add('mysticaloaktree:wise_oak', [
-            'It\'s a mystical oak tree... Speak to it for some wisdom! (new lines added by modpack)'
+            'It\'s a mystical oak tree... Speak to it for some wisdom! (New lines have been added by the modpack)'
         ])
     event.add('minecraft:chain', [
             'Iron chains are durable enough to link minecarts together! Shift-right-click a minecart to start linking, and then shift-right-click another to link them.'
@@ -350,6 +375,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('the_beyond:guster', [
             'Unlike the Gust Igniter, the Autoguster automatically activates when something steps on it, cannot be placed at an angle, and sends dangerously high without applying any effects for safety. Useful if you have wings, but very dangerous otherwise.'
             ])
+    event.add('the_beyond:brittle_metal', [
+            'Can be used to craft Brittle tools in a pinch. Place a 3x3 grid and stand on the blocks you want to remove, then right-click the center block.'
+            ])
     event.add('morered:hexidecrubrometer', [
             'Displays redstone power level of its back side in hexadecimal (0 through F).'
             ])
@@ -369,13 +397,13 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Right-click a Tablet into it to begin a Ritual. These usually require nearby Source Jars. \nCan be lit for cosmetic purposes; shift-right-click with a Touch > Conjure Magelight spell.'
             ])
     event.add('ars_nouveau:scribes_table', [
-            'Used to craft spell glyphs. Right-click with a Spell Book to open the crafting GUI.\nNote that it will pull nearby ingredients to itself from certain containers.\n\nTechnical note: the \"EXP factor\" in glyph crafting is renamed from \"level cost\", because it uses the vanilla experience formula rather than the one provided by Train\'s Tweaks. In most cases this can be ignored.'
+            'Used to craft spell glyphs. Right-click with a Spell Book to open the crafting GUI.\nNote that it will pull nearby ingredients to itself from certain containers.\n\nTechnical note: the \"EXP factor\" in glyph crafting is renamed from \"level cost\", because it uses the vanilla experience formula rather than the one provided by Train\'s Tweaks. This will not meaningfully affect most players.'
             ])
     event.add('ars_nouveau:alteration_table', [
             'Used to apply Threads to wizard armor, or to armor that is enchanted with Spellweaving. Also used to apply Book Covers to a Spell Binder in the same way.'
             ])
     event.add('vista:mirror', [
-            'Reflects in real-time, but unfortunately doesn\'t work if shaders are on.'
+            'Reflects in real-time.'
             ])
     event.add('vista:television', [
             'Requires redstone power and a Casette. Loops a short, audio-less video. Can be combined to form larger screens.\n\nDo NOT show this to a millager; their 11th century minds cannot comprehend it and they will run away from it, screaming.'
@@ -403,6 +431,9 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             ])
     event.add('ars_nouveau:mob_jar', [
             'See Tablet of Containment for how to capture mobs inside.'
+            ])
+    event.add('minecraft:straw_bed', [
+            'Can only be slept in once.'
             ])
     //player shops
     const SHOPS = [
@@ -484,6 +515,12 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('minecraft:wolf_spawn_egg', [
             'Bork!'
         ])
+    event.add('minecraft:spider_spawn_egg', [
+            'The spiders all in tune\nThe evening of the moon\nDreams are made, winding through my head'
+        ])
+    event.add('minecraft:phantom_spawn_egg', [
+            '"I dislike these things so much I nerfed their health to 10" - Train'
+        ])
     event.add('minecraft:donkey_spawn_egg', [
             '"I like that boulder. That is a nice boulder."'
         ])
@@ -516,7 +553,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     //everything millenaire
 
     event.add('millenaire:summoning_wand', [
-            'Used to bring forward souls from another world. The type of millage you specify will be brought with them. With enough cultural reputation, you will be able to summon fully-player-controlled variants. '
+            'Used to bring forward souls from another world. The type of millage you specify will be brought with them. With enough cultural reputation and permission from a millage leader, you will be able to summon fully-player-controlled variants. '
         ])
     event.add('millenaire:negation_wand', [
             'Used to banish the souls of the occupants of a millage or lone building back from whence they came. Can only be used once all of the subject\'s defenders have been killed.'
@@ -532,7 +569,8 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         'millenaire:rice',
         'millenaire:maize',
         'millenaire:turmeric',
-        'millenaire:cotton'
+        'millenaire:cotton',
+        //'millenaire:millet'
     ]
     learnedCrops.forEach((crop) => {
         var s = learnedCrop
@@ -704,7 +742,10 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
         ])
         
     event.add('millenaire:village_scroll', [
-            'Contains information about a particular millage.'
+            'Contains information about a particular millage.\nIf tied to a Controlled Millage, it can be crafted together with a Hopper to create a Controlled Hopper, allowing interaction with millage chests.'
+        ])
+    event.add('minecraft:hopper', [
+            'Hoppers are prevented from interacting with locked chests. However, if you own a Controlled Millage (i.e., one you summoned with the Summoning Wand), you can create a Controlled Hopper to interact with its chests. Controlled Hoppers are created by either crafting a Hopper with a Millage Scroll or shift-right-clicking a placed Hopper with a Millage Scroll.'
         ])
     event.add('millenaire:wet_brick', [
             'Placed with a Brick Mould while having Sand and Dirt in the inventory. To dry, leave out in the sun.'

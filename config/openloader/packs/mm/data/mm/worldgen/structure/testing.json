@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "mm:testing",
+  "size": 20,
+  "start_height": {
+    "below_top": 0
+  },
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false,
+  "spawn_overrides": {},
+  "biomes": [],
+  "step": "surface_structures"
+}

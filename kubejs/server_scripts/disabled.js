@@ -109,6 +109,8 @@ var DISABLED_ITEMS = [
     'supplementaries:timber_frame',
     'supplementaries:timber_brace',
     'supplementaries:timber_cross_brace',
+
+    'suppsquared:copper_lantern',
     
     'quark:dirt_bricks',
     'quark:dirt_bricks_slab',
@@ -157,7 +159,13 @@ var DISABLED_ITEMS = [
     'spudaciousshops:shelf_shop_oak',
     'spudaciousshops:shelf_shop_spruce',
     'spudaciousshops:shelf_shop_warped',
-    'spudaciousshops:shelf_shop_jungle'
+    'spudaciousshops:shelf_shop_jungle',
+
+    'cosmeticarmoursmod:blue_toadstool',
+    'cosmeticarmoursmod:lime_toadstool',
+    'cosmeticarmoursmod:orange_toadstool',
+    'cosmeticarmoursmod:magenta_toadstool',
+    'cosmeticarmoursmod:purple_toadstool'
 ]
 
 //use EveryCompat versions, these are not meant to exist unless WoodWorks is installed (which it isn't here).
@@ -200,6 +208,19 @@ const REMOVED_BOOKSHELVES = [
   'atmospheric:kousa_bookshelf',
   'atmospheric:grimwood_bookshelf'
 ]
+const REMOVED_BEEHIVES = [
+  'environmental:willow_beehive',
+  'environmental:pine_beehive',
+  'environmental:plum_beehive',
+  'environmental:wisteria_beehive',
+  'atmospheric:rosewood_beehive',
+  'atmospheric:morado_beehive',
+  'atmospheric:yucca_beehive',
+  'atmospheric:laurel_beehive',
+  'atmospheric:aspen_beehive',
+  'atmospheric:kousa_beehive',
+  'atmospheric:grimwood_beehive'
+]
 
 const DISABLED_SHOPS_UNDYED = [
     'spudaciousshops:shop_acacia',
@@ -213,6 +234,53 @@ const DISABLED_SHOPS_UNDYED = [
     'spudaciousshops:shop_spruce',
     'spudaciousshops:shop_warped',
     'spudaciousshops:shop_jungle'
+]
+
+const REMOVED_SPEARS = [
+    'minecraft:wooden_spear',
+    'minecraft:stone_spear',
+    'minecraft:copper_spear',
+    'minecraft:iron_spear',
+    'minecraft:golden_spear',
+    'minecraft:diamond_spear',
+    'minecraft:netherite_spear',
+]
+
+const REMOVED_KNIVES = [
+    'abnormals_delight:copper_knife',
+    'abnormals_delight:waxed_copper_knife',
+    'abnormals_delight:exposed_copper_knife',
+    'abnormals_delight:weathered_copper_knife',
+    'abnormals_delight:waxed_weathered_copper_knife',
+    'abnormals_delight:oxidized_copper_knife',
+    'abnormals_delight:waxed_oxidized_copper_knife'
+]
+
+const NYI_GHANA_ITEMS = [
+    'millenaire:banco_gold_pillar',
+    'millenaire:banco_painted1',
+    'millenaire:banco_painted2',
+    'millenaire:banco_painted3',
+    'millenaire:pathbanco',
+    'millenaire:pathbanco_slab',
+    'millenaire:pathbancogold',
+    'millenaire:pathbancogold_slab',
+    'millenaire:banco',
+    'millenaire:banco_stairs',
+    'millenaire:banco_slab',
+    'millenaire:banco_wall',
+    'millenaire:oak_beam',
+    'millenaire:millet',
+    'millenaire:millet_straw',
+    'millenaire:ghana_spear',
+    //armors can stay
+    'millenaire:ghana_clothes',
+    'millenaire:maskhanging',
+    'millenaire:calabash',
+    'millenaire:kossam',
+    'millenaire:milk_calabash',
+    'millenaire:millet_beer',
+    'millenaire:thiakry'
 ]
 
 const COLORS = [
@@ -258,26 +326,33 @@ ServerEvents.tags('item', event => {
         addToHiddenTag(event, itemId)
     }
 
+    event.removeAllTagsFrom(REMOVED_CHESTS)
     for (const entry of REMOVED_CHESTS) {
-        event.remove('c:chests/wooden', entry)
-        event.remove('c:chests', entry)
-        event.remove('blueprint:wooden_chests', entry)
         addToHiddenTag(event, entry)
-        //console.info("untagged chest" + entry)
     }
     
+    event.removeAllTagsFrom(REMOVED_TRAPPED)
     for (const entry of REMOVED_TRAPPED) {
-        event.remove('c:chests/trapped', entry)
-        event.remove('c:chests/wooden', entry)
-        event.remove('c:chests', entry)
-        event.remove('blueprint:wooden_trapped_chests', entry)
         addToHiddenTag(event, entry)
-        //console.info("untagged trapped " + entry)
     }
 
+    event.removeAllTagsFrom(REMOVED_BOOKSHELVES)
     for (const entry of REMOVED_BOOKSHELVES) {
-        event.remove('c:bookshelves', entry)
-        event.remove('blueprint:wooden_bookshelves', entry)
+        addToHiddenTag(event, entry)
+    }
+    
+    event.removeAllTagsFrom(REMOVED_BEEHIVES)
+    for (const entry of REMOVED_BEEHIVES) {
+        addToHiddenTag(event, entry)
+    }
+
+    event.removeAllTagsFrom(REMOVED_SPEARS)
+    for (const entry of REMOVED_SPEARS) {
+        addToHiddenTag(event, entry)
+    }
+    
+    event.removeAllTagsFrom(REMOVED_KNIVES)
+    for (const entry of REMOVED_KNIVES) {
         addToHiddenTag(event, entry)
     }
 })

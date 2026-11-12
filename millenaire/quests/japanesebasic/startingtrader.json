@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "japanese/japanese_merchant"
+        "japanese/merchant"
       ],
       "requiredTags": [],
       "forbiddenTags": [

@@ -103,6 +103,8 @@
     {
       "id": "malum:ravenous_pouch",
       "required": false
-    }
+    },
+    "parcool:traceur_gloves",
+    "parcool:traceur_boots"
   ]
 }

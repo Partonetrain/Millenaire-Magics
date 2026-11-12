@@ -223,7 +223,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "grimoireofgaia:bag_book"
+          "name": "grimoireofgaia:bag_book",
+          "weight": 1
         },
         {
           "type": "item",
@@ -232,13 +233,18 @@
         },
         {
           "type": "item",
+          "name": "grimoireofgaia:box_old",
+          "weight": 1
+        },
+        {
+          "type": "item",
           "name": "minecraft:iron_horse_armor",
-          "weight": 6
+          "weight": 4
         },
         {
           "type": "item",
           "name": "minecraft:golden_horse_armor",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "item",
@@ -248,6 +254,11 @@
         {
           "type": "item",
           "name": "quark:monster_box",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "parcool:hook",
           "weight": 1
         }
       ]

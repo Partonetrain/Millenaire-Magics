@@ -1,5 +1,5 @@
 
-﻿boy.greeting=A minha mãe pode coser os buracos na tua roupa.
+boy.greeting=A minha mãe pode coser os buracos na tua roupa.
 boy.greeting=Quero brincar.
 boy.greeting=Como estás?
 chef.greeting=Gosto de cozinhar. Comer, comer!

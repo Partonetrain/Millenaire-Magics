@@ -29,12 +29,12 @@ villager.getresourcesforbuild=Yaab' ti- yaab' tunich.
 
 villager.goplay=Ichil kolom uk chun su'uk.
 
-villager.childobserveagriculture=I wonder what would happen if corn grains were heated very fast?
-villager.childobserveconstruction=Why can't we ever build in something else than stone, I wonder?
-villager.childobservesmithing=Everybody here uses obsidian for tools, but there must be something stronger!
-villager.childobserveproducefood=Why do the adults get all the cacauhaa? It's not fair!
+villager.childobserveagriculture=
+villager.childobserveconstruction=
+villager.childobservesmithing=
+villager.childobserveproducefood=
 
-villager.childeatcacaobeans=Beans alone are a little bitter. I wonder if it would be better soaked in milk?
+villager.childeatcacaobeans=
 
 
 villager.harvestmaize=Ki' k'aaxal ki' hoch.

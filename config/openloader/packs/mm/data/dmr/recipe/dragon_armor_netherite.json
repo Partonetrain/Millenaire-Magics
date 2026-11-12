@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "dmr:netherite_armor_recipe",
+  "category": "misc",
+  "group": "dragon"
+}

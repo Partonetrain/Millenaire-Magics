@@ -126,7 +126,7 @@
           },
           "priority": 460,
           "sub_buildings": [
-            "palace_temple"
+            "playerpalace_temple"
           ]
         },
         {

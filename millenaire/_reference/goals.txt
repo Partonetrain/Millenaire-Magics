@@ -313,6 +313,7 @@ millenaire:craft_wah
 millenaire:craft_wallcarpet_large
 millenaire:craft_wallcarpet_medium
 millenaire:craft_wallcarpet_small
+millenaire:craft_white_dye
 millenaire:craft_wine
 millenaire:craft_wolfsteak
 millenaire:craft_woodenaxe
@@ -376,8 +377,10 @@ millenaire:harvest_flower_home_poppy
 millenaire:harvest_flower_home_rosebush
 millenaire:harvest_flower_poppy
 millenaire:harvest_maize
+millenaire:harvest_millet
 millenaire:harvest_potato
 millenaire:harvest_potato_home
+millenaire:harvest_pumpkin
 millenaire:harvest_rice
 millenaire:harvest_sugar_cane
 millenaire:harvest_turmeric
@@ -431,10 +434,12 @@ millenaire:plant_cotton_home
 millenaire:plant_flowers_yellow
 millenaire:plant_indian_flowers
 millenaire:plant_maize
+millenaire:plant_millet
 millenaire:plant_norman_flowers
 millenaire:plant_olive_saplings
 millenaire:plant_potato
 millenaire:plant_potato_home
+millenaire:plant_pumpkin
 millenaire:plant_rice
 millenaire:plant_rosebush
 millenaire:plant_sapling_appletree_home
@@ -483,9 +488,10 @@ millenaire:take_bath
 millenaire:take_bath_female
 millenaire:teach
 millenaire:tend_sacrifices
+millenaire:terraform
 millenaire:training
 millenaire:tree_relax
 millenaire:visit_building
 millenaire:visit_inn
 
-# Total: 485 goals.
+# Total: 491 goals.

@@ -27,7 +27,8 @@
     "millenaire:craft_dirtwall",
     "millenaire:craft_pathdirt",
     "millenaire:craft_pathgravel",
-    "millenaire:craft_pathgravelslabs"
+    "millenaire:craft_pathgravelslabs",
+    "millenaire:craft_thatchfromrice"
   ],
   "tags": [
     "seller"

@@ -13,7 +13,14 @@
 #If enabled, the snowy wolf variant (the one that only spawns in Groves) can walk on powder snow
 "Snowy Wolf Walks on Powder Snow" = true
 #If enabled, wolves will not scare away skeletons
-#If Don't Chase Skeletons is disabled, this will usually result in wild wolves dying from skeleton retaliation
+#If Don't Chase Skeletons is disabled,  this will usually result in wild wolves dying from skeleton retaliation
 "Don't Scare Skeletons" = true
 #If enabled, wolves will not attack skeletons unprovoked
 "Don't Chase Skeletons" = true
+#If enabled, tamed wolves will no longer tilt their head if you hold a bone
+#It's weird that this happens in vanilla since tamed wolves no longer interact with bones
+"Better Begging" = true
+#If true, you will not be able to feed wild wolves their breeding item (meat)
+#It's weird that this is possible in vanilla since they cannot breed and feeding them doesn't heal them either
+#This also makes wild wolves not tilt their head if you hold meat near them
+"Prevent Wild Meat Feeding" = true

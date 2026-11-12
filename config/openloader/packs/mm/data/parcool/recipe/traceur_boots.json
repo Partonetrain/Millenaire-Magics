@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "l l",
+    "n n"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:gold_nugget"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "parcool:traceur_boots",
+    "count": 1
+  }
+}

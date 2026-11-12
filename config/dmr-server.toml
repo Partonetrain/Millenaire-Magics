@@ -19,7 +19,7 @@ enable_natural_dragon_spawns = false
 	allow_egg_override = true
 	#Should Ender Dragon Eggs replenish on the exit portal after a respawned dragon is defeated?
 	#Useful for multiplayer scenarios.
-	replenish_eggs = true
+	replenish_eggs = false
 	#Allow hybridization between dragons.
 	allow_hybridization = true
 	#Offspring from breeding can turn into dragon type matching current environment.

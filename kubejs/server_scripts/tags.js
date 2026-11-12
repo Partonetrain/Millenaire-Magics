@@ -14,3 +14,15 @@ ServerEvents.tags('block', event => {
 ServerEvents.tags('enchantment', event => {
     event.removeAll('minecraft:tradeable');
 });
+
+//lunge is disabled
+ServerEvents.tags('enchantment', event => {
+  const ids = [
+    'minecraft:non_treasure',
+    'minecraft:on_mob_spawn_equipment',
+    'minecraft:on_traded_equipment',
+    'minecraft:on_random_loot',
+    'minecraft:in_enchanting_table'
+  ]
+  ids.forEach(tag => event.remove(tag, 'minecraft:lunge'))
+})

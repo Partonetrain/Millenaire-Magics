@@ -2,19 +2,22 @@
   "culture": "millenaire:mayan",
   "building_id": "mayancacaofarm",
   "category": "houses",
-  "native_name": "Ka'kau' Makan",
-  "shop": "mayancocoa",
+  "native_name": "Ka\u0027kau\u0027 Makan",
+  "converter_skip": true,
   "male": [
     "cocoafarmer"
   ],
   "female": [
     "peasantwife"
   ],
+  "priority_move_in": 10,
   "tags": [
     "cacaofarm",
     "nopaths"
   ],
   "icon": "minecraft:cocoa_beans",
+  "shop": "mayancocoa",
+  "travel_book_category": "othervillage",
   "variants": [
     {
       "variant": "a",
@@ -80,7 +83,12 @@
             "height": 6,
             "depth": 10
           },
-          "priority": 800
+          "priority": 800,
+          "infoSoils": [
+            {
+              "crop": "cacao"
+            }
+          ]
         },
         {
           "level": 1,

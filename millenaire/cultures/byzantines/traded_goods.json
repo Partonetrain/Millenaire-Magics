@@ -912,6 +912,90 @@
       "category": "construction"
     },
     {
+      "id": "dye_orange",
+      "item": "minecraft:orange_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 4,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_magenta",
+      "item": "minecraft:magenta_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 32,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_light_blue",
+      "item": "minecraft:light_blue_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 64,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_green",
+      "item": "minecraft:green_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 20,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_pink",
+      "item": "minecraft:pink_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 16,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_gray",
+      "item": "minecraft:gray_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 24,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_lightgray",
+      "item": "minecraft:light_gray_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 32,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_cyan",
+      "item": "minecraft:cyan_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 64,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_blue",
+      "item": "minecraft:lapis_lazuli",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 64,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_brown",
+      "item": "minecraft:cocoa_beans",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 1024,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_red",
+      "item": "minecraft:red_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 4,
+      "category": "foreigntrade"
+    },
+    {
+      "id": "dye_black",
+      "item": "minecraft:black_dye",
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 8,
+      "category": "foreigntrade"
+    },
+    {
       "id": "sand",
       "item": "minecraft:sand",
       "selling_price": 4,

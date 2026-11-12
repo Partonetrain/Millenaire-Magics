@@ -22,8 +22,10 @@ ItemEvents.modifyTooltips(event => {
   event.add(['ars_nouveau:glyph_cut'], Text.gray("Use with Sensitive to simulate using a Cutting Board on dropped items"))
   event.add(['ars_nouveau:glyph_bounce'], Text.gray("Effect is removed when entity is hurt"))
 
-   event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oRight-click to permanently upgrade Ultimine by 2 blocks."))
-   event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oCan be used up to 4 times."))
+  event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oRight-click to permanently upgrade Ultimine by 2 blocks."))
+  event.add(['grimoireofgaia:weresheep_token'], Text.gray("§oCan be used up to 4 times."))
+
+  event.add(['grimoireofgaia:box_old'], Text.gray("§oFor best results, open while in the Overworld."))
 
   Ingredient.of("#c:hidden_from_recipe_viewers").itemIds.forEach(itemId => {
     if(itemId === 'millenaire:inuittrident' ||

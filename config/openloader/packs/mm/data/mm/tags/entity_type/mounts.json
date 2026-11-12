@@ -9,6 +9,9 @@
         "environmental:zebra",
         "environmental:zorse",
         "environmental:zonkey",
-        "dmr:dragon"
+        {
+            "id": "dmr:dragon",
+            "required": false
+        }
     ]
 }

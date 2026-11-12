@@ -396,14 +396,16 @@ millenaire-custom/
             └── buildings/
                 └── houses/
                     ├── my_house.json
-                    └── my_house.nbt
+                    └── my_house_a_0.nbt
 ```
 
-Both files share a basename. The `.json` describes the plan (a copy of
+The `.json` describes the plan (a copy of
 `millenaire/_templates/_template_building.json`, edited): it must declare
-`category == "houses"` (matching the directory) and reference the NBT via
-its `template` field. The `.nbt` is captured in-game using the **Import
-Table** block (Section §6.1 has the full workflow).
+`category == "houses"` (matching the directory). Nothing in it points at the
+NBT: each level's structure is found by name, `<id>_<variant>_<level>.nbt`
+in the same folder (`my_house_a_0.nbt` for variant `a`, level 0). The `.nbt`
+is captured in-game using the **Import Table** block (Section §6.1 has the
+full workflow).
 
 After saving, restart the server. You should see a log line like
 `Loaded external building_plan 'norman/my_house'` near boot.
@@ -458,20 +460,12 @@ hyphens, no uppercase.
    if you want every detail). The Import Table writes both the JSON and
    the NBT to `millenaire-custom/exports/`.
 
-2. **Where the NBT lives**. Building NBTs are addressed via two paths:
-
-   - **Sidecar mirror** (the one shipped to authors):
-     `cultures/<c>/buildings/<cat>/<id>.nbt`, next to the JSON. This is
-     where you put your file and what Millénaire deploys when shipping
-     content.
-   - **Resource-location backing path**:
-     `data/<namespace>/structure/<c>/<id>.nbt`. The mod also reads from
-     here when a plan references the NBT through its `template` field
-     (e.g. `millenaire-custom:viking/townhall_a_0`). The deployer mirrors
-     the sidecar copy under this path so both work.
-
-   In practice, **drop your `.nbt` next to the `.json`** under
-   `cultures/<c>/buildings/<cat>/`; the loader handles the rest.
+2. **Where the NBT lives**. Next to the JSON, and nowhere else:
+   `cultures/<c>/buildings/<cat>/<id>_<variant>_<level>.nbt`. The loader
+   derives that path from the plan's id, variant and level, so **drop
+   your `.nbt` files next to the `.json`**. A `template` field left in an
+   older plan is ignored (with a warning), and `data/<namespace>/structure/`
+   is not read for building plans.
 
 3. Edit the generated JSON to fill in `category`, `tags`, `male` /
    `female` / `male_residents` / `female_residents`, `priority_move_in`,

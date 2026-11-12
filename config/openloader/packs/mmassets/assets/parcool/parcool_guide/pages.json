@@ -1,0 +1,57 @@
+[
+  {
+    "group": "parcool.guide.group.parcool",
+    "pages": [
+      {
+        "title": "parcool.guide.page.welcome",
+        "location": "parcool:welcome.md"
+      }
+    ]
+  },
+  {
+    "group": "parcool.guide.group.contents",
+    "pages": [
+      {
+        "title": "parcool.guide.page.tutorial",
+        "location": "parcool:tutorial.md"
+      },
+      {
+        "title": "parcool.guide.page.stamina",
+        "location": "parcool:stamina.md"
+      },
+      {
+        "title": "parcool.guide.page.zipline",
+        "location": "parcool:zipline.md"
+      },
+      {
+        "title": "parcool.guide.page.grapple",
+        "location": "parcool:grapple.md"
+      },
+      {
+        "title": "parcool.guide.page.potion",
+        "location": "parcool:potions.md"
+      },
+      {
+        "title": "parcool.guide.page.equipment",
+        "location": "parcool:equipments.md"
+      }
+    ]
+  },
+  {
+    "group": "parcool.guide.group.actions",
+    "generate": "actions"
+  },
+  {
+    "group": "parcool.guide.group.postscript",
+    "pages": [
+      {
+        "title": "parcool.guide.page.credit",
+        "location": "parcool:credit.md"
+      },
+      {
+        "title": "parcool.guide.page.contact",
+        "location": "parcool:contact.md"
+      }
+    ]
+  }
+]

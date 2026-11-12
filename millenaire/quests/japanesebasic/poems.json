@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "japanese/japanese_richwoman"
+        "japanese/richwoman"
       ],
       "requiredTags": [],
       "forbiddenTags": [

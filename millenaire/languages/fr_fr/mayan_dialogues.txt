@@ -121,7 +121,7 @@ newchat;key:exchange,v1:adult,v2:adult,v1:male,v2:male,weigth:9;
 v1;0;Bonjour, monsieur $targetlastname. Alors, notre marché tient toujours ?
 v2;30;Oui, oui. J'ai tout. Faisons comme nous avions dit.
 v1;60;Toujours aussi ponctuel ! Ravi de faire des affaires avec vous !
-v2;90;Ki’imak óolal haah tin. Le túun... 32 chuun che' tumen 8 máaskab. ¡Péeka'an! q/ Tout le plaisir et pour moi. Alors... 32 bûches contre 8 lingots de fer. Et voilà !
+v2;90;Tout le plaisir et pour moi. Alors... 32 bûches contre 8 lingots de fer. Et voilà !
 v1;120;Merci beaucoup, monsieur. Bonne journée.
 v2;150;A vous aussi, monsieur $targetlastname !
 
@@ -258,7 +258,7 @@ newchat;key:mayanarchitecture,weigth:7;
 v1;0;L'architecture maya est la plus solide du monde.
 v2;30;C'est grâce à toutte la pierre que nous minons pour faire ces beautés.
 v1;60;Je me demande combien de maisons de pierre de plus fera-t-on ?
-v2;90;Chéen k'iin a'al, amikoo./ Seul le temps nous le dira, mon ami.
+v2;90;Seul le temps nous le dira, mon ami.
 
 newchat;key:cacaoyer,weigth:7;
 v1;0;Il y a peu de cacaoyers, par ici. Cet endroit est malsain.

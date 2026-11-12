@@ -1,9 +1,18 @@
 {
     "replace": false,
     "values": [
-        "dmr:dragon_armor",
-        "dmr:dragon_egg",
-        "dmr:dragon_spawn_egg",
+        {
+            "id": "dmr:dragon_armor",
+            "required": false
+        },
+        {
+            "id": "dmr:dragon_egg",
+            "required": false
+        },
+        {
+            "id": "dmr:dragon_spawn_egg",
+            "required": false
+        },
         "minecraft:enchanted_book",
         "minecraft:potion",
         "quark:ancient_tome",

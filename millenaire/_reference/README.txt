@@ -9,7 +9,7 @@ Files:
   goals.txt                All registered goal ids (for villager_type.goals)
   gathering_handlers.txt   All registered gathering handler ids
                            (for gathering_type/<id>.json "handler" field)
-  special_points.txt       The 9 mock block types usable inside NBT templates
+  special_points.txt       The 12 mock block types usable inside NBT templates
 
 Not yet generated (pending):
   tags.txt                 Building + villager tags. Tags are crowd-sourced

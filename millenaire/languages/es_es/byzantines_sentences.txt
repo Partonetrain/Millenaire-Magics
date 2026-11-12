@@ -1,6 +1,6 @@
 
 architect_byzantine.construction=$name! Gnorízate óti oi Romaíoi eínai oi kalýteroi kataskevastés? /¡Oye $name! ¿Sabías que los romanos son los mejores arquitectos?
-architect_byzantine.construction=¡Hey $name! Mira como construyo una bella estructura.
+architect_byzantine.construction=¡Hey $name! Mira cómo construyo una bella estructura.
 architect_byzantine.construction=¡Este edificio será precioso!
 architect_byzantine.construction=No está terminado, pero ya veo la belleza en mi obra.
 architect_byzantine.construction=Construyo exquisitas estructuras. En verdad la construcción es la forma de arte más bella.

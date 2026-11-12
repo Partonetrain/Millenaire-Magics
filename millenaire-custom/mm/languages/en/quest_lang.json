@@ -1,4 +1,24 @@
 {
+  "noodles_0_description": "Udon is nice and all, but sometimes the noodles are made too thick, and I find myself nearly choking on them...<ret>Perhaps you know of a different method of preparing noodles? I will pay handsomely.",
+  "noodles_0_description_refuse": "That's too bad.",
+  "noodles_0_description_success": "Sugoi! You are a wonderful chef!",
+  "noodles_0_label": "Udon Ennui",
+
+  "candy_0_description": "It's $name! It's $name! My parents talk about you. They said you have weird food. Do you have any treats?",
+  "candy_0_description_refuse": "Aw.... My parents were wrong...",
+  "candy_0_description_success": "I knew it! Yummy!",
+  "candy_0_label": "Sweet Tooth",
+
+  "bakedcodstew_0_description": "Argh! My Potato Stew is just not coming out correctly. It is always too starchy. It is frustrating. Have you any ideas?",
+  "bakedcodstew_0_description_refuse": "I thought you more well-travelled, $name.",
+  "bakedcodstew_0_description_success": "My my, this is brilliant. I had not thought to mix fish with potato. What is this red bit?<ret>Tomato? It will not grow here... but you have inspired me all the same.",
+  "bakedcodstew_0_label": "Stew Situation",
+
+  "burger_0_description": "Guard duty is either hard labor or mind-numbingly boring. There is little else. I feel as though my very soul is slipping away. Alcohol helps, but 'tis a bad habit.<ret>Have you ever experienced this feeling, $name? What do you do?",
+  "burger_0_description_refuse": "Very well. I would not expect one such as you to understand my plight.",
+  "burger_0_description_success": "What is this called? A \"burger\"? This is the best thing I have ever eaten. And this? A \"shake\"?<ret>You must be very skilled to have made these. You continue to impress us, $name. I will not forget the service you provided this day.",
+  "burger_0_label": "Burger for a Bad Habit",
+
   "abbotbooksdelivery_0_description": "My child $name, it is good to see you. I have great need of some precious books for my research, kept in the remote monastery of $loneabbot_villagename$. Would you be kind to an old man and request them from my old friend Abbot $loneabbot_villagername$? I will write you a letter of introduction. You will find his monastery around $loneabbot_distance$ to the $loneabbot_direction$.",
   "abbotbooksdelivery_0_description_refuse": "Young people are so unhelpful.",
   "abbotbooksdelivery_0_description_success": "God be with you on your travels.",
@@ -57,7 +77,7 @@
   "alchemist_11b_knightseneschal_0_description_refuse": "Then why do you bother me?",
   "alchemist_11b_knightseneschal_0_description_success": "Come back and see me if he manages to turn lead into gold. He's been promising that for years!",
   "alchemist_11b_knightseneschal_0_label": "Speak with the Village Leader",
-  "alchemist_12_theexperiment_0_description": "I have never seen anything like this powder... I cannot begin to understand what it is or how it is produced. This is far beyond my alchimic skills, $name. Far beyond them. All I have been able to determine is that it can be used as an explosive. I have tried only minute doses and I have still come close to destroying this place. I do not need to tell you what I want you to try now, my friend. But listen carefully, as this product is very, very reactive.<ret><ret>I have managed to stabilise it by mixing it with other materials, so that it takes the form of a cube. Under that form it seems stable, you can handle it without risks - I hope. However detonating normal explosives close to it will cause that powder to react. I believe it will violently explode. Quite how violently I cannot know, but try and be far away when it does.<ret><ret>Make sure to have it explode right next to the bedrock. I might not be able to produce another batch if you fail with this one.",
+  "alchemist_12_theexperiment_0_description": "I have never seen anything like this powder... I cannot begin to understand what it is or how it is produced. This is far beyond my alchemic skills, $name. Far beyond them. All I have been able to determine is that it can be used as an explosive. I have tried only minute doses and I have still come close to destroying this place. I do not need to tell you what I want you to try now, my friend. But listen carefully, as this product is very, very reactive.<ret><ret>I have managed to stabilise it by mixing it with other materials, so that it takes the form of a cube. Under that form it seems stable, you can handle it without risks - I hope. However detonating normal explosives close to it will cause that powder to react. I believe it will violently explode. Quite how violently I cannot know, but try and be far away when it does.<ret><ret>Make sure to have it explode right next to the bedrock. I might not be able to produce another batch if you fail with this one.",
   "alchemist_12_theexperiment_0_description_refuse": "Then why do you bother me?",
   "alchemist_12_theexperiment_0_description_success": "Robert will supply you with the ordinary explosives. Be careful, and let us soon drinks to the breach in the bedrock!",
   "alchemist_12_theexperiment_0_label": "The Experiment",
@@ -191,7 +211,7 @@
   "alchemist_9_anomalytwob_1_listing": "Explore the second anomaly and bring anything strange you find there to the Alchemist",
   "architectwife_0_description": "My husband $architect_villagername$ the architect is starving and I forgot to pack food for him! Could you please take him this fish?",
   "architectwife_0_description_refuse": "You are really not the helpful kind.",
-  "architectwife_0_description_success": "Thank you my good man!",
+  "architectwife_0_description_success": "Thank you!",
   "architectwife_0_label": "Husband's lunch",
   "architectwife_1_description": "My wife forgot my meal again! Ah, women!",
   "architectwife_1_description_refuse": "Never trust a stranger.",

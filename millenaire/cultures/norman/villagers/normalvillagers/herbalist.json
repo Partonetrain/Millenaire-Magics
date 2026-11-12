@@ -40,14 +40,15 @@
     "millenaire:remove_flower_home_blue_orchid",
     "millenaire:remove_flower_home_poppy",
     "millenaire:remove_flower_home_dandelion",
-    "millenaire:craft_bonemeal"
+    "millenaire:craft_bonemeal",
+    "millenaire:craft_white_dye"
   ],
   "tags": [
     "seller"
   ],
   "spawn_weight": 0,
   "initial_inventory": {
-    "minecraft:white_dye": 20
+    "minecraft:bone_meal": 20
   },
   "required_goods": {
     "minecraft:bone": 10

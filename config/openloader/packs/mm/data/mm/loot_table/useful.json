@@ -50,7 +50,18 @@
         },
         {
           "type": "minecraft:item",
-          "name": "millenaire:denier_argent"
+          "name": "millenaire:denier_or"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "millenaire:rice",
+          "functions": [
+            {
+              "add": false,
+              "count": 3,
+              "function": "minecraft:set_count"
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",

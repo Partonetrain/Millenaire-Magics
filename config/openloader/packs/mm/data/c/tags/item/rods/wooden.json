@@ -1,0 +1,10 @@
+{
+    "values":[
+    
+    ],
+    "remove": [
+        "the_beyond:bleeding_thorn",
+        "the_beyond:blinding_thorn",
+        "the_beyond:stalker_segment"
+    ]
+}

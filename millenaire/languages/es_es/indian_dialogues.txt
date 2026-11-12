@@ -214,7 +214,7 @@ v2;200;Entonces deberías sentirte bendecida por tener un marido como yo.
 newchat;key:alcohol,v1:vtype:indian_peasant-indian_lumberman,v2:vtype:indian_peasant-indian_lumberman,weigth:10
 v1;0;Hace mucho que no tomo alcohol.
 v2;50;Hay un hombre que se sienta debajo del baniano afuera del pueblo y vende alcohol y cacahuates.
-v1;110;¿De Verdad? ¡Pensé que estaba prohibido vender alcohol en el pueblo!
+v1;110;¿De verdad? ¡Pensé que estaba prohibido vender alcohol en el pueblo!
 v2;160;No se lo cuentes a nadie.
 v1;200;Vale, vayamos allí hoy por la tarde
 

@@ -1,3 +1,6 @@
 [
-  {"version":2}
+  {"version":2},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"minecraft:enchanted_book","components":"{\"minecraft:stored_enchantments\":{levels:{\"notenoughtrials:storm_front_marker\":1}}}"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"dmr:dragon_armor","components":"{\"dmr:armor_type\":\"emerald\"}"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"patchouli:guide_book","components":"{\"patchouli:book\":\"grimoireofgaia:gaiapedia\"}"},"type":"item_stack"}}
 ]

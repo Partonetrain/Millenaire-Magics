@@ -156,26 +156,31 @@
         {
           "type": "minecraft:item",
           "name": "quark:slime_in_a_bucket",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "environmental:slabfish_bucket",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "atmospheric:tetra_bucket",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:sulfur_cube_bucket",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "quark:crab_bucket",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "the_beyond:trinket_bucket",
           "weight": 1
         },
         {
@@ -195,6 +200,22 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:copper_golem_statue",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:compass",
           "weight": 1
         },
@@ -212,7 +233,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.333
+          "chance": 0.25
         }
       ]
     },
@@ -222,12 +243,14 @@
         {
           "type": "minecraft:item",
           "name": "atmospheric:grimweb",
-          "weight": 3
+          "weight": 3,
+          "quality": -1
         },
         {
           "type": "minecraft:item",
           "name": "malum:rotting_essence",
-          "weight": 3
+          "weight": 2,
+          "quality": -1
         },
         {
           "type": "minecraft:item",
@@ -241,8 +264,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "grimoireofgaia:giga_gear",
+          "name": "malum:blighted_gunk",
           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:giga_gear",
+          "weight": 1,
+          "quality": 1
         }
       ],
       "conditions": [

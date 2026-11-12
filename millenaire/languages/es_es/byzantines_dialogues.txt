@@ -238,8 +238,8 @@ v1;60;¡Gracias a los herreros y artesanos, a los que se les ocurrieron estas co
 v2;90;¡Sí! Por eso me encanta ser romana.
 
 newchat;key:chatter9,v1:female,v2:female,v1:adult,v2:adult,v1:notvtype:lady_byzantine,v2:notvtype:lady_byzantine,weigth:15
-v1;0;Estoy envidioso de esa gente rica.
-v1;20;¡Ellos tienen ropas de seda muy lindas!
+v1;0;Envidio a esa gente rica.
+v1;20;¡Tienen unos vestidos de seda preciosos!
 v2;50;Eso realmente no es justo. Ellos no hacen nada y siempre tienen las mejores cosas.
 
 newchat;key:chatter10,v1:female,v2:female,v1:adult,v2:adult,weigth:1
@@ -416,127 +416,6 @@ v1;270;Ya lo he hecho y no he recibido nada de Dios. Cuando terminé de rezar, l
 v2;300;¿Qué? ¡Claramente has renunciado a Dios para que no descubrir la verdad! ¡Vete de vuelta a rezar hasta que puedas volver a matar bárbaros!
 v1;330;¡Quizás sea esta la conclusión a la que Dios quería que llegara!
 v2;360;Más bien suena a que Dios quiere que te retires...
-
-newchat;key:goodharvest1withtavern,v1:adult,v2:adult,v2:notvtype:pastor_byzantine-metropolit_byzantine,building:farm,building:vineyard,building:taverna,weigth:14
-
-
-
-
-
-
-
-newchat;key:cider,v1:adult,v2:adult,notbuilding:taverna,weigth:2
-
-
-
-
-
-
-
-newchat;key:boyvillagechief,v1:child,v1:vtype:baron_byzantine-centurio_byzantine-metropolit_byzantine,v1:male,weigth:5
-
-
-
-
-
-
-
-newchat;key:chatter9,v1:female,v2:female,v1:adult,v2:adult,v1:notvtype:baroness_byzantine,v2:notvtype:baroness_byzantine,weigth:15
-
-
-
-
-newchat;key:talking1,v1:male,v2:male,v1:adult,v2:adult,v1:hasspouse,v2:notvtype:metropolit_byzantine-pastor_byzantine,weigth:15
-
-
-
-
-
-newchat;key:talking2,v1:male,v2:male,v1:adult,v2:adult,v1:notvtype:monk_byzantine-pastor_byzantine-metropolit_byzantine,v2:notvtype:monk_byzantine-pastor_byzantine-metropolit_byzantine,weigth:15
-
-
-
-
-
-newchat;key:talking4,v1:male,v2:male,v1:adult,v2:adult,v1:vtype:miner_byzantine-farmiller_byzantine-lumberman_byzantine,v2:vtype:miner_byzantine-farmiller_byzantine-lumberman_byzantine,weigth:15
-
-
-
-
-
-
-
-
-newchat;key:talking5,v1:male,v2:male,v1:adult,v2:adult,v1:notvtype:pastor_byzantine-metropolit_byzantine-armysmith_byzantine-baron_byzantine,v2:notvtype:pastor_byzantine-metropolit_byzantine-armysmith_byzantine-baron_byzantine,weigth:15
-
-
-
-
-
-newchat;key:religious1,v1:vtype:metropolit_byzantine-pastor_byzantine,v2:male,weigth:10
-
-
-
-newchat;key:religious2,v1:vtype:metropolit_byzantine-pastor_byzantine,v2:female,weigth:10
-
-
-
-newchat;key:religious3,v1:vtype:metropolit_byzantine-pastor_byzantine,v2:female,weigth:10
-
-
-
-
-
-
-newchat;key:religious4,v1:vtype:metropolit_byzantine-pastor_byzantine,v2:male,weigth:10
-
-
-
-
-
-
-newchat;key:ticlon,v1:notvtype:pastor_byzantine-metropolit_byzantine,v2:vtype:pastor_byzantine-metropolit_byzantine,weigth:1
-
-
-
-
-
-newchat;key:nobakery,building:farm,notbuilding:windmill,v1:adult,v2:adult,weigth:15
-
-
-
-
-
-
-
-
-newchat;key:baron1,v1:adult,v1:vtype:baron_byzantine,v2:adult,v2:male,v2:notvtype:pastor_byzantine,weigth:10
-
-
-
-
-
-
-
-newchat;key:sun,tag:notraining,weigth:10
-
-
-
-newchat;key:inuits,v1:adult,v2:adult,weigth:10
-
-
-
-
-
-
-
-
-
-
-newchat;key:notavern,v1:adult,v1:male,v2:adult,v2:male,notbuilding:taverna,weigth:20
-
-
-
 
 newchat;key:sunZombie,tag:notraining,weigth:2
 v1;0;¡Me encantan los días soleados!

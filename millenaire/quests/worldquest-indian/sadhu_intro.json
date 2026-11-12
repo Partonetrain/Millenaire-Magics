@@ -13,7 +13,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_pandit"
+        "indian/pandit"
       ],
       "requiredTags": [],
       "forbiddenTags": []

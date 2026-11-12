@@ -62,6 +62,7 @@
     "millenaire:craft_clothes_wool",
     "millenaire:craft_clothes_silk",
     "millenaire:craft_bonemeal",
+    "millenaire:craft_white_dye",
     "millenaire:harvest_flower_home_dandelion",
     "millenaire:plant_flowers_yellow"
   ],
@@ -70,7 +71,7 @@
   ],
   "spawn_weight": 0,
   "initial_inventory": {
-    "minecraft:white_dye": 20
+    "minecraft:bone_meal": 20
   },
   "required_goods": {
     "millenaire:silk": 32,

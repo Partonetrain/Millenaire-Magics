@@ -10,20 +10,20 @@
 	generateHamlets = false
 	#Minimum distance between two villages (blocks)
 	# Default: 500
-	# Range: 300 ~ 1000
+	# Range: > 0
 	minVillageDistance = 500
 	#Minimum distance between two lone buildings (blocks)
 	# Default: 500
-	# Range: 300 ~ 1000
+	# Range: > 0
 	minLoneBuildingDistance = 500
 	#Minimum distance between a village and a lone building (blocks)
 	# Default: 250
-	# Range: 100 ~ 800
+	# Range: > 0
 	minVillageLoneBuildingDistance = 250
 	#Protected area around world spawn where nothing generates (blocks)
 	# Default: 250
 	# Range: 0 ~ 500
-	spawnProtectionRadius = 500
+	spawnProtectionRadius = 300
 
 	#Progressive completion for distant villages
 	[generation.completion]
@@ -64,9 +64,9 @@
 	# Range: -1 ~ 120
 	villageRadiusOverride = -1
 	#Minimum spacing between buildings in a village (blocks)
-	# Default: 5
+	# Default: 3
 	# Range: 0 ~ 10
-	minBuildingSpacing = 5
+	minBuildingSpacing = 2
 	#Generate and upgrade paths between village buildings (lateral paths Pass 3)
 	buildPaths = true
 	#Maximum number of children per village
@@ -86,6 +86,42 @@
 	#Applies to villagers spawned/loaded after the change. Default: WAYPOINT.
 	#Allowed Values: WAYPOINT, LOCAL_RECOVERY
 	navDriver = "WAYPOINT"
+	#EXPERIMENTAL. When a village finds no room for its next building,
+	#plan an earthwork (lower a hill, fill a hollow) and let its builders do it.
+	#Not part of the original mod; on by default (profile 'extended').
+	villagerTerraforming = true
+	#EXPERIMENTAL. Largest earthwork (blocks cut + filled) a village plans for one building.
+	# Default: 10000
+	# Range: 200 ~ 20000
+	terraformMaxVolume = 10000
+	#EXPERIMENTAL. How far (blocks) the slopes of an earthwork may run beyond its pad.
+	# Default: 20
+	# Range: 4 ~ 30
+	terraformMaxReach = 20
+	#EXPERIMENTAL, further from the original mod. A terraformed pad may sit this far
+	#from the town hall altitude. 9 = the original +/-9 building gate; more lets
+	#terraces step down to lowland or up a hillside.
+	# Default: 16
+	# Range: 9 ~ 22
+	terraformAltitudeGate = 16
+	#EXPERIMENTAL, further from the original mod. Earthworks may fill shallow still
+	#water mostly surrounded by land up to dry land (ponds, marsh pools, narrow
+	#coves). Water is never dug, and no body of water is cut in two.
+	terraformFillWater = true
+	#EXPERIMENTAL. Deepest water (blocks) an earthwork may fill.
+	# Default: 4
+	# Range: 1 ~ 12
+	terraformMaxWaterDepth = 4
+	#EXPERIMENTAL. With terraformFillWater, also fill open shallow water (sea
+	#shallows, wide lakes): new land may then stick out as a headland.
+	terraformReclaimOpenWater = false
+	#Where slopes cannot meet the ground (mountain sides), a terrace may end in a
+	#stone-faced vertical wall: cut up to this many blocks into the slope above it
+	#(the wall under a filled pad stays at most 3). A terrace the village cannot walk
+	#to gets an access ramp. 0 = no walls and no ramps.
+	# Default: 6
+	# Range: 0 ~ 8
+	terraformRetainingWall = 6
 
 #Gameplay settings
 [gameplay]

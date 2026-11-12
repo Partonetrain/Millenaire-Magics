@@ -18,7 +18,7 @@
   "variants": [
     {
       "variant": "a",
-      "building_orientation": 2,
+      "building_orientation": 3,
       "ground_level": -1,
       "tags": [
         "forge",

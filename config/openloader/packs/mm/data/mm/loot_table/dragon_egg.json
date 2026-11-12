@@ -6,11 +6,13 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 3
+          "weight": 3,
+          "quality": -1
         },
         {
           "name": "dmr:blank_egg",
           "weight": 1,
+          "quality": 1,
           "type": "minecraft:item"
         }
       ],
@@ -40,11 +42,13 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 1
+          "weight": 1,
+          "quality": -1
         },
         {
           "name": "dmr:blank_egg",
           "weight": 1,
+          "quality": 1,
           "type": "minecraft:item"
         }
       ],

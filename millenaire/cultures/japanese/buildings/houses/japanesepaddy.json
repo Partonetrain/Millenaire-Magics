@@ -1,7 +1,7 @@
 {
   "culture": "millenaire:japanese",
   "building_id": "japanesepaddy",
-  "category": "core",
+  "category": "houses",
   "native_name": "Suiden",
   "converter_skip": true,
   "min_distance": 0.6,

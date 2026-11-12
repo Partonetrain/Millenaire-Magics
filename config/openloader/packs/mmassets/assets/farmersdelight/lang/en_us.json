@@ -4,10 +4,10 @@
   "block.farmersdelight.rope_fence_gate": "Straw Rope Fence Gate",
 
   "farmersdelight.tooltip.cooking_pot.empty": "Empty",
-  "jei.farmersdelight.info.wild_rice": "Farmer's Delight Rice has been replaced with Millenaire rice.",
+  "jei.farmersdelight.info.wild_rice": "Farmer's Delight Rice has been replaced with Millénaire rice. Wild rice can still be found, but planting it must be learned from a millage leader. ",
 
   "item.farmersdelight.apple_cider": "Apple Juice",
-
+  
   "effect.farmersdelight.nourishment.0.desc": "Prevents hunger loss, except when using saturation to heal damage.",
   "effect.farmersdelight.nourishment.description": "Prevents hunger loss, except when using saturation to heal damage.",
   "effect.farmersdelight.comfort.0.desc": "Provides natural regeneration, regardless of how hungry you are.",

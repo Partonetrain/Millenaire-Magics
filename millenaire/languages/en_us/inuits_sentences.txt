@@ -50,7 +50,7 @@ art_merchant.greeting=People here are barbarians.
 oriental_merchant.greeting=This land is rich, but does it have to be so cold?
 oriental_merchant.greeting=Have you been to Cordoba? Now that is a civilised place.
 
-plant_merchant.greeting=Some people say I'm a dreamer, but I'm not the only one... /
+plant_merchant.greeting=Some people say I'm a dreamer, but I'm not the only one...
 
 viking_merchant.greeting=Today I come to trade. Tomorrow...
 viking_merchant.greeting=This land is viking land. England is viking land. Sicily is viking land. We rule!

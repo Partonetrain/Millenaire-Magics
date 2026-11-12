@@ -1,6 +1,19 @@
 {
     "values":
     [
+        "minecraft:copper_horse_armor",
+        "malum:copper_nugget",
+
+        "minecraft:wooden_spear",
+        "minecraft:stone_spear",
+        "minecraft:iron_spear",
+        "minecraft:golden_spear",
+        "minecraft:diamond_spear",
+        "minecraft:netherite_spear",
+
+        "starbunclemania:star_sword",
+        "starbunclemania:star_wand",
+
         "minecraft:debug_stick",
         "minecraft:barrier",
         "minecraft:command_block",
@@ -77,6 +90,10 @@
         "spudaciousshops:stock_warning",
 
         "#boatload:large_boats",
-        "#boatload:furnace_boats"
+        "#boatload:furnace_boats",
+
+        "the_beyond:filler",
+        "the_beyond:hollower",
+        "the_beyond:liner"
     ]
 }

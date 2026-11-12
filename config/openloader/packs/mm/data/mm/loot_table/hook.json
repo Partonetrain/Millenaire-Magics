@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "parcool:hook",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mm:hook"
+}

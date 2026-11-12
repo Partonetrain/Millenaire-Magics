@@ -15,7 +15,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_sadhu"
+        "indian/sadhu"
       ],
       "requiredTags": [],
       "forbiddenTags": []

@@ -13,7 +13,7 @@
     {
       "key": "localshaman",
       "villagerTypes": [
-        "mayan/mayan_shaman"
+        "mayan/shaman"
       ],
       "requiredTags": [],
       "forbiddenTags": []
@@ -21,9 +21,9 @@
     {
       "key": "localleader",
       "villagerTypes": [
-        "mayan/mayan_chieftain",
-        "mayan/mayan_king",
-        "mayan/mayan_leader"
+        "mayan/chieftain",
+        "mayan/king",
+        "mayan/leader"
       ],
       "relatedTo": "localshaman",
       "relation": "samevillage",

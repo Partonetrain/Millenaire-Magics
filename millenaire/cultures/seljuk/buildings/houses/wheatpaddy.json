@@ -10,6 +10,9 @@
     "agricultural"
   ],
   "icon": "minecraft:wheat",
+  "close_to_tags": [
+    "mill,50"
+  ],
   "variants": [
     {
       "variant": "a",
@@ -22,6 +25,9 @@
       "levels": [
         {
           "level": 0,
+          "required_village_tags": [
+            "mill_built"
+          ],
           "footprint": {
             "width": 11,
             "height": 3,
@@ -36,6 +42,9 @@
         },
         {
           "level": 1,
+          "required_village_tags": [
+            "mill_built"
+          ],
           "footprint": {
             "width": 11,
             "height": 3,

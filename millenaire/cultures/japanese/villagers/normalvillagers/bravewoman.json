@@ -20,7 +20,8 @@
     "millenaire:craft_thatchfromwheat",
     "millenaire:get_resources_for_shops",
     "millenaire:deliver_resources_shop",
-    "millenaire:get_goods_for_household"
+    "millenaire:get_goods_for_household",
+    "millenaire:craft_thatchfromrice"
   ],
   "tags": [
     "archer",

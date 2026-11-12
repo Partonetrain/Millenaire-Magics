@@ -37,7 +37,6 @@
 #If disabled and Reflect Any Projectile is enabled (or arrows/tridents are added to minecraft:redirectable_projectile via datapack), you will be able to pick up reflected arrows/tridents. Recommended you keep enabled
 "Fix Redirected Arrows" = true
 #If set to true, critical arrows will deal 1.5x their damage rather than a random amount of damage between (0 and (damage/2)+2)
-#This config respects the Crit Multiplier option if the Kritz feature is enabled
 #Leave as default (false) for vanilla behavior
 #If you have Zenith/Apothic Attributes this should be set to false
 "Normalize Ranged Crits" = true

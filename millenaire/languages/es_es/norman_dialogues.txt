@@ -316,7 +316,7 @@ v1;60;¡En efecto!
 newchat;key:wife,v1:vtype:wife,v2:male,v2:adult,weigth:10
 v1;0;¿Por qué las mujeres siempre son las que estamos decorando?
 v2;40;Si te molesta, me ocuparé la próxima vez.
-v1;80;¿De Verdad? ¡Eso es tan dulce! Entonces, con respecto a las cortinas, no te olvides de...
+v1;80;¿De verdad? ¡Eso es tan dulce! Entonces, con respecto a las cortinas, no te olvides de...
 v2;120;En realidad no, creo que te dejaré hacerlo.
 
 newchat;key:alchemyworkshop,villager:alchemistapprentice,v1:notvtype:alchemistapprentice-guildmaster,v2:notvtype:alchemistapprentice-guildmaster,v1:adult,v2:adult,weigth:10

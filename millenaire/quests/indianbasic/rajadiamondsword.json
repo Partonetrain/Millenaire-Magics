@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_raja"
+        "indian/raja"
       ],
       "requiredTags": [],
       "forbiddenTags": [
@@ -21,7 +21,7 @@
     {
       "key": "general",
       "villagerTypes": [
-        "indian/indian_rajputgeneral"
+        "indian/rajputgeneral"
       ],
       "relatedTo": "startvillager",
       "relation": "nearbyvillage",

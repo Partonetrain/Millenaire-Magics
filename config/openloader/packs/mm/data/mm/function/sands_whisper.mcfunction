@@ -1,0 +1,1 @@
+execute as @s run tellraw @s ["",{"text":"there is truly","italic":true,"color":"gold"},{"text":" nothing ","bold":true,"italic":true,"color":"gold"},{"text":"here...","italic":true,"color":"gold"}]

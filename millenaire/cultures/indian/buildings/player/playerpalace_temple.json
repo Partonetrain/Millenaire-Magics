@@ -4,7 +4,7 @@
   "category": "player",
   "is_sub_building": true,
   "parent_building": {
-    "id": "palace",
+    "id": "playerpalace",
     "variant": "a",
     "level": 9
   },

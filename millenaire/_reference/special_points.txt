@@ -10,10 +10,69 @@ millenaire:mock_marker          Generic marker (spawn point, waypoint, etc.)
 millenaire:mock_facing_marker   Directional marker (door facing, etc.)
 millenaire:mock_chest           Chest spawn location
 millenaire:mock_soil            Farmable soil zone
-millenaire:mock_source          Resource source marker (water source, etc.)
-millenaire:mock_free            Free space (kept empty during construction)
+millenaire:mock_source          Quarry source: placed as its material, mined by
+                                villagers (mining "sourceSubtype")
+millenaire:mock_free            Cost-free block: placed as its material, not
+                                counted in the building cost
 millenaire:mock_tree_spawn      Tree planting location
 millenaire:mock_animal_spawn    Animal spawn zone
 millenaire:mock_decor           Decorative item placement
 
-# Total: 9 mock block types.
+# Generic markers (data-extensible) — the subtype is a registry id held by
+# the block's block entity ("payload"), not a blockstate. In creative mode,
+# right-click the placed marker with an item to set it (sneaking or not);
+# with an empty hand, right-click shows the current payload. Pick-block
+# (middle click) copies the payload.
+
+millenaire:mock_generic_soil         Soil for any farmland crop. Payload: the
+                                     seed item id (right-click with a seed whose
+                                     block is a crop or a stem), e.g.
+                                     mymod:blueberry_seeds. The builder places
+                                     dirt.
+millenaire:mock_generic_tree_spawn   Tree planting location for any sapling.
+                                     Payload: the sapling item id, e.g.
+                                     minecraft:cherry_sapling.
+millenaire:mock_generic_animal_spawn Pen spawn for any mob. Payload: the entity
+                                     type id from any spawn egg, e.g. minecraft:goat.
+                                     Monsters are accepted: they are persistent,
+                                     tagged millenaire_pen and exempt from the
+                                     village mob sweeps (they still attack).
+millenaire:mock_generic_source       Quarry source of any full block. Payload: the
+                                     blockstate placed, e.g. minecraft:tuff (right-
+                                     click with the block; its placement orientation
+                                     is kept). Special point subtype: the block id.
+millenaire:mock_generic_free         Cost-free block of any single-cell block.
+                                     Payload: the blockstate placed, e.g.
+                                     minecraft:oak_log[axis=x]. Both refuse blocks
+                                     with a block entity (chests...) and two-part
+                                     blocks (doors, beds, tall plants). Sneak to
+                                     place a block against them without changing
+                                     their payload.
+
+# Authoring rules for generic content:
+#  - Crops: the gathering type JSON matches the payload through
+#    "soilSubtype": "<seed id>", with "cropBlock" / "seedItem". Farmland crops
+#    only (CropBlock / StemBlock, Millenaire seeds and grapes included; no
+#    rice or sugar cane). Provision the first seeds (starting goods) or
+#    omit "seedItem"; harvests supply more. Subtype-less flower types never
+#    plant on generic soil. A generic soil subtype that no gathering type
+#    references is logged at server start (typo check).
+#  - Trees: "subtypeFilter": "<sapling id>" (optional). The ground under a tree
+#    spawn is grass; a sapling needing other ground will not survive. Modded logs
+#    outside minecraft:logs are never chopped.
+#  - Animals: breeding / slaughter JSONs take the full "animalType" id. The pen
+#    cap is per entity type ("cow" and "minecraft:cow" share it); breeding and
+#    slaughter cap on all animal spawn points of the building together.
+#  - Sources: a "mining" JSON names the block id in "sourceSubtype"
+#    (e.g. "minecraft:tuff"; "stone" does not match "minecraft:stone"). A
+#    generic source that no mining type names is logged at server start.
+#    Sources and free blocks cost nothing; a payload naming an absent mod
+#    places nothing (warned once).
+#  - Upgrade levels: at the same position, a later level's generic point
+#    replaces the earlier one; removing a marker does not remove the point.
+#  - An empty or malformed payload is skipped with a warning; the template
+#    does not fall back to its _special_points sidecar.
+#  - Unknown ids (missing mod) still load; the points are skipped at runtime
+#    with one warning per id.
+
+# Total: 12 mock block types.

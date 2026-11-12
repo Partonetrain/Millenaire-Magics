@@ -10,6 +10,14 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potato"
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:pumpkin_seeds"
                 },
                 {

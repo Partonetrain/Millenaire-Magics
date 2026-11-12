@@ -11,9 +11,9 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "mayan/mayan_warrior",
+        "mayan/warrior",
         "norman/guard",
-        "indian/indian_soldier"
+        "indian/soldier"
       ],
       "requiredTags": [],
       "forbiddenTags": [
@@ -23,9 +23,9 @@
     {
       "key": "miner",
       "villagerTypes": [
-        "mayan/mayan_miner",
+        "mayan/miner",
         "norman/miner",
-        "indian/indian_miner"
+        "indian/miner"
       ],
       "relatedTo": "startvillager",
       "relation": "samevillage",
@@ -36,8 +36,8 @@
       "key": "wife",
       "villagerTypes": [
         "norman/wife",
-        "indian/indian_peasantwife",
-        "mayan/mayan_peasantwife"
+        "indian/peasantwife",
+        "mayan/peasantwife"
       ],
       "relatedTo": "miner",
       "relation": "samehouse",

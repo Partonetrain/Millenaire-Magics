@@ -1,9 +1,4 @@
 [General]
-	#If true, prevent all hopper interactions with Locked Chests
-	#Locked Chests should not work with standard modded item transfers (i.e., Create chutes) regardless of this config, because they lack Capabilities
-	#They only work with hoppers by default due to inheriting vanilla chest code
-	#However, other modded hoppers may or may not be affected by this - it depends on how they were implemented
-	"Prevent Hopper Interactions" = true
 	#If true, enables a datapack containing composter values for Millenaire crops and related blocks will be enabled
 	"Compost Datapack" = true
 	#Entities in the entity type tag cle:millagers_deal_modified_damage_to will take modified damage when attacked by millagers
@@ -15,7 +10,7 @@
 	#If true, any entity in the the entity type tag cle:hunts_millagers will hunt millagers, even if their original logic said they should not
 	#(This is a config option unlike the other tags because it has the potential to introduce lag)
 	"Hunts Millagers" = true
-	#If true, any entity in the the entity type tag cle:hunts_millagers will despawn if it is within the bounds of a millage
+	#If true, any entity in the the entity type tag cle:despawns_in_millage will despawn if it is within the bounds of a millage
 	#This is a distinct mechanic from individual buildings with the despawnallmobs tag
 	#(Similar to Hunts Millagers, this has the potential to introduce lag)
 	"Despawns In Millage" = true
@@ -33,7 +28,7 @@
 	#(It seems unintentional that it isn't like this by default: Grape Vine block extends BushBlock, but it doesn't override useWithoutItem)
 	"Grape Vine Right Click" = true
 	#If true, enables a datapack that tags various vanilla and modded items with `#millenaire:own_right_click`, which allows them to be used on villagers instead of opening the villager's menu
-	#(As of 9.0.1 this only applies to bandits, which is a bug that needs to be fixed in the main mod)
+	#(As of 9.1.0 this only applies to bandits, which is a bug that needs to be fixed in the main mod)
 	"Own Right Click Datapack" = true
 	#If true, millagers will have a flee block AI goal added to them, where they will run away from any block near them in the tag cle:millagers_afraid_of
 	#If the millager isn't a bandit, any players nearby will be blamed for it, and their reputation reduced
@@ -51,6 +46,21 @@
 	#If true, the mechanic that despawns mobs near buildings with the "despawnallmobs" tag is disabled
 	#By default only special buildings such as the Pantheon have this tag
 	"Disable Despawn All Mobs" = false
+	#If true, prevent hopper interactions with Locked Chests blocks that belong to buildings
+	#Locked Chests should not work with standard modded item transfers (i.e., Create chutes) regardless of this config, because they lack Capabilities
+	#They only work with hoppers by default due to inheriting vanilla chest code
+	#However, other modded hoppers may or may not be affected by this - it depends on how they were implemented
+	"Fix Hopper Interactions" = true
+	#If true, Controlled Hoppers will be craftable and function
+	#Create Controlled Hoppers by either crafting a hopper with a controlled village scroll or by shift-right-clicking a hopper block
+	#Controlled Hoppers allow for inserting and exporting from controlled millage chests even when Prevent Hopper Interactions is false
+	#This will not function if Prevent Hopper Interactions is false, but the option is provided separately in case you want to have only this disabled
+	#Technical note: controlled hoppers do not have an item form, only block and block entity, as they use a custom item component
+	"Controlled Hoppers" = true
+	#If true, Millagers will have their team color (from the vanilla teams mechanic) changed instead of using the default pure-white
+	#The team color used for a millager are red if it always hostile, and automatically generated based on the culture's name if not
+	#This affects millagers inflicted with the Glowing effect, but also the Quest Highlighting option
+	"Change Team Colors" = true
 
 [Client]
 	#If this option is not empty, the Constructions panel in any town hall will attempt to sort its list by moving items that contain matching strings in its target to the bottom
@@ -63,6 +73,13 @@
 	#If true, several instances of text colors in Millenaire's GUIs will be changed to make them more readable
 	#No more squinting over bright green text
 	"Readable Screens" = true
+	#If millagers related to accepted quests should be highlighted as if they had the Glowing effect or not
+	"Quest Highlighting" = true
+	#If millagers should not show their speech text above their names
+	"Disable Speech on Nametags" = false
+	#If millagers should not show their speech in chat like other players
+	#Note: millenaire-server.toml's sentenceDistance options still applies, and the multiplayer version is set to 0 by default
+	"Disable Speech in Chat" = false
 
 [Malum]
 	#The amount of reputation lost for reaping Spirits nearby a non-hostile millager
@@ -100,6 +117,9 @@
 	#If true, any alternative items that are enabled above will also be converted in Millager inventories
 	#This puts a "cle_millagers_convert_to_alternatives" folder in your millenaire-custom folder, so millagers can actually use these items. Delete it if you set the option back to false
 	"Millagers Convert to Alternative Items" = true
+	#If true, the Ghana Spear will have its reach increased by 1 block
+	#NOTE: GHANA CULTURE IS NOT YET IMPLEMENTED IN MILLENAIRE
+	"Ghana Spear Reach Increase" = true
 
 [Network]
 	#If true, Millenaire's version check will be disabled
@@ -118,7 +138,7 @@
 	#This can be used to make millages less frequent
 	# Default: 0.0
 	# Range: 0.0 ~ 0.99
-	"Rejection Chance" = 0.01
+	"Rejection Chance" = 0.0
 	#Structure IDs to add to Millenaire's built-in structure avoidance logic
 	#Millenaire already avoids structures like vanilla igloos and desert pyramids, this just adds more structures to that logic
 	#Keep in mind the more of these there are, the longer a millage/lone building will take to be placed

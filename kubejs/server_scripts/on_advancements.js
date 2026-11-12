@@ -3,7 +3,7 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
     const player = event.entity;
     const id = event.getAdvancement().id();
 
-    const tome = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"millenaire"},count:1,id:"millenaire:travel_book"},{components:{"akashictome:defined_mod":"ars_nouveau"},count:1,id:"ars_nouveau:worn_notebook"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"parcool","patchouli:book":"parcool:parcool_guide"},count:1,id:"patchouli:guide_book"},{components:{"akashictome:defined_mod":"solcarrot"},count:1,id:"solcarrot:food_book"},{components:{"akashictome:defined_mod":"cosmeticarmoursmod","patchouli:book":"cosmeticarmoursmod:cosmeticarmours_book"},count:1,id:"patchouli:guide_book"}]]'
+    const tome = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"millenaire"},count:1,id:"millenaire:travel_book"},{components:{"akashictome:defined_mod":"ars_nouveau"},count:1,id:"ars_nouveau:worn_notebook"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"parcool"},count:1,id:"parcool:parcool_guide"},{components:{"akashictome:defined_mod":"solcarrot"},count:1,id:"solcarrot:food_book"},{components:{"akashictome:defined_mod":"cosmeticarmoursmod","patchouli:book":"cosmeticarmoursmod:cosmeticarmours_book"},count:1,id:"patchouli:guide_book"}]]'
 
     //player.server.runCommandSilent(`/tellraw ${player.username} {"text":" ${player.username} obtained advancement ${id}"}`);
 

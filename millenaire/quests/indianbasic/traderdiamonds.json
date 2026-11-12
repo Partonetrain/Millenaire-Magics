@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_lonetrader"
+        "indian/lonetrader"
       ],
       "requiredTags": [],
       "forbiddenTags": [
@@ -21,7 +21,7 @@
     {
       "key": "rani",
       "villagerTypes": [
-        "indian/indian_rani"
+        "indian/rani"
       ],
       "relatedTo": "startvillager",
       "relation": "nearbyvillage",

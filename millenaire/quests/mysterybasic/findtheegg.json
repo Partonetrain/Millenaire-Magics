@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "mayan/mayan_merchant"
+        "mayan/merchant"
       ],
       "requiredTags": [],
       "forbiddenTags": [

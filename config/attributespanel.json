@@ -4,7 +4,7 @@
   "panelOffsetX": -130,
   "panelOffsetY": 0,
   "creativeXOffset": -23,
-  "creativeYOffset": -7,
+  "creativeYOffset": 20,
   "guiStyle": "COMPACT",
   "hoverIconAnimation": false,
   "enableColorCodedValues": false,
@@ -38,10 +38,8 @@
     "malum:soul_ward_recovery_gain",
     "malum:soul_ward_recovery_rate"
   ],
-  "percentKeywords": [
-  ],
-  "percentBase100Keywords": [
-  ],
+  "percentKeywords": [],
+  "percentBase100Keywords": [],
   "multiplierAttributesBase100": [],
   "multiplierAttributesBase1": [],
   "multiplierAttributesBase0": [],
@@ -169,16 +167,28 @@
             "id": "minecraft:generic.gravity"
           },
           {
-            "id": "parcool:max_stamina"
+            "id": "parcool:parcool.fast_run.speed"
           },
           {
-            "id": "parcool:stamina_recovery"
+            "id": "parcool:parcool.max_stamina"
+          },
+          {
+            "id": "parcool:parcool.stamina_recovery"
+          },
+          {
+            "id": "parcool:parcool.horizontal_wall_run.duration"
+          },
+          {
+            "id": "parcool:parcool.breakfall.damage_reduction"
           },
           {
             "id": "minecraft:generic.movement_efficiency"
           },
           {
             "id": "minecraft:generic.water_movement_efficiency"
+          },
+          {
+            "id": "parcool:parcool.fast_swim.speed"
           }
         ],
         "blacklist": []
@@ -371,6 +381,8 @@
     "disableOtherHeader": false,
     "disableBonusesHeader": false,
     "bonusesHeaderName": "Bonuses",
+    "showEffectsHeader": false,
+    "effectsHeaderName": "Effects",
     "sidePadding": 15,
     "textScale": 0.55,
     "textTheme": "DARK",

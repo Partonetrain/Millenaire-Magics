@@ -25,6 +25,7 @@
     "millenaire:plant_rosebush",
     "millenaire:harvest_flower_home_rosebush",
     "millenaire:craft_bonemeal",
+    "millenaire:craft_white_dye",
     "millenaire:deliver_resources_shop",
     "millenaire:get_resources_for_shops",
     "millenaire:build",
@@ -36,7 +37,7 @@
   ],
   "spawn_weight": 0,
   "initial_inventory": {
-    "minecraft:white_dye": 20
+    "minecraft:bone_meal": 20
   },
   "required_goods": {
     "minecraft:bone": 10

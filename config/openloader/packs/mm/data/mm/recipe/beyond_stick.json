@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "the_beyond:bleeding_thorn"
+      },
+      {
+        "item": "the_beyond:blinding_thorn"
+      },
+      {
+        "item": "the_beyond:stalker_segment"
+      }
+    ]
+  ],
+  "result": {
+    "id": "stick"
+  }
+}

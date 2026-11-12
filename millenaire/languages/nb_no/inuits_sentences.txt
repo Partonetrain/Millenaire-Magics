@@ -50,7 +50,7 @@ art_merchant.greeting=Folket her er barbarer.
 oriental_merchant.greeting=Dette landet er rikt, men må det være så kaldt?
 oriental_merchant.greeting=Har du vært i Córdoba? Det er et sivilisert sted.
 
-plant_merchant.greeting=Noen sier jeg er en drømmer, men jeg er ikke den eneste... /
+plant_merchant.greeting=Noen sier jeg er en drømmer, men jeg er ikke den eneste...
 
 viking_merchant.greeting=I dag kommer jeg for å handle. I morgen...
 viking_merchant.greeting=Dette landet er vikingland. England er vikingland. Sicilia er vikingland. Vi hersker!

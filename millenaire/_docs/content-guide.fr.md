@@ -413,14 +413,16 @@ millenaire-custom/
             └── buildings/
                 └── houses/
                     ├── my_house.json
-                    └── my_house.nbt
+                    └── my_house_a_0.nbt
 ```
 
-Les deux fichiers partagent le basename. Le `.json` décrit le plan (une
-copie de `millenaire/_templates/_template_building.json`, éditée) : il
-doit déclarer `category == "houses"` (correspondant au dossier) et
-référencer le NBT via son champ `template`. Le `.nbt` est capturé en jeu
-avec le bloc **Import Table** (cf. §6.1 pour le workflow complet).
+Le `.json` décrit le plan (une copie de
+`millenaire/_templates/_template_building.json`, éditée) : il doit déclarer
+`category == "houses"` (correspondant au dossier). Rien n'y désigne le NBT :
+la structure de chaque niveau est trouvée par son nom,
+`<id>_<variante>_<niveau>.nbt` dans le même dossier (`my_house_a_0.nbt` pour
+la variante `a`, niveau 0). Le `.nbt` est capturé en jeu avec le bloc
+**Import Table** (cf. §6.1 pour le workflow complet).
 
 Après sauvegarde, redémarrez le serveur. Vous devriez voir une ligne de
 log du genre `Loaded external building_plan 'norman/my_house'` près du
@@ -477,20 +479,12 @@ tiret, pas de majuscule.
    pour les détails). L'Import Table écrit le JSON et le NBT dans
    `millenaire-custom/exports/`.
 
-2. **Où vit le NBT.** Les NBT de bâtiments sont adressés via deux chemins :
-
-   - **Mirror sidecar** (celui livré aux auteurs) :
-     `cultures/<c>/buildings/<cat>/<id>.nbt`, à côté du JSON. C'est où vous
-     posez votre fichier et ce que Millénaire déploie quand il livre du
-     contenu.
-   - **Chemin de backing resource-location** :
-     `data/<namespace>/structure/<c>/<id>.nbt`. Le mod lit aussi depuis
-     là quand un plan référence le NBT via son champ `template` (par ex.
-     `millenaire-custom:viking/townhall_a_0`). Le deployer mirroir la
-     copie sidecar sous ce chemin pour que les deux fonctionnent.
-
-   En pratique, **posez votre `.nbt` à côté du `.json`** sous
-   `cultures/<c>/buildings/<cat>/` ; le loader gère le reste.
+2. **Où vit le NBT.** À côté du JSON, et nulle part ailleurs :
+   `cultures/<c>/buildings/<cat>/<id>_<variante>_<niveau>.nbt`. Le loader
+   déduit ce chemin de l'id, de la variante et du niveau du plan : **posez
+   vos `.nbt` à côté du `.json`**. Un champ `template` resté dans un ancien
+   plan est ignoré (avec un avertissement), et `data/<namespace>/structure/`
+   n'est pas lu pour les plans de bâtiments.
 
 3. Éditez le JSON généré pour remplir `category`, `tags`, `male` /
    `female` / `male_residents` / `female_residents`, `priority_move_in`,

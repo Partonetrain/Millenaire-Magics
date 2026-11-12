@@ -1,0 +1,14 @@
+#How many pets the radial menu shows per page.
+#When the server allows more pets than this, the menu gains pages (mouse wheel, or the arrows under the circle).
+#Set to -1 to turn pagination off and show every slot on one page.
+#Default value: 10. I recommend not to go above 16, since the slices get small, and names and text won't fit into a slice.
+# Default: 10
+# Range: > -1
+petsPerPage = 10
+#How much of the empty part of the radial menu to hide. Your capacity is always shown as "Stored: x/y" above the circle.
+#OFF: show every slot the server allows.
+#PAGES: hide trailing pages that hold no pet.
+#SLICES: draw only the slices that hold a pet (at least one); this also hides empty pages. Slices move as you store or release pets.
+#Default value: PAGES.
+#Allowed Values: OFF, PAGES, SLICES
+hideEmpty = "PAGES"

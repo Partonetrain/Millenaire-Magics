@@ -14,7 +14,7 @@
   "minimumHour": -1,
   "maximumHour": 12500,
   "handlerParams": {
-    "buildingTag": "Oven",
+    "buildingTag": "oven",
     "inputs": [
       {
         "item": "millenaire:maize",

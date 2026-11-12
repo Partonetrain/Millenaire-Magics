@@ -47,6 +47,7 @@ ServerEvents.recipes(event => {
     addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="diamond"]', 'minecraft:diamond_horse_armor')
     addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="gold"]', 'minecraft:golden_horse_armor')
     addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="iron"]', 'minecraft:iron_horse_armor')
+    addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="netherite"]', 'minecraft:netherite_horse_armor')
 
     event.remove({ output: 'minecraft:golden_carrot' })
     event.shaped(
@@ -67,6 +68,12 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'millenaire:snow_brick'}) //use the ulu
 
+    event.remove({id: 'malum:copper_nugget_from_ingot'}) //use minecraft:copper_nugget from vanillabackport
+
+    event.remove({id: 'vanillabackport:pumpkin_pie'}) //use harder recipe
+    event.remove({id: 'vanillabackport:cake'})
+    event.remove({id: 'minecraft:lead'}) //vanillabackport adds string only recipe
+
     event.remove({id: 'arsdelight:source_berry_unpack'}) //disabled item
 
     event.remove({id: 'malum:experience_bottle_from_brilliance'}) //xp bottle gives 10, brilliance does not
@@ -84,12 +91,12 @@ ServerEvents.recipes(event => {
         ]
     ).id('kubejs:curios_container')
 
-    event.replaceInput(
+    event.replaceOutput(
         { input: 'minecraft:egg' },
         'minecraft:egg',
         Ingredient.of('#c:eggs') 
     )
-    
+
     event.replaceInput(
         { input: 'minecraft:wheat_seeds' },
         'minecraft:wheat_seeds',
@@ -198,6 +205,32 @@ ServerEvents.recipes(event => {
         { input: '#minecraft:smelts_to_glass', id: 'minecraft:tnt' },
         'minecraft:sand',
         Ingredient.of('#c:sands') 
+    )
+
+    event.replaceInput(
+        { input: 'cosmeticarmoursmod:blue_toadstool' },
+        'cosmeticarmoursmod:blue_toadstool',
+        Ingredient.of('#c:dyes/cyan') 
+    )
+    event.replaceInput(
+        { input: 'cosmeticarmoursmod:lime_toadstool' },
+        'cosmeticarmoursmod:lime_toadstool',
+        Ingredient.of('#c:dyes/lime') 
+    )
+    event.replaceInput(
+        { input: 'cosmeticarmoursmod:orange_toadstool' },
+        'cosmeticarmoursmod:orange_toadstool',
+        Ingredient.of('#c:dyes/orange') 
+    )
+    event.replaceInput(
+        { input: 'cosmeticarmoursmod:magenta_toadstool' },
+        'cosmeticarmoursmod:magenta_toadstool',
+        Ingredient.of('#c:dyes/magenta') 
+    )
+    event.replaceInput(
+        { input: 'cosmeticarmoursmod:purple_toadstool' },
+        'cosmeticarmoursmod:purple_toadstool',
+        Ingredient.of('#c:dyes/purple') 
     )
 
     }

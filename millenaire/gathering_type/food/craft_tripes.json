@@ -14,7 +14,7 @@
   "minimumHour": -1,
   "maximumHour": 12500,
   "handlerParams": {
-    "requiredTag": "Oven",
+    "requiredTag": "oven",
     "inputs": [
       {
         "item": "minecraft:beef",

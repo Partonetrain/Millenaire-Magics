@@ -1,0 +1,66 @@
+{
+  "key": "noodles",
+  "chancePerHour": 0.1,
+  "maxSimultaneous": 1,
+  "minReputation": 300,
+  "globalTagsRequired": [],
+  "globalTagsForbidden": [],
+  "playerTagsRequired": [],
+  "playerTagsForbidden": [],
+  "villagerDefs": [
+    {
+      "key": "richwoman",
+      "villagerTypes": [
+        "japanese/richwoman"
+      ],
+      "requiredTags": [],
+      "forbiddenTags": [
+        "noodles_done"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "villagerKey": "richwoman",
+      "duration": 5,
+      "showRequiredGoods": true,
+      "requiredGoods": {
+        "farmersdelight:noodle_soup": 1
+      },
+      "rewardGoods": {},
+      "rewardMoney": 1024,
+      "rewardReputation": 256,
+      "penaltyReputation": 0,
+      "villagerTagsSuccess": [
+        {
+          "villagerKey": "richwoman",
+          "tag": "noodles_done"
+        }
+      ],
+      "villagerTagsFailure": [
+        {
+          "villagerKey": "richwoman",
+          "tag": "noodles_done"
+        }
+      ],
+      "playerTagsSuccess": [],
+      "playerTagsFailure": [],
+      "globalTagsSuccess": [],
+      "globalTagsFailure": [],
+      "clearTagsSuccess": [],
+      "clearTagsFailure": [],
+      "clearPlayerTagsSuccess": [],
+      "clearPlayerTagsFailure": [],
+      "clearGlobalTagsSuccess": [],
+      "clearGlobalTagsFailure": [],
+      "stepRequiredGlobalTags": [],
+      "stepForbiddenGlobalTags": [],
+      "stepRequiredPlayerTags": [],
+      "stepForbiddenPlayerTags": [],
+      "actionDataSuccess": [],
+      "relationChanges": [],
+      "bedrockBuildings": []
+    }
+  ]
+}

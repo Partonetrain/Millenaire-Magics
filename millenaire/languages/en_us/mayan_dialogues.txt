@@ -119,7 +119,7 @@ newchat;key:exchange,v1:adult,v2:adult,v1:male,v2:male,weigth:9;
 v1;0;Hello $targetlastname, sir. Is our market still holding?
 v2;30;Yes, yes. As said, I have everything
 v1;60;Always punctual! Nice to do buisness with you.
-v2;90;Ki’imak óolal haah tin. Le túun... 32 chuun che' tumen 8 máaskab. ¡Péeka'an! q/ All the pleasure is mine. So... 32 logs against 8 iron ingots. Voila!
+v2;90;All the pleasure is mine. So... 32 logs against 8 iron ingots. Voila!
 v1;120;Thank you very much Sir. Have a good day.
 v2;150;To you, too, Mr. $targetlastname !
 
@@ -256,7 +256,7 @@ newchat;key:mayanarchitecture,weigth:7;
 v1;0;Maya Architecture is the strongest in all these lands.
 v2;30;It is with all the stone that we make that we build these beauties.
 v1;60;I wonder how many more stone homes we'll make ?
-v2;90;Chéen k'iin a'al, amikoo./ Only time will tell, friend.
+v2;90;Only time will tell, friend.
 
 newchat;key:cacaoyer,weigth:7;
 v1;0;There are few cocoa trees here, this place is unhealthy.

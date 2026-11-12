@@ -7,11 +7,11 @@
       "waves": [
         {
           "waveName": "wave1",
-          "maximumActiveHordeMembers": 5,
-          "killsRequiredForEasy": 10,
-          "killsRequiredForNormal": 10,
-          "killsRequiredForHard": 10,
-          "bossInfoText": "Ghostly Horde",
+          "maximumActiveHordeMembers": 10,
+          "killsRequiredForEasy": 30,
+          "killsRequiredForNormal": 30,
+          "killsRequiredForHard": 30,
+          "bossInfoText": "End of Time Horde",
           "bossInfoColor": "white",
           "despawnLeftBehindMembers": true,
           "keepSpawningEnemiesWhileBossIsActive": false,
@@ -21,13 +21,49 @@
           ],
           "mobData": [
             {
+                "mobID": "minecraft:husk",
+                "spawnWeight": 60,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
+                "mobID": "minecraft:parched",
+                "spawnWeight": 30,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
                 "mobID": "quark:wraith",
-                "spawnWeight": 3,
+                "spawnWeight": 5,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
+                "mobID": "quark:wraith",
+                "spawnWeight": 5,
                 "goalPriority": 1,
                 "goalMovementSpeed": 1
             },
             {
                 "mobID": "grimoireofgaia:banshee",
+                "spawnWeight": 2,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
+                "mobID": "grimoireofgaia:bone_knight",
+                "spawnWeight": 1,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
+                "mobID": "grimoireofgaia:flesh_lich",
+                "spawnWeight": 1,
+                "goalPriority": 1,
+                "goalMovementSpeed": 1
+            },
+            {
+                "mobID": "grimoireofgaia:mummy",
                 "spawnWeight": 1,
                 "goalPriority": 1,
                 "goalMovementSpeed": 1

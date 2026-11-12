@@ -111,6 +111,15 @@
       "category": "construction"
     },
     {
+      "id": "ironore",
+      "item": "minecraft:raw_iron",
+      "selling_price": 15,
+      "target_quantity": 16,
+      "min_reputation": -2147483648,
+      "foreign_merchant_price": 25,
+      "category": "foreigntrade"
+    },
+    {
       "id": "sandstone",
       "item": "minecraft:sandstone",
       "selling_price": 6,

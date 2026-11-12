@@ -15,7 +15,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_adivasipeasant"
+        "indian/adivasipeasant"
       ],
       "requiredTags": [],
       "forbiddenTags": []

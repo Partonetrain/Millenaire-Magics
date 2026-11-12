@@ -66,8 +66,14 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 85,
-          "quality": -20
+          "weight": 75,
+          "quality": -25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "parcool:hook",
+          "weight": 10,
+          "quality": 5
         },
         {
           "type": "minecraft:item",

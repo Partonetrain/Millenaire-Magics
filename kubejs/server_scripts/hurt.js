@@ -17,7 +17,13 @@ EntityEvents.beforeHurt(event => {
         event.getEntity().addEffect(new $MobEffectInstance('minecraft:poison', 100, 1));
     }
     else if(event.getSource().getActual().getType() === 'variantsandventures:murk'){
+        event.getEntity().addEffect(new $MobEffectInstance('ars_elemental:watery_grave', 5, 0));
+    }
+    else if(event.getSource().getActual().getType() === 'minecraft:husk'){
         event.getEntity().addEffect(new $MobEffectInstance('thirst:dehydration', 1, 0));
+    }
+    else if(event.getSource().getActual().getType() === 'minecraft:parched'){
+        event.getEntity().addEffect(new $MobEffectInstance('thirst:dehydration', 2, 0));
     }
 
 })

@@ -1,0 +1,2 @@
+Okay, so, both Cle and YAFDA place files here, and it gets confusing. Those mods have their integration_version.txt file set to -1 so they don't deploy again.
+The idea is that everything that *isn't* mergeable (ie, the top one takes priority) goes in the `mm` folder. This includes villager JSONs and shops, even if my integration mods are supposed to deploy them. 

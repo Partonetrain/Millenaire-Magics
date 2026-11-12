@@ -5,9 +5,10 @@
 configVersion = 1
 
 [storage]
-	#Maximum number of pets a player can store (1–16).
+	#Maximum number of pets a player can store (1–1024).
+	#The radial menu pages through them; each player sets how many fit on a page in the client config.
 	# Default: 10
-	# Range: 1 ~ 16
+	# Range: 1 ~ 1024
 	maxPets = 5
 	#Maximum number of pets a player can have summoned at once. -1 = unlimited.
 	# Default: -1

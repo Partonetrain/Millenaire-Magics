@@ -1,4 +1,4 @@
-architect_byzantine.construction=$name! А ты знал, что ромеи — лучшие зодчие?
+architect_byzantine.construction=$name! А ты знаешь, что ромеи — лучшие зодчие?
 architect_byzantine.construction=$name! Смотри, как я возвожу прекрасное строение.
 architect_byzantine.construction=Это здание будет великолепным!
 architect_byzantine.construction=Ещё не закончено, но я уже вижу красоту в своей работе.
@@ -14,7 +14,7 @@ architect_byzantine.getresourcesforbuild=Мне нужны блоки, чтоб�
 architect_byzantine.getresourcesforbuild=Любая стройка начинается с блоков.
 architect_byzantine.getresourcesforbuild=Блоки я должен выбирать сам, со всем тщанием.
 architect_byzantine.getresourcesforbuild=Как ты носишь столько блоков, когда строишь, $name?
-architect_byzantine.getresourcesforbuild=Хуже всего в строительстве — добывать материалы.
+architect_byzantine.getresourcesforbuild=Хуже всего в строительстве — добывать блоки.
 
 architect_byzantine.godrink=Хватит строить! Мне нужно вина!
 architect_byzantine.godrink=Мне нужно выпить, чтобы вдохновиться!
@@ -22,7 +22,7 @@ architect_byzantine.godrink=Каждому хорошему зодчему ну�
 architect_byzantine.godrink=От стройки меня тянет на вино.
 
 architect_byzantine.gopray=Надеюсь, Бог даст мне вдохновение для следующего здания!
-architect_byzantine.gopray=За что Бог сделал меня зодчим?
+architect_byzantine.gopray=Почему Бог сделал меня зодчим?
 architect_byzantine.gopray=Молитва — важная часть ромейского строительства.
 architect_byzantine.gopray=Он понимает беды зодчих.
 
@@ -293,7 +293,7 @@ keeperbirch_byzantine.greeting=Моё дело — следить за этим�
 keeperbirch_byzantine.greeting=Приветствую, путник. Удивляюсь, как ты попал в такую глушь.
 keeperbirch_byzantine.greeting=И кому только пришло в голову поставить здесь стражу...
 
-keeperoak_byzantine.greeting=Эти люди, что зовут себя норманнами, напоминают мне о нашей славной империи.
+keeperoak_byzantine.greeting=Эти люди, что зовут себя нормандцами, напоминают мне о нашей славной империи.
 keeperoak_byzantine.greeting=Здесь так скучно, ничего никогда не происходит…
 keeperoak_byzantine.greeting=Моё дело — следить за этими местами.
 keeperoak_byzantine.greeting=Приветствую, путник. Удивляюсь, как ты попал в такую глушь.

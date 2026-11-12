@@ -11,7 +11,7 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "mayan/mayan_farmer"
+        "mayan/farmer"
       ],
       "requiredTags": [],
       "forbiddenTags": [

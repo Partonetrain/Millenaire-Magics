@@ -1,0 +1,20 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "the_beyond:pearl"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 1,
+          "id": "the_beyond:pearl_bead"
+        }
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    }
+  }

@@ -1,7 +1,10 @@
 {
     "replace": false,
     "values": [
-        "dmr:dragon",
+        {
+            "id": "dmr:dragon",
+            "required": false
+        },
         "#c:bosses"
     ]
 }

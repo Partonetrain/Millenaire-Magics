@@ -42,7 +42,7 @@ v1;50;為葡萄酒乾杯！
 v2;70;乾杯！
 
 newchat;key:boyvillagechief,v1:child,v1:vtype:baron_byzantine-centurio_byzantine-metropolit_byzantine,v1:male,weigth:5
-v1;0;老傢伙，我以後會成為村莊的領袖！
+v1;0;老傢伙，我以後會成為村莊的領導者！
 v2;30;別這麼厚臉皮，小男孩。要不然你會被賞一記耳光！
 v1;60;然後我會被你賞一耳光！
 v2;80;*賞巴掌*

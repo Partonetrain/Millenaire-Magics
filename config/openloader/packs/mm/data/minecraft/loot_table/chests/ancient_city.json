@@ -93,18 +93,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:saddle",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
           "weight": 2
         },
@@ -401,7 +389,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",

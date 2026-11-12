@@ -13,6 +13,9 @@
   ],
   "icon": "millenaire:pistachio_tree_sapling",
   "area_to_clear": 3,
+  "close_to_tags": [
+    "grove,30"
+  ],
   "variants": [
     {
       "variant": "a",
@@ -28,6 +31,9 @@
       "levels": [
         {
           "level": 0,
+          "required_village_tags": [
+            "grove_built"
+          ],
           "footprint": {
             "width": 16,
             "height": 3,
@@ -45,6 +51,9 @@
         },
         {
           "level": 1,
+          "required_village_tags": [
+            "grove_built"
+          ],
           "footprint": {
             "width": 16,
             "height": 3,
@@ -62,6 +71,9 @@
         },
         {
           "level": 2,
+          "required_village_tags": [
+            "grove_built"
+          ],
           "footprint": {
             "width": 16,
             "height": 3,
@@ -80,6 +92,9 @@
         },
         {
           "level": 3,
+          "required_village_tags": [
+            "grove_built"
+          ],
           "footprint": {
             "width": 16,
             "height": 3,

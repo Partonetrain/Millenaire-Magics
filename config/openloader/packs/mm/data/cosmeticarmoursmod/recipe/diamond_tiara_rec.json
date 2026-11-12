@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "grimoireofgaia:diamond_shard"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "cosmeticarmoursmod:diamond_tiara_helmet",
+    "count": 1
+  }
+}

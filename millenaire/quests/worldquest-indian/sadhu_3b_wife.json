@@ -15,8 +15,8 @@
     {
       "key": "startvillager",
       "villagerTypes": [
-        "indian/indian_richwoman",
-        "indian/indian_rani"
+        "indian/richwoman",
+        "indian/rani"
       ],
       "requiredTags": [],
       "forbiddenTags": []

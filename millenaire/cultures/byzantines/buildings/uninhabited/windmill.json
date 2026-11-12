@@ -11,6 +11,9 @@
   ],
   "icon": "minecraft:bread",
   "fixed_orientation": "east",
+  "close_to_tags": [
+    "wheat,40"
+  ],
   "variants": [
     {
       "variant": "a",

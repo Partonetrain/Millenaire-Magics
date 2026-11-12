@@ -144,7 +144,7 @@ v1;0;Échete dei néa roúcha mou?
 v2;30;Eiste mia pragmatikí desposini agapiti mou. Ta panta sou tairiázoun, agapité $targetfirstname mou!
 v1;60;Allá den eímai toso omorfi oso eseis!
 v2;90;Sosta.
-v1;100;!!!
+v1;100;
 
 newchat;key:clothes3,v1:adult,v1:female,v2:adult,v2:male,weigth:5
 v1;0;Écheis dei ta kainoúrgia roúcha mou, $targetfirstname?
@@ -180,7 +180,7 @@ v1;90;Entáxei, allá tha prépei na  yposchetheis pos den tha antimilas!
 v2;120;Yposchomai!
 
 newchat;key:woodSword,v1:adult,v1:male,v2:child,v2:male,rel:parent,weigth:5
-v2;0;Ouch...
+v2;0;
 v1;30;Eísai Xalia! Ti synévi?
 v2;60;Loipon, o kathénas échei éna xýlino spathí, allá eména.
 v2;80;Étsi apofásisan na mou epitethoún!
@@ -232,7 +232,7 @@ v1;30;*Bites*
 v1;40;Sas efcharisto! Agapo ta souvlákia.
 v2;70;Poios den ta latreuei?!
 v1;100;Échete poté prospathísei na paspalisete me xoma to souvláki?
-v2;140;...
+v2;140;
 v2;150;Ochi?
 v1;170;Merikés forés to káno ... Ach .. ola xekínisan otan souvláki mou épese sto édafos pérysi ... Exaireto!
 v2;220;Periménete! Epese to souvláki sou stin vromiá kai to efages? Ti sto diáolo ..?
@@ -423,7 +423,7 @@ v1;120;Pos boreí o ídios se mia tétoia omorfiá?
 v2;150;Sas efcharistoúme gia epeffimíes sas, $targetfirstname!
 
 newchat;key:flirt5,v1:male,v2:female,v1:adult,v2:adult,notrel:sibling,notrel:child,notrel:parent,weigth:10
-v2;0;*urgh*
+v2;0;
 v1;30;Eísai entáxei, $targetfirstname?
 v2;50;Nai, afto eínai mono i sklirí douleiá!
 v1;70;Boro na sas voithíso? Tha aisthantheíte kalýtera sti synécheia?

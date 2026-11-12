@@ -6,7 +6,7 @@
 	animationsEnabled = true
 	hiddenBindingsEnabled = true
 	categoriesEnabled = true
-	fKeysEnabled = false
+	fKeysEnabled = true
 	allKeysEnabled = true
 	alternatingLineColorsEnabled = true
 	# Default: 0.4000000059604645
@@ -15,46 +15,29 @@
 	# Default: 3
 	# Range: 1 ~ 20
 	maxUnhoveredAssignments = 3
+	renderProfilingEnabled = false
+	compactKeybindTextLimitEnabled = true
+	# Default: 32
+	# Range: 8 ~ 80
+	maxCompactKeybindTextLength = 32
+	legendCollapsed = false
+	selectedKeybindSet = "Default"
+	categoryHelpVisible = true
+	editHelpVisible = true
+	searchHelpVisible = true
+	setsHelpVisible = false
+	selectedControllerSet = ""
+	controllerLayout = "PLAYSTATION"
+	radialHelpVisible = true
 
 [filters]
-	hiddenBindingLabels = """
-1
-2
-3
-4
-5
-6
-7
-8
-9
-W
-T
-A
-S
-D
-/"""
+	hiddenBindingLabels = "1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\nW\r\nT\r\nA\r\nS\r\nD\r\n/"
 	disabledMods = ""
 	disabledBindings = ""
 
 [categories]
-	presetCategoryColors = """
-crimson|Crimson|#B63C47FF
-purple|Purple|#9145D6FF
-emerald|Emerald|#1F9F4DFF
-tangerine|Tangerine|#F97316FF
-amber|Amber|#F59E0BFF
-cyan|Cyan|#06B6D4FF
-rose|Rose|#EC4899FF
-lime|Lime|#84CC16FF
-teal|Teal|#14B8A6FF
-copper|Copper|#B45309FF"""
-	customCategories = """
-combat|Combat|#B63C47FF|#FFFFFFFF
-magic|Magic|#9145D6FF|#FFFFFFFF
-movement|Movement|#1F9F4DFF|#FFFFFFFF
-building|Building|#F59E0BFF|#111318FF
-utility|Utility|#F97316FF|#FFFFFFFF
-technology|Technology|#06B6D4FF|#FFFFFFFF"""
+	presetCategoryColors = "crimson|Crimson|#B63C47FF\r\npurple|Purple|#9145D6FF\r\nemerald|Emerald|#1F9F4DFF\r\ntangerine|Tangerine|#F97316FF\r\namber|Amber|#F59E0BFF\r\ncyan|Cyan|#06B6D4FF\r\nrose|Rose|#EC4899FF\r\nlime|Lime|#84CC16FF\r\nteal|Teal|#14B8A6FF\r\ncopper|Copper|#B45309FF"
+	customCategories = "combat|Combat|#B63C47FF|#FFFFFFFF\r\nmagic|Magic|#9145D6FF|#FFFFFFFF\r\nmovement|Movement|#1F9F4DFF|#FFFFFFFF\r\nbuilding|Building|#F59E0BFF|#111318FF\r\nutility|Utility|#F97316FF|#FFFFFFFF\r\ntechnology|Technology|#06B6D4FF|#FFFFFFFF"
 	keyCategoryAssignments = ""
 
 [colors]
@@ -115,3 +98,47 @@ technology|Technology|#06B6D4FF|#FFFFFFFF"""
 	# Default: -7947009
 	# Range: > -2147483648
 	lineHover = -7947009
+
+[layout]
+	#Scales the box width limit. Text still determines the actual width.
+	# Default: 100
+	# Range: 60 ~ 160
+	box_width = 100
+	#Scales vertical padding and row spacing without clipping text.
+	# Default: 100
+	# Range: 60 ~ 200
+	box_height = 100
+	#Minimum preferred space between info boxes.
+	# Default: 5
+	# Range: 0 ~ 20
+	box_gap = 5
+	#Space above the keyboard before the first box lane.
+	# Default: 17
+	# Range: 4 ~ 40
+	top_gap = 17
+	#Space below the keyboard before the first box lane.
+	# Default: 15
+	# Range: 4 ~ 40
+	bottom_gap = 15
+	#Space between the keyboard and side boxes.
+	# Default: 10
+	# Range: 2 ~ 32
+	side_gap = 10
+	#Higher values favor straighter lines. Lower values allow more turns.
+	# Default: 18
+	# Range: 0 ~ 80
+	bend_cost = 18
+	#Penalty for crossing another connector when a crossing is necessary.
+	# Default: 1400
+	# Range: 0 ~ 3000
+	crossing_cost = 1400
+	#Higher values discourage lines from running immediately beside each other.
+	# Default: 10
+	# Range: 0 ~ 40
+	line_separation = 10
+	#Keep assigned keys as routing obstacles, except the source key.
+	avoid_keys = true
+	#Try a crossing-free route first; allow crossings as a fallback.
+	avoid_crossings = true
+	#Use the existing smaller text and widths when many boxes are visible.
+	auto_compact = true

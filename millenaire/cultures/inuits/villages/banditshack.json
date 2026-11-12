@@ -7,7 +7,6 @@
   "min_distance_from_spawn": 600,
   "biome_tags": [
     "minecraft:taiga",
-    "#c:is_cold",
     "minecraft:snowy_plains",
     "minecraft:snowy_taiga",
     "minecraft:frozen_river",

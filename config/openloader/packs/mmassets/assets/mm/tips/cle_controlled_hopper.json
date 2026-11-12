@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "text": "Hoppers cannot normally interact with millage chests, but a Controlled Hopper can be made with a Millage Scroll of a controlled village to allow automation."
+  }
+}

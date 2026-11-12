@@ -16,7 +16,7 @@
 	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
 	"Use Screen List Blacklist" = false
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not show the Quark Programmer Art resource pack in the resource pack selection screen
@@ -417,7 +417,7 @@
 		# - <color> being an ARGB hex color (without the #) for the map to display. You can generate one here - https://argb-int-calculator.netlify.app/
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:snowy_slopes,2,8,14,FF7FE4FF
-		Customs = ["minecraft:desert,1,1,2,FFFFFF05", "minecraft:jungle,1,1,2,FF22B600", "minecraft:cherry_grove,1,1,2,FFE9A9E8", "minecraft:mushroom_fields,1,1,2,FF4D4273", "minecraft:ice_spikes,1,1,2,FF80FFC9", "minecraft:savanna_plateau,1,1,2,FFD2632F", "minecraft:mangrove_swamp,1,1,2,FF332719", "environmental:blossom_woods,1,1,2,FF6D2A3F", "environmental:snowy_old_growth_pine_barrens,1,1,2,FF1EC0C9", "atmospheric:sparse_rainforest,1,1,2,FF003200", "atmospheric:aspen_parkland,1,1,2,FFFFC801", "atmospheric:kousa_jungle,1,1,2,FFA5BCB0", "minecraft:pale_garden,1,1,2,FF9EA49A"]
+		Customs = ["minecraft:plains,1,1,2,FF32C832", "minecraft:desert,1,1,2,FFFFFF05", "minecraft:jungle,1,1,2,FF22B600", "minecraft:cherry_grove,1,1,2,FFE9A9E8", "minecraft:mushroom_fields,1,1,2,FF4D4273", "minecraft:ice_spikes,1,1,2,FF80FFC9", "minecraft:savanna_plateau,1,1,2,FFD2632F", "minecraft:mangrove_swamp,1,1,2,FF332719", "environmental:blossom_woods,1,1,2,FF6D2A3F", "environmental:snowy_old_growth_pine_barrens,1,1,2,FF1EC0C9", "atmospheric:sparse_rainforest,1,1,2,FF003200", "atmospheric:aspen_parkland,1,1,2,FFFFC801", "atmospheric:kousa_jungle,1,1,2,FFA5BCB0", "minecraft:pale_garden,1,1,2,FF9EA49A", "minecraft:dappled_forest,1,1,2,FFFF3232"]
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
 		"Apply Default Trades" = false
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
@@ -614,7 +614,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+minecraft:sharpness@10".
-		"Item Enchantments" = ["malum:crude_scythe+minecraft:unbreaking@1", "minecraft:iron_sword+minecraft:unbreaking@1", "minecraft:iron_shovel+minecraft:unbreaking@1", "minecraft:iron_axe+minecraft:unbreaking@1", "minecraft:iron_pickaxe+minecraft:unbreaking@1", "minecraft:iron_hoe+minecraft:unbreaking@1", "minecraft:iron_helmet+minecraft:unbreaking@1", "minecraft:iron_chestplate+minecraft:unbreaking@1", "minecraft:iron_leggings+minecraft:unbreaking@1", "minecraft:iron_boots+minecraft:unbreaking@1", "farmersdelight:iron_knife+minecraft:unbreaking@1"]
+		"Item Enchantments" = ["the_beyond:brittle_sword+hold_your_enemies_closer:frailty_curse@2", "the_beyond:brittle_pickaxe+hold_your_enemies_closer:frailty_curse@2", "the_beyond:brittle_axe+hold_your_enemies_closer:frailty_curse@2", "the_beyond:brittle_shovel+hold_your_enemies_closer:frailty_curse@2", "the_beyond:brittle_hoe+hold_your_enemies_closer:frailty_curse@2", "cle:byzantine_mace+minecraft:efficiency@2", "millenaire:byzantine_pickaxe+minecraft:efficiency@2", "millenaire:byzantine_axe+minecraft:efficiency@2", "millenaire:byzantine_shovel+minecraft:efficiency@2", "millenaire:byzantine_hoe+minecraft:efficiency@2", "yafda:byzantine_knife+minecraft:efficiency@2", "millenaire:japanese_tachi+apothic_spawners:capturing@2", "millenaire:yumibow+minecraft:piercing@1", "millenaire:seljuk_scimitar+minecraft:sweeping_edge@2", "millenaire:seljuk_bow+minecraft:flame@1", "cle:inuit_trident+minecraft:impaling@2", "millenaire:inuitbow+hold_your_enemies_closer:frost@1", "cle:mayan_mace+minecraft:sharpness@4", "millenaire:mayan_pickaxe+minecraft:sharpness@4", "millenaire:mayan_axe+minecraft:sharpness@4", "millenaire:mayan_shovel+minecraft:sharpness@4", "millenaire:mayan_hoe+minecraft:sharpness@4", "yafda:mayan_knife+minecraft:sharpness@4", "millenaire:norman_sword+minecraft:unbreaking@2", "millenaire:norman_pickaxe+minecraft:unbreaking@2", "millenaire:norman_axe+minecraft:unbreaking@2", "millenaire:norman_shovel+minecraft:unbreaking@2", "millenaire:norman_hoe+minecraft:unbreaking@2", "yafda:norman_knife+minecraft:unbreaking@2", "malum:crude_scythe+minecraft:unbreaking@1", "minecraft:iron_sword+minecraft:unbreaking@1", "minecraft:iron_shovel+minecraft:unbreaking@1", "minecraft:iron_axe+minecraft:unbreaking@1", "minecraft:iron_pickaxe+minecraft:unbreaking@1", "minecraft:iron_hoe+minecraft:unbreaking@1", "minecraft:iron_helmet+minecraft:unbreaking@1", "minecraft:iron_chestplate+minecraft:unbreaking@1", "minecraft:iron_leggings+minecraft:unbreaking@1", "minecraft:iron_boots+minecraft:unbreaking@1", "farmersdelight:iron_knife+minecraft:unbreaking@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -642,6 +642,8 @@
 	[tweaks.lock_rotation]
 		#When true, lock rotation indicator in the same style as crosshair
 		"Render Like Cross Hair" = true
+		#When true, the keybind for rotation lock will be displayed next to the indicator
+		"Show Keybind" = true
 
 	[tweaks.map_washing]
 		#This feature disables itself if any of the following mods are loaded:
