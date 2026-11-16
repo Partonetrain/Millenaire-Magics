@@ -113,6 +113,9 @@
             "id": "minecraft:generic.max_health"
           },
           {
+            "id": "minecraft:generic.max_absorption"
+          },
+          {
             "id": "minecraft:generic.knockback_resistance"
           },
           {
@@ -180,6 +183,9 @@
           },
           {
             "id": "parcool:parcool.breakfall.damage_reduction"
+          },
+          {
+            "id": "parcool:parcool.slide_down.decelerationsssss"
           },
           {
             "id": "minecraft:generic.movement_efficiency"
@@ -376,7 +382,9 @@
       "minecraft:friction_modifier",
       "minecraft:bounciness",
       "icarus:max_stamina",
-      "caelus:fall_flying"
+      "caelus:fall_flying",
+      "minecraft:waypoint_receive_range",
+      "minecraft:waypoint_transmit_range"
     ],
     "disableOtherHeader": false,
     "disableBonusesHeader": false,

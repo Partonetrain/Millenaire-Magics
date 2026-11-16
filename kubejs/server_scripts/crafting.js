@@ -61,6 +61,7 @@ ServerEvents.recipes(event => {
     ).id('kubejs:golden_carrot_from_ingots')
 
     //redundant recipes
+    event.remove({id: 'minecraft:lodestone'})
     event.remove({id: 'minecraft:cake'})
     event.remove({id: 'minecraft:pumpkin_pie'})
     event.remove({id: 'farmersdelight:organic_compost_from_tree_bark'})

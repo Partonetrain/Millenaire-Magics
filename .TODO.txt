@@ -1,15 +1,17 @@
-0.8.2.1
-This is a big update from 0.8.1.3, world backup recommended if you are updating from that version, but not a major update from 0.8.2 alpha.
+0.8.2.2
+minor polish update.
 
-- Updated Millenaire to 9.1.1
-- Updated Cle to 9.1.0-2.0.5
-- Updated OBE to 1.2.6, supermartijn642corelib 1.1.26a, to Titanium to 4.0.56, Architectury to 13.0.12, Iris Bonk to 0.1.4, FindMe to 3.3.5, Supplementaries to 4.1.2, Vista to 5.6.9, OctoLib to 0.6.3.2, SeasonHud to 2.0.12, ThirstWasReclaimed to 3.0.7, Entity Culling to 1.12.1, Everycomp to 2.11.58, FTB Chunks to 2101.1.24, Particular Reforged to 1.6.1, JEED to 2.3.6, Serene Seasons Plus to 5.2.4.1, NERB to 0.6.2,
-- Removed Anvil Never Too Expensive as Easy Anvils has an equivalent option. In practice the behavior is different but Easy Anvils capping it is preferred.
-- Added Ars Hex Unity
-- Malum's and Lodestone's magic damage attributes have been reverted back to their original names (Spirit Damage -> Magic Damage) and are now compatible with Ars spells
-- Millages chunkload themselves now
-- You can no longer claim chunks of millages you do not control
-
+- Updated OBE to 1.2.8, Variants&Ventures to 1.0.30, Kev'sAttributePanel to 1.3.7, MysteriousMountainLib to 1.3.16, FTB Library to 2101.1.40, Collective to 8.87, KotlinLangForge to v2.20.0-k2.4.21, Kotlin for Forge to 5.13.0
+- Fixed Pantheon not being altered for Millenaire 9.1.1
+- Fixed up some ParCool guide pages
+- Fixed some new millenaire creative only content creator items showing up in random item loot tables
+- removed redundant lodestone recipe
+- Moved swim speed bonus from Traceur boots to Traceur gloves
+- Traceur gloves now have wall run bonus
+- Item name is no longer shown when switching to an item
+- Improved BlockRunner categories
+- Modified some loot tables
+- Random tick speed 3->4
 
 (?<!Potion )Shelf
 
@@ -28,6 +30,7 @@ This is a big update from 0.8.1.3, world backup recommended if you are updating 
 	- .desc lang key
 
 - remove dragon mounts
+- add more millager quests for modded items
 - can't seem to roll soulbound in the matrix enchanter...
 - Seljuk and Inuit weapons/armors are not sellable to other cultures...
 - wayward bow stats seem broken

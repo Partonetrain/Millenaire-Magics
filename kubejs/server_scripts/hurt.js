@@ -3,6 +3,10 @@ const $DamageType = Java.loadClass('net.minecraft.world.damagesource.DamageType'
 
 EntityEvents.beforeHurt(event => {
 
+    if(event.entity == null){
+        return;
+    }
+
     //print damage type id on dummy
     if(event.entity.type === 'dummmmmmy:target_dummy'){
         const fullId = event.source.typeHolder().unwrapKey().get().location().toString()

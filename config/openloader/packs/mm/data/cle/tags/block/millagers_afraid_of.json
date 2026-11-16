@@ -7,6 +7,10 @@
       "id": "vista:television",
       "required": false
     },
+    {
+      "id": "morered:hexidecrubrometer",
+      "required": false
+    },
     "minecraft:spawner",
     "ars_additions:source_spawner",
     "minecraft:trial_spawner",

@@ -95,8 +95,8 @@
   "description.attribute.name.malum.soul_ward_recovery_rate": "A percentile increase in recovery rate for Soul Ward",
   "description.attribute.name.malum.spirit_spoils": "Flat increase to spirits looted from reaped foes",
   "description.attribute.name.malum.arcane_resonance": "Bonus potency for spirit-collection effects",
-  "description.attribute.name.malum.charge_capacity": "The capacity for Spell Charges",
+  "description.attribute.name.malum.charge_capacity": "The capacity for Staff Charges",
   "description.attribute.name.malum.charge_duration": "The duration for charging a staff",
-  "description.attribute.name.malum.charge_recovery_rate": "A percentile increase in recovery rate for Spell Charges",
+  "description.attribute.name.malum.charge_recovery_rate": "A percentile increase in recovery rate for Staff Charges",
   "description.attribute.name.malum.healing_received": "An increase in how much healing is received"
 }

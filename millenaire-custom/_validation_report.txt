@@ -1,5 +1,5 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-11-15 20:09:52
+Generated: 2026-11-16 13:33:16
 Mod version: millenaire 9.1.1
 
   !! 9 problem(s) reported while loading — see 'Loading problems' below.
@@ -61,12 +61,12 @@ Mod version: millenaire 9.1.1
   traded_goods     present (additive merge)
 
 === Global ===
-  gathering_type   9 custom file(s)
+  gathering_type   10 custom file(s)
   quests           4 custom file(s)
   language overlays 4 custom file(s) across all locales
 
 === Content validation ===
-Tiers run: S/X (280 ms), M (725 ms)
+Tiers run: S/X (334 ms), M (1390 ms)
 12 finding(s) to act on, 754 accepted or informational.
 Each line names the rule, the content it concerns, what is wrong and the fix.
 ERROR findings fail the mod's own checks; WARN ones are reported only.

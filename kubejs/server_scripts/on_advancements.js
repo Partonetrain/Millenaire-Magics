@@ -22,9 +22,7 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.AdvancementEven
         player.give(tome);
 
         //run setup commands from player
-        player.server.runCommandSilent('/gamerule disableRaids true');
-        player.server.runCommandSilent('/gamerule doPatrolSpawning false');
-        player.server.runCommandSilent('/gamerule doTraderSpawning false');
+        player.server.runCommandSilent('/setup_game_rules');
 
         console.info(`Gave starting items to ${player.name} and set up gamerules`);
     }

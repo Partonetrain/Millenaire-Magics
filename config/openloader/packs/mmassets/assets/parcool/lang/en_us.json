@@ -6,6 +6,7 @@
     "parcool.stamina_recovery": "Stamina Regeneration",
     "attribute.name.parcool.max_stamina": "Max Stamina",
     "attribute.name.parcool.stamina_recovery": "Stamina Regeneration",
+    "attribute.name.parcool.charge_jump.power": "Charge Jump Power",
 
     "parcool.guide.page.skilltree": "[DISABLED-IGNORE]Skill Tree",
     "parcool.gui.text.glove.tooltip": "Protects you from friction damage, enabling safe use of powered zipline"

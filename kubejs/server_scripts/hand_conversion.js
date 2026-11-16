@@ -2,7 +2,12 @@ const ITEM_CONVERSIONS = [
   { inputId: "millenaire:denier", inputCount: 64, outputId: "millenaire:denier_argent", outputCount: 1 },
   { inputId: "millenaire:denier_argent", inputCount: 1, outputId: "millenaire:denier", outputCount: 64 },
   { inputId: "millenaire:denier_argent", inputCount: 64, outputId: "millenaire:denier_or", outputCount: 1 },
-  { inputId: "millenaire:denier_or", inputCount: 1, outputId: "millenaire:denier_argent", outputCount: 64 }
+  { inputId: "millenaire:denier_or", inputCount: 1, outputId: "millenaire:denier_argent", outputCount: 64 },
+
+
+  { inputId: "minecraft:copper_spear", inputCount: 1, outputId: "minecraft:copper_ingot", outputCount: 1 }
+
+  
 ];
 
 //comparators used to determine best conversion
@@ -31,6 +36,10 @@ ItemEvents.rightClicked(event => {
 
   //don't try to convert stacks without an entry
   if (!entry) return;
+
+  if(item === "minecraft:copper_spear"){
+    player.tell(Text.literal("You aren't supposed to have the copper spear, it is only obtainable due to a bug in VanillaBackport, so I've replaced it with a copper ingot.").italic(true));
+  }
 
   item.shrink(entry.inputCount);
   const outputStack = Item.of(entry.outputId, entry.outputCount);

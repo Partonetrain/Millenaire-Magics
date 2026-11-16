@@ -3,6 +3,7 @@ const $ItemAttributeModifiers = Java.loadClass('net.minecraft.world.item.compone
 const $AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
 const $Operation = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
 const $VanillaAttributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+const $NeoForgeMod = Java.loadClass('net.neoforged.neoforge.common.NeoForgeMod')
 const $EquipmentSlotGroup = Java.loadClass('net.minecraft.world.entity.EquipmentSlotGroup')
 const $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
 const $ParCoolAttributes = Java.loadClass('com.alrex.parcool.api.ParCoolAttributes')
@@ -31,6 +32,16 @@ ItemEvents.modification(event => {
       new $AttributeModifier(id, 0.1, $Operation.ADD_MULTIPLIED_TOTAL),
       $EquipmentSlotGroup.CHEST
     )
+    builder.add(
+      $ParCoolAttributes.FAST_SWIM_SPEED,
+      new $AttributeModifier(id, 0.15, $Operation.ADD_MULTIPLIED_BASE),
+      $EquipmentSlotGroup.CHEST
+    )
+    builder.add(
+      $ParCoolAttributes.HORIZONTAL_WALL_RUN_DURATION,
+      new $AttributeModifier(id, 0.15, $Operation.ADD_MULTIPLIED_BASE),
+      $EquipmentSlotGroup.CHEST
+    )
 
     item.setAttributeModifiersWithTooltip(builder.build().modifiers())
   })
@@ -41,7 +52,7 @@ ItemEvents.modification(event => {
 
     builder.add(
       $VanillaAttributes.MOVEMENT_SPEED,
-      new $AttributeModifier(id, 0.05, $Operation.ADD_MULTIPLIED_BASE),
+      new $AttributeModifier(id, 0.05, $Operation.ADD_MULTIPLIED_TOTAL),
       $EquipmentSlotGroup.FEET
     )
     builder.add(
@@ -60,13 +71,13 @@ ItemEvents.modification(event => {
       $EquipmentSlotGroup.FEET
     )
     builder.add(
-      $ParCoolAttributes.FAST_SWIM_SPEED,
-      new $AttributeModifier(id, 0.15, $Operation.ADD_MULTIPLIED_BASE),
+      $VanillaAttributes.STEP_HEIGHT,
+      new $AttributeModifier(id, 0.4, $Operation.ADD_VALUE),
       $EquipmentSlotGroup.FEET
     )
     builder.add(
-      $VanillaAttributes.STEP_HEIGHT,
-      new $AttributeModifier(id, 0.4, $Operation.ADD_VALUE),
+      $VanillaAttributes.SAFE_FALL_DISTANCE,
+      new $AttributeModifier(id, 1.0, $Operation.ADD_VALUE),
       $EquipmentSlotGroup.FEET
     )
     

@@ -294,7 +294,9 @@ const DISABLED_ADVANCEMENTS = [
     'minecraft:adventure/hero_of_the_village',
     'minecraft:story/cure_zombie_villager',
     'dmr:find_hybrid', //not getting disabled. this is a weird one.
-    'minecraft:husbandry/repair_wolf_armor'
+    'minecraft:husbandry/repair_wolf_armor',
+    'minecraft:adventure/spear_many_mobs',
+    'parcool:grant_parcool_guide'
 ]
 
 function removeFromCrafting(event, itemId){

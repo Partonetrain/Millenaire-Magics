@@ -85,6 +85,11 @@
         "millenaire:mock_decor",
         "millenaire:mock_banner_wall",
         "millenaire:mock_banner_standing",
+        "millenaire:mock_generic_soil",
+        "millenaire:mock_generic_tree_spawn",
+        "millenaire:mock_generic_animal_spawn",
+        "millenaire:mock_generic_source",
+        "millenaire:mock_generic_free",
 
         "spudaciousshops:payment_warning",
         "spudaciousshops:stock_warning",

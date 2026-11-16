@@ -506,6 +506,12 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     event.add('supplementaries:pancake', [
             'Once placed, can be snacked -- I mean stacked, up to 8.\n\nNo syrup, unfortunately.'
         ])
+    event.add('minecraft:husk_spawn_egg', [
+            'Husks dehydrated you on hit. Watch out!'
+        ])
+    event.add('minecraft:parched_spawn_egg', [
+            'Arrows fired from Parched dehydrated you on hit. Watch out!'
+        ])
     event.add('environmental:slabfish_spawn_egg', [
             '"Tell me, are you a slabfish, too?\n(Are you a slabfish, too?)"'
         ])
