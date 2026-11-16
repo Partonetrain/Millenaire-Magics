@@ -42,6 +42,7 @@ ServerEvents.commandRegistry(event => {
     player.tell('Hi! This is a note from the developer of Millenaire Magics, Train. Here is a summary of changes to watch out for.')
     player.tell('- Dragon Mounts Remastered is going to be PHASED OUT AND REMOVED because the mod is buggy and is no longer receiving updates. I am looking into an alternative.')
     player.tell('- Although the Millénaire mod itself is out of beta, it may be somewhat buggy still. Please see the Millenaire Discord\'s bug-reports channel')
+    player.tell('- Millage generation is being tweaked/fixed by both Millénaire and Cle')
     player.tell('- The modpack balance is actively being playtested, certain config values, recipes, or loot tables may change.')
     player.tell('- Malum is currently recieving a major rework. I don\'t know the details, but the rework could potentially remove items. Keep this in mind while progressing in it.')
     player.tell('- Both Farmer\'s Delight and Brewin\' and Chewin\' have significant updates in development that might affect this modpack.')

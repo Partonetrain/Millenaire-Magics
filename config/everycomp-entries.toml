@@ -103,6 +103,9 @@
 			gold_lantern = true
 			gold_soul_lantern = true
 
+		[types.lantern.supplementaries]
+			redstone_lantern = true
+
 		[types.cut_block_type.ars_nouveau]
 			archwood = true
 			sourcestone = true

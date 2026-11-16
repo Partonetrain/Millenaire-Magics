@@ -45,10 +45,11 @@ key_key.blockprints.open_menu:key.keyboard.f6:
 key_key.blockprints.tool_menu:key.keyboard.f7:
 key_key.keybindatlas.open_keyboard:key.keyboard.unknown:
 key_key.keybindatlas.cycle_sets:key.keyboard.unknown:
+key_key.keybindatlas.open_controller:key.keyboard.unknown:
+key_key.keybindatlas.cycle_controller_sets:key.keyboard.unknown:
 key_quark.keybind.autorun:key.keyboard.caps.lock:
 key_quark.keybind.back:key.mouse.4:
 key_quark.keybind.camera_mode:key.keyboard.f12:
-key_supplementaries.keybind.quiver:key.keyboard.unknown:
 key_quark.keybind.transfer_insert:key.keyboard.unknown:
 key_quark.keybind.transfer_extract:key.keyboard.unknown:
 key_quark.keybind.shift_lock:key.keyboard.unknown:
@@ -73,6 +74,7 @@ key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:
 key_quark.keybind.change_hotbar:key.keyboard.unknown:
 key_quark.keybind.sort_player:key.keyboard.unknown:
 key_quark.keybind.sort_container:key.keyboard.unknown:
+key_supplementaries.keybind.quiver:key.keyboard.unknown:
 key_quark.keybind.lock_rotation:key.keyboard.k:
 key_quark.keybind.narrator_readout:key.keyboard.unknown:
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown:

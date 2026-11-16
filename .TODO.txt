@@ -1,36 +1,21 @@
-0.8.2
-HUGE update, world backup recommended.
+0.8.2.1
+This is a big update from 0.8.1.3, world backup recommended if you are updating from that version, but not a major update from 0.8.2 alpha.
 
-- Updated Neoforge to 21.1.265
-- Updated Millenaire to 9.1.0
-- Updated Cle to 2.0.2, ThirstWasFix to 2.2.1, YAFDA to 0.21, Train's Tweaks to 1.2.3
-- Updated VanillaBackport 1.2.2, spears are disabled. 
-- Updated ParCool to 4.0.2.0 and made some adjustments to its additions (ex. disabled skill tree)
-- Updated Titanium to 4.0.52, FancyMenu to 3.10.0, OctoLib to 0.6.3, NotEnoughRecipeBook to 0.6, Vertical Slabs Compat to 4.0, Balm to 21.0.67, Serene Seasons Plus to 2.2.4.0, Kev's Attributes Panel to 1.3.6, FTB Teams 2101.1.12, to Millenaire JEIm to 1.3.2, Sawmill to 1.9.0, Ars Nouveau to 5.13.5, Updated KubeJS to 2101.7.2-build.381, EXP Counter to 2.6, Modern Ender Pearl to 1.0.3, Progress Peek to 1.2.2, Deimos Lib to 2.8, Variants&Ventures to 1.0.2.9, MezzConfig to 0.7.1, Sign Plates to 1.2.1, Pet Vault to 1.7.0, FTB Chunks to 2101.1.23, FTB Library to 2101.39, Ars Unification to 1.2.23, Farsight to 5.8, SuperMartijn642's Core Lib to 1.1.26, Quark to 4.1-488, Vista to 5.6.8, CosmeticArmours to 1.6.0.1, Tiny Takeover Backport to 1.8.2, SeasonHud to 2.0.11, Platform to 1.4.2, Structure Essentials to 5.1, Server Performance - Smooth Chunk Save to 4.4, JEI to 19.64.0.455, Keybind Atlas to 3.0.0, ACI to 1.5.0, ALI to 2.5.0, Lithostitched to 1.8.1, owo-lib to 0.12.15.6, OBE to 1.2.1-patch1, Placebo to 9.9.4, The Beyond to 1.0.1, Structurify to 2.0.43, CorgiLib to 5.0.0.10, CreativeCore to 2.13.54, Difficulty Lock to 5.2, PuzzlesLib to 21.1.66, Followers Teleport Too to 3.2, Kev's Attribute Panel to 1.3.5, Collective to 8.86, MoonlightLib to 3.8.3, Supplementaries to 4.0.2, Amendments to 2.2.7, EveryCompat to 2.11.57, Modernfix to 5.27.27, Placebo to 9.9.3, Icarus to 4.8.1, Iris Search to 1.8.4, Entity Culling to 1.11.3, KotlinLangForge to 2.18.0-k2.4.21-3.0
-- Added Iris core shaders compat fix
-- Added MK's Millenaire texture pack: goes under Millenaire Community Textures
-- Updated Millenaire Community Textures to 1.0
-- Removed Fzzy Config as no mod was using it
-- Removed Malum Spirit Data datapacks, will return after Malum updates
-- Extract glyph mana cost increased
-- Drastically improved unused content removals
-- Some Millenaire cultural tools now have implicit enchantments
-- All Japanese villages now start with a rice paddy
-- Config changes; Millagers now speak into chat on servers, reduced min building spacing to 2, many others
-- More loading screen tips and JEI hints
-- Loot and recipe changes
+- Updated Millenaire to 9.1.1
+- Updated Cle to 9.1.0-2.0.5
+- Updated OBE to 1.2.6, supermartijn642corelib 1.1.26a, to Titanium to 4.0.56, Architectury to 13.0.12, Iris Bonk to 0.1.4, FindMe to 3.3.5, Supplementaries to 4.1.2, Vista to 5.6.9, OctoLib to 0.6.3.2, SeasonHud to 2.0.12, ThirstWasReclaimed to 3.0.7, Entity Culling to 1.12.1, Everycomp to 2.11.58, FTB Chunks to 2101.1.24, Particular Reforged to 1.6.1, JEED to 2.3.6, Serene Seasons Plus to 5.2.4.1, NERB to 0.6.2,
+- Removed Anvil Never Too Expensive as Easy Anvils has an equivalent option. In practice the behavior is different but Easy Anvils capping it is preferred.
+- Added Ars Hex Unity
+- Malum's and Lodestone's magic damage attributes have been reverted back to their original names (Spirit Damage -> Magic Damage) and are now compatible with Ars spells
+- Millages chunkload themselves now
+- You can no longer claim chunks of millages you do not control
 
-Please note that Dragon Mounts Remastered is planned on being removed and replaced in a future version.
-
-todo next version
-remove dragon mounts
 
 (?<!Potion )Shelf
 
 # CURSEFORGE EXPORT CHECKMARKS
 - .qmenu_opened.marker
 - config
-- fancymenu_data
 - kubejs
 - millenaire
 - millenaire-custom
@@ -42,16 +27,14 @@ remove dragon mounts
 	- wayward icon
 	- .desc lang key
 
-
+- remove dragon mounts
 - can't seem to roll soulbound in the matrix enchanter...
 - Seljuk and Inuit weapons/armors are not sellable to other cultures...
 - wayward bow stats seem broken
 - continue auditing millenaire dialogs:
-	- for "he", "him", and "his" (assuming the player is male is certainly a choice)
+	- look for he/him/his/son/etc
 	- references to vanilla villagers
-
-- add 2 entity_interaction_range to ghana spear
-
+	
 - Universal Enchantment Info does not like customized Protection enchantments and some others (43/76), investigate why
 
 - waiting on: 
@@ -59,10 +42,11 @@ remove dragon mounts
 	- BlockBox PR https://github.com/vectorwing/BlockBox/pull/32
 	- Ars Elemental's heavy and light armors to get new textures
 	- malum update (huge rework!!! check what items have been removed!!!)
+		- All spirit data and reaping data needs to be redone
 	- Farmer's Delight update
 	- Brewin and Chewin update
 	- wayward attributes update
-- a bunch of attributes are missing icons
+- a bunch of attributes are missing wayward icons, I PR'd a command to check for this previously 
 - some effects are missing their descriptions
 - emerald ore is generating in frozen peaks for some reason and I can't figure out why
 - Mill food effects are not shown in JustEnoughEffectDescriptions, investigate a fix.

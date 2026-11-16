@@ -259,78 +259,78 @@ v1;60;Kin k'áat bahux nah utai'al tuunich to'on yaan ka beet.
 v2;90;Chéen k'iin a'al, amikoo.
 
 newchat;key:cacaoyer,weigth:7;
-v1;0;
-v2;40;
-v1;80;
-v2;120;
+v1;0;Ma' ya'ab u che'il kakaw waye'. Ma' ma'alob le kúuchila'.
+v2;40;Ko'ox pak'ik junp'íit.
+v1;80;¡Bey a wa'alike'! ¡Jach ko'oj le kakawo'!
+v2;120;Ek Chuah yaan u yáantiko'on.
 
 newchat;key:chickenegg,weigth:5;
-v1;0;
-v2;40;
-v1;90;
+v1;0;Ma' chuka'an k-kaaxo'ob utia'al k-k'u'ubik ti' k-k'ujo'ob.
+v2;40;Tin tukultik ka máanako'on tu yiknal $name. Ko'ox manik u je'il kaax ti'.
+v1;90;Jaaj a t'aan, ko'ox beetik beyo'.
 
 newchat;key:ahmunghanan,weigth:6;
-v1;0;
-v2;30;
-v1;80;
-v2;120;
+v1;0;Tu yo'olal Ah Mun yéetel Ghanan, ma'alob k-jooch. ¡Nib óolal ti'ob!
+v2;30;Ko'ox ts'áaik nib óolal ti'ob ichil k-payalchi'.
+v1;80;¿Ba'ax je'el u páajtal k-k'u'ubik ti'ob?
+v2;120;¡Ma' a beetik ba'alo'ob xma' na'at! ¡K-k'i'ik'el, ma' wa!
 
 newchat;key:badweather,weigth:8;
-v1;0;
-v2;40;
+v1;0;K'uux Chaak. K'aas le k'iino'.
+v2;40;Ma' chuka'an k-payalchi'.
 
 newchat;key:monotheisme,weigth:4;
-v1;0;
-V2;35;
-v1;75;
+v1;0;¿Jaaj wa? ¿Chéen juntúul k'uj yaan ti' $name?
+V2;35;Bey ma' tu ts'áaik u yóol ti' k-k'ujo'ob...
+v1;75;Ko'ox, ma' xma' na'ati'. Ku yoksik tu yóol k-k'ujo'ob.
 
 newchat;key:mayangods,v1:adult,v2:adult,weigth:8;
-v1;0;
-v2;40;
-v1;80;
+v1;0;Ok óolal chéen leti' k-nu'ukul ba'ate'el te' jela'an lu'umo'oba'.
+v2;40;Bey yaniko'one', k'a'abéet u bo'otik u si'ipilo'ob le máaxo'ob ku p'ektiko'ob k-k'ujo'obo'.
+v1;80;Ma' tu páajtal k-k'uuxkunsik k-k'ujo'obi'.
 
 newchat;key:poktapok,weigth:7;
-v1;0;
-v2;40;
-v1;80;
+v1;0;¡Jach in yaabiltmaj Pok-ta-Pok!
+v2;40;¡Teen xan! Jaaj, leti' jump'éel ti' le jayp'éel báaxalo'ob yaan waye'o'.
+v1;80;Jaaj. Ma' ki'imak le kuxtala'... ¡yéetel tin sataj in ts'ook wóolis!
 
 newchat;key:year,weigth:5;
-v1;0;
-v2;40;
+v1;0;To'one' k-ojeltmaj táanil ti' tuláakal máak, jun ja'ab yaan 365.2420 k'iin.
+v2;40;Ma'alobo'on ti' tuláakal ba'al: xook, ts'íib, k-ojéeltik le lu'umo'...
 
 newchat;key:puja,weigth:6;
-v1;0;
-v2;35;
-v1;80;
+v1;0;¿Binech payalchi' wa?
+v2;35;¡Bey xan! ¡Juntúul jach maaya k'a'abéet u beetik!
+v1;80;¡Jaja! ¡Beyo'! Jach xma' na'at in k'áat chi'.
 
 newchat;key:endofworld,weigth:3;
-v1;0;
-v2;40;
-v1;80;
-v2;120;
+v1;0;K-jmeeno'ob yéetel k-aj xook eek'o'ob ku yiliko'ob wa ba'ax.
+v2;40;¿Jaaj wa? ¿Ba'ax?
+v1;80;Ku yiliko'ob jump'éel nojoch ba'al ichil u ja'abil 2012.
+v2;120;¿Ma' wa a tukultik táan u tukultiko'ob ba'ax kun úuchul ichil ya'ab ja'abo'ob?
 
 newchat;key:xaire,weigth:3;
-v1;0;
-v2;30;
-v1;70;
-v2;110;
-v1;150;
-v2;200;
+v1;0;¡Xaire, $targetfirstname!
+v2;30;¿Xaire? ¿Ba'ax u k'áat u ya'al xaire?
+v1;70;Juntúul Byzantine tu tsikajen beyo'.
+v2;110;Ko'ox. Teeche' maaya máak. Ko'ox tsikik k-ba ich maaya t'aan.
+v1;150;Juntúul jach maaya k'a'abéet u yojéeltik tuláakal ba'al.
+v2;200;Jaaj, ma'alob u páajtal a t'aan ya'abach t'aano'ob, ba'ale' ¡ma' a t'aan beyo' ichil le kaaja'!
 
 newchat;key:bloodbis,v1:adult,v2:adult,weigth:2;
-v1;0;
-v2;40;
-v1;80;
-v2;120;
-v1;160;
-v2;200;
+v1;0;Ko'ox ch'akik k-ba ichil u jeel payalchi'.
+v2;40;Ts'o'ok in beetik. ¿Teech ma'?
+v1;80;Te-te-teen, maas in k'áat in kanáantik in k'i'ik'el.
+v2;120;¡Yéetel bejla'e' ka beetik tu ka'atéen! ¡Tuláakal k'iin ka k'eexik a tuukul!
+v1;160;¡Ma' in k'áat!
+v2;200;¿¡Ma' a k'áat a tsik k-k'ujo'ob!?
 
 newchat;key:cacao,weigth:6;
-v1;0;
-v2;40;
-v1;80;
+v1;0;Le kakawo' ma'alob utia'al k-toj óolal yéetel ki'...
+v2;40;¡Ma'alob utia'al k-toj óolal, jaaj! ¡Ba'ale' ki', ma'! Wah maas ki'.
+v1;80;Kakaw leti' u maas ki' janal k'ujo'ob. Jant le ba'ax ku ts'áako'ob teecho'.
 
 newchat;key:reborn,weigth:7;
-v1;0;
-v2;40;
-v1;80;
+v1;0;¡Jach jats'uts le pepen te'elo'! ¿Wa leti' k-éet k'u'uba'ab ti' juntúul k'uj úuchik kan ja'abo'ob?
+v2;40;¡Tin tukultike' suunaj bey juntúul ts'unu'une'!
+v1;80;Ma' to'on kun ojéeltik.

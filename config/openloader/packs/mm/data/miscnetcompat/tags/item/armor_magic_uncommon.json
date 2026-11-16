@@ -23,6 +23,10 @@
 
     "ars_nouveau:thread_warding",
     "ars_nouveau:thread_repairing",
-    "ars_additions:thread_reach"
+    "ars_additions:thread_reach",
+
+    "ars_hex:thread_magic_proficiency",
+    "ars_hex:thread_soul_ward",
+    "ars_hex:thread_soul_spoils"
   ]
 }

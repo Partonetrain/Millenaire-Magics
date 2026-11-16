@@ -1,6 +1,14 @@
 const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectInstance');
+const $DamageType = Java.loadClass('net.minecraft.world.damagesource.DamageType');
 
 EntityEvents.beforeHurt(event => {
+
+    //print damage type id on dummy
+    if(event.entity.type === 'dummmmmmy:target_dummy'){
+        const fullId = event.source.typeHolder().unwrapKey().get().location().toString()
+        console.info(fullId);
+    }
+
     //mounts dont take suffocation damage.
     var counts = event.entity.entityType.is('#mm:mounts');
     if (event.getSource()['is(net.minecraft.tags.TagKey)']('mm:mount_immune') && counts) {

@@ -11,15 +11,15 @@
 	#Minimum distance between two villages (blocks)
 	# Default: 500
 	# Range: > 0
-	minVillageDistance = 500
+	minVillageDistance = 300
 	#Minimum distance between two lone buildings (blocks)
 	# Default: 500
 	# Range: > 0
-	minLoneBuildingDistance = 500
+	minLoneBuildingDistance = 300
 	#Minimum distance between a village and a lone building (blocks)
 	# Default: 250
 	# Range: > 0
-	minVillageLoneBuildingDistance = 250
+	minVillageLoneBuildingDistance = 300
 	#Protected area around world spawn where nothing generates (blocks)
 	# Default: 250
 	# Range: 0 ~ 500
@@ -47,17 +47,24 @@
 
 #Village behaviour settings
 [village]
-	#When false, Millénaire does not force-load village chunks; villages only tick
-	#while a player keeps their chunks loaded. Reduces server load at the cost of
-	#villages pausing when no player is nearby. Applies live via /reload: turning it
+	#When true (default), Millénaire force-loads a village's chunks while a player is
+	#within keepActiveRadius of it, so the whole village keeps running even where the
+	#player's own view/simulation distance would not reach. Villages with no player
+	#within that radius are not force-loaded and pause either way.
+	#When false, village chunks are never force-loaded; villages only tick while a player
+	#keeps their chunks loaded. Reduces server load. Applies live via /reload: turning it
 	#off releases currently force-loaded village chunks; turning it back on re-forces
 	#them on the next activation tick.
-	#iso-legacy: default true preserves the always-force-load behavior; false is a new perf opt-out.
+	#iso-legacy: default true matches legacy, which force-loaded a village only while a
+	#player was within KeepActiveRadius; false is a new perf opt-out.
 	forceLoadVillages = true
-	#Radius for keeping village chunks loaded (blocks). 0 = disabled.
+	#Radius around players (blocks) within which Millénaire keeps villages' chunks
+	#force-loaded (released again beyond this radius + 32); no force-loading at all
+	#when forceLoadVillages is false. 0 = villages are never force-loaded.
+	#Also the range of village diplomacy notifications.
 	# Default: 200
 	# Range: 0 ~ 2000
-	keepActiveRadius = 100
+	keepActiveRadius = 200
 	#Override all village type radii with this value (blocks).
 	#-1 = use per-type JSON value. Requires world restart to take effect.
 	# Default: -1

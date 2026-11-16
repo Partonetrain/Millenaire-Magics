@@ -48,5 +48,6 @@ Thanks to playtesters!
 Some texture by malcolmriley, from https://github.com/malcolmriley/unused-textures (CC BY 4.0)
 
 ### AI Use Disclosure
-The Millenaire mod was ported to 1.21.1 by the original author, Kinniken, with the assistance of Claude Code.
-The Inline Suggestions feature of GitHub Copilot for Visual Studio Code was used in a limited capacity (free version has very limited tokens anyway) for the development of KubeJS scripts and tag JSONs for this modpack. Copilot did not write the scripts, nor did any LLM create ideas for the pack.
+The Millénaire mod was ported to 1.21.1 by the original author, Kinniken, with the assistance of Claude Code.
+The Inline Suggestions feature of GitHub Copilot for Visual Studio Code was used in a limited capacity (think predictive text on a phone keyboard) for writing KubeJS scripts and tag JSONs for this modpack, mostly for repetitive item IDs. 
+Copilot did not write the scripts, nor did any LLM create ideas for the pack.

@@ -29,12 +29,12 @@ villager.getresourcesforbuild=Yaab' ti- yaab' tunich.
 
 villager.goplay=Ichil kolom uk chun su'uk.
 
-villager.childobserveagriculture=
-villager.childobserveconstruction=
-villager.childobservesmithing=
-villager.childobserveproducefood=
+villager.childobserveagriculture=¿Ba'ax ken u yúuchul wa ka chokojkunsa'ak u ich ixi'im jach séeba'an?
+villager.childobserveconstruction=¿Ba'axten mix bik'in k-beetik naj yéetel uláak' ba'al ma' tuunichi'?
+villager.childobservesmithing=Tuláakal máak waye' ku meyaj yéetel obsidiana utia'al u beetik nu'ukulo'ob, ba'ale' ¡yaan u yantal ba'al maas chich!
+villager.childobserveproducefood=¿Ba'axten chéen nukuch máako'ob ku yuk'iko'ob tuláakal le cacauhaao'? ¡Ma' toji'!
 
-villager.childeatcacaobeans=
+villager.childeatcacaobeans=U ich kakawe' chéen junp'íit k'aaj. ¿Wa maas ki' ka ts'a'abak ich leche?
 
 
 villager.harvestmaize=Ki' k'aaxal ki' hoch.

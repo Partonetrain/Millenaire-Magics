@@ -377,10 +377,6 @@
       "key": "key.mouse.middle",
       "modifier": "NONE"
     },
-    "key.jei.cheatItemStackToInventory": {
-      "key": "key.mouse.left",
-      "modifier": "ALT"
-    },
     "key.jei.cheatOneItem": {
       "key": "key.mouse.left",
       "modifier": "NONE"
@@ -388,10 +384,6 @@
     "key.jei.cheatOneItem2": {
       "key": "key.mouse.right",
       "modifier": "NONE"
-    },
-    "key.jei.cheatOneItemToInventory": {
-      "key": "key.mouse.right",
-      "modifier": "ALT"
     },
     "key.jei.clearSearchBar": {
       "key": "key.mouse.right",
@@ -503,10 +495,6 @@
     },
     "key.jei.toggleHideIngredient": {
       "key": "key.mouse.left",
-      "modifier": "CONTROL"
-    },
-    "key.jei.toggleHideIngredientsWhenNotSearching": {
-      "key": "key.mouse.right",
       "modifier": "CONTROL"
     },
     "key.jei.toggleOverlay": {

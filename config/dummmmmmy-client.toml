@@ -24,7 +24,11 @@
 
 	#Color to use for each damage type. Keys are damage type ids, or #tags, and are tested in insertion order
 	[damage_numbers.damage_type_colors]
+		"ars_nouveau:spell" = "#FF320096"
+		"malum:void" = "#FF000000"
+		"minecraft:magic" = "#FFAF4BC8"
 		"minecraft:wind_charge" = "#00BEF3FF"
+		"minecraft:sonic_boom" = "#FF074550"
 		"#dummmmmmy:is_fire" = "#00FF7700"
 		"dummmmmmy:critical" = "#00FF0000"
 		"#minecraft:is_drowning" = "#001898E3"
@@ -34,9 +38,9 @@
 		"#dummmmmmy:is_explosion" = "#00FFBB29"
 		"#minecraft:is_lightning" = "#00FFF200"
 		"#minecraft:witch_resistant_to" = "#00844CE7"
-		"minecraft:sonic_boom" = "#00074550"
 		"#dummmmmmy:is_cold" = "#0009D2FF"
-		"#dummmmmmy:is_wither" = "#00666666"
+		"#dummmmmmy:is_wither" = "#FF666666"
 		"dummmmmmy:true" = "#00910038"
 		"attributeslib:bleeding" = "#00810A0A"
 		"minecraft:trident" = "#0000FF9D"
+		

@@ -57,6 +57,8 @@
 	# Default: 1.0
 	# Range: 0.05 ~ 100.0
 	customNightSpeedMultiplier = 1.0
+	#Prevent sleep mods from rapidly skipping seasons. Backward world-time corrections are ignored by the season clock, and one observed sleep session can advance seasons by at most one Minecraft day. World time, calendar offsets, season commands, and Serene Seasons offline settings are unchanged.
+	preventSleepSeasonSkipping = true
 
 	[dayNightCycle.seasonalSpeedMultipliers]
 		#Daytime speed multiplier during early spring. Values below 1 make daytime longer; values above 1 make it shorter.
