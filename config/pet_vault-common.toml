@@ -64,6 +64,16 @@ configVersion = 1
 	notifyPetDeath = true
 	#If true, sends a chat message when a dead pet's revive timer expires and it becomes summonable again.
 	notifyPetRespawn = true
+	#What happens to a pet's drops (loot, saddle, armor, chest contents) when it dies and will be revived.
+	#NONE = nothing drops; the pet keeps its gear and comes back wearing it.
+	#ALL  = vanilla drops; the pet comes back with whatever vanilla left on it (gear that dropped is gone).
+	#Only applies if the owner has the Soul Crystal. Otherwise the pet is gone for good and everything drops
+	#as in vanilla. While the owner is offline this is read from a mark the pet got when it was summoned (or
+	#when the crystal was unlocked); a pet that was in an unloaded chunk at that moment may still drop its
+	#gear until it is summoned again.
+	#Gear from other mods' inventories is not covered.
+	#Allowed Values: NONE, ALL
+	deathDrops = "NONE"
 
 [locket]
 	#If true, the Keeper's Locket's radial menu (keybind) can be opened while it's only in the

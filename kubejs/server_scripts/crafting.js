@@ -1,20 +1,3 @@
-function addDragonArmorConversion(event, dragonArmor, horseArmor){
-    event.remove({ output: dragonArmor})
-    const safeHorseArmor = horseArmor.replace(':', '__').replace('[', '_').replace(']', '')
-    event.shapeless(
-        Item.of(dragonArmor, 1),
-        [
-            horseArmor
-        ]
-    ).id(`kubejs:convert_${safeHorseArmor}_to_dragon_armor`)
-    event.shapeless(
-        Item.of(horseArmor, 1),
-        [
-            dragonArmor
-        ]
-    ).id(`kubejs:convert_dragon_armor_to_${safeHorseArmor}`)
-}
-
 function addArsSaplingCycle(event, inSapling, outSapling){
     const safeInSapling = inSapling.replace(':', '__')
     const safeOutSapling = outSapling.replace(':', '__')
@@ -43,11 +26,6 @@ ServerEvents.recipes(event => {
         'minecraft:bucket'
     ]
     ).id('kubejs:reset_bucket')
-    //DMR armor conversions
-    addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="diamond"]', 'minecraft:diamond_horse_armor')
-    addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="gold"]', 'minecraft:golden_horse_armor')
-    addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="iron"]', 'minecraft:iron_horse_armor')
-    addDragonArmorConversion(event, 'dmr:dragon_armor[dmr:armor_type="netherite"]', 'minecraft:netherite_horse_armor')
 
     event.remove({ output: 'minecraft:golden_carrot' })
     event.shaped(

@@ -1,0 +1,35 @@
+{
+  "parent": "mm:root",
+  "display": {
+    "icon": {
+      "id": "skywyrms:void_wyrm_egg"
+    },
+    "title": {
+      "text": "Wyrm Egg"
+    },
+    "description": {
+      "text": "You found a wyrm egg. Perhaps they've taken a liking to you..."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#mm:dragon_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtained_dragon_egg"
+    ]
+  ]
+}

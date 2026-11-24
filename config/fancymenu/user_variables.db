@@ -1,2 +1,8 @@
 type = user_variables
 
+variable {
+  name = mm_sponsor
+  value = true
+  reset_on_launch = false
+}
+

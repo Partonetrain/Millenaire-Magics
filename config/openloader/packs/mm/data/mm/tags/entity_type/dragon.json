@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "skywyrms:ember_wyrm",
+        "skywyrms:frost_wyrm",
+        "skywyrms:storm_wyrm",
+        "skywyrms:thorn_wyrm",
+        "skywyrms:tide_wyrm",
+        "skywyrms:void_wyrm"
+    ]
+}

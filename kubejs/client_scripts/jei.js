@@ -20,22 +20,36 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => { //native KubeJS ev
 //info tabs
 RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
     Ingredient.of('#incapacitated:adrenaline_food').stacks.toArray().forEach(item => {
+         var s = 'Can save you from being downed, but only 3 times per sleep. Also used to breed horses and skywyrms.'
         if(item === 'minecraft:golden_carrot' || item === 'farmersdelight:gleaming_salad') {
             event.add(item, [
-                'Can save you from being downed, but only 3 times per sleep.\nCan now be always consumed, regardless of hunger.'
+                s + '\nCan now be always consumed, regardless of hunger.'
             ])
         }
         else if(item === 'grimoireofgaia:golden_apple_pie'){
             event.add(item, [
-                'Can save you from being downed, but only 3 times per sleep. However, it\'s probably better to cut it up into slices in a cutting board for this purpose.\n\nIs not edible when placed, unlike other pies.\n\n\n\n\nLiterally unplayable.'
+                s + 'However, it\'s better to cut this one up into slices in a cutting board to get more use out of it.\n\nIs not edible when placed, unlike other pies.\n\n\n\n\nLiterally unplayable.'
             ])
         }
         else{
             event.add(item, [
-                'Can save you from being downed, but only 3 times per sleep.'
+                s
             ])
         }
         //console.info('Added adrenaline food tooltip for ' + item)
+    })
+    
+    Ingredient.of('#mm:dragon_egg').stacks.toArray().forEach(item => {
+        var s = 'Hatches into a skywyrm. Hatched skywyrms are automatically tamed and can be ridden with a saddle after growing up. Shift-right-click a skywyrm to toggle follow/sit.'
+        event.add(item, [
+            s
+        ])
+    })
+    Ingredient.of('#c:foods/raw_fish').stacks.toArray().forEach(item => {
+        var s = 'Can be used to feed skywyrms.'
+        event.add(item, [
+            s
+        ])
     })
 
     //item tags of blocks
@@ -391,7 +405,7 @@ RecipeViewerEvents.addInformation('item', event => { //native KubeJS event
             'Only activates when stepped on by players.'
             ])
     event.add('minecraft:dragon_egg', [
-            'Place and right-click to convert into a hatchable dragon egg.'
+            'Always drops from the Ender Dragon fight. Craft with a Manipulation Essence for a Void Wyrm egg!'
             ])
     event.add('ars_nouveau:ritual_brazier', [
             'Right-click a Tablet into it to begin a Ritual. These usually require nearby Source Jars. \nCan be lit for cosmetic purposes; shift-right-click with a Touch > Conjure Magelight spell.'

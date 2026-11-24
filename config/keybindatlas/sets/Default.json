@@ -653,6 +653,14 @@
       "key": "key.keyboard.f2",
       "modifier": "NONE"
     },
+    "key.skywyrms.ability": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE"
+    },
+    "key.skywyrms.descend": {
+      "key": "key.keyboard.x",
+      "modifier": "NONE"
+    },
     "key.smoothCamera": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE"

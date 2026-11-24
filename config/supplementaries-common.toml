@@ -684,9 +684,6 @@
 		#Quivers and lunch baskets cycle to the next slot
 		carousel = true
 
-	[tools.orichalcum]
-		enabled = true
-
 [general]
 	#Enable Creative Tab
 	creative_tab = false

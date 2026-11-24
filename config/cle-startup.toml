@@ -65,6 +65,10 @@
 	#For example, "norman,-16711936" would make normans solid green
 	#If a culture is not listed here, its color will be automatically generated based on its name
 	"Specific Colors" = []
+	#Items in millage chests that will be randomly consumed (25% chance) at night
+	#Each millager rolls this each night and if one of these items is found they will consume one and stop checking for the night
+	#This is useful if you want to make modded items sellable to millagers and simulate them being "used up" but they don't actually have a use
+	"Random Consume Items" = ["ars_nouveau:abjuration_essence", "ars_nouveau:conjuration_essence", "ars_nouveau:air_essence", "ars_nouveau:earth_essence", "ars_nouveau:fire_essence", "ars_nouveau:manipulation_essence", "ars_nouveau:water_essence", "sauce:anima_essence"]
 
 [Items]
 	#If true, Millenaire foods will use vanilla food components

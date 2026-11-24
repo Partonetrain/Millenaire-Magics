@@ -14,7 +14,7 @@
             "dimension": "minecraft:overworld"
           },
           "vehicle": {
-            "type": "dmr:dragon"
+            "type": "#mm:dragon"
           }
         }
       }
@@ -22,7 +22,7 @@
   },
   "display": {
     "description": {
-      "text": "Fly beyond the build limit in The Overworld while riding a dragon"
+      "text": "Fly beyond the build limit in The Overworld while riding a skywyrm"
     },
     "icon": {
       "count": 1,

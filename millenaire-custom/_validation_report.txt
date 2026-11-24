@@ -1,8 +1,8 @@
 === Millénaire Custom Content Report ===
-Generated: 2026-11-16 13:33:16
+Generated: 2026-11-23 16:01:59
 Mod version: millenaire 9.1.1
 
-  !! 9 problem(s) reported while loading — see 'Loading problems' below.
+  !! 8 problem(s) reported while loading — see 'Loading problems' below.
 
 === Culture: byzantines (built-in with overrides) ===
   Source: standard + custom overlay
@@ -66,8 +66,8 @@ Mod version: millenaire 9.1.1
   language overlays 4 custom file(s) across all locales
 
 === Content validation ===
-Tiers run: S/X (334 ms), M (1390 ms)
-12 finding(s) to act on, 754 accepted or informational.
+Tiers run: S/X (326 ms), M (1198 ms)
+11 finding(s) to act on, 754 accepted or informational.
 Each line names the rule, the content it concerns, what is wrong and the fix.
 ERROR findings fail the mod's own checks; WARN ones are reported only.
 
@@ -78,7 +78,6 @@ ERROR findings fail the mod's own checks; WARN ones are reported only.
     - goal.millenaire.craft_normanknife
     - goal.millenaire.craft_flintknife
     - goal.millenaire.craft_mayanknife Fix: see the loader message; if it is expected, allowlist it with a reason. [I18nKeyAuditor]
-  [WARN] M-04/uncategorised VillagerConfig — Unknown villager_config 'japaneseweaponpriority' (no villager_config/japaneseweaponpriority.json in any content layer); using the default config Fix: see the loader message; if it is expected, allowlist it with a reason. [VillagerConfig]
   [WARN] S-07 quests/custom/bakedcodstew — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/bakedcodstew' to the manifest. [quests/custom/bakedcodstew.json (submod:mm)]
   [WARN] S-07 quests/custom/burger — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/burger' to the manifest. [quests/custom/burger.json (submod:mm)]
   [WARN] S-07 quests/custom/candy — quest file is not listed in quests/_manifest.json (loaded only through the directory walk). Fix: add 'custom/candy' to the manifest. [quests/custom/candy.json (submod:mm)]
@@ -101,10 +100,8 @@ Not all of these are necessarily yours: Millénaire's own shipped
 content produces a few, and they name a built-in culture and building.
 Those are ours — please report them rather than trying to fix them.
 
-  0 error(s), 9 warning(s) during content loading.
+  0 error(s), 8 warning(s) during content loading.
 
-  [WARN] VillagerConfig
-    Unknown villager_config 'japaneseweaponpriority' (no villager_config/japaneseweaponpriority.json in any content layer); using the default config
   [WARN] CultureLoader
     BuildingPlanSet millenaire:byzantines/playerfortress_a_armyforge: parent building plan millenaire:byzantines/fortress does not list this sub-building in starting_sub_buildings or any levels[].sub_buildings.
   [WARN] CultureLoader

@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "skywyrms:ember_wyrm_egg",
+        "skywyrms:frost_wyrm_egg",
+        "skywyrms:storm_wyrm_egg",
+        "skywyrms:thorn_wyrm_egg",
+        "skywyrms:void_wyrm_egg",
+        "skywyrms:tide_wyrm_egg"
+    ]
+}

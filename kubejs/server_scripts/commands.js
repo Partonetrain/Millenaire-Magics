@@ -57,7 +57,6 @@ ServerEvents.commandRegistry(event => {
   const wip = (player) => {
     player.tell('-----------------------------')
     player.tell('Hi! This is a note from the developer of Millenaire Magics, Train. Here is a summary of changes to watch out for.')
-    player.tell('- Dragon Mounts Remastered is going to be PHASED OUT AND REMOVED because the mod is buggy and is no longer receiving updates. I am looking into an alternative.')
     player.tell('- Although the Millénaire mod itself is out of beta, it may be somewhat buggy still. Please see the Millenaire Discord\'s bug-reports channel')
     player.tell('- Millage placement is being tweaked/fixed by both Millénaire and Clé.')
     player.tell('- Modpack balance is actively being playtested, certain config values, recipes, or loot tables may change.')

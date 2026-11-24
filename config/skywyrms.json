@@ -1,0 +1,51 @@
+{
+  "naturalSpawning": false,
+  "spawnIntervalTicks": 400,
+  "spawnChance": 0.12,
+  "spawnSpacing": 96,
+  "breathAffectsBlocks": true,
+  "eggHatchMinutes": 15.0,
+  "babyGrowMinutes": 40.0,
+  "wildHybridChance": 0.08,
+  "tameItems": [
+    "#c:foods/raw_fish"
+  ],
+  "tameChance": 0.25,
+  "foodItems": [
+    "#c:foods/raw_fish"
+  ],
+  "breedItems": [
+    "#incapacitated:adrenaline_food"
+  ],
+  "healthMultiplier": 1.0,
+  "attackDamageMultiplier": 1.0,
+  "armorMultiplier": 1.0,
+  "walkSpeedMultiplier": 1.0,
+  "flySpeedMultiplier": 1.0,
+  "abilityDamageMultiplier": 1.0,
+  "abilities": {
+    "fire_breath": true,
+    "frost_breath": true,
+    "lightning": true,
+    "venom_spit": true,
+    "void_blink": true,
+    "tidal_jet": true
+  },
+  "riderSeeThrough": "off",
+  "wingSoundVolume": 1.0,
+  "wingSoundPitch": 1.0,
+  "sneakFliesDown": true,
+  "_help": {
+    "items": "Item lists take item ids (\"minecraft:diamond\" or just \"diamond\") and tags (\"#minecraft:meat\"). An empty list [] keeps the default.",
+    "tameItems": "Items that tame a wild adult dragon, e.g. [\"diamond\", \"emerald\", \"gold_ingot\"]. Default: meat (Tide Wyrm also fish).",
+    "tameChance": "Chance per item that the dragon is tamed (0..1). Default 0.333.",
+    "foodItems": "Items that heal a tamed dragon and help a hatchling grow. Default: meat (Tide Wyrm also fish).",
+    "breedItems": "Items for breeding. Default: golden apples.",
+    "multipliers": "healthMultiplier, attackDamageMultiplier, armorMultiplier, walkSpeedMultiplier, flySpeedMultiplier, abilityDamageMultiplier: 1.0 \u003d normal, 2.0 \u003d double.",
+    "abilities": "false switches an ability off for every dragon (riders and wild dragons, and a hybrid\u0027s blood effect).",
+    "riderSeeThrough": "\"off\", \"first_person\" or \"always\": the dragon you ride is drawn see-through (only for you) so it does not block the view.",
+    "wingSound": "wingSoundVolume and wingSoundPitch: 1.0 \u003d normal; a lower pitch sounds heavier.",
+    "sneakFliesDown": "false (default): the sneak key (Left Shift) dismounts, also in the air. true: in the air the sneak key flies down and you only dismount on the ground or in water. In multiplayer set it on the server and in your own game.",
+    "restart": "Changes take effect after restarting the game / server."
+  }
+}

@@ -293,7 +293,6 @@ const DISABLED_ADVANCEMENTS = [
     'minecraft:adventure/voluntary_exile',
     'minecraft:adventure/hero_of_the_village',
     'minecraft:story/cure_zombie_villager',
-    'dmr:find_hybrid', //not getting disabled. this is a weird one.
     'minecraft:husbandry/repair_wolf_armor',
     'minecraft:adventure/spear_many_mobs',
     'parcool:grant_parcool_guide'
@@ -355,6 +354,11 @@ ServerEvents.tags('item', event => {
     
     event.removeAllTagsFrom(REMOVED_KNIVES)
     for (const entry of REMOVED_KNIVES) {
+        addToHiddenTag(event, entry)
+    }
+    
+    event.removeAllTagsFrom(NYI_GHANA_ITEMS)
+    for (const entry of NYI_GHANA_ITEMS) {
         addToHiddenTag(event, entry)
     }
 })
